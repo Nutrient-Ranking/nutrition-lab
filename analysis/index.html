@@ -1,1 +1,1258 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2SPJ986GQT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'G-2SPJ986GQT');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        
+        /* ✅ Message Box - Scrolls with Page */
+        #messageBox {
+            width: 90%;  /* ✅ Prevents full-width stretching */
+            max-width: 600px;  /* ✅ Limits width to prevent too much spacing */
+            background-color: #f2feff;  /* ✅ Light blue background */
+            color: #83898a;  /* ✅ Gray text */
+            text-align: center;
+            padding: 4px 10px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+            margin: 10px auto;  /* ✅ Centers the message box with spacing */
+            border-radius: 8px;  /* ✅ Adds rounded corners */
+        }
+
+        /* ✅ Reduce line spacing in the message box */
+        #messageBox p {
+            margin: 2px 0;  /* ✅ Reduces space between the two lines */
+            line-height: 1.2;  /* ✅ Reduces vertical spacing */
+        }
+
+        /* ✅ Ensure readability on small screens */
+        @media (max-width: 600px) {
+            #messageBox {
+                font-size: 14px;  /* ✅ Slightly smaller text for mobile */
+                padding: 3px 5px;
+            }
+    
+            #messageBox p {
+                line-height: 1.1;  /* ✅ Further reduce spacing on small screens */
+            }
+        }
+        
+        /* ✅ Set a maximum width for the table */
+        table {
+            max-width: 600px;
+            width: 90%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        
+        /* ✅ Apply text and background color for nutrient rows of Table */
+        tr:nth-child(2) td { color: #333333; background-color: #FFFFFF; }  /* 熱量 */
+        tr:nth-child(3) td { color: #315231; background-color: #ECFFEC; }  /* 醣類 */
+        tr:nth-child(4) td { color: #315231; background-color: #ECFFEC; }  /* 膳食纖維(g) */
+        tr:nth-child(5) td { color: #542222; background-color: #FFF9F8; }  /* 蛋白質 */
+        tr:nth-child(6) td { color: #574500; background-color: #FDFFD4; }  /* 脂肪 */
+        tr:nth-child(7) td { color: #264B5E; background-color: #E8FAFF; }  /* 水 */
+        tr:nth-child(8) td { color: #424242; background-color: #FAFAFA; } /* 鈉 */
+        tr:nth-child(9) td { color: #424242; background-color: #FAFAFA; } /* 鉀 */
+        tr:nth-child(10) td { color: #424242; background-color: #FAFAFA; } /* 鈣 */
+        tr:nth-child(11) td { color: #424242; background-color: #FAFAFA; } /* 鎂 */
+        tr:nth-child(12) td { color: #424242; background-color: #FAFAFA; } /* 鐵 */
+        tr:nth-child(13) td { color: #424242; background-color: #FAFAFA; } /* 鋅 */  
+        tr:nth-child(14) td { color: #424242; background-color: #FAFAFA; } /* 磷 */   
+        tr:nth-child(15) td { color: #424242; background-color: #FAFAFA; } /* 銅 */  
+        tr:nth-child(16) td { color: #3D453F; background-color: #FDFFD4; } /* 維生素A(RE) */  
+        tr:nth-child(17) td { color: #3D453F; background-color: #FDFFD4; } /* β-胡蘿蔔素 */
+        tr:nth-child(18) td { color: #3D453F; background-color: #FDFFD4; } /* 維生素E(α-TE) */
+        tr:nth-child(19) td { color: #3D453F; background-color: #E8FAFF; } /* 維生素B1 */
+        tr:nth-child(20) td { color: #3D453F; background-color: #E8FAFF; } /* 維生素B2 */
+        tr:nth-child(21) td { color: #3D453F; background-color: #E8FAFF; } /* 維生素B3(菸鹼素) */  
+        tr:nth-child(22) td { color: #3D453F; background-color: #E8FAFF; } /* 維生素B6 */   
+        tr:nth-child(23) td { color: #3D453F; background-color: #E8FAFF; } /* 葉酸(維生素B9) */ 
+        tr:nth-child(24) td { color: #3D453F; background-color: #E8FAFF; } /* 維生素B12 */ 
+        tr:nth-child(25) td { color: #3D453F; background-color: #E8FAFF; } /* 維生素C */ 
+        tr:nth-child(26) td { color: #4D543D; background-color: #F2FCC6; }  /* MUFA */
+        tr:nth-child(27) td { color: #54692A; background-color: #EBFFD4; }  /* PUFA */
+        tr:nth-child(28) td { color: #54692A; background-color: #EBFFD4; }  /* LA */
+        tr:nth-child(29) td { color: #54692A; background-color: #EBFFD4; }  /* ALA */
+        tr:nth-child(30) td { color: #542222; background-color: #FFF9F8; }  /* 酥胺酸(Thr) */
+        tr:nth-child(31) td { color: #542222; background-color: #FFF9F8; }  /* 胱胺酸(Cys) */     
+        tr:nth-child(32) td { color: #542222; background-color: #FFF9F8; }  /* 纈胺酸(Val) */
+        tr:nth-child(33) td { color: #542222; background-color: #FFF9F8; }  /* 甲硫胺酸(Met) */   
+        tr:nth-child(34) td { color: #542222; background-color: #FFF9F8; }  /* 異白胺酸(Ile) */
+        tr:nth-child(35) td { color: #542222; background-color: #FFF9F8; }  /* 白胺酸(Leu) */  
+        tr:nth-child(36) td { color: #542222; background-color: #FFF9F8; }  /* 酪胺酸(Tyr) */
+        tr:nth-child(37) td { color: #542222; background-color: #FFF9F8; }  /* 苯丙胺酸(Phe) */ 
+        tr:nth-child(38) td { color: #542222; background-color: #FFF9F8; }  /* 離胺酸(Lys) */
+        tr:nth-child(39) td { color: #542222; background-color: #FFF9F8; }  /* 組胺酸(His) */ 
+        tr:nth-child(40) td { color: #542222; background-color: #FFF9F8; }  /* 色胺酸(Trp) */       
+        tr:nth-child(41) td { color: #C00000; background-color: #FDE9D9; }  /* SFA */
+        tr:nth-child(42) td { color: #C00000; background-color: #FDE9D9; }  /* 反式脂肪 */
+        tr:nth-child(43) td { color: #C00000; background-color: #FDE9D9; }  /* 膽固醇 */
+
+        
+        /* ✅ Ensure font size matches the chart title (20px) */
+        th {
+            font-size: 20px;  /* ✅ Match chart title size */
+            font-weight: bold;
+        }
+        td {
+            font-size: 20px;  /* ✅ Match values with chart font */
+            text-align: center;
+            padding: 8px;    /* ✅ Ensure table columns have proper spacing */
+            border: 1px solid black;
+        }
+        th { background-color: #f2f2f2; }
+        
+        .dropdown-container {
+            display: flex;
+            flex-wrap: wrap;  /* ✅ Allows wrapping to a column if space is insufficient */
+            justify-content: center;
+            gap: 10px; /* Adjust spacing between dropdowns */
+            margin-bottom: 20px;
+            max-width: 90%; /* Prevents the dropdowns from exceeding the screen width */
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Ensure the label and dropdown text have the same font size */
+        .dropdown-container label {
+            font-size: 16px; /* Match the dropdown text size */
+            font-weight: normal; /* Adjust weight to match the dropdown */
+            align-self: center; /* Align with the dropdown vertically */
+            color: gray; /* Change text color to gray */
+        }
+
+        /* Ensure select elements have consistent styling */
+        .dropdown-container select {
+            font-size: 18px; /* Ensure font size is the same as the label */
+            color: black;  /* Change dropdown text color to black */
+            padding: 5px; /* Add some padding for better appearance */
+        } 
+
+        #nutrientChartContainer {
+            width: 100%;
+            max-width: 900px; /* Ensure same width for both charts */
+            margin: auto;
+            padding-bottom: 5px; /* Reduce excessive spacing */
+        }
+
+        #aminoAcidChartContainer {
+            width: 100%;
+            max-width: 795px; /* Ensure same width for both charts */
+            margin: auto;
+            padding-bottom: 20px; /* Reduce excessive spacing */
+        }
+
+        .nutrientBarCanvas {
+            width: 100% !important;
+            height: auto !important;  /* Allow dynamic height */
+            min-height: 250px !important;  /* Ensure text is not squeezed */
+            max-height: 1000px !important; /* Prevent excessive stretching */
+        }
+
+        /* Prevent overlapping with the next section title */
+        #nutrientReferenceTitle {
+            margin-top: 30px !important; /* Ensure spacing before the next title */
+        }
+
+
+        /* Set the text color to gray only for SexAgeSelect */
+        #SexAgeSelect {
+            color: gray;
+        }
+
+        
+       /* ✅ Ensure readability on mobile */
+       @media (max-width: 600px) {
+           table {
+               width: 100%;  /* ✅ Table takes full width on smaller screens */
+           }
+           th, td {
+               font-size: 18px;  /* ✅ Slightly smaller for small screens */
+           }
+       }
+        
+       /* ✅ Ensure dropdowns take full width on small screens */
+       @media (max-width: 600px) {  /* Applies only on screens smaller than 600px */
+           .dropdown-container {
+               flex-direction: column;  /* Stack dropdowns in a column */
+               align-items: center;
+           }
+
+           select {
+               width: 100%;  /* Make dropdowns take full width on small screens */
+               max-width: 300px;  /* Prevents excessive stretching */
+           }
+       }
+
+        /* 🔹 Increase Font Size for Dropdowns */
+        select {
+            font-size: 18px;  /* Adjust font size */
+            padding: 5px;  /* Add padding for better spacing */
+        }
+
+        
+        /* Responsive Chart Layout */
+        .chart-container {
+           display: flex;
+           flex-wrap: wrap;  /* ✅ Allow charts to wrap into a row */
+           justify-content: center; /* ✅ Center the charts */
+           gap: 10px; /* ✅ Add spacing between charts */
+           max-width: 100%;
+           margin: auto;
+       }
+
+       canvas {
+           width: 260px !important;  /* ✅ Set fixed width */
+           height: 260px !important; /* ✅ Set fixed height */
+           max-width: 100%;
+       }
+       
+    </style>
+</head>
+<body>
+
+    <!-- Scrollable Message Box -->
+    <div id="messageBox" onclick="openMessageLink()">
+        <p id="messageLine1"></p>
+        <p id="messageLine2"></p>
+    </div>
+     
+    <div class="dropdown-container">
+        <select id="categorySelect"></select>
+        <select id="foodSelect"></select>
+    </div> 
+    
+    <!-- Charts Row -->
+    <div class="chart-container">
+        <canvas id="massChart"></canvas>
+        <canvas id="calorieChart"></canvas>
+        <canvas id="fatChart"></canvas>
+    </div>
+
+    <!-- Show Alternative name in the pageTitle -->
+    <h1 id="pageTitle" style="font-size: 16px; color: gray;"> - </h1>
+    
+    <!-- Nutrient Breakdown Table -->
+    <table style="width:100%">
+        <tr>
+            <th style="width:45%">營養成分</th>
+            <th style="width:30%">含量</th>
+            <th style="width:25%">DV(%)*</th>
+        </tr>
+        <tr><td>熱量</td><td id="totalCalories"></td><td id="caloriesDV"></td></tr>
+        <tr><td>醣類(碳水化合物)</td><td id="carbs"></td><td id="carbDV"></td></tr>
+        <tr><td>膳食纖維</td><td id="fibre"></td><td id="fibreDV"></td></tr>        
+        <tr><td>蛋白質</td><td id="protein"></td><td id="proteinDV"></td></tr>
+        <tr><td>脂肪</td><td id="fat"></td><td id="fatDV"></td></tr>
+        <tr><td>水</td><td id="water"></td><td id="waterDV"></td></tr>
+        <tr><td>鈉</td><td id="sodium"></td><td id="sodiumDV"></td></tr>
+        <tr><td>鉀</td><td id="potassium"></td><td id="potassiumDV"></td></tr>
+        <tr><td>鈣</td><td id="calcium"></td><td id="calciumDV"></td></tr>
+        <tr><td>鎂</td><td id="magnesium"></td><td id="magnesiumDV"></td></tr>
+        <tr><td>鐵</td><td id="iron"></td><td id="ironDV"></td></tr>
+        <tr><td>鋅</td><td id="zinc"></td><td id="zincDV"></td></tr>
+        <tr><td>磷</td><td id="phosphorus"></td><td id="phosphorusDV"></td></tr>
+        <tr><td>銅</td><td id="copper"></td><td id="copperDV"></td></tr>
+        <tr><td>維生素A(RE)</td><td id="vitaminA"></td><td id="vitaminADV"></td></tr>
+        <tr><td>β-胡蘿蔔素</td><td id="betaCarotene"></td><td id="betaCaroteneDV"></td></tr>        
+        <tr><td>維生素E(α-TE)</td><td id="vitaminE"></td><td id="vitaminEDV"></td></tr>
+        <tr><td>維生素B1</td><td id="vitaminB1"></td><td id="vitaminB1DV"></td></tr>
+        <tr><td>維生素B2</td><td id="vitaminB2"></td><td id="vitaminB2DV"></td></tr>
+        <tr><td>維生素B3菸鹼素</td><td id="vitaminB3"></td><td id="vitaminB3DV"></td></tr>
+        <tr><td>維生素B6</td><td id="vitaminB6"></td><td id="vitaminB6DV"></td></tr>
+        <tr><td>維生素B9葉酸</td><td id="vitaminB9"></td><td id="vitaminB9DV"></td></tr>
+        <tr><td>維生素B12</td><td id="vitaminB12"></td><td id="vitaminB12DV"></td></tr>
+        <tr><td>維生素C</td><td id="vitaminC"></td><td id="vitaminCDV"></td></tr>
+        <tr><td>單不飽脂肪酸MUFA</td><td id="mufa"></td><td id="mufaDV"></td></tr>
+        <tr><td>多不飽脂肪酸PUFA</td><td id="pufa"></td><td id="pufaDV"></td></tr>
+        <tr><td>亞麻油酸LA</td><td id="la"></td><td id="laDV">-</td></tr>
+        <tr><td>次亞麻油酸ALA</td><td id="ala"></td><td id="alaDV"></td></tr>
+        <tr><td>酥胺酸(Thr)</td><td id="Thr"></td><td id="ThrDV"></td></tr>
+        <tr><td>胱胺酸(Cys)</td><td id="Cys"></td><td id="CysDV"></td></tr>
+        <tr><td>纈胺酸(Val)</td><td id="Val"></td><td id="ValDV"></td></tr>        
+        <tr><td>甲硫胺酸(Met)</td><td id="Met"></td><td id="MetDV"></td></tr>
+        <tr><td>異白胺酸(Ile)</td><td id="Ile"></td><td id="IleDV"></td></tr>
+        <tr><td>白胺酸(Leu)</td><td id="Leu"></td><td id="LeuDV"></td></tr>
+        <tr><td>酪胺酸(Tyr)</td><td id="Tyr"></td><td id="TyrDV"></td></tr>
+        <tr><td>苯丙胺酸(Phe)</td><td id="Phe"></td><td id="PheDV"></td></tr>
+        <tr><td>離胺酸(Lys)</td><td id="Lys"></td><td id="LysDV"></td></tr>
+        <tr><td>組胺酸(His)</td><td id="His"></td><td id="HisDV"></td></tr>
+        <tr><td>色胺酸(Trp)</td><td id="Trp"></td><td id="TrpDV"></td></tr>        
+        <tr><td>飽和脂肪*</td><td id="sfa"></td><td id="sfaDV"></td></tr>
+        <tr><td>反式脂肪*</td><td id="transfat"></td><td id="transfatDV"></td></tr>
+        <tr><td>膽固醇*</td><td id="cholesterol"></td><td id="cholesterolDV"></td></tr>
+    </table>
+
+    <p style="font-size: 16px; color: gray !important;">*DV%=100%×成分含量/參考攝取量，飽和脂肪、反式脂肪、膽固醇為上限攝取量百分比</p>
+    
+    <br><br>
+    <!-- Nutrient Breakdown Bar Chart -->
+    <div id="nutrientChartContainer">
+        <canvas id="mainNutrientBarChart" class="nutrientBarCanvas"></canvas>
+    </div>
+    <div id="aminoAcidChartContainer" style="margin-top: 20px;">
+        <canvas id="aminoAcidBarChart" class="nutrientBarCanvas"></canvas>
+    </div>
+
+    <br>
+    
+    <h2>每日參考攝取量DRI(或<span style="color: #C00000;">上限UL</span>)</h2>
+ 
+    <div class="dropdown-container">
+        <select id="SexAgeSelect"></select>
+    </div>     
+
+    <!-- DRI Table -->
+    <table style="width:100%">
+        <tr>
+            <th style="width:60%">成分</th>
+            <th style="width:40%">DRI</th>
+        </tr>
+        <tr><td>熱量</td><td id="CaloriesDRI"></td>
+        <tr><td>醣類(碳水化合物)</td><td id="carbsDRI"></td>
+        <tr><td>膳食纖維</td><td id="fibreDRI"></td>                    
+        <tr><td>蛋白質</td><td id="proteinDRI"></td>
+        <tr><td>脂肪</td><td id="fatDRI"></td>
+        <tr><td>水</td><td id="waterDRI"></td>
+        <tr><td>鈉</td><td id="sodiumDRI"></td>
+        <tr><td>鉀</td><td id="potassiumDRI"></td>
+        <tr><td>鈣</td><td id="calciumDRI"></td>
+        <tr><td>鎂</td><td id="magnesiumDRI"></td>
+        <tr><td>鐵</td><td id="ironDRI"></td>
+        <tr><td>鋅</td><td id="zincDRI"></td>
+        <tr><td>磷</td><td id="phosphorusDRI">
+        <tr><td>銅</td><td id="copperDRI"></td>            
+        <tr><td>維生素A(RE)</td><td id="vitaminADRI"></td>
+        <tr><td>β-胡蘿蔔素</td><td id="betaCaroteneDRI"></td>       
+        <tr><td>維生素E(α-TE)</td><td id="vitaminEDRI"></td>
+        <tr><td>維生素B1</td><td id="vitaminB1DRI"></td>
+        <tr><td>維生素B2</td><td id="vitaminB2DRI"></td>
+        <tr><td>維生素B3菸鹼素</td><td id="vitaminB3DRI"></td>
+        <tr><td>維生素B6</td><td id="vitaminB6DRI"></td>
+        <tr><td>維生素B9葉酸</td><td id="vitaminB9DRI"></td>
+        <tr><td>維生素B12</td><td id="vitaminB12DRI"></td>
+        <tr><td>維生素C</td><td id="vitaminCDRI"></td>
+        <tr><td>單不飽脂肪酸MUFA</td><td id="mufaDRI"></td>
+        <tr><td>多不飽脂肪酸PUFA</td><td id="pufaDRI"></td>
+        <tr><td>亞麻油酸LA</td><td id="laDRI"></td>
+        <tr><td>次亞麻油酸ALA</td><td id="alaDRI"></td>
+        <tr><td>酥胺酸(Thr)</td><td id="ThrDRI"></td>
+        <tr><td>胱胺酸(Cys)</td><td id="CysDRI"></td>
+        <tr><td>纈胺酸(Val)</td><td id="ValDRI"></td>  
+        <tr><td>甲硫胺酸(Met)</td><td id="MetDRI"></td>
+        <tr><td>異白胺酸(Ile)</td><td id="IleDRI"></td>
+        <tr><td>白胺酸(Leu)</td><td id="LeuDRI"></td>
+        <tr><td>酪胺酸(Tyr)</td><td id="TyrDRI"></td>
+        <tr><td>苯丙胺酸(Phe)</td><td id="PheDRI"></td>
+        <tr><td>離胺酸(Lys)</td><td id="LysDRI"></td>
+        <tr><td>組胺酸(His)</td><td id="HisDRI"></td>
+        <tr><td>色胺酸(Trp)</td><td id="TrpDRI"></td>          
+        <tr><td>飽和脂肪</td><td id="sfaUL"></td>
+        <tr><td>反式脂肪</td><td id="transfatUL"></td>
+        <tr><td>膽固醇</td><td id="cholesterolUL"></td>        
+    </table>
+    
+    <script>
+        let foodData = [];
+        let DRIData = [];
+        let categorySelect = document.getElementById('categorySelect');
+        let foodSelect = document.getElementById('foodSelect');
+        let calorieChart = null;
+        let fatChart = null;
+        let massChart = null;
+
+        let messageData = [];  
+        let currentMessage = {};  
+
+        let caloriesDRI = null;
+        let carbDRI = null;
+        let fibreDRI = null;        
+        let proteinDRI = null;
+        let fatDRI = null;
+        let waterDRI = null;
+        
+        let sodiumDRI = null;
+        let potassiumDRI = null;
+        let calciumDRI = null;
+        let magnesiumDRI = null;
+        let ironDRI = null;
+        let zincDRI = null;
+        let phosphorusDRI = null;
+        let copperDRI = null;        
+        let vitaminADRI = null;       
+        let betaCaroteneDRI = null;
+        let vitaminB1DRI = null;
+        let vitaminB2DRI = null;
+        let vitaminB3DRI = null;
+        let vitaminB6DRI = null;
+        let vitaminB9DRI = null;
+        let vitaminB12DRI = null;
+        let vitaminCDRI = null;    
+        let mufaDRI = null;
+        let pufaDRI = null;
+        let laDRI = null;
+        let alaDRI = null;
+        
+        let ThrDRI = null; 
+        let CysDRI = null;   
+        let ValDRI = null;   
+        let MetDRI = null;   
+        let IleDRI = null;   
+        let LeuDRI = null;   
+        let TyrDRI = null;   
+        let PheDRI = null;   
+        let LysDRI = null;   
+        let HisDRI = null;   
+        let TrpDRI = null;    
+        let sfaUL = null;   
+        let transfatUL = null;   
+        let cholesterolUL = null;   
+
+        //Disable Ctrl and F12 
+        document.addEventListener("keydown", function (event){
+            if (event.ctrlKey){
+                 event.preventDefault();
+            }
+            if(event.keyCode == 123){
+                event.preventDefault();
+            }
+        })
+        // Disable Right Click
+        document.addEventListener('contextmenu', event => event.preventDefault() )
+        
+        //Initialize pie charts and fetch data 
+        document.addEventListener("DOMContentLoaded", function() {
+            initializeCharts();  
+            fetchData();  
+        });
+
+        // Add event listener to update values when selection changes
+        SexAgeSelect.addEventListener("change", () => {
+            updateDailyValues(SexAgeSelect.value); // Update DRI values
+            let event = new Event('change');   
+            foodSelect.dispatchEvent(event);  // Trigger the foodSelect change event to refresh the table and charts
+        });
+         
+        // Update food list when category changes
+        categorySelect.addEventListener('change', function () {
+            populateFoods(this.value);
+        });
+
+        // Update food data when a new food is selected
+        foodSelect.addEventListener('change', function () {
+            let selectedFood = foodData.find(food => food["Food Name"] === this.value);
+            if (selectedFood) displayFoodData(selectedFood);
+        });
+       
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        function updateURL() {
+            let selectedFoodName = foodSelect.value; // Get the selected food name
+            let rowIndex = foodData.findIndex(food => food["Food Name"] === selectedFoodName);
+
+            if (rowIndex !== -1) {
+                let newURL = `${window.location.origin}${window.location.pathname}?row=${rowIndex}`;
+                window.history.replaceState(null, "", newURL);
+            }
+        }
+        
+        function updateDailyValues(selectedSexAge) {
+            if (!DRIData || DRIData.length === 0) return;
+
+            let driMap = {}; // Store DRI values for easy lookup
+
+            DRIData.forEach(row => {
+                let nutrient = row["SexAge"];
+                driMap[nutrient] = row[selectedSexAge]; // Get the value for the selected sex-age
+            });
+
+            // Assign DRI values to global variables
+            caloriesDRI = driMap["熱量(kcal)"];
+            carbDRI = driMap["總碳水化合物(g)"];
+            fibreDRI = driMap["膳食纖維(g)"];            
+            proteinDRI = driMap["粗蛋白(g)"];
+            fatDRI = driMap["粗脂肪(g)"];
+            waterDRI = driMap["水分(g)"];
+            
+            sodiumDRI = driMap["鈉(mg)"];
+            potassiumDRI = driMap["鉀(mg)"];
+            calciumDRI = driMap["鈣(mg)"];
+            magnesiumDRI = driMap["鎂(mg)"];
+            ironDRI = driMap["鐵(mg)"];
+            zincDRI = driMap["鋅(mg)"];
+            phosphorusDRI = driMap["磷(mg)"];
+            copperDRI = driMap["銅(mg)"];            
+            vitaminADRI = driMap["視網醇當量(RE)(ug)"];
+            betaCaroteneDRI = driMap["β-胡蘿蔔素(ug)"];            
+            vitaminEDRI = driMap["α-維生素E當量(α-TE)(mg)"];
+            vitaminB1DRI = driMap["維生素B1(mg)"];
+            vitaminB2DRI = driMap["維生素B2(mg)"];
+            vitaminB3DRI = driMap["菸鹼素(mg)"];
+            vitaminB6DRI = driMap["維生素B6(mg)"];
+            vitaminB9DRI = driMap["葉酸(ug)"];
+            vitaminB12DRI = driMap["維生素B12(ug)"];          
+            vitaminCDRI = driMap["維生素C(mg)"];
+            
+            mufaDRI = driMap["脂肪酸M總量(mg)"];
+            pufaDRI = driMap["脂肪酸P總量(mg)"];
+            laDRI = driMap["亞麻油酸(18:2)(mg)"];
+            alaDRI = driMap["次亞麻油酸(18:3)(mg)"];
+
+            ThrDRI = driMap["酥胺酸(Thr)(mg)"];            
+            CysDRI = driMap["胱胺酸(Cys)(mg)"];  
+            ValDRI = driMap["纈胺酸(Val)(mg)"];  
+            MetDRI = driMap["甲硫胺酸(Met)(mg)"];            
+            IleDRI = driMap["異白胺酸(Ile)(mg)"];  
+            LeuDRI = driMap["白胺酸(Leu)(mg)"];  
+            TyrDRI = driMap["酪胺酸(Tyr)(mg)"];            
+            PheDRI = driMap["苯丙胺酸(Phe)(mg)"];  
+            LysDRI = driMap["離胺酸(Lys)(mg)"];  
+            HisDRI = driMap["組胺酸(His)(mg)"];            
+            TrpDRI = driMap["色胺酸(Trp)(mg)"];  
+            sfaUL = driMap["飽和脂肪(mg)"];            
+            transfatUL = driMap["反式脂肪(mg)"];              
+            cholesterolUL = driMap["膽固醇(mg)"];  
+            
+        }        
+          
+        function displayRandomMessage() {
+            if (messageData.length === 0) return;
+
+            let randomIndex = Math.floor(Math.random() * messageData.length);
+            currentMessage = messageData[randomIndex];
+
+            document.getElementById('messageLine1').textContent = currentMessage["Line 1"];
+            document.getElementById('messageLine2').textContent = currentMessage["Line 2"];
+        }
+
+        function openMessageLink() {
+            if (currentMessage["Link"]) {
+                window.open(currentMessage["Link"], '_blank');
+            }
+        }
+
+        function populateCategories() {
+            categorySelect.innerHTML = "";  // Clear previous categories
+            let categories = [...new Set(foodData.map(food => food.Category))]; // Unique categories
+
+            categories.forEach(category => {
+                let option = document.createElement('option');
+                option.value = category;
+                option.textContent = category;
+                categorySelect.appendChild(option);
+            });
+
+            let defaultCategory = "豆類";  // Default category
+            let selectedFood = "毛豆仁";   // Default food
+
+            // Check if the URL provides a custom selection
+            let foodParam = getQueryParam("food");
+            let rowParam = getQueryParam("row");
+
+            if (foodParam) {
+                let matchingFood = foodData.find(food => food["Food Name"] === foodParam);
+                if (matchingFood) {
+                    defaultCategory = matchingFood.Category;
+                    selectedFood = foodParam;
+                }
+            } else if (rowParam) {
+                let rowIndex = parseInt(rowParam);
+                if (!isNaN(rowIndex) && rowIndex >= 0 && rowIndex < foodData.length) {
+                    defaultCategory = foodData[rowIndex].Category;
+                    selectedFood = foodData[rowIndex]["Food Name"];
+                }
+            }
+
+            categorySelect.value = defaultCategory;
+            populateFoods(defaultCategory, selectedFood);
+        }
+
+        function populateFoods(selectedCategory, defaultFood = null) {
+            foodSelect.innerHTML = "";  // Clear previous options
+            let filteredFoods = foodData.filter(food => food.Category === selectedCategory);
+
+            filteredFoods.forEach(food => {
+                let option = document.createElement('option');
+                option.value = food["Food Name"];
+                option.textContent = food["Food Name"];
+                foodSelect.appendChild(option);
+            });
+
+            if (defaultFood && filteredFoods.some(food => food["Food Name"] === defaultFood)) {
+                foodSelect.value = defaultFood;
+            } else {
+                foodSelect.selectedIndex = 0;
+            }
+
+            // Display the selected food's data
+            let selectedFood = foodData.find(food => food["Food Name"] === foodSelect.value);
+            if (selectedFood) displayFoodData(selectedFood);
+        }
+
+        function populateSexAge(selectedSexAge = null, defaultSexAge = "女31至50歲（體重54kg）") {
+            let SexAgeSelect = document.getElementById("SexAgeSelect"); // Ensure this exists in your HTML
+            SexAgeSelect.innerHTML = ""; // Clear previous options
+
+            if (!DRIData || DRIData.length === 0) return;
+
+            // Get headers from the first row of DRIData
+            let headers = Object.keys(DRIData[0]).slice(1); // Skip the "Nutrient" column
+
+            headers.forEach((ageRange, index) => {
+                let option = document.createElement("option");
+                option.value = ageRange;
+                option.textContent = ageRange;
+
+                // Select "女31至50歲（體重54kg）" as default if available, otherwise fallback to the first option
+                if ((selectedSexAge && ageRange === selectedSexAge) || (!selectedSexAge && ageRange === defaultSexAge) || (!selectedSexAge && !defaultSexAge && index === 0)) {
+                    option.selected = true;
+                }
+
+                SexAgeSelect.appendChild(option);
+            });
+
+            // Ensure the default selection triggers data update
+            updateDailyValues(SexAgeSelect.value);
+
+            // Trigger the event to refresh the table and charts
+            let event = new Event('change');
+            SexAgeSelect.dispatchEvent(event);
+        }
+
+        function updateNutrientBarCharts(selectedFoodName) {
+            let mainNutrientLabels = [];
+            let mainDVValues = [];
+            let aminoAcidLabels = [];
+            let aminoAcidDVValues = [];
+
+            let mainNutrients = [
+                "熱量", "醣類(碳水化合物)", "膳食纖維", "蛋白質", "脂肪", 
+                "鈉", "鉀", "鈣", "鎂", "鐵", "鋅", "磷", "銅",
+                "維生素A(RE)", "β-胡蘿蔔素", "維生素E(α-TE)", 
+                "維生素B1", "維生素B2", "維生素B3菸鹼素", "維生素B6", "維生素B9葉酸", "維生素B12", "維生素C",
+                "單不飽脂肪酸MUFA", "多不飽脂肪酸PUFA", "亞麻油酸LA", "次亞麻油酸ALA"
+            ];
+            let essentialAminoAcids = [
+                "酥胺酸(Thr)", "胱胺酸(Cys)", "纈胺酸(Val)", "甲硫胺酸(Met)",
+                "異白胺酸(Ile)", "白胺酸(Leu)", "酪胺酸(Tyr)", "苯丙胺酸(Phe)",
+                "離胺酸(Lys)", "組胺酸(His)", "色胺酸(Trp)"
+            ];
+
+            let tableRows = document.querySelectorAll("table tr");
+
+            for (let i = 1; i < tableRows.length; i++) {
+                let columns = tableRows[i].getElementsByTagName("td");
+                if (columns.length === 3) {
+                    let nutrientName = columns[0].textContent.trim();
+                    let dvValue = parseFloat(columns[2].textContent);
+
+                    if (!isNaN(dvValue)) {
+                        if (essentialAminoAcids.includes(nutrientName)) {
+                            aminoAcidLabels.push(nutrientName);
+                            aminoAcidDVValues.push(dvValue);
+                        } else if (mainNutrients.includes(nutrientName)) {
+                            mainNutrientLabels.push(nutrientName);
+                            mainDVValues.push(dvValue);
+                        }
+                    }
+                }
+            }
+
+            // ✅ Hide aminoAcidChart if no valid amino acid values exist
+            let aminoAcidChartContainer = document.getElementById('aminoAcidChartContainer');
+            aminoAcidChartContainer.style.display = (aminoAcidDVValues.length > 0) ? "block" : "none";  
+            
+            let updateChart = (chartId, labels, values, title, totalBars) => {
+                let ctx = document.getElementById(chartId);
+                if (!ctx) {
+                    console.error(`Canvas '${chartId}' not found.`);
+                    return;
+                }
+
+                let canvasParent = ctx.parentElement;
+                let totalChartHeight = totalBars * 40;  // ✅ Adjust height based on total bars
+                let adjustedHeight = Math.max(totalChartHeight, 250);
+                canvasParent.style.height = `${adjustedHeight}px`;
+
+                ctx = ctx.getContext('2d');
+
+                if (window[chartId] && typeof window[chartId].destroy === 'function') {
+                    window[chartId].destroy();
+                }
+
+                window[chartId] = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: 'DV (%)',
+                            data: values,
+                            backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                            borderColor: 'rgba(54, 162, 235, 1)',
+                            borderWidth: 1
+                       }]
+                    },
+                    options: {
+                        indexAxis: 'y',
+                        responsive: true,
+                        maintainAspectRatio: false,  
+                        scales: {
+                            x: {
+                                beginAtZero: true,
+                                title: { display: true, text: 'DV (%)', font: { size: 20 } },
+                                ticks: { font: { size: 20 } },
+                                position: 'top'  
+                            },
+                            y: {
+                                title: { display: false },
+                                ticks: {
+                                    font: { size: 20 },
+                                    autoSkip: false,
+                                    maxRotation: 0,
+                                    minRotation: 0,
+                                    font: {
+                                        size: (ctx) => {
+                                            let label = labels[ctx.index];
+                                            return label.length > 9 ? 17 : 20;  // ✅ Reduce size for long labels
+                                        }
+                                    }    
+                                }
+                            }
+                        },
+                        layout: { padding: { top: 10, bottom: 10 } },
+                        plugins: {
+                            legend: { display: false },
+                            tooltip: { enabled: true },
+                            title: {
+                                display: true,
+                                text: title,
+                                font: { size: 22 },
+                                padding: { top: 10, bottom: 15 }
+                            }
+                        },
+                        elements: {
+                            bar: {
+                                barPercentage: 0.8,
+                                categoryPercentage: 0.8
+                            }
+                        }
+                    }
+                });
+            };
+
+            // ✅ Get total number of bars (main nutrients + amino acids)
+            let totalBars1 = mainNutrientLabels.length - 1;
+            let totalBars2 = aminoAcidLabels.length + 2;
+
+            // ✅ Update both charts with proportional height
+            updateChart('mainNutrientBarChart', mainNutrientLabels, mainDVValues, `${selectedFoodName} - 營養成分`, totalBars1);
+            
+            if (aminoAcidDVValues.length > 0) {
+                updateChart('aminoAcidBarChart', aminoAcidLabels, aminoAcidDVValues, `${selectedFoodName} - 必須胺基酸`, totalBars2);
+            }
+
+        }
+     
+        function displayFoodData(food) {
+            if (!food) return;
+            
+            function safeFixed(value, digits = 2, unit = '') {
+                return value !== null && value !== undefined && !isNaN(value)
+                    ? value.toFixed(digits) + unit
+                    : ' ';
+            }
+            
+            let totalCalories = parseFloat(food["Calorie (kcal)"]);
+            let mCarbs = parseFloat(food["Carbs (g)"]) || 0 ;
+            let mFibre = parseFloat(food["Fibre (g)"]);              
+            let mProtein = parseFloat(food["Protein (g)"]) || 0 ;
+            let mFat = parseFloat(food["Fat (g)"]) || 0 ;
+            let mWater = parseFloat(food["Water (g)"]) || 0 ;
+            let mAsh = parseFloat(food["Ash (g)"]) || 0 ;
+            let mSodium = parseFloat(food["Sodium (mg)"]);
+            let mPotassium = parseFloat(food["Potassium (mg)"]);
+            let mCalcium = parseFloat(food["Calcium (mg)"]);
+            let mMagnesium = parseFloat(food["Magnesium (mg)"]);
+            let mIron = parseFloat(food["Iron (mg)"]);
+            let mZinc = parseFloat(food["Zinc (mg)"]);
+            let mPhosphorus = parseFloat(food["Phosphorus (mg)"]);
+            let mCopper = parseFloat(food["Copper (mg)"]);            
+            let mVitaminA = parseFloat(food["Vitamin A(RE) (ug)"]);
+            let mBetaCarotene = parseFloat(food["β-Carotene (ug)"]);            
+            let mVitaminE = parseFloat(food["Vitamin E(α-TE) (mg)"]);
+            let mVitaminB1 = parseFloat(food["Vitamin B1 (mg)"]);
+            let mVitaminB2 = parseFloat(food["Vitamin B2 (mg)"]);
+            let mVitaminB3 = parseFloat(food["Nicotin (mg)"]);
+            let mVitaminB6 = parseFloat(food["Vitamin B6 (mg)"]);
+            let mVitaminB9 = parseFloat(food["Folic acid (ug)"]);
+            let mVitaminB12 = parseFloat(food["Vitamin B12 (ug)"]);
+            let mVitaminC = parseFloat(food["Vitamin C (mg)"]);
+            let mSFA = parseFloat(food["SFA (mg)"]);
+            let mMUFA = parseFloat(food["MUFA (mg)"]);
+            let mPUFA = parseFloat(food["PUFA (mg)"]);
+            let mLA = parseFloat(food["LA (mg)"]);
+            let mALA = parseFloat(food["ALA (mg)"]);
+            let totalFA = mSFA + mMUFA + mPUFA ;
+            let mTransFat = parseFloat(food["Trans Fat (mg)"]);
+            let mCholesterol = parseFloat(food["Cholesterol (mg)"]);
+            
+            let mThr = parseFloat(food["Thr (mg)"]);
+            let mCys = parseFloat(food["Cys (mg)"]);
+            let mVal = parseFloat(food["Val (mg)"]);
+            let mMet = parseFloat(food["Met (mg)"]);
+            let mIle = parseFloat(food["Ile (mg)"]);
+            let mLeu = parseFloat(food["Leu (mg)"]);
+            let mTyr = parseFloat(food["Tyr (mg)"]);
+            let mPhe = parseFloat(food["Phe (mg)"]);
+            let mLys = parseFloat(food["Lys (mg)"]);
+            let mHis = parseFloat(food["His (mg)"]);
+            let mTrp = parseFloat(food["Trp (mg)"]);            
+            
+            document.getElementById('pageTitle').textContent = food["Alternative Name"]; 
+
+            if (totalCalories<100) {
+                document.getElementById('totalCalories').textContent = safeFixed(totalCalories, 1, ' kcal');
+            } else {
+                document.getElementById('totalCalories').textContent = safeFixed(totalCalories, 0, ' kcal');
+            }
+            
+            document.getElementById('carbs').textContent = safeFixed(mCarbs, 1, ' g');  
+            document.getElementById('fibre').textContent = safeFixed(mFibre, 1, ' g');
+            document.getElementById('protein').textContent = safeFixed(mProtein, 1, ' g');           
+            document.getElementById('fat').textContent = safeFixed(mFat, 1, ' g');  
+            document.getElementById('water').textContent = safeFixed(mWater, 1, ' g');  
+            document.getElementById('sodium').textContent = safeFixed(mSodium, 2, ' mg');
+            document.getElementById('potassium').textContent = safeFixed(mPotassium, 1, ' mg');
+            document.getElementById('calcium').textContent = safeFixed(mCalcium, 1, ' mg');
+            document.getElementById('magnesium').textContent = safeFixed(mMagnesium, 1, ' mg');
+            document.getElementById('iron').textContent = safeFixed(mIron, 2, ' mg');
+            document.getElementById('zinc').textContent = safeFixed(mZinc, 2, ' mg');
+            document.getElementById('phosphorus').textContent = safeFixed(mPhosphorus, 1, ' mg');
+            document.getElementById('copper').textContent = safeFixed(mCopper, 3, ' mg');            
+
+            document.getElementById('vitaminA').textContent = safeFixed(mVitaminA, 1, ' μg');
+            document.getElementById('betaCarotene').textContent = safeFixed(mBetaCarotene, 1, ' μg');
+            document.getElementById('vitaminE').textContent = safeFixed(mVitaminE, 2, ' mg');
+            document.getElementById('vitaminB1').textContent = safeFixed(mVitaminB1, 4, ' mg');
+            document.getElementById('vitaminB2').textContent = safeFixed(mVitaminB2, 3, ' mg');
+            document.getElementById('vitaminB3').textContent = safeFixed(mVitaminB3, 2, ' mg');
+            document.getElementById('vitaminB6').textContent = safeFixed(mVitaminB6, 3, ' mg');
+            document.getElementById('vitaminB9').textContent = safeFixed(mVitaminB9, 1, ' μg');
+            document.getElementById('vitaminB12').textContent = safeFixed(mVitaminB12, 3, ' μg');
+            document.getElementById('vitaminC').textContent = safeFixed(mVitaminC, 1, ' mg');
+
+            document.getElementById('mufa').textContent = safeFixed(mMUFA, 0, ' mg');
+            document.getElementById('pufa').textContent = safeFixed(mPUFA, 0, ' mg');
+            document.getElementById('la').textContent = safeFixed(mLA, 0, ' mg');
+            document.getElementById('ala').textContent = safeFixed(mALA, 0, ' mg');
+
+            document.getElementById('Thr').textContent = safeFixed(mThr, 1, ' mg');
+            document.getElementById('Cys').textContent = safeFixed(mCys, 1, ' mg');
+            document.getElementById('Val').textContent = safeFixed(mVal, 1, ' mg');
+            document.getElementById('Met').textContent = safeFixed(mMet, 1, ' mg');
+            document.getElementById('Ile').textContent = safeFixed(mIle, 1, ' mg');
+            document.getElementById('Leu').textContent = safeFixed(mLeu, 1, ' mg');
+            document.getElementById('Tyr').textContent = safeFixed(mTyr, 1, ' mg');
+            document.getElementById('Phe').textContent = safeFixed(mPhe, 1, ' mg');
+            document.getElementById('Lys').textContent = safeFixed(mLys, 1, ' mg');
+            document.getElementById('His').textContent = safeFixed(mHis, 1, ' mg');
+            document.getElementById('Trp').textContent = safeFixed(mTrp, 1, ' mg');
+                
+            document.getElementById('sfa').textContent = safeFixed(mSFA, 1, ' mg');
+            document.getElementById('transfat').textContent = safeFixed(mTransFat, 1, ' mg');
+            document.getElementById('cholesterol').textContent = safeFixed(mCholesterol, 1, ' mg');
+
+            document.getElementById('caloriesDV').textContent = safeFixed((totalCalories / caloriesDRI) * 100, 1, '%');
+            document.getElementById('carbDV').textContent = safeFixed((mCarbs / carbDRI) * 100, 1, '%');
+            document.getElementById('fibreDV').textContent = safeFixed((mFibre / fibreDRI) * 100, 1, '%');
+            document.getElementById('proteinDV').textContent = safeFixed((mProtein / proteinDRI) * 100, 1, '%');
+            document.getElementById('fatDV').textContent = safeFixed((mFat / fatDRI) * 100, 1, '%');
+            document.getElementById('waterDV').textContent = safeFixed((mWater / waterDRI) * 100, 1, '%');
+
+            document.getElementById('sodiumDV').textContent = safeFixed((mSodium / sodiumDRI) * 100, 1, '%');
+            document.getElementById('potassiumDV').textContent = safeFixed((mPotassium / potassiumDRI) * 100, 1, '%');
+            document.getElementById('calciumDV').textContent = safeFixed((mCalcium / calciumDRI) * 100, 1, '%');
+            document.getElementById('magnesiumDV').textContent = safeFixed((mMagnesium / magnesiumDRI) * 100, 1, '%');
+            document.getElementById('ironDV').textContent = safeFixed((mIron / ironDRI) * 100, 1, '%');
+            document.getElementById('zincDV').textContent = safeFixed((mZinc / zincDRI) * 100, 1, '%');
+            document.getElementById('phosphorusDV').textContent = safeFixed((mPhosphorus / phosphorusDRI) * 100, 1, '%');
+            document.getElementById('copperDV').textContent = safeFixed((mCopper / copperDRI) * 100, 1, '%');          
+
+            document.getElementById('vitaminADV').textContent = safeFixed((mVitaminA / vitaminADRI) * 100, 1, '%');
+            document.getElementById('betaCaroteneDV').textContent = safeFixed((mBetaCarotene / betaCaroteneDRI) * 100, 1, '%');      
+            document.getElementById('vitaminEDV').textContent = safeFixed((mVitaminE / vitaminEDRI) * 100, 1, '%');
+            document.getElementById('vitaminB1DV').textContent = safeFixed((mVitaminB1 / vitaminB1DRI) * 100, 1, '%');      
+            document.getElementById('vitaminB2DV').textContent = safeFixed((mVitaminB2 / vitaminB2DRI) * 100, 1, '%');
+            document.getElementById('vitaminB3DV').textContent = safeFixed((mVitaminB3 / vitaminB3DRI) * 100, 1, '%');      
+            document.getElementById('vitaminB6DV').textContent = safeFixed((mVitaminB6 / vitaminB6DRI) * 100, 1, '%');
+            document.getElementById('vitaminB9DV').textContent = safeFixed((mVitaminB9 / vitaminB9DRI) * 100, 1, '%');      
+            document.getElementById('vitaminB12DV').textContent = safeFixed((mVitaminB12 / vitaminB12DRI) * 100, 1, '%');
+            document.getElementById('vitaminCDV').textContent = safeFixed((mVitaminC / vitaminCDRI) * 100, 1, '%');      
+            
+            document.getElementById('mufaDV').textContent = safeFixed((mMUFA / mufaDRI) * 100, 1, '%');  
+            document.getElementById('pufaDV').textContent = safeFixed((mPUFA / pufaDRI) * 100, 1, '%');  
+            document.getElementById('laDV').textContent = safeFixed((mLA / laDRI) * 100, 1, '%');  
+            document.getElementById('alaDV').textContent = safeFixed((mALA / alaDRI) * 100, 1, '%');  
+
+            document.getElementById('ThrDV').textContent = safeFixed((mThr / ThrDRI) * 100, 1, '%');  
+            document.getElementById('CysDV').textContent = safeFixed((mCys / CysDRI) * 100, 1, '%');  
+            document.getElementById('ValDV').textContent = safeFixed((mVal / ValDRI) * 100, 1, '%');  
+            document.getElementById('MetDV').textContent = safeFixed((mMet / MetDRI) * 100, 1, '%');              
+            document.getElementById('IleDV').textContent = safeFixed((mIle / IleDRI) * 100, 1, '%');  
+            document.getElementById('LeuDV').textContent = safeFixed((mLeu / LeuDRI) * 100, 1, '%');  
+            document.getElementById('TyrDV').textContent = safeFixed((mTyr / TyrDRI) * 100, 1, '%');  
+            document.getElementById('PheDV').textContent = safeFixed((mPhe / PheDRI) * 100, 1, '%');     
+            document.getElementById('LysDV').textContent = safeFixed((mLys / LysDRI) * 100, 1, '%');  
+            document.getElementById('HisDV').textContent = safeFixed((mHis / HisDRI) * 100, 1, '%');  
+            document.getElementById('TrpDV').textContent = safeFixed((mTrp / TrpDRI) * 100, 1, '%');  
+            document.getElementById('sfaDV').textContent = safeFixed((mSFA / sfaUL) * 100, 1, '%');  
+            document.getElementById('transfatDV').textContent = safeFixed((mTransFat / transfatUL) * 100, 1, '%');  
+            document.getElementById('cholesterolDV').textContent = safeFixed((mCholesterol / cholesterolUL) * 100, 1, '%');  
+            
+            document.getElementById('CaloriesDRI').textContent = caloriesDRI.toFixed(0) + ' kcal';
+            document.getElementById('carbsDRI').textContent = carbDRI.toFixed(0) + ' g';
+            document.getElementById('fibreDRI').textContent = fibreDRI.toFixed(0) + ' g';            
+            document.getElementById('proteinDRI').textContent = proteinDRI.toFixed(0) + ' g';
+            document.getElementById('fatDRI').textContent = fatDRI.toFixed(1) + ' g';
+            document.getElementById('waterDRI').textContent = waterDRI.toFixed(0) + ' g';
+            
+            document.getElementById('sodiumDRI').textContent = sodiumDRI.toFixed(0) + ' mg';  
+            document.getElementById('potassiumDRI').textContent = potassiumDRI.toFixed(0) + ' mg';  
+            document.getElementById('calciumDRI').textContent = calciumDRI.toFixed(0) + ' mg';  
+            document.getElementById('magnesiumDRI').textContent = magnesiumDRI.toFixed(0) + ' mg';  
+            document.getElementById('ironDRI').textContent = ironDRI.toFixed(0) + ' mg';  
+            document.getElementById('zincDRI').textContent = zincDRI.toFixed(0) + ' mg';  
+            document.getElementById('phosphorusDRI').textContent = phosphorusDRI.toFixed(0) + ' mg';  
+            document.getElementById('copperDRI').textContent = copperDRI.toFixed(2) + ' mg';             
+            document.getElementById('vitaminADRI').textContent = vitaminADRI.toFixed(0) + ' μg';  
+            document.getElementById('betaCaroteneDRI').textContent = betaCaroteneDRI.toFixed(0) + ' μg';              
+            document.getElementById('vitaminEDRI').textContent = vitaminEDRI.toFixed(0) + ' mg';  
+            document.getElementById('vitaminB1DRI').textContent = vitaminB1DRI.toFixed(1) + ' mg';  
+            document.getElementById('vitaminB2DRI').textContent = vitaminB2DRI.toFixed(1) + ' mg';            
+            document.getElementById('vitaminB3DRI').textContent = vitaminB3DRI.toFixed(1) + ' mg';     
+            document.getElementById('vitaminB6DRI').textContent = vitaminB6DRI.toFixed(1) + ' mg';     
+            document.getElementById('vitaminB9DRI').textContent = vitaminB9DRI.toFixed(0) + ' μg';     
+            document.getElementById('vitaminB12DRI').textContent = vitaminB12DRI.toFixed(1) + ' μg';     
+            document.getElementById('vitaminCDRI').textContent = vitaminCDRI.toFixed(0) + ' mg';                  
+            document.getElementById('mufaDRI').textContent = mufaDRI.toFixed(0) + ' mg';
+            document.getElementById('pufaDRI').textContent = pufaDRI.toFixed(0) + ' mg';
+            document.getElementById('laDRI').textContent = laDRI.toFixed(0) + ' mg';
+            document.getElementById('alaDRI').textContent = alaDRI.toFixed(0) + ' mg';
+            
+            document.getElementById('ThrDRI').textContent = ThrDRI.toFixed(0) + ' mg';
+            document.getElementById('CysDRI').textContent = CysDRI.toFixed(0) + ' mg';
+            document.getElementById('ValDRI').textContent = ValDRI.toFixed(0) + ' mg';
+            document.getElementById('MetDRI').textContent = MetDRI.toFixed(0) + ' mg';
+            document.getElementById('IleDRI').textContent = IleDRI.toFixed(0) + ' mg';
+            document.getElementById('LeuDRI').textContent = LeuDRI.toFixed(0) + ' mg';
+            document.getElementById('TyrDRI').textContent = TyrDRI.toFixed(0) + ' mg';
+            document.getElementById('PheDRI').textContent = PheDRI.toFixed(0) + ' mg';
+            document.getElementById('LysDRI').textContent = LysDRI.toFixed(0) + ' mg';
+            document.getElementById('HisDRI').textContent = HisDRI.toFixed(0) + ' mg';
+            document.getElementById('TrpDRI').textContent = TrpDRI.toFixed(0) + ' mg';          
+            document.getElementById('sfaUL').textContent = sfaUL.toFixed(0) + ' mg';
+            document.getElementById('transfatUL').textContent = transfatUL.toFixed(0) + ' mg';
+            document.getElementById('cholesterolUL').textContent = cholesterolUL.toFixed(0) + ' mg';  
+            
+            let CPCarbs = parseFloat(food["Carbs%"]) || 0 ;          
+            let CPProtein = parseFloat(food["Protein%"]) || 0 ;
+            let CPFat = parseFloat(food["Fat%"]) || 0 ;
+            let CPAlcohol = parseFloat(food["Alcohol%"]) || 0 ;
+            let CalculatedCalories = parseFloat(food["CalCalories(kcal)"]); 
+            
+            updateCharts(mCarbs, mProtein, mFat, mWater, mAsh, CPCarbs, CPProtein, CPFat, CPAlcohol, CalculatedCalories, mSFA, mMUFA, mPUFA, totalFA);
+            // ✅ Update the Nutrient Bar Charts
+            let selectedFoodName = food["Food Name"];  // ✅ Get the selected food name
+            updateNutrientBarCharts(selectedFoodName);  // ✅ Pass it to the chart function
+            updateURL();
+        }
+                  
+        function initializeCharts() {
+            const nutrientColors = ['#4E824E', '#823434', '#7D6400', '#336680', '#7A7A7A'];  
+            const nutrientAreaColors = ['#99FF99', '#FFB9AE', '#FFCC00', '#66CCFF', '#CCCCCC'];  
+            const fatColors = ['#5E4836', '#4D543D', '#54692A']; 
+            const fatAreaColors = ['#FAC090','#C3D69B', '#CCFF66']; 
+                   
+            const centerTextPlugin = {
+                id: 'centerText',
+                afterDraw: (chart) => {  
+                    const width = chart.width;
+                    const height = chart.height;
+                    const ctx = chart.ctx;
+                    ctx.restore();
+
+                    const centerX = width / 2;
+                    const centerY = height / 2;
+
+                    ctx.font = 'bold 22px Arial';  
+                    ctx.textAlign = 'center';
+                    ctx.textBaseline = 'middle';
+                    ctx.fillStyle = '#333';  
+
+                    if (chart.canvas.id === 'calorieChart') {
+                        ctx.fillText(`修正熱量`, centerX, centerY - 12);  
+                        ctx.fillText(`${chart.options.centerText} kcal`, centerX, centerY + 16); 
+                    } else if (chart.canvas.id === 'fatChart') {
+                        ctx.fillText(`脂肪酸`, centerX, centerY - 12);
+                        ctx.fillText(`${chart.options.centerText} g`, centerX, centerY + 16);
+                    } else if (chart.canvas.id === 'massChart') {
+                        ctx.fillText(`重量`, centerX, centerY - 12);
+                        ctx.fillText(`${chart.options.centerText} g`, centerX, centerY + 16);
+                    }
+
+                    ctx.save();
+                }
+            };
+
+
+            calorieChart = new Chart(document.getElementById('calorieChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['醣類', '蛋白質', '脂肪', '酒精'],
+                    datasets: [{
+                        data: [0, 0, 0, 0],
+                        backgroundColor: nutrientAreaColors.slice(0, 4)  
+                    }]
+                },
+                options: {
+                    responsive: false,
+                    maintainAspectRatio: true,
+                    cutout: '40%', 
+                    centerText: '0.0',  
+                    plugins: {
+                        legend: { display: false }, 
+                        tooltip: {
+                            enabled: true,  
+                            yAlign: 'top',                           
+                            callbacks: {
+                                label: (tooltipItem) => {
+                                    const value = tooltipItem.raw;
+                                    const label = tooltipItem.label;
+                                    return `${value.toFixed(1)}%`;
+                                }
+                            }
+                        },
+                        datalabels: {
+                            color: (ctx) => nutrientColors[ctx.dataIndex],  
+                            font: { size: 14, weight: 'bold' },
+                            align: 'center',
+                            anchor: 'center',
+                            backgroundColor: (ctx) => ctx.dataset.data[ctx.dataIndex] < 5 ? 'transparent' : 'rgba(255, 255, 255, 0.7)',
+                            borderRadius: (ctx) => ctx.dataset.data[ctx.dataIndex] < 5 ? 0 : 5,
+                            borderWidth: (ctx) => ctx.dataset.data[ctx.dataIndex] < 5 ? 0 : 1,
+                            borderColor: (ctx) => nutrientColors[ctx.dataIndex],
+                            formatter: (value, ctx) => {
+                                if (value < 5) return '';  
+                                return ctx.chart.data.labels[ctx.dataIndex] + '\n' + value.toFixed(1) + '%';
+                            }
+                        }
+                    }
+                },
+                plugins: [centerTextPlugin, ChartDataLabels]
+            });
+            
+            fatChart = new Chart(document.getElementById('fatChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['飽和', '單元不飽和', '多元不飽和'],
+                    datasets: [{
+                        data: [0, 0, 0],
+                        backgroundColor: fatAreaColors  
+
+                    }]
+                },
+                options: {
+                    responsive: false,
+                    maintainAspectRatio: true,
+                    cutout: '40%',
+                    centerText: '100',  
+                    plugins: {
+                        legend: { display: false }, 
+                        tooltip: {
+                            enabled: true, 
+                            yAlign: 'top',
+                            callbacks: {
+                                label: (tooltipItem) => {
+                                    const value = tooltipItem.raw;
+                                    const label = tooltipItem.label;
+                                    return `${value.toFixed(1)}%`;
+                                }
+                            }
+                        },
+                        datalabels: {
+                            color: (ctx) => fatColors[ctx.dataIndex],  
+                            font: { size: 14, weight: 'bold' },
+                            align: 'center',
+                            anchor: 'center',
+                            backgroundColor: (ctx) => ctx.dataset.data[ctx.dataIndex] < 5 ? 'transparent' : 'rgba(255, 255, 255, 0.7)',
+                            borderRadius: (ctx) => ctx.dataset.data[ctx.dataIndex] < 5 ? 0 : 5,
+                            borderWidth: (ctx) => ctx.dataset.data[ctx.dataIndex] < 5 ? 0 : 1,
+                            borderColor: (ctx) => fatColors[ctx.dataIndex],
+                            formatter: (value, ctx) => {
+                                if (value < 5) return '';  
+                                return ctx.chart.data.labels[ctx.dataIndex] + '\n' + value.toFixed(1) + '%';
+                            }
+                        }
+                    }
+                },
+                                
+                plugins: [centerTextPlugin, ChartDataLabels]
+            });
+                                   
+            massChart = new Chart(document.getElementById('massChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['醣類', '蛋白質', '脂肪', '水', '灰分'],
+                    datasets: [{
+                        data: [0, 0, 0, 0, 0],
+                        backgroundColor: nutrientAreaColors  
+                    }]
+                },
+                options: {
+                    responsive: false,
+                    maintainAspectRatio: true,
+                    cutout: '40%',
+                    centerText: '100',  
+                    plugins: {
+                        legend: { display: false }, 
+                        tooltip: {
+                            enabled: true, 
+                            yAlign: 'top',
+                            callbacks: {
+                                label: (tooltipItem) => {
+                                    const value = tooltipItem.raw;
+                                    const label = tooltipItem.label;
+                                    return `${value.toFixed(1)} g`;
+                               }
+                           }
+                       },
+                       datalabels: {
+                           color: (ctx) => nutrientColors[ctx.dataIndex],  
+                           font: { size: 14, weight: 'bold' },
+                           align: 'center',
+                           anchor: 'center',
+                           backgroundColor: (ctx) => ctx.dataset.data[ctx.dataIndex] < 5 ? 'transparent' : 'rgba(255, 255, 255, 0.7)',
+                           borderRadius: (ctx) => ctx.dataset.data[ctx.dataIndex] < 5 ? 0 : 5,
+                           borderWidth: (ctx) => ctx.dataset.data[ctx.dataIndex] < 5 ? 0 : 1,
+                           borderColor: (ctx) => nutrientColors[ctx.dataIndex],
+                           formatter: (value, ctx) => {
+                               if (value < 5) return '';  
+                               return ctx.chart.data.labels[ctx.dataIndex] + '\n' + value.toFixed(1) + ' g';
+                           }
+                       }
+                   }
+               },
+               plugins: [centerTextPlugin, ChartDataLabels]
+           });
+       }
+
+       function updateCharts(mc, mp, mf, mw, ma, CPCarbs, CPProtein, CPFat, CPAlcohol, CalculatedCalories, mSFA, mMUFA, mPUFA, totalFA) {
+          if (!calorieChart || !massChart || !fatChart) {
+              console.error("Charts not initialized yet.");
+              return;
+          }
+
+          let carbPercent = (CPCarbs * 100).toFixed(1);
+          let proteinPercent = (CPProtein * 100).toFixed(1);
+          let fatPercent = (CPFat * 100).toFixed(1);
+          let alcoholPercent = (CPAlcohol * 100).toFixed(1);
+
+          calorieChart.data.datasets[0].data = [parseFloat(carbPercent), parseFloat(proteinPercent), parseFloat(fatPercent), parseFloat(alcoholPercent)];
+          calorieChart.options.centerText = CalculatedCalories >= 100 ? CalculatedCalories.toFixed(0) : CalculatedCalories.toFixed(1);
+          calorieChart.update();
+
+          // ✅ Hide only fatChart if totalFA is missing
+          let fatChartCanvas = document.getElementById("fatChart");
+          if (!totalFA || totalFA <= 0 || isNaN(totalFA)) {
+              fatChartCanvas.style.display = "none";  // Hide only the chart itself
+          } else {
+              fatChartCanvas.style.display = "block"; // Show it if data exists
+
+              let sfaPercent = ((mSFA / totalFA) * 100).toFixed(1);
+              let mufaPercent = ((mMUFA / totalFA) * 100).toFixed(1);
+              let pufaPercent = ((mPUFA / totalFA) * 100).toFixed(1);
+
+              fatChart.data.datasets[0].data = [parseFloat(sfaPercent), parseFloat(mufaPercent), parseFloat(pufaPercent)];
+              fatChart.options.centerText = totalFA >= 1000 ? (totalFA * 0.001).toFixed(2) : (totalFA * 0.001).toFixed(3);
+              fatChart.update();
+          }
+
+          let totalMass = (mc + mp + mf + mw + ma).toFixed(1);
+          massChart.data.datasets[0].data = [mc, mp, mf, mw, ma];
+          massChart.options.centerText = totalMass;
+          massChart.update();
+       }
+
+       function fetchData() {
+
+           fetch('food_data_a.csv')
+               .then(response => response.text())
+               .then(csvText => {
+                   Papa.parse(csvText, {
+                       header: true,
+                       skipEmptyLines: true,
+                       dynamicTyping: true,
+                       quoteChar: '"',
+                       complete: function (results) {
+                           foodData = results.data;
+                           populateCategories();
+                       }
+                   });
+               });
+            
+            fetch('DRI.csv')
+                .then(response => response.text())
+                .then(csvText => {
+                    Papa.parse(csvText, {
+                        header: true,
+                        skipEmptyLines: true,
+                        dynamicTyping: true,
+                        complete: function (results) {
+                            DRIData = results.data;
+                            populateSexAge();
+                        }
+                    });
+                });
+            
+            fetch('Message.csv')
+                .then(response => response.text())
+                .then(csvText => {
+                    Papa.parse(csvText, {
+                        header: true,
+                        skipEmptyLines: true,
+                        dynamicTyping: true,
+                        quoteChar: '"',
+                        complete: function (results) {
+                            messageData = results.data;
+                            displayRandomMessage();  
+                        }
+                    });
+                });
+        
+        }
+
+    </script>
+
+</body>
+</html>
