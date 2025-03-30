@@ -1,1 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RQN4X056RK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'G-RQN4X056RK');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script>
+        let foodData = [];
+        let categories = new Set();
+        const defaultCategories = ["穀物類", "豆類"];
+        const defaultNutrients = ["粗蛋白(g)", "熱量(kcal)", "水分(g)"];
+
+        //Disable Ctrl and F12 
+        document.addEventListener("keydown", function (event){
+            if (event.ctrlKey){
+                 event.preventDefault();
+            }
+            if(event.keyCode == 123){
+                event.preventDefault();
+            }
+        })
+        // Disable Right Click
+        document.addEventListener('contextmenu', event => event.preventDefault() )
+     
+        fetch('Message.csv')
+            .then(response => response.text())
+            .then(csvText => {
+                Papa.parse(csvText, {
+                    header: true,
+                    skipEmptyLines: true,
+                    dynamicTyping: true,
+                    quoteChar: '"',
+                    complete: function (results) {
+                        messageData = results.data;
+                        displayRandomMessage();  
+                    }
+                });
+            });
+        
+        document.addEventListener("DOMContentLoaded", () => {
+            fetch("food_data.csv")
+                .then(response => response.text())
+                .then(csvData => {
+                    processCSV(csvData);
+                    populateCategories();
+                    populateNutrients();
+                    applyURLParams();
+                });
+        });
+
+        function processCSV(csv) {
+            Papa.parse(csv, {
+                header: true,
+                skipEmptyLines: true,
+                complete: function(results) {
+                    foodData = results.data;
+                    foodData.forEach(entry => {
+                        if (entry["Category"]) categories.add(entry["Category"]);
+                    });
+                }
+            });
+        }
+
+        function populateCategories() {
+            const categoryDiv = document.getElementById("categories");
+
+            // Add a separate line for "全選"
+            const selectAllContainer = document.createElement("div");
+            // selectAllContainer.style.marginBottom = "8px"; Add space before category checkboxes
+            selectAllContainer.style.marginRight = "16px"; //Add space after category checkboxes
+            
+            const selectAllLabel = document.createElement("label");
+            selectAllLabel.style.fontWeight = "bold";
+            const selectAllCheckbox = document.createElement("input");
+            selectAllCheckbox.type = "checkbox";
+            selectAllCheckbox.id = "select-all";
+            selectAllCheckbox.addEventListener("change", function () {
+                document.querySelectorAll("input[name='category']").forEach(cb => {
+                    cb.checked = selectAllCheckbox.checked;
+                });
+                filterAndSortData();
+            });
+
+            selectAllLabel.appendChild(selectAllCheckbox);
+            selectAllLabel.appendChild(document.createTextNode(" 全選"));
+            selectAllContainer.appendChild(selectAllLabel);
+            categoryDiv.appendChild(selectAllContainer);
+
+            // Create individual category checkboxes
+            categories.forEach(category => {
+                const label = document.createElement("label");
+                label.style.marginRight = "10px";
+                const checkbox = document.createElement("input");
+                checkbox.type = "checkbox";
+                checkbox.value = category;
+                checkbox.name = "category";
+                checkbox.addEventListener("change", function () {
+                    checkAllStatus();
+                    filterAndSortData();
+                });
+
+                if (defaultCategories.includes(category)) {
+                    checkbox.checked = true;
+                }
+                label.appendChild(checkbox);
+                label.appendChild(document.createTextNode(category));
+                categoryDiv.appendChild(label);
+            });
+
+            checkAllStatus();
+        }
+
+        // Function to check if all categories are selected and update "全選"
+        function checkAllStatus() {
+            const categoryCheckboxes = document.querySelectorAll("input[name='category']");
+            const selectAllCheckbox = document.getElementById("select-all");
+
+            const allChecked = [...categoryCheckboxes].every(cb => cb.checked);
+            selectAllCheckbox.checked = allChecked;
+        }
+
+
+        // Function to check if all categories are selected and update "Select All" checkbox
+        function checkAllStatus() {
+            const categoryCheckboxes = document.querySelectorAll("input[name='category']");
+            const selectAllCheckbox = document.getElementById("select-all");
+
+            const allChecked = [...categoryCheckboxes].every(cb => cb.checked);
+            const noneChecked = [...categoryCheckboxes].every(cb => !cb.checked);
+
+            selectAllCheckbox.checked = allChecked;
+            if (noneChecked) {
+                filterAndSortData(); // Show all data when no category is checked
+            }
+        }
+
+
+        function populateNutrients() {
+            const nutrientSelects = document.querySelectorAll(".nutrient-select");
+            const nutrients = Object.keys(foodData[0]).filter(n => n !== "Food Name" && n !== "Category");
+            nutrientSelects.forEach((select, index) => {
+                nutrients.forEach(nutrient => {
+                    let option = document.createElement("option");
+                    option.value = nutrient;
+                    option.textContent = nutrient;
+                    select.appendChild(option);
+                });
+                if (defaultNutrients[index]) {
+                    select.value = defaultNutrients[index];
+                }
+                select.addEventListener("change", filterAndSortData); // Auto-update table on change
+            });
+            document.getElementById("sort-order").addEventListener("change", filterAndSortData); // Auto-update on sort order change
+        }
+
+        function applyURLParams() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const paramCategories = urlParams.get("categories"); // Get category parameter as a string
+            const paramNutrients = urlParams.get("nutrients")?.split(",");
+
+            const allCategories = Array.from(categories); // Convert Set to Array
+
+            document.querySelectorAll("input[name='category']").forEach(cb => {
+                cb.addEventListener("change", updateURL); // Attach event listener to update the URL
+
+                if (paramCategories === "ALL") {
+                    cb.checked = true; // Select all checkboxes if "ALL" is in the URL
+                } else if (paramCategories) {
+                    const selectedCategories = paramCategories.split(","); // Now safely split
+                    cb.checked = selectedCategories.includes(cb.value);
+                }
+            });
+
+            if (paramNutrients) {
+                document.querySelectorAll(".nutrient-select").forEach((select, index) => {
+                    if (paramNutrients[index]) {
+                        select.value = paramNutrients[index];
+                    }
+                });
+            }
+            filterAndSortData();  // Show the ranking table on page load
+        }
+
+        // Function to update URL with shortened parameter if all categories are selected
+        function updateURL() {
+            const selectedCategories = [...document.querySelectorAll("input[name='category']:checked")].map(cb => cb.value);
+            const allCategories = Array.from(categories);
+            const selectAllCheckbox = document.getElementById("select-all");
+
+            let categoryParam = selectedCategories.length === allCategories.length ? "ALL" : selectedCategories.join(",");
+            if (selectAllCheckbox.checked || selectedCategories.length === 0) {
+                categoryParam = "ALL";  // Set category parameter as ALL when all are selected or none are checked
+            }
+
+            let nutrientParams = [...document.querySelectorAll(".nutrient-select")].map(select => select.value).join(",");
+
+            const newURL = `${window.location.pathname}?${categoryParam ? `categories=${categoryParam}&` : ""}nutrients=${nutrientParams}`;
+           window.history.replaceState({}, "", newURL); // Update URL without reloading
+        }
+
+        function filterAndSortData() {
+            let selectedCategories = [...document.querySelectorAll("input[name='category']:checked")].map(cb => cb.value);
+            const mainNutrient = document.getElementById("main-nutrient").value;
+            const extraNutrient1 = document.getElementById("extra-nutrient1").value;
+            const extraNutrient2 = document.getElementById("extra-nutrient2").value;
+            const sortOrder = document.getElementById("sort-order").value;
+
+            // If no categories are selected, show all data
+            let filteredData = selectedCategories.length > 0 
+                ? foodData.filter(item => selectedCategories.includes(item["Category"])) 
+                : foodData;
+
+            // Remove items without a valid main nutrient value
+            filteredData = filteredData.filter(item => {
+                let nutrientValue = parseFloat(item[mainNutrient]);
+                return !isNaN(nutrientValue); // Keep only items with a valid numeric value
+            });
+            
+            filteredData.sort((a, b) => sortOrder === "desc" ? b[mainNutrient] - a[mainNutrient] : a[mainNutrient] - b[mainNutrient]);
+
+            displayTable(filteredData, mainNutrient, extraNutrient1, extraNutrient2);
+            updateURL();
+        }
+
+        function displayTable(data, main, extra1, extra2) {
+            const table = document.getElementById("result-table");
+            table.innerHTML = "";
+            let headers = ["排名", "食品名稱", main, extra1, extra2, "類別"].filter(h => h);
+    
+            // Create title row with bold font and background color
+            let headerRow = table.insertRow();
+            headerRow.style.backgroundColor = "#D9D2E9";  // Title row background
+            headers.forEach(h => {
+                let th = document.createElement("th");
+                th.textContent = h;
+                th.style.fontWeight = "bold";  // Bold font
+                headerRow.appendChild(th);
+            });
+
+            // If no categories are checked, show all categories
+                const selectedCategories = [...document.querySelectorAll("input[name='category']:checked")].map(cb => cb.value);
+                if (selectedCategories.length === 0) {
+                    data = foodData;  // Show all food data
+                }
+        
+            data.forEach((item, index) => {
+                let row = table.insertRow();
+                row.style.backgroundColor = (index % 2 === 0) ? "#FBFBFB" : "#D9D9D9";  // Alternating row colors
+
+                // Column 1: Ranking
+                row.insertCell().textContent = index + 1;
+        
+                // Column 2: Food Name with Clickable Link (No URL Preview)
+                let foodNameCell = row.insertCell();
+                let link = document.createElement("span");  // Use a <span> instead of <a>
+                link.textContent = item["Food Name"];
+                link.style.color = "blue";
+                link.style.cursor = "pointer";
+                link.title = "營養成分表";  // Hint displayed on hover
+
+                link.onclick = () => {
+                    window.location.href = `https://nutrient-lab.vercel.app/?food=${encodeURIComponent(item["Food Name"])}`;
+                };
+
+                foodNameCell.appendChild(link);
+
+
+                // Column 3-5: Nutrients with formatted values
+                row.insertCell().textContent = formatValue(item[main]) || "";
+                row.insertCell().textContent = formatValue(item[extra1]) || "";
+                row.insertCell().textContent = formatValue(item[extra2]) || "";
+
+                // Column 6: Category
+                row.insertCell().textContent = item["Category"];
+            });
+        }
+
+        // Function to format numeric values with appropriate decimal places
+        function formatValue(value) {
+            let num = parseFloat(value);
+            if (isNaN(num)) return value;  // Return original if not a number
+
+            if (num == 0) return num.toFixed(0);
+            if (num < 1) return num.toFixed(4);
+            if (num < 10) return num.toFixed(3);
+            if (num < 100) return num.toFixed(2);
+            if (num < 1000) return num.toFixed(1);
+            return Math.round(num);  // Round to integer if >= 1000
+        }
+
+
+        function displayRandomMessage() {
+            if (messageData.length === 0) return;
+
+            let randomIndex = Math.floor(Math.random() * messageData.length);
+            currentMessage = messageData[randomIndex];
+
+            document.getElementById('messageLine1').textContent = currentMessage["Line 1"];
+            document.getElementById('messageLine2').textContent = currentMessage["Line 2"];
+        }
+
+        function openMessageLink() {
+            if (currentMessage["Link"]) {
+                window.open(currentMessage["Link"], '_blank');
+            }
+        }
+
+    </script>
+
+        <style>
+        body { font-family: Arial, sans-serif; text-align: left; font-size: 20px; }
+
+        /* ✅ Ensure Checkbox Array fit full width */    
+        #categories {
+            width: 100%;
+            max-width: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px; /* Add spacing between checkboxes */
+        }
+
+        #categories label {
+            display: flex;
+            align-items: center;
+            white-space: nowrap; /* Prevents text wrapping */
+        }
+            
+        /* ✅ Message Box - Scrolls with Page */
+        #messageBox {
+            width: 90%;  /* ✅ Prevents full-width stretching */
+            max-width: 900px;  /* ✅ Limits width to prevent too much spacing */
+            background-color: #f2feff;  /* ✅ Light blue background */
+            color: #83898a;  /* ✅ Gray text */
+            text-align: center;
+            padding: 4px 10px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+            margin: 10px auto;  /* ✅ Centers the message box with spacing */
+            border-radius: 8px;  /* ✅ Adds rounded corners */
+        }
+
+        /* ✅ Reduce line spacing in the message box */
+        #messageBox p {
+            margin: 2px 0;  /* ✅ Reduces space between the two lines */
+            line-height: 1.2;  /* ✅ Reduces vertical spacing */
+        }
+
+        /* ✅ Ensure readability on small screens */
+        @media (max-width: 600px) {
+            #messageBox {
+                font-size: 20px;  /* ✅ Slightly smaller text for mobile */
+                padding: 3px 5px;
+            }
+    
+            #messageBox p {
+                line-height: 1.1;  /* ✅ Further reduce spacing on small screens */
+            }
+        }
+            
+        /* ✅ Set font size for dropdowns */
+        select, 
+        select.nutrient-select {
+            font-size: 20px;
+        }
+
+        /* ✅ Ensure options inside dropdowns have 20px font size */
+        select option {
+            font-size: 20px;
+        }
+
+        /* ✅ Arrange dropdowns in a row with spacing */
+        .dropdown-container {
+            display: flex;  
+            align-items: center;  /* Align labels and selects vertically */
+            gap: 10px;  /* Adjust spacing between label-select pairs */
+        }
+
+        /* ✅ Add spacing between label and select */
+        .dropdown-container label {
+            margin-right: 5px;  /* Adjust this value for more or less spacing */
+        }
+            
+        /* ✅ Set button font size to 20px */
+        button {
+            font-size: 20px;
+        }
+
+        /* ✅ Set header regular weight */
+        .regular-header {
+            font-size: 18px;
+            color: gray;
+            font-weight: normal; /* Set regular font weight */
+        }
+
+       /* ✅ Ensure table is responsive and column widths are sufficient */
+       #result-table {
+           width: auto;  /* Prevent unnecessary full width */
+           border-collapse: collapse;  /* Removes double borders */
+           /* table-layout: fixed; Fixes column widths for better spacing */
+           table-layout: auto; /* Allow column width to fit content */
+       }
+
+       /* ✅ Set minimum widths for each column */
+
+       #result-table th, #result-table td {
+           padding: 8px;
+           border: 1px solid lightgray;
+           white-space: nowrap; /* Prevent wrapping */
+       }     
+
+       /* ✅ Ensure table is scrollable on small screens */
+       @media (max-width: auto) {
+           #result-table {
+               display: block;
+               overflow-x: auto;  /* Enables horizontal scrolling */
+               white-space: nowrap;
+               min-width: 600px;  /* Ensures table container is wide enough */
+           }
+       }
+   
+    </style>
+    
+</head>
+    
+<body>
+    
+    <!-- Scrollable Message Box -->
+    <div id="messageBox" onclick="openMessageLink()">
+        <p id="messageLine1"></p>
+        <p id="messageLine2"></p>
+    </div>
+    
+    <h1></h1>
+    <div>
+        <h3>選擇類別</h3>
+        <div id="categories"></div>
+    </div>
+    <div>
+        <h3>選擇成分、順序</h3>
+        <div class="dropdown-container">
+            <label></label>
+            <select id="main-nutrient" class="nutrient-select"></select>
+            <select id="extra-nutrient1" class="nutrient-select"></select>
+            <select id="extra-nutrient2" class="nutrient-select"></select>
+        </div>
+        
+        <br>
+        
+        <label>　</label>
+        <select id="sort-order">
+            <option value="desc">由高至低</option>
+            <option value="asc">由低至高</option>
+        </select>
+        
+        <br><br>
+        
+    </div>
+    <div>
+        <h3 class="regular-header">
+            100g食材 (點擊食品名稱查看<b>營養成分表</b>)
+        </h3>
+    </div>
+    <table border="1" id="result-table"></table>
+        
+</body>
+</html>
