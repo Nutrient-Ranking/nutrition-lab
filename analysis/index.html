@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2SPJ986GQT"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-2SPJ986GQT');
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
@@ -425,18 +416,6 @@
         let sfaUL = null;   
         let transfatUL = null;   
         let cholesterolUL = null;   
-
-        //Disable Ctrl and F12 
-        document.addEventListener("keydown", function (event){
-            if (event.ctrlKey){
-                 event.preventDefault();
-            }
-            if(event.keyCode == 123){
-                event.preventDefault();
-            }
-        })
-        // Disable Right Click
-        document.addEventListener('contextmenu', event => event.preventDefault() )
         
         //Initialize pie charts and fetch data 
         document.addEventListener("DOMContentLoaded", function() {
