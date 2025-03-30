@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RQN4X056RK"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-RQN4X056RK');
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
@@ -19,18 +10,6 @@
         let categories = new Set();
         const defaultCategories = ["穀物類", "豆類"];
         const defaultNutrients = ["粗蛋白(g)", "熱量(kcal)", "水分(g)"];
-
-        //Disable Ctrl and F12 
-        document.addEventListener("keydown", function (event){
-            if (event.ctrlKey){
-                 event.preventDefault();
-            }
-            if(event.keyCode == 123){
-                event.preventDefault();
-            }
-        })
-        // Disable Right Click
-        document.addEventListener('contextmenu', event => event.preventDefault() )
      
         fetch('ranking/Message.csv')
             .then(response => response.text())
@@ -269,7 +248,7 @@
                 link.title = "營養成分表";  // Hint displayed on hover
 
                 link.onclick = () => {
-                    window.location.href = `https://nutrient-lab.vercel.app/?food=${encodeURIComponent(item["Food Name"])}`;
+                    window.location.href = `https://nutrition-lab.vercel.app/analysis?food=${encodeURIComponent(item["Food Name"])}`;
                 };
 
                 foodNameCell.appendChild(link);
