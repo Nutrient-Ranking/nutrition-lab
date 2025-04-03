@@ -248,7 +248,7 @@
                 link.title = "營養成分表";  // Hint displayed on hover
 
                 link.onclick = () => {
-                    window.location.href = `https://nutrition-lab.vercel.app/analysis?food=${encodeURIComponent(item["Food Name"])}`;
+                    window.location.href = `https://nutrient-ranking.vercel.app/analysis?food=${encodeURIComponent(item["Food Name"])}`;
                 };
 
                 foodNameCell.appendChild(link);
@@ -277,15 +277,31 @@
             return Math.round(num);  // Round to integer if >= 1000
         }
 
-
+        
         function displayRandomMessage() {
+            
             if (messageData.length === 0) return;
-
+            
             let randomIndex = Math.floor(Math.random() * messageData.length);
             currentMessage = messageData[randomIndex];
 
-            document.getElementById('messageLine1').textContent = currentMessage["Line 1"];
-            document.getElementById('messageLine2').textContent = currentMessage["Line 2"];
+            let line1 = currentMessage["Line 1"];
+            let line2 = currentMessage["Line 2"];
+
+            let messageBox = document.getElementById('messageBox');
+            let messageLine1 = document.getElementById('messageLine1');
+            let messageLine2 = document.getElementById('messageLine2');
+
+            if ((line1.length > 20) || (line2.length > 20)) {
+                // Combine Line 1 and Line 2 into a single line
+                messageLine1.textContent = line1 + " " + line2;
+                messageLine2.style.display = "none"; // Hide Line 2
+            } else {
+                // Show Line 1 and Line 2 separately
+                messageLine1.textContent = line1;
+                messageLine2.textContent = line2;
+                messageLine2.style.display = "block"; // Ensure Line 2 is visible
+            }
         }
 
         function openMessageLink() {
@@ -322,7 +338,7 @@
             color: #83898a;  /* ✅ Gray text */
             text-align: center;
             padding: 4px 10px;
-            font-size: 20px;
+            font-size: 16px;
             font-weight: bold;
             cursor: pointer;
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
@@ -339,7 +355,7 @@
         /* ✅ Ensure readability on small screens */
         @media (max-width: 600px) {
             #messageBox {
-                font-size: 20px;  /* ✅ Slightly smaller text for mobile */
+                font-size: 16px;  /* ✅ Slightly smaller text for mobile */
                 padding: 3px 5px;
             }
     
