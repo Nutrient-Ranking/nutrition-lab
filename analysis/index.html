@@ -36,7 +36,7 @@
         /* ✅ Ensure readability on small screens */
         @media (max-width: 600px) {
             #messageBox {
-                font-size: 14px;  /* ✅ Slightly smaller text for mobile */
+                font-size: 20px;  /* ✅ Slightly smaller text for mobile */
                 padding: 3px 5px;
             }
     
@@ -519,13 +519,29 @@
         }        
           
         function displayRandomMessage() {
+            
             if (messageData.length === 0) return;
-
+            
             let randomIndex = Math.floor(Math.random() * messageData.length);
             currentMessage = messageData[randomIndex];
 
-            document.getElementById('messageLine1').textContent = currentMessage["Line 1"];
-            document.getElementById('messageLine2').textContent = currentMessage["Line 2"];
+            let line1 = currentMessage["Line 1"];
+            let line2 = currentMessage["Line 2"];
+
+            let messageBox = document.getElementById('messageBox');
+            let messageLine1 = document.getElementById('messageLine1');
+            let messageLine2 = document.getElementById('messageLine2');
+
+            if ((line1.length > 20) || (line2.length > 20)) {
+                // Combine Line 1 and Line 2 into a single line
+                messageLine1.textContent = line1 + " " + line2;
+                messageLine2.style.display = "none"; // Hide Line 2
+            } else {
+                // Show Line 1 and Line 2 separately
+                messageLine1.textContent = line1;
+                messageLine2.textContent = line2;
+                messageLine2.style.display = "block"; // Ensure Line 2 is visible
+            }
         }
 
         function openMessageLink() {
