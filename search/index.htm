@@ -86,11 +86,11 @@
     <script>
         
         let foodData = [];
+        let dataLoaded = false; // Track if data is ready
 
         async function loadCSV() {
-            const response = await fetch('search/food_name_ce.csv');
+            const response = await fetch('food_name_ce.csv');
             const text = await response.text();
-            //const rows = text.split(/\r?\n/).filter(row => row.trim());
             const parsed = Papa.parse(text.trim(), {
                 header: false,
                 skipEmptyLines: true
@@ -98,7 +98,6 @@
             
             foodData = parsed.data.map((row, index) => {
                 if (index === 0) return null; // Skip header if exists
-
                 return {
                     category: row[0]?.trim() || '',
                     foodName: row[1]?.trim() || '',
@@ -109,16 +108,14 @@
                 };
             }).filter(item => item !== null);
 
-            // console.log("CSV Data Loaded:", foodData);
+            dataLoaded = true; // Mark data as loaded
         }
 
         function searchFood() {
-            if (foodData.length === 0) {
+            if (!dataLoaded || foodData.length === 0) {
                 alert("數據尚未載入，請稍等或重新整理頁面。");
                 return;
             }
-
-            // sessionStorage.setItem('lastSearch', document.getElementById("searchBox").value.trim());
 
             const input = document.getElementById("searchBox").value.trim().toLowerCase();
             sessionStorage.setItem('lastSearch', input);
@@ -132,16 +129,9 @@
             }
 
             const keywords = input.split(/\s+/); // split by space
-
             const matchesWithScores = [];
 
             foodData.forEach(item => {
-                // const category = item.category.toLowerCase();
-                // const foodName = item.foodName.toLowerCase();
-                // const altName = item.alternativeName?.toLowerCase() || '';
-                // const textFields = [category, foodName, altName];
-                //const textFields = [item.chineseTerms, item.englishTerms.toLowerCase()];
-
                 const textFields = [
                     item.category?.toLowerCase() || '',
                     item.foodName?.toLowerCase() || '',
@@ -151,8 +141,6 @@
                 ];
 
                 let score = 0;
-
-                // Default partial match scoring
                 for (const keyword of keywords) {
                     for (const field of textFields) {
                         if (field === keyword) {
@@ -185,12 +173,23 @@
                 matches.forEach(item => {
                     const row = resultsTableBody.insertRow();
                     row.insertCell(0).textContent = item.category;
-                    row.insertCell(1).innerHTML = `<a href="https://nutrient-ranking.vercel.app/analysis?row=${item.rowNum}">${item.foodName}</a>`;
+                    
+                    const nameCell = row.insertCell(1);
+                    const link = document.createElement('span');
+                    link.textContent = item.foodName;
+                    link.title = "營養成分表";
+                    link.style.color = '#007bff';
+                    link.style.cursor = 'pointer';
+                    link.style.textDecoration = 'underline';
+                    link.addEventListener('click', () => {
+                        window.location.href = `https://nutrient-lab.vercel.app?row=${item.rowNum}`;
+                    });
+                    nameCell.appendChild(link);
+                    
                     row.insertCell(2).textContent = item.alternativeName || '-';
                 });
             }
 
-            // console.log(foodData.find(item => item.chineseTerms.includes('三角飯團')));
         }
 
         document.addEventListener("DOMContentLoaded", () => {
