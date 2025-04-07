@@ -313,7 +313,7 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 水果類,"黃肉李","李子",水果類 水果类 黃肉李 李子黄肉李 ,Plum
 水果類,"黑李","李子",水果類 水果类 黑李 李子黑李 ,California plum
 水果類,"枇杷","琶琵果",水果類 水果类 枇杷 琶琵果枇杷 ,Loquat
-水果類,"筆柿","柿子,柹,香柿(長柿,珍寶柿,筆干柿)",水果類 水果类 筆柿 柿子 柹 香柿 長柿 珍寶柿 筆干柿 笔柿 长柿 珍宝柿 笔干柿 ,Persimmon
+水果類,"筆柿","柿子,柹,香柿(長柿,珍寶柿,筆干柿)",水果類 水果类 筆柿 柿子 柹 香柿 長柿 珍寶柿 筆干柿 筆乾柿 笔柿 长柿 珍宝柿 笔干柿笔乾柿 ,Persimmon
 水果類,"甜柿平均值","柿子,柹,香柿",水果類 水果类 甜柿平均值 柿子 柹 香柿甜柿平均值 ,Persimmon
 水果類,"富有甜柿(大雪山)","柿子,柹,香柿",水果類 水果类 富有甜柿 大雪山 柿子 柹 香柿富有甜柿 ,Persimmon
 水果類,"甜柿(進口)","柿子,柹,香柿",水果類 水果类 甜柿 進口 柿子 柹 香柿甜柿 进口 ,Persimmon
@@ -392,8 +392,8 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 水果類,"檸檬汁(黃皮)",,水果類 水果类 檸檬汁 黃皮 柠檬汁 黄皮 ,Lemon juice
 水果類,"檸檬汁(綠皮)",,水果類 水果类 檸檬汁 綠皮 柠檬汁 绿皮 ,Lemon juice
 水果類,"萊姆汁","無子檸檬",水果類 水果类 萊姆汁 無子檸檬莱姆汁 无子柠檬 ,Lime
-水果類,"紅甘蔗汁","甘蔗汁、高貴蔗汁、果蔗汁、干蔗汁、薯蔗汁、竹蔗汁",水果類 水果类 紅甘蔗汁 甘蔗汁、高貴蔗汁、果蔗汁、干蔗汁、薯蔗汁、竹蔗汁红甘蔗汁 甘蔗汁丶高贵蔗汁丶果蔗汁丶干蔗汁丶薯蔗汁丶竹蔗汁 ,Sugarcane
-水果類,"紅甘蔗汁(有機,2023年取樣)","甘蔗汁、高貴蔗汁、果蔗汁、干蔗汁、薯蔗汁、竹蔗汁",水果類 水果类 紅甘蔗汁 有機 年取樣 甘蔗汁、高貴蔗汁、果蔗汁、干蔗汁、薯蔗汁、竹蔗汁红甘蔗汁 有机 年取样 甘蔗汁丶高贵蔗汁丶果蔗汁丶干蔗汁丶薯蔗汁丶竹蔗汁 ,Sugarcane Noble sugar cane
+水果類,"紅甘蔗汁","甘蔗汁、高貴蔗汁、果蔗汁、干蔗汁、薯蔗汁、竹蔗汁",水果類 水果类 紅甘蔗汁 甘蔗汁、高貴蔗汁、果蔗汁、干蔗汁、薯蔗汁、竹蔗汁红甘蔗汁 甘蔗汁、高貴蔗汁、果蔗汁、乾蔗汁、薯蔗汁、竹蔗汁红甘蔗汁 甘蔗汁丶高贵蔗汁丶果蔗汁丶干蔗汁丶薯蔗汁丶竹蔗汁甘蔗汁丶高贵蔗汁丶果蔗汁丶乾蔗汁丶薯蔗汁丶竹蔗汁 ,Sugarcane
+水果類,"紅甘蔗汁(有機,2023年取樣)","甘蔗汁、高貴蔗汁、果蔗汁、干蔗汁、薯蔗汁、竹蔗汁",水果類 水果类 紅甘蔗汁 有機 年取樣 甘蔗汁、高貴蔗汁、果蔗汁、干蔗汁、薯蔗汁、竹蔗汁红甘蔗汁 甘蔗汁、高貴蔗汁、果蔗汁、乾蔗汁、薯蔗汁、竹蔗汁红甘蔗汁 有机 年取样 甘蔗汁丶高贵蔗汁丶果蔗汁丶干蔗汁丶薯蔗汁丶竹蔗汁甘蔗汁丶高贵蔗汁丶果蔗汁丶乾蔗汁丶薯蔗汁丶竹蔗汁 ,Sugarcane Noble sugar cane
 水果類,"人心果","吳鳳柿,沙漠吉拉,查某囝仔,人蔘果",水果類 水果类 人心果 吳鳳柿 沙漠吉拉 查某囝仔 人蔘果人心果 吴凤柿 ,Sapodilla
 水果類,"可可椰子汁平均值","椰子汁,越王頭汁",水果類 水果类 可可椰子汁平均值 椰子汁 越王頭汁可可椰子汁平均值 越王头汁 ,Coconut juice Coco palm juice Coconut terr juice
 水果類,"可可椰子汁(屏東)","椰子汁,越王頭汁",水果類 水果类 可可椰子汁 屏東 越王頭汁可可椰子汁 屏东 越王头汁 ,Coconut juice Coco palm juice Coconut terr juice
@@ -762,10 +762,10 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 菇類,"白蠔菇",,菇類 菇类 白蠔菇 白蚝菇 ,White Oyster Mushroom
 菇類,"玫瑰菇","紅側耳,桃紅平菇,紅平菇,粉紅菇",菇類 菇类 玫瑰菇 紅側耳 桃紅平菇 粉紅菇玫瑰菇 红侧耳 桃红平菇 粉红菇 ,
 菇類,"杏香菇","香微蘑,雪茸,帝王菇,平菇王",菇類 菇类 杏香菇 香微蘑 雪茸 帝王菇 平菇王杏香菇 ,King Oyster Mushroom
-菇類,"杏鮑菇平均值","鳳尾菇,雪茸,帝王菇,平菇王,蠔菇王,干貝菇,刺芹側耳,義大利側耳,義大利蠔菌,杏鮑茸,西洋刺耳",菇類 菇类 杏鮑菇平均值 鳳尾菇 雪茸 帝王菇 平菇王 蠔菇王 干貝菇 刺芹側耳 義大利側耳 義大利蠔菌 杏鮑茸 西洋刺耳杏鲍菇平均值 凤尾菇 蚝菇王 干贝菇 刺芹侧耳 义大利侧耳 义大利蚝菌 杏鲍茸 ,King oyster mushroom apricot mushroom almond abalone mushroom
-菇類,"杏鮑菇(大)","鳳尾菇,雪茸,帝王菇,平菇王,蠔菇王,干貝菇,刺芹側耳,義大利側耳,義大利蠔菌,杏鮑茸,西洋刺耳",菇類 菇类 杏鮑菇 大 鳳尾菇 雪茸 帝王菇 平菇王 蠔菇王 干貝菇 刺芹側耳 義大利側耳 義大利蠔菌 杏鮑茸 西洋刺耳杏鲍菇 凤尾菇 蚝菇王 干贝菇 刺芹侧耳 义大利侧耳 义大利蚝菌 杏鲍茸 ,King oyster mushroom apricot mushroom almond abalone mushroom
-菇類,"杏鮑菇(中)","鳳尾菇,雪茸,帝王菇,平菇王,蠔菇王,干貝菇,刺芹側耳,義大利側耳,義大利蠔菌,杏鮑茸,西洋刺耳",菇類 菇类 杏鮑菇 中 鳳尾菇 雪茸 帝王菇 平菇王 蠔菇王 干貝菇 刺芹側耳 義大利側耳 義大利蠔菌 杏鮑茸 西洋刺耳杏鲍菇 凤尾菇 蚝菇王 干贝菇 刺芹侧耳 义大利侧耳 义大利蚝菌 杏鲍茸 ,King oyster mushroom apricot mushroom almond abalone mushroom
-菇類,"杏鮑菇(小)","鳳尾菇,雪茸,帝王菇,平菇王,蠔菇王,干貝菇,刺芹側耳,義大利側耳,義大利蠔菌,杏鮑茸,西洋刺耳",菇類 菇类 杏鮑菇 小 鳳尾菇 雪茸 帝王菇 平菇王 蠔菇王 干貝菇 刺芹側耳 義大利側耳 義大利蠔菌 杏鮑茸 西洋刺耳杏鲍菇 凤尾菇 蚝菇王 干贝菇 刺芹侧耳 义大利侧耳 义大利蚝菌 杏鲍茸 ,King oyster mushroom apricot mushroom almond abalone mushroom
+菇類,"杏鮑菇平均值","鳳尾菇,雪茸,帝王菇,平菇王,蠔菇王,干貝菇,刺芹側耳,義大利側耳,義大利蠔菌,杏鮑茸,西洋刺耳",菇類 菇类 杏鮑菇平均值 鳳尾菇 雪茸 帝王菇 平菇王 蠔菇王 干貝菇 乾貝菇 刺芹側耳 義大利側耳 義大利蠔菌 杏鮑茸 西洋刺耳杏鲍菇平均值 凤尾菇 蚝菇王 干贝菇 乾贝菇 刺芹侧耳 义大利侧耳 义大利蚝菌 杏鲍茸 ,King oyster mushroom apricot mushroom almond abalone mushroom
+菇類,"杏鮑菇(大)","鳳尾菇,雪茸,帝王菇,平菇王,蠔菇王,干貝菇,刺芹側耳,義大利側耳,義大利蠔菌,杏鮑茸,西洋刺耳",菇類 菇类 杏鮑菇 大 鳳尾菇 雪茸 帝王菇 平菇王 蠔菇王 干貝菇 乾貝菇 刺芹側耳 義大利側耳 義大利蠔菌 杏鮑茸 西洋刺耳杏鲍菇 凤尾菇 蚝菇王 干贝菇 乾贝菇 刺芹侧耳 义大利侧耳 义大利蚝菌 杏鲍茸 ,King oyster mushroom apricot mushroom almond abalone mushroom
+菇類,"杏鮑菇(中)","鳳尾菇,雪茸,帝王菇,平菇王,蠔菇王,干貝菇,刺芹側耳,義大利側耳,義大利蠔菌,杏鮑茸,西洋刺耳",菇類 菇类 杏鮑菇 中 鳳尾菇 雪茸 帝王菇 平菇王 蠔菇王 干貝菇 乾貝菇 刺芹側耳 義大利側耳 義大利蠔菌 杏鮑茸 西洋刺耳杏鲍菇 凤尾菇 蚝菇王 干贝菇 乾贝菇 刺芹侧耳 义大利侧耳 义大利蚝菌 杏鲍茸 ,King oyster mushroom apricot mushroom almond abalone mushroom
+菇類,"杏鮑菇(小)","鳳尾菇,雪茸,帝王菇,平菇王,蠔菇王,干貝菇,刺芹側耳,義大利側耳,義大利蠔菌,杏鮑茸,西洋刺耳",菇類 菇类 杏鮑菇 小 鳳尾菇 雪茸 帝王菇 平菇王 蠔菇王 干貝菇 乾貝菇 刺芹側耳 義大利側耳 義大利蠔菌 杏鮑茸 西洋刺耳杏鲍菇 凤尾菇 蚝菇王 干贝菇 乾贝菇 刺芹侧耳 义大利侧耳 义大利蚝菌 杏鲍茸 ,King oyster mushroom apricot mushroom almond abalone mushroom
 菇類,"珊瑚菇","金頂鮑魚菇,金頂蘑,榆黃蘑,榆(黃)蘑,黃金菇,玉皇(米)菇,粗口黃,楊柳菌,黃樹窩(金頂側耳)",菇類 菇类 珊瑚菇 金頂鮑魚菇 金頂蘑 榆黃蘑 榆 黃 黃金菇 玉皇 米 粗口黃 楊柳菌 黃樹窩 金頂側耳 金顶鲍鱼菇 金顶蘑 榆黄蘑 黄 黄金菇 粗口黄 杨柳菌 黄树窝 金顶侧耳 ,Golden oyster mushroom tamogitake
 菇類,"蠔菇","平菇,日本蠔菇,糙皮側耳,黑牡丹菇,黑美人菇,人工口蘑(囊狀側耳)",菇類 菇类 蠔菇 平菇 日本蠔菇 糙皮側耳 黑牡丹菇 黑美人菇 人工口蘑 囊狀側耳 蚝菇 日本蚝菇 糙皮侧耳 囊状侧耳 ,Obalonus Cystidiate Pleurotus The Abalone Mushroom
 菇類,"鮑魚菇","夏季鮑魚菇,高溫平菇,台灣平菇,黑美人菇,人工口蘑(囊狀側耳)",菇類 菇类 鮑魚菇 夏季鮑魚菇 高溫平菇 台灣平菇 黑美人菇 人工口蘑 囊狀側耳 鲍鱼菇 夏季鲍鱼菇 高温平菇 台湾平菇 囊状侧耳 ,Obalonus Cystidiate Pleurotus The Abalone Mushroom
@@ -983,23 +983,23 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 肉類,"山豬肉片","山豬肉",肉類 肉类 山豬肉片 山豬肉山猪肉片 ,Wild boar meat slices
 肉類,"虎皮蛙","虎斑蛙,虎紋蛙,水雞,田雞,台灣青蛙,青蛙肉,蛙肉",肉類 肉类 虎皮蛙 虎斑蛙 虎紋蛙 水雞 田雞 台灣青蛙 青蛙肉 蛙肉虎皮蛙 虎纹蛙 水鸡 田鸡 台湾青蛙 ,Frog Chinese bullfrog
 肉類,"蛇肉",,肉類 肉类 蛇肉 ,Snake flesh
-魚貝類,"雙髻鯊","丫髻鯊(鮫),犛頭沙,雙髻鯊,雙過仔,鯊魚肉",魚貝類 鱼贝类 雙髻鯊 丫髻鯊 鮫 犛頭沙 雙過仔 鯊魚肉双髻鲨 丫髻鲨 鲛 牦头沙 双过仔 鲨鱼肉 ,Hammerhead Hammerhead shark
-魚貝類,"雙髻鯊腹肉","丫髻鯊(鮫),犛頭沙,雙髻鯊,雙過仔,鯊魚肉",魚貝類 鱼贝类 雙髻鯊腹肉 丫髻鯊 鮫 犛頭沙 雙髻鯊 雙過仔 鯊魚肉双髻鲨腹肉 丫髻鲨 鲛 牦头沙 双髻鲨 双过仔 鲨鱼肉 ,Hammerhead Hammerhead shark
-魚貝類,"鯊魚切片","鯊魚肉",魚貝類 鱼贝类 鯊魚切片 鯊魚肉鲨鱼切片 鲨鱼肉 ,Shark
+魚貝類,"雙髻鯊","丫髻鯊(鮫),犛頭沙,雙髻鯊,雙過仔,鯊魚肉",魚貝類 鱼贝类 雙髻鯊 雙髻沙 丫髻鯊 丫髻沙 鮫 犛頭沙 雙髻沙 雙過仔 鯊魚肉双髻鲨 沙魚肉双髻鲨 丫髻鲨 鲛 牦头沙 双过仔 鲨鱼肉 ,Hammerhead Hammerhead shark
+魚貝類,"雙髻鯊腹肉","丫髻鯊(鮫),犛頭沙,雙髻鯊,雙過仔,鯊魚肉",魚貝類 鱼贝类 雙髻鯊腹肉 雙髻沙腹肉 丫髻鯊 丫髻沙 鮫 犛頭沙 雙髻鯊 雙髻沙 雙過仔 鯊魚肉双髻鲨腹肉 沙魚肉双髻鲨腹肉 丫髻鲨 鲛 牦头沙 双髻鲨 双过仔 鲨鱼肉 ,Hammerhead Hammerhead shark
+魚貝類,"鯊魚切片","鯊魚肉",魚貝類 鱼贝类 鯊魚切片 沙魚切片 鯊魚肉鲨鱼切片 沙魚肉鲨鱼切片 鲨鱼肉 ,Shark
 魚貝類,"魟魚","魟魚肉",魚貝類 鱼贝类 魟魚 魟魚肉魟鱼 魟鱼肉 ,Stingray
 魚貝類,"日本鰻鱺魚片(生)","白鰻,日本鰻,正鰻,白鱔,鰻鱺,土鰻(澎湖),淡水鰻(澎湖),鰻魚肉",魚貝類 鱼贝类 日本鰻鱺魚片 生 白鰻 日本鰻 正鰻 白鱔 鰻鱺 土鰻 澎湖 淡水鰻 鰻魚肉日本鳗鲡鱼片 白鳗 日本鳗 正鳗 白鳝 鳗鲡 土鳗 淡水鳗 鳗鱼肉 ,Japanese eel Freshwater eel Eel
-魚貝類,"灰海鰻","虎鰻,海鰻,錢鰻(臺東),,鰻魚肉",魚貝類 鱼贝类 灰海鰻 虎鰻 錢鰻 台東 鰻魚肉灰海鳗 虎鳗 钱鳗 台东 鳗鱼肉 ,Shape toothed eel Conger pike Daggertooth pike conger Dagger tooth pikeconger Arabian pike eel
-魚貝類,"魩仔魚","魩仔",魚貝類 鱼贝类 魩仔魚 魩仔魩仔鱼 ,Anchovy
-魚貝類,"魩仔魚平均值(加工)","魩仔",魚貝類 鱼贝类 魩仔魚平均值 加工 魩仔魩仔鱼平均值 ,Anchovy
-魚貝類,"魩仔魚(加工,大)","魩仔",魚貝類 鱼贝类 魩仔魚 加工 大 魩仔魩仔鱼 ,Anchovy
-魚貝類,"魩仔魚(加工,小)","魩仔",魚貝類 鱼贝类 魩仔魚 加工 小 魩仔魩仔鱼 ,Anchovy
-魚貝類,"魩仔魚(加工)",,魚貝類 鱼贝类 魩仔魚 加工 魩仔鱼 ,Anchovy
-魚貝類,"灰海荷蝹","針魩仔,鱙仔,寮仔魚,魚肉",魚貝類 鱼贝类 灰海荷蝹 針魩仔 鱙仔 寮仔魚 魚肉灰海荷蝹 针魩仔 寮仔鱼 鱼肉 ,Japanese anchovy
-魚貝類,"日本銀帶鯡(加工)","針嘴鰮,丁香魚,魩仔,丁香,鱙仔,灰海荷鰮,魚肉",魚貝類 鱼贝类 日本銀帶鯡 加工 針嘴鰮 丁香魚 魩仔 丁香 鱙仔 灰海荷鰮 魚肉日本银带鲱 针嘴鰮 丁香鱼 鱼肉 ,Silver stripe round herring
-魚貝類,"日本銀帶鯡魚干(丁香魚脯)","針嘴鰮,丁香魚,魩仔,丁香,鱙仔,灰海荷鰮,魚肉",魚貝類 鱼贝类 日本銀帶鯡魚干 丁香魚脯 針嘴鰮 丁香魚 魩仔 丁香 鱙仔 灰海荷鰮 魚肉日本银带鲱鱼干 丁香鱼脯 针嘴鰮 丁香鱼 鱼肉 ,Silver stripe round herring
-魚貝類,"虱目魚平均值(去皮)","麻虱目仔,麻虱(蝨)目,蝨(遮/塞)目魚,虱麻魚,海草魚,安平魚,國姓(聖)魚,魚肉",魚貝類 鱼贝类 虱目魚平均值 去皮 麻虱目仔 麻虱 目 遮/塞 目魚 虱麻魚 海草魚 安平魚 國姓 聖 魚肉虱目鱼平均值 目鱼 虱麻鱼 海草鱼 安平鱼 国姓 圣 鱼肉 ,Bangos Bony salmon Giant herring Milkfish Salmon herring White mullet
-魚貝類,"虱目魚(2月)","海草魚,遮目魚,殺目魚,安平魚,國姓魚,麻虱目仔,虱目/麻虱目(澎湖),魚肉",魚貝類 鱼贝类 虱目魚 月 海草魚 遮目魚 殺目魚 安平魚 國姓魚 麻虱目仔 虱目/麻虱目 澎湖 魚肉虱目鱼 海草鱼 遮目鱼 杀目鱼 安平鱼 国姓鱼 鱼肉 ,Milkfish Milk fish
-魚貝類,"虱目魚(5月)","海草魚,遮目魚,殺目魚,安平魚,國姓魚,麻虱目仔,虱目/麻虱目(澎湖),魚肉",魚貝類 鱼贝类 虱目魚 月 海草魚 遮目魚 殺目魚 安平魚 國姓魚 麻虱目仔 虱目/麻虱目 澎湖 魚肉虱目鱼 海草鱼 遮目鱼 杀目鱼 安平鱼 国姓鱼 鱼肉 ,Milkfish Milk fish
+魚貝類,"灰海鰻","虎鰻,海鰻,錢鰻(臺東),鰻魚肉",魚貝類 鱼贝类 灰海鰻 虎鰻 錢鰻 台東 鰻魚肉灰海鳗 虎鳗 钱鳗 台东 鳗鱼肉 ,Shape toothed eel Conger pike Daggertooth pike conger Dagger tooth pikeconger Arabian pike eel
+魚貝類,"魩仔魚","魩仔,魚苗",魚貝類 鱼贝类 魩仔魚 魩仔 魚苗魩仔鱼 鱼苗 ,Anchovy
+魚貝類,"魩仔魚平均值(加工)","魩仔,魚苗",魚貝類 鱼贝类 魩仔魚平均值 加工 魩仔 魚苗魩仔鱼平均值 鱼苗 ,Anchovy
+魚貝類,"魩仔魚(加工,大)","魩仔,魚苗",魚貝類 鱼贝类 魩仔魚 加工 大 魩仔 魚苗魩仔鱼 鱼苗 ,Anchovy
+魚貝類,"魩仔魚(加工,小)","魩仔,魚苗",魚貝類 鱼贝类 魩仔魚 加工 小 魩仔 魚苗魩仔鱼 鱼苗 ,Anchovy
+魚貝類,"魩仔魚(加工)","魩仔,魚苗",魚貝類 鱼贝类 魩仔魚 加工 魩仔 魚苗魩仔鱼 鱼苗 ,Anchovy
+魚貝類,"灰海荷蝹","針魩仔,鱙仔,寮仔魚肉",魚貝類 鱼贝类 灰海荷蝹 針魩仔 鱙仔 寮仔魚肉灰海荷蝹 针魩仔 寮仔鱼肉 ,Japanese anchovy
+魚貝類,"日本銀帶鯡(加工)","針嘴鰮,丁香魚,魩仔,丁香,鱙仔,灰海荷鰮",魚貝類 鱼贝类 日本銀帶鯡 加工 針嘴鰮 丁香魚 魩仔 丁香 鱙仔 灰海荷鰮日本银带鲱 针嘴鰮 丁香鱼 ,Silver stripe round herring
+魚貝類,"日本銀帶鯡魚干(丁香魚脯)","針嘴鰮,丁香魚,魩仔,丁香,鱙仔,灰海荷鰮",魚貝類 鱼贝类 日本銀帶鯡魚干 日本銀帶鯡魚乾 丁香魚脯 針嘴鰮 丁香魚 魩仔 丁香 鱙仔 灰海荷鰮日本银带鲱鱼干 灰海荷鰮日本银带鲱鱼乾 丁香鱼脯 针嘴鰮 丁香鱼 ,Silver stripe round herring
+魚貝類,"虱目魚平均值(去皮)","麻虱目仔,麻虱(蝨)目,蝨(遮/塞)目魚,虱麻魚,海草魚,安平魚,國姓(聖)魚",魚貝類 鱼贝类 虱目魚平均值 去皮 麻虱目仔 麻虱 目 遮/塞 目魚 虱麻魚 海草魚 安平魚 國姓 聖 魚虱目鱼平均值 目鱼 虱麻鱼 海草鱼 安平鱼 国姓 圣 ,Bangos Bony salmon Giant herring Milkfish Salmon herring White mullet
+魚貝類,"虱目魚(2月)","海草魚,遮目魚,殺目魚,安平魚,國姓魚,麻虱目仔,虱目/麻虱目(澎湖)",魚貝類 鱼贝类 虱目魚 月 海草魚 遮目魚 殺目魚 安平魚 國姓魚 麻虱目仔 虱目/麻虱目 澎湖 虱目鱼 海草鱼 遮目鱼 杀目鱼 安平鱼 国姓鱼 ,Milkfish Milk fish
+魚貝類,"虱目魚(5月)","海草魚,遮目魚,殺目魚,安平魚,國姓魚,麻虱目仔,虱目/麻虱目(澎湖)",魚貝類 鱼贝类 虱目魚 月 海草魚 遮目魚 殺目魚 安平魚 國姓魚 麻虱目仔 虱目/麻虱目 澎湖 虱目鱼 海草鱼 遮目鱼 杀目鱼 安平鱼 国姓鱼 ,Milkfish Milk fish
 魚貝類,"虱目魚(8月)","海草魚,遮目魚,殺目魚,安平魚,國姓魚,麻虱目仔,虱目/麻虱目(澎湖)",魚貝類 鱼贝类 虱目魚 月 海草魚 遮目魚 殺目魚 安平魚 國姓魚 麻虱目仔 虱目/麻虱目 澎湖 虱目鱼 海草鱼 遮目鱼 杀目鱼 安平鱼 国姓鱼 ,Milkfish Milk fish
 魚貝類,"虱目魚(9月)","海草魚,遮目魚,殺目魚,安平魚,國姓魚,麻虱目仔,虱目/麻虱目(澎湖)",魚貝類 鱼贝类 虱目魚 月 海草魚 遮目魚 殺目魚 安平魚 國姓魚 麻虱目仔 虱目/麻虱目 澎湖 虱目鱼 海草鱼 遮目鱼 杀目鱼 安平鱼 国姓鱼 ,Milkfish Milk fish
 魚貝類,"虱目魚(12月)","海草魚,遮目魚,殺目魚,安平魚,國姓魚,麻虱目仔,虱目/麻虱目(澎湖)",魚貝類 鱼贝类 虱目魚 月 海草魚 遮目魚 殺目魚 安平魚 國姓魚 麻虱目仔 虱目/麻虱目 澎湖 虱目鱼 海草鱼 遮目鱼 杀目鱼 安平鱼 国姓鱼 ,Milkfish Milk fish
@@ -1015,20 +1015,20 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 魚貝類,"長體油胡瓜魚","柳葉魚",魚貝類 鱼贝类 長體油胡瓜魚 柳葉魚长体油胡瓜鱼 柳叶鱼 ,Mallotus villosus
 魚貝類,"香魚","桀(加魚邊)魚,Ayu,年魚",魚貝類 鱼贝类 香魚 桀 加魚邊 年魚香鱼 加鱼边 年鱼 ,Sweet fish Sweetfish Ayu Ayu sweetfish Ko ayu
 魚貝類,"銀魚","水晶魚,小銀魚",魚貝類 鱼贝类 銀魚 水晶魚 小銀魚银鱼 水晶鱼 小银鱼 ,Silver fish
-魚貝類,"白肉鮭魚切片",,魚貝類 鱼贝类 白肉鮭魚切片 白肉鲑鱼切片 ,Salmon
-魚貝類,"紅肉鮭魚切片",,魚貝類 鱼贝类 紅肉鮭魚切片 红肉鲑鱼切片 ,Salmon
-魚貝類,"大西洋鮭魚平均值(去皮)",,魚貝類 鱼贝类 大西洋鮭魚平均值 去皮 大西洋鲑鱼平均值 ,Atlantic salmon
-魚貝類,"大西洋鮭魚(台灣養殖)",,魚貝類 鱼贝类 大西洋鮭魚 台灣養殖 大西洋鲑鱼 台湾养殖 ,Atlantic salmon
-魚貝類,"大西洋鮭魚切片(中段)",,魚貝類 鱼贝类 大西洋鮭魚切片 中段 大西洋鲑鱼切片 ,Atlantic salmon
-魚貝類,"大西洋鮭魚切片(尾段)",,魚貝類 鱼贝类 大西洋鮭魚切片 尾段 大西洋鲑鱼切片 ,Atlantic salmon
-魚貝類,"大西洋鮭魚生魚片",,魚貝類 鱼贝类 大西洋鮭魚生魚片 大西洋鲑鱼生鱼片 ,Atlantic salmon
-魚貝類,"大西洋鮭魚腹肉",,魚貝類 鱼贝类 大西洋鮭魚腹肉 大西洋鲑鱼腹肉 ,Atlantic salmon
+魚貝類,"白肉鮭魚切片","鮭魚片,鮭魚排",魚貝類 鱼贝类 白肉鮭魚切片 鮭魚片 鮭魚排白肉鲑鱼切片 鲑鱼片 鲑鱼排 ,Salmon
+魚貝類,"紅肉鮭魚切片","鮭魚片,鮭魚排",魚貝類 鱼贝类 紅肉鮭魚切片 鮭魚片 鮭魚排红肉鲑鱼切片 鲑鱼片 鲑鱼排 ,Salmon
+魚貝類,"大西洋鮭魚平均值(去皮)","鮭魚片,鮭魚排",魚貝類 鱼贝类 大西洋鮭魚平均值 去皮 鮭魚片 鮭魚排大西洋鲑鱼平均值 鲑鱼片 鲑鱼排 ,Atlantic salmon
+魚貝類,"大西洋鮭魚(台灣養殖)","鮭魚片,鮭魚排",魚貝類 鱼贝类 大西洋鮭魚 台灣養殖 鮭魚片 鮭魚排大西洋鲑鱼 台湾养殖 鲑鱼片 鲑鱼排 ,Atlantic salmon
+魚貝類,"大西洋鮭魚切片(中段)","鮭魚片,鮭魚排",魚貝類 鱼贝类 大西洋鮭魚切片 中段 鮭魚片 鮭魚排大西洋鲑鱼切片 鲑鱼片 鲑鱼排 ,Atlantic salmon
+魚貝類,"大西洋鮭魚切片(尾段)","鮭魚片,鮭魚排",魚貝類 鱼贝类 大西洋鮭魚切片 尾段 鮭魚片 鮭魚排大西洋鲑鱼切片 鲑鱼片 鲑鱼排 ,Atlantic salmon
+魚貝類,"大西洋鮭魚生魚片","鮭魚片,鮭魚排",魚貝類 鱼贝类 大西洋鮭魚生魚片 鮭魚片 鮭魚排大西洋鲑鱼生鱼片 鲑鱼片 鲑鱼排 ,Atlantic salmon
+魚貝類,"大西洋鮭魚腹肉","鮭魚片,鮭魚排",魚貝類 鱼贝类 大西洋鮭魚腹肉 鮭魚片 鮭魚排大西洋鲑鱼腹肉 鲑鱼片 鲑鱼排 ,Atlantic salmon
 魚貝類,"麥奇鈎吻鮭(去皮)","鱒魚,虹鱒,麥奇鉤吻鱒",魚貝類 鱼贝类 麥奇鈎吻鮭 去皮 鱒魚 虹鱒 麥奇鉤吻鱒麦奇鈎吻鲑 鳟鱼 虹鳟 麦奇钩吻鳟 ,Rainbow trout
 魚貝類,"麥奇鈎吻鮭(含皮)","鱒魚,虹鱒,麥奇鉤吻鱒",魚貝類 鱼贝类 麥奇鈎吻鮭 含皮 鱒魚 虹鱒 麥奇鉤吻鱒麦奇鈎吻鲑 鳟鱼 虹鳟 麦奇钩吻鳟 ,Rainbow trout
 魚貝類,"姬魚","仙女魚,狗母,汕狗母",魚貝類 鱼贝类 姬魚 仙女魚 狗母 汕狗母姬鱼 仙女鱼 ,Aulopus
 魚貝類,"印度鐮齒魚","水狗母,粉粘,那哥,那個魚",魚貝類 鱼贝类 印度鐮齒魚 水狗母 粉粘 那哥 那個魚印度镰齿鱼 那个鱼 ,Bombay duck Bombay duck India Bombay duck fish Bombay duck
 魚貝類,"狗母魚(蛇鯔)","狗母梭,狗母",魚貝類 鱼贝类 狗母魚 蛇鯔 狗母梭 狗母狗母鱼 蛇鲻 ,Lizardfish Dog head fish
-魚貝類,"鮟鱇",,魚貝類 鱼贝类 鮟鱇 ,Anglerfish
+魚貝類,"鮟鱇","安康魚,琵琶魚,結巴魚,燈籠魚",魚貝類 鱼贝类 鮟鱇 安康魚 琵琶魚 結巴魚 燈籠魚鮟鱇 安康鱼 琵琶鱼 结巴鱼 灯笼鱼 ,Anglerfish
 魚貝類,"鯔平均值(去皮)","烏(鯔/信/聖)魚,青頭仔(幼魚),奇目仔(成魚),正(大)烏,正(回)頭烏,日本鯔",魚貝類 鱼贝类 鯔平均值 去皮 烏 鯔/信/聖 魚 青頭仔 幼魚 奇目仔 成魚 正 大 回 頭烏 日本鯔鲻平均值 乌 鲻/信/圣 鱼 青头仔 幼鱼 成鱼 头乌 日本鲻 ,Common mullet Flathead mullet Grey mullet Striped mullet without skin 
 魚貝類,"鯔(2月)","青頭仔(幼魚),奇目仔(成魚),信魚,正烏,烏魚,正頭烏,回頭烏,大烏(澎湖) ",魚貝類 鱼贝类 鯔 月 青頭仔 幼魚 奇目仔 成魚 信魚 正烏 烏魚 正頭烏 回頭烏 大烏 澎湖 鲻 青头仔 幼鱼 成鱼 信鱼 正乌 乌鱼 正头乌 回头乌 大乌 ,Common mullet Flathead mullet Grey mullet Striped mullet
 魚貝類,"鯔(4月)","青頭仔(幼魚),奇目仔(成魚),信魚,正烏,烏魚,正頭烏,回頭烏,大烏(澎湖)",魚貝類 鱼贝类 鯔 月 青頭仔 幼魚 奇目仔 成魚 信魚 正烏 烏魚 正頭烏 回頭烏 大烏 澎湖 鲻 青头仔 幼鱼 成鱼 信鱼 正乌 乌鱼 正头乌 回头乌 大乌 ,Common mullet Flathead mullet Grey mullet Striped mullet
@@ -1048,17 +1048,17 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 魚貝類,"石狗公","石頭魚,獅甕(澎湖),紅鱠仔",魚貝類 鱼贝类 石狗公 石頭魚 獅甕 澎湖 紅鱠仔石狗公 石头鱼 狮瓮 红鱠仔 ,Rockfish Scorpionfish Filefish
 魚貝類,"環紋簑鮋","龍鬚簑鮋,獅子魚,長獅,魔鬼,國公,石狗敢,虎魚,雞公,紅虎,火烘,石頭魚",魚貝類 鱼贝类 環紋蓑鮋 龍須蓑鮋 獅子魚 長獅 魔鬼 國公 石狗敢 虎魚 雞公 紅虎 火烘 石頭魚环纹蓑鮋 龙须蓑鮋 狮子鱼 长狮 国公 虎鱼 鸡公 红虎 石头鱼 ,Luna lion fish
 魚貝類,"深海鱗角魚","深海角魚,雞角,角仔魚",魚貝類 鱼贝类 深海鱗角魚 深海角魚 雞角 角仔魚深海鳞角鱼 深海角鱼 鸡角 角仔鱼 ,Gurnard Searobin
-魚貝類,"尖嘴鱸(去皮)","金目鱸,盲槽,扁紅目鱸",魚貝類 鱼贝类 尖嘴鱸 去皮 金目鱸 盲槽 扁紅目鱸尖嘴鲈 金目鲈 扁红目鲈 ,Palmer Sea bass Silver perch Silver barramundi White sea bass Asian seabass Cock up Barramundi perch Barramundi Giant seaperch Giant perch Giant sea perch Giant sea perch
-魚貝類,"尖嘴鱸(含皮)","金目鱸,盲槽,扁紅目鱸",魚貝類 鱼贝类 尖嘴鱸 含皮 金目鱸 盲槽 扁紅目鱸尖嘴鲈 金目鲈 扁红目鲈 ,Palmer Sea bass Silver perch Silver barramundi White sea bass Asian seabass Cock up Barramundi perch Barramundi Giant seaperch Giant perch Giant sea perch Giant sea perch
-魚貝類,"日本花鱸平均值","七星鱸,花鱸,青鱸,鱸魚,日本真鱸 ",魚貝類 鱼贝类 日本花鱸平均值 七星鱸 花鱸 青鱸 鱸魚 日本真鱸 日本花鲈平均值 七星鲈 花鲈 青鲈 鲈鱼 日本真鲈 ,Perch Sea bass Japanese seaperch Japanese sea bass Japan sea bass
-魚貝類,"日本花鱸(2月)","七星鱸,花鱸,青鱸,鱸魚,日本真鱸 ",魚貝類 鱼贝类 日本花鱸 月 七星鱸 青鱸 鱸魚 日本真鱸 日本花鲈 七星鲈 青鲈 鲈鱼 日本真鲈 ,Perch Sea bass Japanese seaperch Japanese sea bass Japan sea bass
-魚貝類,"日本花鱸((3月)","七星鱸,花鱸,青鱸,鱸魚,日本真鱸 ",魚貝類 鱼贝类 日本花鱸 月 七星鱸 青鱸 鱸魚 日本真鱸 日本花鲈 七星鲈 青鲈 鲈鱼 日本真鲈 ,Perch Sea bass Japanese seaperch Japanese sea bass Japan sea bass
-魚貝類,"日本花鱸((8月)","七星鱸,花鱸,青鱸,鱸魚,日本真鱸 ",魚貝類 鱼贝类 日本花鱸 月 七星鱸 青鱸 鱸魚 日本真鱸 日本花鲈 七星鲈 青鲈 鲈鱼 日本真鲈 ,Perch Sea bass Japanese seaperch Japanese sea bass Japan sea bass
-魚貝類,"日本花鱸((11月)","七星鱸,花鱸,青鱸,鱸魚,日本真鱸 ",魚貝類 鱼贝类 日本花鱸 月 七星鱸 青鱸 鱸魚 日本真鱸 日本花鲈 七星鲈 青鲈 鲈鱼 日本真鲈 ,Perch Sea bass Japanese seaperch Japanese sea bass Japan sea bass
-魚貝類,"日本花鱸((12月)","七星鱸,花鱸,青鱸,鱸魚,日本真鱸 ",魚貝類 鱼贝类 日本花鱸 月 七星鱸 青鱸 鱸魚 日本真鱸 日本花鲈 七星鲈 青鲈 鲈鱼 日本真鲈 ,Perch Sea bass Japanese seaperch Japanese sea bass Japan sea bass
-魚貝類,"日本花鱸(含皮)","七星鱸,花鱸,青鱸,鱸魚,日本真鱸 ",魚貝類 鱼贝类 日本花鱸 含皮 七星鱸 青鱸 鱸魚 日本真鱸 日本花鲈 七星鲈 青鲈 鲈鱼 日本真鲈 ,Perch Sea bass Japanese seaperch Japanese sea bass Japan sea bass
-魚貝類,"白鱸","金眼狼鱸",魚貝類 鱼贝类 白鱸 金眼狼鱸白鲈 金眼狼鲈 ,White bass
-魚貝類,"條紋狼鱸",,魚貝類 鱼贝类 條紋狼鱸 条纹狼鲈 ,Striped bass
+魚貝類,"尖嘴鱸(去皮)","金目鱸,盲槽,扁紅目鱸,鱸魚",魚貝類 鱼贝类 尖嘴鱸 去皮 金目鱸 盲槽 扁紅目鱸 鱸魚尖嘴鲈 金目鲈 扁红目鲈 鲈鱼 ,Palmer Sea bass Silver perch Silver barramundi White sea bass Asian seabass Cock up Barramundi perch Barramundi Giant seaperch Giant perch Giant sea perch Giant sea perch
+魚貝類,"尖嘴鱸(含皮)","金目鱸,盲槽,扁紅目鱸,鱸魚",魚貝類 鱼贝类 尖嘴鱸 含皮 金目鱸 盲槽 扁紅目鱸 鱸魚尖嘴鲈 金目鲈 扁红目鲈 鲈鱼 ,Palmer Sea bass Silver perch Silver barramundi White sea bass Asian seabass Cock up Barramundi perch Barramundi Giant seaperch Giant perch Giant sea perch Giant sea perch
+魚貝類,"日本花鱸平均值","七星鱸,花鱸,青鱸,鱸魚,日本真鱸,鱸魚",魚貝類 鱼贝类 日本花鱸平均值 七星鱸 花鱸 青鱸 鱸魚 日本真鱸 鱸魚日本花鲈平均值 七星鲈 花鲈 青鲈 鲈鱼 日本真鲈 ,Perch Sea bass Japanese seaperch Japanese sea bass Japan sea bass
+魚貝類,"日本花鱸(2月)","七星鱸,花鱸,青鱸,鱸魚,日本真鱸,鱸魚",魚貝類 鱼贝类 日本花鱸 月 七星鱸 青鱸 鱸魚 日本真鱸 鱸魚日本花鲈 七星鲈 青鲈 鲈鱼 日本真鲈 ,Perch Sea bass Japanese seaperch Japanese sea bass Japan sea bass
+魚貝類,"日本花鱸((3月)","七星鱸,花鱸,青鱸,鱸魚,日本真鱸,鱸魚",魚貝類 鱼贝类 日本花鱸 月 七星鱸 青鱸 鱸魚 日本真鱸 鱸魚日本花鲈 七星鲈 青鲈 鲈鱼 日本真鲈 ,Perch Sea bass Japanese seaperch Japanese sea bass Japan sea bass
+魚貝類,"日本花鱸((8月)","七星鱸,花鱸,青鱸,鱸魚,日本真鱸,鱸魚",魚貝類 鱼贝类 日本花鱸 月 七星鱸 青鱸 鱸魚 日本真鱸 鱸魚日本花鲈 七星鲈 青鲈 鲈鱼 日本真鲈 ,Perch Sea bass Japanese seaperch Japanese sea bass Japan sea bass
+魚貝類,"日本花鱸((11月)","七星鱸,花鱸,青鱸,鱸魚,日本真鱸,鱸魚,鱸魚",魚貝類 鱼贝类 日本花鱸 月 七星鱸 青鱸 鱸魚 日本真鱸 鱸魚日本花鲈 七星鲈 青鲈 鲈鱼 日本真鲈 ,Perch Sea bass Japanese seaperch Japanese sea bass Japan sea bass
+魚貝類,"日本花鱸((12月)","七星鱸,花鱸,青鱸,鱸魚,日本真鱸,鱸魚",魚貝類 鱼贝类 日本花鱸 月 七星鱸 青鱸 鱸魚 日本真鱸 鱸魚日本花鲈 七星鲈 青鲈 鲈鱼 日本真鲈 ,Perch Sea bass Japanese seaperch Japanese sea bass Japan sea bass
+魚貝類,"日本花鱸(含皮)","七星鱸,花鱸,青鱸,鱸魚,日本真鱸,鱸魚",魚貝類 鱼贝类 日本花鱸 含皮 七星鱸 青鱸 鱸魚 日本真鱸 鱸魚日本花鲈 七星鲈 青鲈 鲈鱼 日本真鲈 ,Perch Sea bass Japanese seaperch Japanese sea bass Japan sea bass
+魚貝類,"白鱸","金眼狼鱸,鱸魚",魚貝類 鱼贝类 白鱸 金眼狼鱸 鱸魚白鲈 金眼狼鲈 鲈鱼 ,White bass
+魚貝類,"條紋狼鱸","銀花鱸魚",魚貝類 鱼贝类 條紋狼鱸 銀花鱸魚条纹狼鲈 银花鲈鱼 ,Striped bass
 魚貝類,"鱖","鱖魚, 花鯽魚, 桂魚, 桂花魚, 季花魚",魚貝類 鱼贝类 鱖 鱖魚 花鯽魚 桂魚 桂花魚 季花魚鳜 鳜鱼 花鲫鱼 桂鱼 桂花鱼 季花鱼 ,Mandarin fish Siniperca chuatsi
 魚貝類,"白緣星鱠","闊嘴格仔,鱠,過魚,石斑,紅朱鱠(臺東),粉條(澎湖)",魚貝類 鱼贝类 白緣星鱠 闊嘴格仔 過魚 石斑 紅朱鱠 台東 粉條 澎湖 白缘星鱠 阔嘴格仔 过鱼 红朱鱠 台东 粉条 ,Painted coral trout Whitemargin lyretail grouper White edged lyretail Moontail seabass Lunar tailed grouper Lyretail trout Lyretail grouper Lyre tail trout
 魚貝類,"青星九刺鮨平均值","紅鱠(條/格),七星斑,紅格仔,過(鯌/髻/郭)魚,石斑,條舅,青星九棘鱸,仔石斑,夕鱠",魚貝類 鱼贝类 青星九刺鮨平均值 紅鱠 條/格 七星斑 紅格仔 過 鯌/髻/郭 魚 石斑 條舅 青星九棘鱸 仔石斑 夕鱠青星九刺鮨平均值 红鱠 条/格 红格仔 过 鱼 条舅 青星九棘鲈 ,Blue spotted rockcod Coral hind Coral rockcod Vermillion seabass
@@ -1144,17 +1144,17 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 魚貝類,"尼羅口孵非鯽(含皮)(2022年取樣)","南洋鯽仔,尼羅吳郭魚",魚貝類 鱼贝类 尼羅口孵非鯽 含皮 年取樣 南洋鯽仔 尼羅吳郭魚尼罗口孵非鲫 年取样 南洋鲫仔 尼罗吴郭鱼 ,Nile tilapia Nilotica Cichlid Edward tilapia Mozambique tilapia Mango fish
 魚貝類,"花身副麗魚","珍珠石斑,淡水石斑,馬拉麗體魚",魚貝類 鱼贝类 花身副麗魚 珍珠石斑 淡水石斑 馬拉麗體魚花身副丽鱼 马拉丽体鱼 ,Jaguar guapote Managuense Guapote tiger
 魚貝類,"紅色吳郭魚","尼羅魚;台灣鯛,紅色尼羅魚,姬鯛,紅吳郭魚,濱鯛",魚貝類 鱼贝类 紅色吳郭魚 尼羅魚 台灣鯛 紅色尼羅魚 姬鯛 紅吳郭魚 濱鯛红色吴郭鱼 尼罗鱼 台湾鲷 红色尼罗鱼 姬鲷 红吴郭鱼 滨鲷 ,Red mouthbreeder Red tilapia
-魚貝類,"台灣鯛魚片(生)",,魚貝類 鱼贝类 台灣鯛魚片 生 台湾鲷鱼片 ,Tilapia
-魚貝類,"台灣鯛魚片(生)(2021年)",,魚貝類 鱼贝类 台灣鯛魚片 生 年 台湾鲷鱼片 ,Tilapia
-魚貝類,"台灣鯛魚片(水煮)",,魚貝類 鱼贝类 台灣鯛魚片 水煮 台湾鲷鱼片 ,Tilapia
-魚貝類,"台灣鯛魚片(油煎)",,魚貝類 鱼贝类 台灣鯛魚片 油煎 台湾鲷鱼片 ,Tilapia
-魚貝類,"台灣鯛魚片(烤,190℃,10分鐘)",,魚貝類 鱼贝类 台灣鯛魚片 烤 分鐘 台湾鲷鱼片 分钟 ,Tilapia
-魚貝類,"台灣鯛魚片(烤,190℃,20分鐘)",,魚貝類 鱼贝类 台灣鯛魚片 烤 分鐘 台湾鲷鱼片 分钟 ,Tilapia
-魚貝類,"台灣鯛魚片(烤,230℃,10分鐘)",,魚貝類 鱼贝类 台灣鯛魚片 烤 分鐘 台湾鲷鱼片 分钟 ,Tilapia
-魚貝類,"台灣鯛魚片(烤,230℃,20分鐘)",,魚貝類 鱼贝类 台灣鯛魚片 烤 分鐘 台湾鲷鱼片 分钟 ,Tilapia
-魚貝類,"台灣鯛魚片(清蒸)",,魚貝類 鱼贝类 台灣鯛魚片 清蒸 台湾鲷鱼片 ,Tilapia
-魚貝類,"台灣鯛魚片(微波)",,魚貝類 鱼贝类 台灣鯛魚片 微波 台湾鲷鱼片 ,Tilapia
-魚貝類,"台灣鯛魚湯(水煮)",,魚貝類 鱼贝类 台灣鯛魚湯 水煮 台湾鲷鱼汤 ,Tilapia soup
+魚貝類,"台灣鯛魚片(生)","尼羅魚;台灣鯛,紅色尼羅魚,尼羅紅魚,姬鯛,紅吳郭魚,濱鯛,鯛魚排",魚貝類 鱼贝类 台灣鯛魚片 生 尼羅魚 台灣鯛 紅色尼羅魚 尼羅紅魚 姬鯛 紅吳郭魚 濱鯛 鯛魚排台湾鲷鱼片 尼罗鱼 台湾鲷 红色尼罗鱼 尼罗红鱼 姬鲷 红吴郭鱼 滨鲷 鲷鱼排 ,Tilapia
+魚貝類,"台灣鯛魚片(生)(2021年)","尼羅魚;台灣鯛,紅色尼羅魚,尼羅紅魚,姬鯛,紅吳郭魚,濱鯛,鯛魚排",魚貝類 鱼贝类 台灣鯛魚片 生 年 尼羅魚 台灣鯛 紅色尼羅魚 尼羅紅魚 姬鯛 紅吳郭魚 濱鯛 鯛魚排台湾鲷鱼片 尼罗鱼 台湾鲷 红色尼罗鱼 尼罗红鱼 姬鲷 红吴郭鱼 滨鲷 鲷鱼排 ,Tilapia
+魚貝類,"台灣鯛魚片(水煮)","尼羅魚;台灣鯛,紅色尼羅魚,尼羅紅魚,姬鯛,紅吳郭魚,濱鯛,鯛魚排",魚貝類 鱼贝类 台灣鯛魚片 水煮 尼羅魚 台灣鯛 紅色尼羅魚 尼羅紅魚 姬鯛 紅吳郭魚 濱鯛 鯛魚排台湾鲷鱼片 尼罗鱼 台湾鲷 红色尼罗鱼 尼罗红鱼 姬鲷 红吴郭鱼 滨鲷 鲷鱼排 ,Tilapia
+魚貝類,"台灣鯛魚片(油煎)","尼羅魚;台灣鯛,紅色尼羅魚,尼羅紅魚,姬鯛,紅吳郭魚,濱鯛,鯛魚排",魚貝類 鱼贝类 台灣鯛魚片 油煎 尼羅魚 台灣鯛 紅色尼羅魚 尼羅紅魚 姬鯛 紅吳郭魚 濱鯛 鯛魚排台湾鲷鱼片 尼罗鱼 台湾鲷 红色尼罗鱼 尼罗红鱼 姬鲷 红吴郭鱼 滨鲷 鲷鱼排 ,Tilapia
+魚貝類,"台灣鯛魚片(烤,190℃,10分鐘)","尼羅魚;台灣鯛,紅色尼羅魚,尼羅紅魚,姬鯛,紅吳郭魚,濱鯛,鯛魚排",魚貝類 鱼贝类 台灣鯛魚片 烤 分鐘 尼羅魚 台灣鯛 紅色尼羅魚 尼羅紅魚 姬鯛 紅吳郭魚 濱鯛 鯛魚排台湾鲷鱼片 分钟 尼罗鱼 台湾鲷 红色尼罗鱼 尼罗红鱼 姬鲷 红吴郭鱼 滨鲷 鲷鱼排 ,Tilapia
+魚貝類,"台灣鯛魚片(烤,190℃,20分鐘)","尼羅魚;台灣鯛,紅色尼羅魚,尼羅紅魚,姬鯛,紅吳郭魚,濱鯛,鯛魚排",魚貝類 鱼贝类 台灣鯛魚片 烤 分鐘 尼羅魚 台灣鯛 紅色尼羅魚 尼羅紅魚 姬鯛 紅吳郭魚 濱鯛 鯛魚排台湾鲷鱼片 分钟 尼罗鱼 台湾鲷 红色尼罗鱼 尼罗红鱼 姬鲷 红吴郭鱼 滨鲷 鲷鱼排 ,Tilapia
+魚貝類,"台灣鯛魚片(烤,230℃,10分鐘)","尼羅魚;台灣鯛,紅色尼羅魚,尼羅紅魚,姬鯛,紅吳郭魚,濱鯛,鯛魚排",魚貝類 鱼贝类 台灣鯛魚片 烤 分鐘 尼羅魚 台灣鯛 紅色尼羅魚 尼羅紅魚 姬鯛 紅吳郭魚 濱鯛 鯛魚排台湾鲷鱼片 分钟 尼罗鱼 台湾鲷 红色尼罗鱼 尼罗红鱼 姬鲷 红吴郭鱼 滨鲷 鲷鱼排 ,Tilapia
+魚貝類,"台灣鯛魚片(烤,230℃,20分鐘)","尼羅魚;台灣鯛,紅色尼羅魚,尼羅紅魚,姬鯛,紅吳郭魚,濱鯛,鯛魚排",魚貝類 鱼贝类 台灣鯛魚片 烤 分鐘 尼羅魚 台灣鯛 紅色尼羅魚 尼羅紅魚 姬鯛 紅吳郭魚 濱鯛 鯛魚排台湾鲷鱼片 分钟 尼罗鱼 台湾鲷 红色尼罗鱼 尼罗红鱼 姬鲷 红吴郭鱼 滨鲷 鲷鱼排 ,Tilapia
+魚貝類,"台灣鯛魚片(清蒸)","尼羅魚;台灣鯛,紅色尼羅魚,尼羅紅魚,姬鯛,紅吳郭魚,濱鯛,鯛魚排",魚貝類 鱼贝类 台灣鯛魚片 清蒸 尼羅魚 台灣鯛 紅色尼羅魚 尼羅紅魚 姬鯛 紅吳郭魚 濱鯛 鯛魚排台湾鲷鱼片 尼罗鱼 台湾鲷 红色尼罗鱼 尼罗红鱼 姬鲷 红吴郭鱼 滨鲷 鲷鱼排 ,Tilapia
+魚貝類,"台灣鯛魚片(微波)","尼羅魚;台灣鯛,紅色尼羅魚,尼羅紅魚,姬鯛,紅吳郭魚,濱鯛,鯛魚排",魚貝類 鱼贝类 台灣鯛魚片 微波 尼羅魚 台灣鯛 紅色尼羅魚 尼羅紅魚 姬鯛 紅吳郭魚 濱鯛 鯛魚排台湾鲷鱼片 尼罗鱼 台湾鲷 红色尼罗鱼 尼罗红鱼 姬鲷 红吴郭鱼 滨鲷 鲷鱼排 ,Tilapia
+魚貝類,"台灣鯛魚湯(水煮)","吳郭魚湯",魚貝類 鱼贝类 台灣鯛魚湯 水煮 吳郭魚湯台湾鲷鱼汤 吴郭鱼汤 ,Tilapia soup
 魚貝類,"莫三比克口孵非鯽","非洲仔,南洋鯽仔,在來吳郭魚,吳郭魚/鹹水吳郭(澎湖)  ",魚貝類 鱼贝类 莫三比克口孵非鯽 非洲仔 南洋鯽仔 在來吳郭魚 吳郭魚/鹹水吳郭 澎湖 莫三比克口孵非鲫 南洋鲫仔 在来吴郭鱼 吴郭鱼/咸水吴郭 ,Tilapia Common tilapia African mouthbrooder Largemouth kurper Mozambique mouthbrooder Kurper bream Mozambique cichlid Java tilapia Mozambique tilapia
 魚貝類,"薔薇項鰭魚(去皮)","薔薇連鰭唇魚,扁礫仔,紅姑娘仔,紅新娘,豎停仔,胭脂冷,角龍,平倍良,薔薇楔鯛,薔薇離鰭鯛,薔薇虹彩",魚貝類 鱼贝类 薔薇項鰭魚 去皮 薔薇連鰭唇魚 扁礫仔 紅姑娘仔 紅新娘 豎停仔 胭脂冷 角龍 平倍良 薔薇楔鯛 薔薇離鰭鯛 薔薇虹彩蔷薇项鳍鱼 蔷薇连鳍唇鱼 扁砾仔 红姑娘仔 红新娘 竖停仔 角龙 蔷薇楔鲷 蔷薇离鳍鲷 蔷薇虹彩 ,Rosed razorfish
 魚貝類,"薔薇項鰭魚(含皮)","薔薇連鰭唇魚,扁礫仔,紅姑娘仔,紅新娘,豎停仔,胭脂冷,角龍,平倍良,薔薇楔鯛,薔薇離鰭鯛,薔薇虹彩",魚貝類 鱼贝类 薔薇項鰭魚 含皮 薔薇連鰭唇魚 扁礫仔 紅姑娘仔 紅新娘 豎停仔 胭脂冷 角龍 平倍良 薔薇楔鯛 薔薇離鰭鯛 薔薇虹彩蔷薇项鳍鱼 蔷薇连鳍唇鱼 扁砾仔 红姑娘仔 红新娘 竖停仔 角龙 蔷薇楔鲷 蔷薇离鳍鲷 蔷薇虹彩 ,Rosed razorfish
@@ -1190,18 +1190,18 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 魚貝類,"鯖魚(煮)",,魚貝類 鱼贝类 鯖魚 煮 鲭鱼 ,Mackerel
 魚貝類,"鯖魚(煎)",,魚貝類 鱼贝类 鯖魚 煎 鲭鱼 ,Mackerel
 魚貝類,"鯖魚(蒸)",,魚貝類 鱼贝类 鯖魚 蒸 鲭鱼 ,Mackerel
-魚貝類,"旗魚切片","翹翅仔,白肉旗魚,闊胸仔,立翅旗魚,白皮丁挽,白皮旗魚",魚貝類 鱼贝类 旗魚切片 翹翅仔 白肉旗魚 闊胸仔 立翅旗魚 白皮丁挽 白皮旗魚旗鱼切片 翘翅仔 白肉旗鱼 阔胸仔 立翅旗鱼 白皮旗鱼 ,Short nosed sword fish Pacific black marlin Silver marlin Silver marlin fish Short nosed swordfish Black marlin fish Black marlin Giant black marlin Marlin
-魚貝類,"旗魚腹肉","翹翅仔,白肉旗魚,闊胸仔,立翅旗魚,白皮丁挽,白皮旗魚",魚貝類 鱼贝类 旗魚腹肉 翹翅仔 白肉旗魚 闊胸仔 立翅旗魚 白皮丁挽 白皮旗魚旗鱼腹肉 翘翅仔 白肉旗鱼 阔胸仔 立翅旗鱼 白皮旗鱼 ,Short nosed sword fish Pacific black marlin Silver marlin Silver marlin fish Short nosed swordfish Black marlin fish Black marlin Giant black marlin Marlin
-魚貝類,"刺鯧(去皮)","肉魚,肉鯽仔,土肉,肉鯽,瓜仔鯧,刺鯧",魚貝類 鱼贝类 刺鯧 去皮 肉魚 肉鯽仔 土肉 肉鯽 瓜仔鯧 刺鯧刺鲳 肉鱼 肉鲫仔 肉鲫 瓜仔鲳 ,Japanese butterfish Melon seed
-魚貝類,"刺鯧(含皮)","肉魚,肉鯽仔,土肉,肉鯽,瓜仔鯧,刺鯧",魚貝類 鱼贝类 刺鯧 含皮 肉魚 肉鯽仔 土肉 肉鯽 瓜仔鯧 刺鯧刺鲳 肉鱼 肉鲫仔 肉鲫 瓜仔鲳 ,Japanese butterfish Melon seed
-魚貝類,"星斑真鯧","(市售稱"花鯧")",魚貝類 鱼贝类 星斑真鯧 市售稱 花鯧 星斑真鲳 市售称 花鲳 ,Starry butterfish
+魚貝類,"旗魚切片","翹翅仔,白肉旗魚,闊胸仔,立翅旗魚,白皮丁挽,白皮旗魚,旗魚排,旗魚肉",魚貝類 鱼贝类 旗魚切片 翹翅仔 白肉旗魚 闊胸仔 立翅旗魚 白皮丁挽 白皮旗魚 旗魚排 旗魚肉旗鱼切片 翘翅仔 白肉旗鱼 阔胸仔 立翅旗鱼 白皮旗鱼 旗鱼排 旗鱼肉 ,Short nosed sword fish Pacific black marlin Silver marlin Silver marlin fish Short nosed swordfish Black marlin fish Black marlin Giant black marlin Marlin
+魚貝類,"旗魚腹肉","翹翅仔,白肉旗魚,闊胸仔,立翅旗魚,白皮丁挽,白皮旗魚,旗魚排,旗魚肉",魚貝類 鱼贝类 旗魚腹肉 翹翅仔 白肉旗魚 闊胸仔 立翅旗魚 白皮丁挽 白皮旗魚 旗魚排 旗魚肉旗鱼腹肉 翘翅仔 白肉旗鱼 阔胸仔 立翅旗鱼 白皮旗鱼 旗鱼排 旗鱼肉 ,Short nosed sword fish Pacific black marlin Silver marlin Silver marlin fish Short nosed swordfish Black marlin fish Black marlin Giant black marlin Marlin
+魚貝類,"刺鯧(去皮)","肉魚,肉鯽仔,土肉,肉鯽,瓜仔鯧,刺鯧魚",魚貝類 鱼贝类 刺鯧 去皮 肉魚 肉鯽仔 土肉 肉鯽 瓜仔鯧 刺鯧魚刺鲳 肉鱼 肉鲫仔 肉鲫 瓜仔鲳 刺鲳鱼 ,Japanese butterfish Melon seed
+魚貝類,"刺鯧(含皮)","肉魚,肉鯽仔,土肉,肉鯽,瓜仔鯧,刺鯧魚",魚貝類 鱼贝类 刺鯧 含皮 肉魚 肉鯽仔 土肉 肉鯽 瓜仔鯧 刺鯧魚刺鲳 肉鱼 肉鲫仔 肉鲫 瓜仔鲳 刺鲳鱼 ,Japanese butterfish Melon seed
+魚貝類,"星斑真鯧","花鯧魚",魚貝類 鱼贝类 星斑真鯧 花鯧魚星斑真鲳 花鲳鱼 ,Starry butterfish
 魚貝類,"銀鯧平均值(去皮)","白(正/暗)鯧,白鯧魚,鯧仔魚,黑鰭,車片魚",魚貝類 鱼贝类 銀鯧平均值 去皮 白 正/暗 鯧 白鯧魚 鯧仔魚 黑鰭 車片魚银鲳平均值 鲳 白鲳鱼 鲳仔鱼 黑鳍 车片鱼 ,Harvest fish Silver pomfret White pomfret
-魚貝類,"銀鯧(2月)","白鯧,正鯧,銀鯧,支子",魚貝類 鱼贝类 銀鯧 月 白鯧 正鯧 支子银鲳 白鲳 正鲳 ,Silver pomfret White pomfret
-魚貝類,"銀鯧(3月)","白鯧,正鯧,銀鯧,支子",魚貝類 鱼贝类 銀鯧 月 白鯧 正鯧 支子银鲳 白鲳 正鲳 ,Silver pomfret White pomfret
-魚貝類,"銀鯧(5月)","白鯧,正鯧,銀鯧,支子",魚貝類 鱼贝类 銀鯧 月 白鯧 正鯧 支子银鲳 白鲳 正鲳 ,Silver pomfret White pomfret
-魚貝類,"銀鯧(8月)","白鯧,正鯧,銀鯧,支子",魚貝類 鱼贝类 銀鯧 月 白鯧 正鯧 支子银鲳 白鲳 正鲳 ,Silver pomfret White pomfret
-魚貝類,"銀鯧(12月)","白鯧,正鯧,銀鯧,支子",魚貝類 鱼贝类 銀鯧 月 白鯧 正鯧 支子银鲳 白鲳 正鲳 ,Silver pomfret White pomfret
-魚貝類,"銀鯧(含皮)","白鯧,正鯧,銀鯧,支子",魚貝類 鱼贝类 銀鯧 含皮 白鯧 正鯧 支子银鲳 白鲳 正鲳 ,Silver pomfret White pomfret
+魚貝類,"銀鯧(2月)","白鯧魚,正鯧,銀鯧,支子",魚貝類 鱼贝类 銀鯧 月 白鯧魚 正鯧 支子银鲳 白鲳鱼 正鲳 ,Silver pomfret White pomfret
+魚貝類,"銀鯧(3月)","白鯧魚,正鯧,銀鯧,支子",魚貝類 鱼贝类 銀鯧 月 白鯧魚 正鯧 支子银鲳 白鲳鱼 正鲳 ,Silver pomfret White pomfret
+魚貝類,"銀鯧(5月)","白鯧魚,正鯧,銀鯧,支子",魚貝類 鱼贝类 銀鯧 月 白鯧魚 正鯧 支子银鲳 白鲳鱼 正鲳 ,Silver pomfret White pomfret
+魚貝類,"銀鯧(8月)","白鯧魚,正鯧,銀鯧,支子",魚貝類 鱼贝类 銀鯧 月 白鯧魚 正鯧 支子银鲳 白鲳鱼 正鲳 ,Silver pomfret White pomfret
+魚貝類,"銀鯧(12月)","白鯧魚,正鯧,銀鯧,支子",魚貝類 鱼贝类 銀鯧 月 白鯧魚 正鯧 支子银鲳 白鲳鱼 正鲳 ,Silver pomfret White pomfret
+魚貝類,"銀鯧(含皮)","白鯧魚,正鯧,銀鯧,支子",魚貝類 鱼贝类 銀鯧 含皮 白鯧魚 正鯧 支子银鲳 白鲳鱼 正鲳 ,Silver pomfret White pomfret
 魚貝類,"斑鱧","鮕鮘,雷魚,南鱧,臺灣雷魚,臺灣魚虎",魚貝類 鱼贝类 斑鱧 鮕鮘 雷魚 南鱧 台灣雷魚 台灣魚虎斑鳢 雷鱼 南鳢 台湾雷鱼 台湾鱼虎 ,Snakehead
 魚貝類,"大口鰜切片(含皮)","咬龍狗,左口,扁魚,皇帝魚,比目魚,咬網狗/肉瞇仔(澎湖)",魚貝類 鱼贝类 大口鰜切片 含皮 咬龍狗 左口 扁魚 皇帝魚 比目魚 咬網狗/肉眯仔 澎湖 咬龙狗 扁鱼 皇帝鱼 比目鱼 咬网狗/肉眯仔 ,Queensland halibut Tropical halibut Adalah False halibut Indian spiny turbot Indian halibut
 魚貝類,"鰈魚切片","大比目魚(扁鱈)",魚貝類 鱼贝类 鰈魚切片 大比目魚 扁鱈 鲽鱼切片 大比目鱼 扁鳕 ,Righteye flounders
@@ -1211,15 +1211,15 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 魚貝類,"克氏兔頭魨","鯖河魨,煙仔規,黃魚規,烏魚規,青皮魚規,金紙規,規仔,金規(澎湖)",魚貝類 鱼贝类 克氏兔頭魨 鯖河魨 煙仔規 黃魚規 烏魚規 青皮魚規 金紙規 規仔 金規 澎湖 克氏兔头魨 鲭河魨 烟仔规 黄鱼规 乌鱼规 青皮鱼规 金纸规 规仔 金规 ,Blowfish
 魚貝類,"翻車魨腹肉","翻車魚,蜇魴,蜇魚,海蟲(澎湖),曼波(成功) ",魚貝類 鱼贝类 翻車魨腹肉 翻車魚 蜇魴 蜇魚 海蟲 澎湖 曼波 成功 翻车魨腹肉 翻车鱼 蜇鲂 蜇鱼 海虫 ,Ocean sunfish Sun fish Sunfish Headfish Giant sunfish Moonfish Mola ocean sunfish
 魚貝類,"犬牙南極魚切片","南極鱈,美露鱈,黑狗鱈,智利海鱸(圓鱈)",魚貝類 鱼贝类 犬牙南極魚切片 南極鱈 美露鱈 黑狗鱈 智利海鱸 圓鱈 犬牙南极鱼切片 南极鳕 美露鳕 黑狗鳕 智利海鲈 圆鳕 ,Antarctic toothfishPatagonian toothfish
-魚貝類,"低眼無齒芒魚片(芒加魚邊)","低眼無齒𩷶, 虎頭鯊, 鯊魚鯰",魚貝類 鱼贝类 低眼無齒芒魚片 芒加魚邊 低眼無齒𩷶 虎頭鯊 鯊魚鯰低眼无齿芒鱼片 芒加鱼边 低眼无齿𩷶 虎头鲨 鲨鱼鲶 ,Iridescent Shark
+魚貝類,"低眼無齒芒魚片(芒加魚邊)","低眼無齒𩷶, 虎頭鯊, 鯊魚鯰",魚貝類 鱼贝类 低眼無齒芒魚片 芒加魚邊 低眼無齒𩷶 虎頭鯊 虎頭沙 鯊魚鯰低眼无齿芒鱼片 沙魚鯰低眼无齿芒鱼片 芒加鱼边 低眼无齿𩷶 虎头鲨 鲨鱼鲶 ,Iridescent Shark
 魚貝類,"秋刀魚","竹刀魚,山瑪魚",魚貝類 鱼贝类 秋刀魚 竹刀魚 山瑪魚秋刀鱼 竹刀鱼 山玛鱼 ,Pacific saury
 魚貝類,"毛鱗魚","喜相逢,多春魚,樺太柳葉魚（日文）",魚貝類 鱼贝类 毛鱗魚 喜相逢 多春魚 樺太柳葉魚 日文 毛鳞鱼 多春鱼 桦太柳叶鱼 ,Capelin
 魚貝類,"圓鱈魚鰓肉",,魚貝類 鱼贝类 圓鱈魚鰓肉 圆鳕鱼鳃肉 ,Cod Cheeks
 魚貝類,"鯛魚下巴","鯛魚喉",魚貝類 鱼贝类 鯛魚下巴 鯛魚喉鲷鱼下巴 鲷鱼喉 ,Tilapia chin
-魚貝類,"鯊魚翅","魚翅",魚貝類 鱼贝类 鯊魚翅 魚翅鲨鱼翅 ,Shark s fin
+魚貝類,"鯊魚翅","魚翅",魚貝類 鱼贝类 鯊魚翅 沙魚翅 魚翅鲨鱼翅 ,Shark s fin
 魚貝類,"魚翅唇",,魚貝類 鱼贝类 魚翅唇 鱼翅唇 ,Shark s fin
 魚貝類,"翻車魨魚皮","曼波魚皮,翻車魚皮",魚貝類 鱼贝类 翻車魨魚皮 曼波魚皮 翻車魚皮翻车魨鱼皮 曼波鱼皮 翻车鱼皮 ,Ocean sunfish Sun fish Sunfish Headfish Giant sunfish Moonfish Mola ocean sunfish
-魚貝類,"鯊魚皮",,魚貝類 鱼贝类 鯊魚皮 鲨鱼皮 ,Shark skin
+魚貝類,"鯊魚皮",,魚貝類 鱼贝类 鯊魚皮 沙魚皮 鲨鱼皮 ,Shark skin
 魚貝類,"魚漿(旗魚)",,魚貝類 鱼贝类 魚漿 旗魚 鱼浆 旗鱼 ,Fish paste swordfish
 魚貝類,"鮸魚卵(加工)",,魚貝類 鱼贝类 鮸魚卵 加工 鮸鱼卵 ,Brown croaker roe
 魚貝類,"鯔魚卵","烏魚卵",魚貝類 鱼贝类 鯔魚卵 烏魚卵鲻鱼卵 乌鱼卵 ,Common mullet egg Flathead mullet egg Grey mullet egg Striped mullet egg
@@ -1227,11 +1227,11 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 魚貝類,"鰹魚卵",,魚貝類 鱼贝类 鰹魚卵 鲣鱼卵 ,Bonito egg Skipjack egg Skipjack tuna egg
 魚貝類,"鯔魚精囊","鯔(烏)魚鰾(膘)",魚貝類 鱼贝类 鯔魚精囊 鯔 烏 魚鰾 膘 鲻鱼精囊 鲻 乌 鱼鳔 ,Mullet swim bladder
 魚貝類,"鮟鱇魚肝",,魚貝類 鱼贝类 鮟鱇魚肝 鮟鱇鱼肝 ,Blackmouth angler liver
-魚貝類,"旗魚肚",,魚貝類 鱼贝类 旗魚肚 旗鱼肚 ,Marlin stomach or Sailfish stomach or Spearfish stomach
-魚貝類,"鮪魚肚",,魚貝類 鱼贝类 鮪魚肚 鲔鱼肚 ,Tuna stomach
-魚貝類,"小魚干",,魚貝類 鱼贝类 小魚干 小鱼干 ,Dried clove fish
-魚貝類,"扁魚干",,魚貝類 鱼贝类 扁魚干 扁鱼干 ,Dried roughscale flounder
-魚貝類,"柴魚片",,魚貝類 鱼贝类 柴魚片 柴鱼片 ,Dried bonito flakes
+魚貝類,"旗魚肚","旗魚排,旗魚肉",魚貝類 鱼贝类 旗魚肚 旗魚排 旗魚肉旗鱼肚 旗鱼排 旗鱼肉 ,Marlin stomach or Sailfish stomach or Spearfish stomach
+魚貝類,"鮪魚肚","鮪魚排,鮪魚肉",魚貝類 鱼贝类 鮪魚肚 鮪魚排 鮪魚肉鲔鱼肚 鲔鱼排 鲔鱼肉 ,Tuna stomach
+魚貝類,"小魚干","小魚乾",魚貝類 鱼贝类 小魚干 小魚乾 小魚乾小鱼干 小魚乾小鱼乾 ,Dried clove fish
+魚貝類,"扁魚干","扁魚乾",魚貝類 鱼贝类 扁魚干 扁魚乾 扁魚乾扁鱼干 扁魚乾扁鱼乾 ,Dried roughscale flounder
+魚貝類,"柴魚片","鰹魚乾,鰹節,柴魚,木魚,柴魚片,乾鰹魚",魚貝類 鱼贝类 柴魚片 鰹魚乾 鰹節 柴魚 木魚 乾鰹魚柴鱼片 鲣鱼乾 鲣节 柴鱼 木鱼 乾鲣鱼 ,Dried bonito flakes
 魚貝類,"羅氏沼蝦","泰國蝦,泰國長臂大蝦,淡水長臂大蝦",魚貝類 鱼贝类 羅氏沼蝦 泰國蝦 泰國長臂大蝦 淡水長臂大蝦罗氏沼虾 泰国虾 泰国长臂大虾 淡水长臂大虾 ,Giant river shrimp prawn 
 魚貝類,"北方長額蝦(加工)","北極蝦,北極甜蝦,冷水蝦",魚貝類 鱼贝类 北方長額蝦 加工 北極蝦 北極甜蝦 冷水蝦北方长额虾 北极虾 北极甜虾 冷水虾 ,Northern Prawn Coldwater Prawn
 魚貝類,"東方異腕蝦","米諾蝦,鐵甲蝦,蝦母,大頭蝦",魚貝類 鱼贝类 東方異腕蝦 米諾蝦 鐵甲蝦 蝦母 大頭蝦东方异腕虾 米诺虾 铁甲虾 虾母 大头虾 ,Armoured lobster
@@ -1268,8 +1268,8 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 魚貝類,"蝦米",,魚貝類 鱼贝类 蝦米 虾米 ,Shrimp
 魚貝類,"金鉤蝦乾","海米,扁米,開洋, 開陽, 蝦米, 金勾",魚貝類 鱼贝类 金鉤蝦乾 海米 扁米 開洋 開陽 蝦米 金勾金钩虾乾 开洋 开阳 虾米 ,Velvet shrimp Metapenaeopsis barbata
 魚貝類,"紅蟳","青蟳(蟹)(交配後卵巢成熟雌蟹),菜蟳",魚貝類 鱼贝类 紅蟳 青蟳 蟹 交配後卵巢成熟雌蟹 菜蟳红蟳 ,Indo pacific swamp crab Mangrove crab Mud crab
-魚貝類,"蛙形蟹","旭蟹,蝦姑頭,候貝切,紅面猴,海臭蟲,西姑麻",魚貝類 鱼贝类 蛙形蟹 旭蟹 蝦姑頭 候貝切 紅面猴 海臭蟲 西姑麻蛙形蟹 虾姑头 候贝切 红面猴 海臭虫 ,Crimson crab Frog crab Snanner crab
-魚貝類,"蟹腳肉",,魚貝類 鱼贝类 蟹腳肉 蟹脚肉 ,Crab meat
+魚貝類,"蛙形蟹","旭蟹肉,蝦姑頭,候貝切,紅面猴,海臭蟲,西姑麻",魚貝類 鱼贝类 蛙形蟹 旭蟹肉 蝦姑頭 候貝切 紅面猴 海臭蟲 西姑麻蛙形蟹 虾姑头 候贝切 红面猴 海臭虫 ,Crimson crab Frog crab Snanner crab
+魚貝類,"蟹腳肉","蟹肉",魚貝類 鱼贝类 蟹腳肉 蟹肉蟹脚肉 ,Crab meat
 魚貝類,"竹蟶(冷凍)","竹蛤,竹蚶,蟶仔,竹節蟶",魚貝類 鱼贝类 竹蟶 冷凍 竹蛤 竹蚶 蟶仔 竹節蟶竹蛏 冷冻 蛏仔 竹节蛏 ,Gould s Jackknife Clam
 魚貝類,"真牡蠣平均值","正(大/長/鑄大)牡蠣,正(青)蚵,蚵仔,蚵,蠔",魚貝類 鱼贝类 真牡蠣平均值 正 大/長/鑄大 牡蠣 青 蚵 蚵仔 蠔真牡蛎平均值 大/长/铸大 牡蛎 蚝 ,Giant pacific oyster Japanese oyster
 魚貝類,"真牡蠣","正(大/長/鑄大)牡蠣,正(青)蚵,蚵仔,蚵,蠔",魚貝類 鱼贝类 真牡蠣 正 大/長/鑄大 青 蚵 蚵仔 蠔真牡蛎 大/长/铸大 蚝 ,Giant pacific oyster Japanese oyster
@@ -1277,7 +1277,7 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 魚貝類,"黑齒牡蠣","石蚵",魚貝類 鱼贝类 黑齒牡蠣 石蚵黑齿牡蛎 ,Oyster
 魚貝類,"蝦夷海扇蛤","扇貝,立帆蛤,帆立貝",魚貝類 鱼贝类 蝦夷海扇蛤 扇貝 立帆蛤 帆立貝虾夷海扇蛤 扇贝 帆立贝 ,Yesso Scallop
 魚貝類,"綠殼菜蛤","孔雀蛤,淡菜,翡翠貽貝",魚貝類 鱼贝类 綠殼菜蛤 孔雀蛤 淡菜 翡翠貽貝绿壳菜蛤 翡翠贻贝 ,Green Mussel
-魚貝類,"綠殼菜蛤干","孔雀蛤干,淡菜干,翡翠貽貝干",魚貝類 鱼贝类 綠殼菜蛤干 孔雀蛤干 淡菜干 翡翠貽貝干绿壳菜蛤干 翡翠贻贝干 ,Green Mussel
+魚貝類,"綠殼菜蛤干","孔雀蛤干,淡菜干,翡翠貽貝干",魚貝類 鱼贝类 綠殼菜蛤干 綠殼菜蛤乾 孔雀蛤干 孔雀蛤乾 淡菜干 淡菜乾 翡翠貽貝干绿壳菜蛤干 翡翠貽貝乾绿壳菜蛤乾 孔雀蛤乾 淡菜乾 翡翠贻贝干翡翠贻贝乾 ,Green Mussel
 魚貝類,"西施舌","紫貝,西肚舌,西刀舌(蚶),紫晃肉,雙線血蚶,獅刀舌,西施貝",魚貝類 鱼贝类 西施舌 紫貝 西肚舌 西刀舌 蚶 紫晃肉 雙線血蚶 獅刀舌 西施貝西施舌 紫贝 双线血蚶 狮刀舌 西施贝 ,Diphos sanguin Purple clam
 魚貝類,"台灣蜆","蜆(蜊/拉)仔,河蜆",魚貝類 鱼贝类 台灣蜆 蜊/拉 仔 河蜆台湾蚬 河蚬 ,Corbicula Clam Freshwater Clam Taiwanese freshwater clam
 魚貝類,"大文蛤","文蛤,普通文蛤",魚貝類 鱼贝类 大文蛤 普通文蛤大文蛤 ,Hard clam
@@ -1285,11 +1285,11 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 魚貝類,"波紋橫簾蛤 ","波紋巴非蛤,山瓜仔(子),海瓜仔(子)",魚貝類 鱼贝类 波紋橫簾蛤 波紋巴非蛤 山瓜仔 子 海瓜仔 波纹横帘蛤 波纹巴非蛤 ,Undulating Venus
 魚貝類,"菲律賓簾蛤","菲律賓蛤仔,海瓜子(仔)蛤,花蛤",魚貝類 鱼贝类 菲律賓簾蛤 菲律賓蛤仔 海瓜子 花蛤菲律宾帘蛤 菲律宾蛤仔 ,Filipino Venus
 魚貝類,"環文蛤","赤嘴蛤,赤嘴仔,青蛤,海蜆,公代",魚貝類 鱼贝类 環文蛤 赤嘴蛤 赤嘴仔 青蛤 海蜆 公代环文蛤 海蚬 ,Chinese Venus
-魚貝類,"干貝(冷凍)","元貝,瑤柱",魚貝類 鱼贝类 干貝 冷凍 元貝 瑤柱干贝 冷冻 元贝 瑶柱 ,Scallop
-魚貝類,"干貝(乾)平均值",,魚貝類 鱼贝类 干貝 乾 平均值 干贝 ,Scallop
-魚貝類,"干貝(乾)","元貝,瑤柱",魚貝類 鱼贝类 干貝 乾 元貝 瑤柱干贝 元贝 瑶柱 ,Scallop
-魚貝類,"珠貝(乾)","珍珠干貝",魚貝類 鱼贝类 珠貝 乾 珍珠干貝珠贝 珍珠干贝 ,Scallop
-魚貝類,"牡蠣干","蚵干",魚貝類 鱼贝类 牡蠣干 蚵干牡蛎干 ,Oyster
+魚貝類,"干貝(冷凍)","元貝,瑤柱",魚貝類 鱼贝类 干貝 乾貝 冷凍 元貝 瑤柱干贝 瑤柱乾贝 冷冻 元贝 瑶柱 ,Scallop
+魚貝類,"干貝(乾)平均值",,魚貝類 鱼贝类 干貝 乾貝 乾 平均值 干贝 乾贝 ,Scallop
+魚貝類,"干貝(乾)","元貝,瑤柱",魚貝類 鱼贝类 干貝 乾貝 乾 元貝 瑤柱干贝 瑤柱乾贝 元贝 瑶柱 ,Scallop
+魚貝類,"珠貝(乾)","珍珠干貝",魚貝類 鱼贝类 珠貝 乾 珍珠干貝珠贝 珍珠乾貝珠贝 珍珠干贝珍珠乾贝 ,Scallop
+魚貝類,"牡蠣干","蚵干",魚貝類 鱼贝类 牡蠣干 牡蠣乾 蚵干牡蛎干 蚵乾牡蛎乾 蚵乾 ,Oyster
 魚貝類,"真烏賊平均值","花枝,墨魚,金烏賊,烏鰂,墨鬥魚",魚貝類 鱼贝类 真烏賊平均值 花枝 墨魚 金烏賊 烏鰂 墨鬥魚真乌贼平均值 墨鱼 金乌贼 乌鰂 墨斗鱼 ,Cuttlefish
 魚貝類,"真烏賊(大)","花枝,墨魚,金烏賊,烏鰂,墨鬥魚",魚貝類 鱼贝类 真烏賊 大 花枝 墨魚 金烏賊 烏鰂 墨鬥魚真乌贼 墨鱼 金乌贼 乌鰂 墨斗鱼 ,Cuttlefish
 魚貝類,"真烏賊(小)","花枝,墨魚,金烏賊,烏鰂,墨鬥魚",魚貝類 鱼贝类 真烏賊 小 花枝 墨魚 金烏賊 烏鰂 墨鬥魚真乌贼 墨鱼 金乌贼 乌鰂 墨斗鱼 ,Cuttlefish
@@ -1299,20 +1299,20 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 魚貝類,"台灣鎖管","鎖管,小卷 ",魚貝類 鱼贝类 台灣鎖管 小卷 台湾锁管 ,Inshore squids Loligo Neritic squid
 魚貝類,"尖鎖管 ","尖仔鎖管,詩博加槍烏賊,尖仔,小卷(幼體)",魚貝類 鱼贝类 尖鎖管 尖仔鎖管 詩博加槍烏賊 尖仔 小卷 幼體 尖锁管 尖仔锁管 诗博加枪乌贼 幼体 ,Inshore squids Loligo Neritic squid Siboga squid
 魚貝類,"軟翅仔","萊氏擬烏賊,軟翅鎖管,軟翅(薯/絲),泥障鰂,擬烏賊,柔魚",魚貝類 鱼贝类 軟翅仔 萊氏擬烏賊 軟翅鎖管 軟翅 薯/絲 泥障鰂 柔魚软翅仔 莱氏拟乌贼 软翅锁管 软翅 薯/丝 柔鱼 ,Bigfin reef squid Loligo Neritic squid
-魚貝類,"香螺 ","小天狗剌螺,雪螺",魚貝類 鱼贝类 香螺 小天狗剌螺 雪螺香螺 ,Melon conchs Swamp Conchs Whelks
-魚貝類,"象牙鳳螺","鳳(花/風/皇)螺,象牙螺",魚貝類 鱼贝类 像牙鳳螺 鳳 花/風/皇 像牙螺象牙凤螺 凤 花/风/皇 象牙螺 ,Areola Babylon Maculated ivory shell
-魚貝類,"泥螺","黃泥螺",魚貝類 鱼贝类 泥螺 黃泥螺泥螺 黄泥螺 ,Korean mud snail Bullacta exarata
-魚貝類,"雪螺",,魚貝類 鱼贝类 雪螺 ,Niveria
+魚貝類,"香螺 ","小天狗剌螺,雪螺肉",魚貝類 鱼贝类 香螺 小天狗剌螺 雪螺肉香螺 ,Melon conchs Swamp Conchs Whelks
+魚貝類,"象牙鳳螺","鳳(花/風/皇)螺,象牙螺肉",魚貝類 鱼贝类 像牙鳳螺 鳳 花/風/皇 像牙螺肉象牙凤螺 凤 花/风/皇 象牙螺肉 ,Areola Babylon Maculated ivory shell
+魚貝類,"泥螺","黃泥螺肉",魚貝類 鱼贝类 泥螺 黃泥螺肉泥螺 黄泥螺肉 ,Korean mud snail Bullacta exarata
+魚貝類,"雪螺","雪螺肉",魚貝類 鱼贝类 雪螺 雪螺肉雪螺 ,Niveria
 魚貝類,"九孔螺","九孔;雜色鮑;石決明 ",魚貝類 鱼贝类 九孔螺 九孔 雜色鮑 石決明 杂色鲍 石决明 ,Abalone Japanese abalone Ormer Sea ear
 魚貝類,"鮑魚","鰒魚;石決明;石決明貝",魚貝類 鱼贝类 鮑魚 鰒魚 石決明 石決明貝鲍鱼 鳆鱼 石决明 石决明贝 ,Abalone Ear shell Ormer Sea ear
-魚貝類,"蝸牛肉",,魚貝類 鱼贝类 蝸牛肉 蜗牛肉 ,Snail meat
+魚貝類,"蝸牛肉","田螺肉",魚貝類 鱼贝类 蝸牛肉 田螺肉蜗牛肉 ,Snail meat
 魚貝類,"烏賊精囊","烏賊鰾(膘),花枝鰾(膘)",魚貝類 鱼贝类 烏賊精囊 烏賊鰾 膘 花枝鰾 乌贼精囊 乌贼鳔 花枝鳔 ,Squid bladder
-魚貝類,"小卷干","鎖管干(乾)",魚貝類 鱼贝类 小卷干 鎖管干 乾 锁管干 ,Dried swordtip squid
+魚貝類,"小卷干","鎖管干(乾)",魚貝類 鱼贝类 小卷干 小卷乾 鎖管干 鎖管乾 小卷乾 锁管干 锁管乾 ,Dried swordtip squid
 魚貝類,"白海參","海蚯蚓,沙糞",魚貝類 鱼贝类 白海參 海蚯蚓 沙糞白海参 沙粪 ,White sea cucumber
-魚貝類,"仿刺參","刺參",魚貝類 鱼贝类 仿刺參 刺參仿刺参 ,Japanese common sea cucumber
-魚貝類,"南美刺參",,魚貝類 鱼贝类 南美刺參 南美刺参 ,South American sea cucumber
-魚貝類,"紅海參",,魚貝類 鱼贝类 紅海參 红海参 ,Red sea cucumber
-魚貝類,"黑烏參",,魚貝類 鱼贝类 黑烏參 黑乌参 ,Black sea cucumber
+魚貝類,"仿刺參","海參:刺參",魚貝類 鱼贝类 仿刺參 海參 刺參仿刺参 海参 ,Japanese common sea cucumber
+魚貝類,"南美刺參","海參:南美刺參",魚貝類 鱼贝类 南美刺參 海參 南美刺參南美刺参 海参 ,South American sea cucumber
+魚貝類,"紅海參","海參:紅海參",魚貝類 鱼贝类 紅海參 紅海參红海参 ,Red sea cucumber
+魚貝類,"黑烏參","海參:黑烏參",魚貝類 鱼贝类 黑烏參 海參 黑烏參黑乌参 海参 ,Black sea cucumber
 魚貝類,"海蜇皮","瑝魚,海蛇,紅(面)蜇,鮓魚",魚貝類 鱼贝类 海蜇皮 瑝魚 海蛇 紅 面 蜇 鮓魚海蜇皮 瑝鱼 红 鮓鱼 ,Jelly fish
 蛋類,"雞蛋平均值",,蛋類 蛋类 雞蛋平均值 鸡蛋平均值 ,Hen s egg
 蛋類,"雞蛋(白殼)",,蛋類 蛋类 雞蛋 白殼 鸡蛋 白壳 ,Hen s egg white eggshell
@@ -1335,48 +1335,48 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 蛋類,"雞蛋黃(黃殼)",,蛋類 蛋类 雞蛋黃 黃殼 鸡蛋黄 黄壳 ,Hen s egg yolk yellow eggshell
 蛋類,"烏骨雞蛋黃",,蛋類 蛋类 烏骨雞蛋黃 乌骨鸡蛋黄 ,Hen s egg yolk Silky fowl
 蛋類,"雞蛋黃(高維生素E)",,蛋類 蛋类 雞蛋黃 高維生素 鸡蛋黄 高维生素 ,Hen s egg yolk vitamin E enriched
-蛋類,"溫泉蛋",,蛋類 蛋类 溫泉蛋 温泉蛋 ,Japanese style flavered spa egg
-蛋類,"雞水煮蛋",,蛋類 蛋类 雞水煮蛋 鸡水煮蛋 ,Hen s egg hard boiled
-蛋類,"雞水煮蛋白",,蛋類 蛋类 雞水煮蛋白 鸡水煮蛋白 ,Hen s egg white hard boiled
-蛋類,"雞水煮蛋黃",,蛋類 蛋类 雞水煮蛋黃 鸡水煮蛋黄 ,Hen s egg yolk hard boiled
-蛋類,"茶葉蛋平均值",,蛋類 蛋类 茶葉蛋平均值 茶叶蛋平均值 ,Hen s egg hard boiled with salt and tea leaves
-蛋類,"茶葉蛋(市售)",,蛋類 蛋类 茶葉蛋 市售 茶叶蛋 ,Hen s egg hard boiled with salt and tea leaves
-蛋類,"茶葉蛋(浸泡隔夜)",,蛋類 蛋类 茶葉蛋 浸泡隔夜 茶叶蛋 ,Hen s egg hard boiled with salt and tea leaves
-蛋類,"茶葉蛋白(浸泡隔夜)",,蛋類 蛋类 茶葉蛋白 浸泡隔夜 茶叶蛋白 ,Hen s egg whiet hard boiled with salt and tea leaves
-蛋類,"茶葉蛋黃(浸泡隔夜)",,蛋類 蛋类 茶葉蛋黃 浸泡隔夜 茶叶蛋黄 ,Hen s egg yolk hard boiled with salt and tea leaves
-蛋類,"雞皮蛋平均值",,蛋類 蛋类 雞皮蛋平均值 鸡皮蛋平均值 ,Hen s egg alkalized
-蛋類,"雞皮蛋",,蛋類 蛋类 雞皮蛋 鸡皮蛋 ,Hen s egg alkalized
-蛋類,"土雞皮蛋",,蛋類 蛋类 土雞皮蛋 土鸡皮蛋 ,Hen s egg wild alkalized
-蛋類,"滷蛋平均值",,蛋類 蛋类 鹵蛋平均值 卤蛋平均值 ,Hen s egg stewed
-蛋類,"雞滷蛋(市售)",,蛋類 蛋类 雞鹵蛋 市售 鸡卤蛋 ,Hen s egg stewed
-蛋類,"雞滷蛋(現煮)",,蛋類 蛋类 雞鹵蛋 現煮 鸡卤蛋 现煮 ,Hen s egg stewed
-蛋類,"雞滷蛋(浸泡隔夜)",,蛋類 蛋类 雞鹵蛋 浸泡隔夜 鸡卤蛋 ,Hen s egg stewed
-蛋類,"滷蛋白平均值",,蛋類 蛋类 鹵蛋白平均值 卤蛋白平均值 ,Hen s egg white stewed
-蛋類,"雞滷蛋白(現煮)",,蛋類 蛋类 雞鹵蛋白 現煮 鸡卤蛋白 现煮 ,Hen s egg white stewed
-蛋類,"雞滷蛋白(浸泡隔夜)",,蛋類 蛋类 雞鹵蛋白 浸泡隔夜 鸡卤蛋白 ,Hen s egg white stewed
-蛋類,"滷蛋黃平均值",,蛋類 蛋类 鹵蛋黃平均值 卤蛋黄平均值 ,Hen s egg yolk stewed
-蛋類,"雞滷蛋黃(現煮)",,蛋類 蛋类 雞鹵蛋黃 現煮 鸡卤蛋黄 现煮 ,Hen s egg yolk stewed
-蛋類,"雞滷蛋黃(浸泡隔夜)",,蛋類 蛋类 雞鹵蛋黃 浸泡隔夜 鸡卤蛋黄 ,Hen s egg yolk stewed
-蛋類,"雞鐵蛋",,蛋類 蛋类 雞鐵蛋 鸡铁蛋 ,hen s iron egg
-蛋類,"雞水波蛋","(不帶殼水煮蛋)",蛋類 蛋类 雞水波蛋 不帶殼水煮蛋 鸡水波蛋 不带壳水煮蛋 ,Hen s egg poached
-蛋類,"荷包蛋(不加油)",,蛋類 蛋类 荷包蛋 不加油 ,Hen s egg over medium without oil
-蛋類,"荷包蛋(加油1小匙)",,蛋類 蛋类 荷包蛋 加油 小匙 ,Hen s egg over medium with teaspoon of oil
-蛋類,"煎蛋(不加油)",,蛋類 蛋类 煎蛋 不加油 ,Hen s egg fried without oil
-蛋類,"炒蛋(加油3大匙)",,蛋類 蛋类 炒蛋 加油 大匙 ,Hen s egg scrambled with tablespoons of oil
-蛋類,"蒸蛋平均值",,蛋類 蛋类 蒸蛋平均值 ,Hen s egg custard
-蛋類,"蒸蛋(市售)","芙蓉豆腐",蛋類 蛋类 蒸蛋 市售 芙蓉豆腐蒸蛋 ,Hen s egg custard
-蛋類,"蒸蛋(微波爐)",,蛋類 蛋类 蒸蛋 微波爐 微波炉 ,Hen s egg custard
-蛋類,"蒸蛋(電鍋)",,蛋類 蛋类 蒸蛋 電鍋 电锅 ,Hen s egg custard
+蛋類,"溫泉蛋","雞蛋: 溫泉蛋",蛋類 蛋类 溫泉蛋 雞蛋 溫泉蛋温泉蛋 鸡蛋 ,Japanese style flavered spa egg
+蛋類,"雞水煮蛋","雞蛋: 水煮",蛋類 蛋类 雞水煮蛋 雞蛋 水煮鸡水煮蛋 鸡蛋 ,Hen s egg hard boiled
+蛋類,"雞水煮蛋白","雞蛋白: 水煮",蛋類 蛋类 雞水煮蛋白 雞蛋白 水煮鸡水煮蛋白 鸡蛋白 ,Hen s egg white hard boiled
+蛋類,"雞水煮蛋黃","雞蛋黃: 水煮",蛋類 蛋类 雞水煮蛋黃 雞蛋黃 水煮鸡水煮蛋黄 鸡蛋黄 ,Hen s egg yolk hard boiled
+蛋類,"茶葉蛋平均值","雞蛋: 茶葉蛋",蛋類 蛋类 茶葉蛋平均值 雞蛋 茶葉蛋茶叶蛋平均值 鸡蛋 ,Hen s egg hard boiled with salt and tea leaves
+蛋類,"茶葉蛋(市售)","雞蛋: 茶葉蛋",蛋類 蛋类 茶葉蛋 市售 雞蛋 茶葉蛋茶叶蛋 鸡蛋 ,Hen s egg hard boiled with salt and tea leaves
+蛋類,"茶葉蛋(浸泡隔夜)","雞蛋: 茶葉蛋",蛋類 蛋类 茶葉蛋 浸泡隔夜 雞蛋 茶葉蛋茶叶蛋 鸡蛋 ,Hen s egg hard boiled with salt and tea leaves
+蛋類,"茶葉蛋白(浸泡隔夜)","雞蛋: 茶葉蛋",蛋類 蛋类 茶葉蛋白 浸泡隔夜 雞蛋 茶葉蛋茶叶蛋白 鸡蛋 ,Hen s egg whiet hard boiled with salt and tea leaves
+蛋類,"茶葉蛋黃(浸泡隔夜)","雞蛋: 茶葉蛋",蛋類 蛋类 茶葉蛋黃 浸泡隔夜 雞蛋 茶葉蛋茶叶蛋黄 鸡蛋 ,Hen s egg yolk hard boiled with salt and tea leaves
+蛋類,"雞皮蛋平均值","雞蛋: 皮蛋",蛋類 蛋类 雞皮蛋平均值 雞蛋 皮蛋鸡皮蛋平均值 鸡蛋 ,Hen s egg alkalized
+蛋類,"雞皮蛋","雞蛋: 皮蛋",蛋類 蛋类 雞皮蛋 雞蛋 皮蛋鸡皮蛋 鸡蛋 ,Hen s egg alkalized
+蛋類,"土雞皮蛋","土雞蛋: 皮蛋",蛋類 蛋类 土雞皮蛋 土雞蛋 皮蛋土鸡皮蛋 土鸡蛋 ,Hen s egg wild alkalized
+蛋類,"滷蛋平均值","雞蛋: 滷蛋",蛋類 蛋类 鹵蛋平均值 雞蛋 鹵蛋卤蛋平均值 鸡蛋 ,Hen s egg stewed
+蛋類,"雞滷蛋(市售)","雞蛋: 滷蛋",蛋類 蛋类 雞鹵蛋 市售 雞蛋 鹵蛋鸡卤蛋 鸡蛋 ,Hen s egg stewed
+蛋類,"雞滷蛋(現煮)","雞蛋: 滷蛋",蛋類 蛋类 雞鹵蛋 現煮 雞蛋 鹵蛋鸡卤蛋 现煮 鸡蛋 ,Hen s egg stewed
+蛋類,"雞滷蛋(浸泡隔夜)","雞蛋: 滷蛋",蛋類 蛋类 雞鹵蛋 浸泡隔夜 雞蛋 鹵蛋鸡卤蛋 鸡蛋 ,Hen s egg stewed
+蛋類,"滷蛋白平均值","雞蛋: 滷蛋",蛋類 蛋类 鹵蛋白平均值 雞蛋 鹵蛋卤蛋白平均值 鸡蛋 ,Hen s egg white stewed
+蛋類,"雞滷蛋白(現煮)","雞蛋: 滷蛋",蛋類 蛋类 雞鹵蛋白 現煮 雞蛋 鹵蛋鸡卤蛋白 现煮 鸡蛋 ,Hen s egg white stewed
+蛋類,"雞滷蛋白(浸泡隔夜)","雞蛋: 滷蛋",蛋類 蛋类 雞鹵蛋白 浸泡隔夜 雞蛋 鹵蛋鸡卤蛋白 鸡蛋 ,Hen s egg white stewed
+蛋類,"滷蛋黃平均值","雞蛋: 滷蛋",蛋類 蛋类 鹵蛋黃平均值 雞蛋 鹵蛋卤蛋黄平均值 鸡蛋 ,Hen s egg yolk stewed
+蛋類,"雞滷蛋黃(現煮)","雞蛋: 滷蛋",蛋類 蛋类 雞鹵蛋黃 現煮 雞蛋 鹵蛋鸡卤蛋黄 现煮 鸡蛋 ,Hen s egg yolk stewed
+蛋類,"雞滷蛋黃(浸泡隔夜)","雞蛋: 滷蛋",蛋類 蛋类 雞鹵蛋黃 浸泡隔夜 雞蛋 鹵蛋鸡卤蛋黄 鸡蛋 ,Hen s egg yolk stewed
+蛋類,"雞鐵蛋","雞蛋: 鐵蛋",蛋類 蛋类 雞鐵蛋 雞蛋 鐵蛋鸡铁蛋 鸡蛋 ,hen s iron egg
+蛋類,"雞水波蛋","雞蛋: 不帶殼水煮蛋",蛋類 蛋类 雞水波蛋 雞蛋 不帶殼水煮蛋鸡水波蛋 鸡蛋 不带壳水煮蛋 ,Hen s egg poached
+蛋類,"荷包蛋(不加油)","雞蛋: 荷包蛋",蛋類 蛋类 荷包蛋 不加油 雞蛋 荷包蛋荷包蛋 鸡蛋 ,Hen s egg over medium without oil
+蛋類,"荷包蛋(加油1小匙)","雞蛋: 荷包蛋",蛋類 蛋类 荷包蛋 加油 小匙 雞蛋 荷包蛋荷包蛋 鸡蛋 ,Hen s egg over medium with teaspoon of oil
+蛋類,"煎蛋(不加油)","雞蛋: 荷包蛋",蛋類 蛋类 煎蛋 不加油 雞蛋 荷包蛋煎蛋 鸡蛋 ,Hen s egg fried without oil
+蛋類,"炒蛋(加油3大匙)","雞蛋: 炒蛋",蛋類 蛋类 炒蛋 加油 大匙 雞蛋 炒蛋炒蛋 鸡蛋 ,Hen s egg scrambled with tablespoons of oil
+蛋類,"蒸蛋平均值","雞蛋: 蒸蛋",蛋類 蛋类 蒸蛋平均值 雞蛋 蒸蛋蒸蛋平均值 鸡蛋 ,Hen s egg custard
+蛋類,"蒸蛋(市售)","雞蛋: (蒸)芙蓉豆腐",蛋類 蛋类 蒸蛋 市售 雞蛋 蒸 芙蓉豆腐蒸蛋 鸡蛋 ,Hen s egg custard
+蛋類,"蒸蛋(微波爐)","雞蛋: (微波)",蛋類 蛋类 蒸蛋 微波爐 雞蛋 微波 微波炉 鸡蛋 ,Hen s egg custard
+蛋類,"蒸蛋(電鍋)","雞蛋: (電鍋蒸)",蛋類 蛋类 蒸蛋 電鍋 雞蛋 電鍋蒸 电锅 鸡蛋 电锅蒸 ,Hen s egg custard
 蛋類,"鴨蛋",,蛋類 蛋类 鴨蛋 鸭蛋 ,Duck s egg
 蛋類,"紅面番鴨蛋",,蛋類 蛋类 紅面番鴨蛋 红面番鸭蛋 ,Duck s egg muscovy
-蛋類,"鴨蛋白",,蛋類 蛋类 鴨蛋白 鸭蛋白 ,Duck s egg white
-蛋類,"鴨蛋黃",,蛋類 蛋类 鴨蛋黃 鸭蛋黄 ,Duck s egg yolk
-蛋類,"鴨皮蛋",,蛋類 蛋类 鴨皮蛋 鸭皮蛋 ,Duck s egg alkalized
-蛋類,"鴨鹹蛋平均值",,蛋類 蛋类 鴨鹹蛋平均值 鸭咸蛋平均值 ,Duck s egg salted
-蛋類,"鴨生鹹蛋",,蛋類 蛋类 鴨生鹹蛋 鸭生咸蛋 ,Duck s egg salted
-蛋類,"鴨熟鹹蛋",,蛋類 蛋类 鴨熟鹹蛋 鸭熟咸蛋 ,Duck s egg salted
-蛋類,"鴨熟鹹蛋(薄鹽)",,蛋類 蛋类 鴨熟鹹蛋 薄鹽 鸭熟咸蛋 薄盐 ,Duck s egg salted
-蛋類,"鴨鹹蛋黃",,蛋類 蛋类 鴨鹹蛋黃 鸭咸蛋黄 ,Duck s egg yolk salted
+蛋類,"鴨蛋白","鴨蛋: 蛋白",蛋類 蛋类 鴨蛋白 鴨蛋 蛋白鸭蛋白 鸭蛋 ,Duck s egg white
+蛋類,"鴨蛋黃","鴨蛋: 蛋黃",蛋類 蛋类 鴨蛋黃 鴨蛋 蛋黃鸭蛋黄 鸭蛋 ,Duck s egg yolk
+蛋類,"鴨皮蛋","鴨蛋: 皮蛋",蛋類 蛋类 鴨皮蛋 鴨蛋 皮蛋鸭皮蛋 鸭蛋 ,Duck s egg alkalized
+蛋類,"鴨鹹蛋平均值","鴨蛋: 鹹蛋",蛋類 蛋类 鴨鹹蛋平均值 鴨蛋 鹹蛋鸭咸蛋平均值 鸭蛋 ,Duck s egg salted
+蛋類,"鴨生鹹蛋","鴨蛋: 生鹹蛋",蛋類 蛋类 鴨生鹹蛋 鴨蛋 生鹹蛋鸭生咸蛋 鸭蛋 ,Duck s egg salted
+蛋類,"鴨熟鹹蛋","鴨蛋: 熟鹹蛋",蛋類 蛋类 鴨熟鹹蛋 鴨蛋 熟鹹蛋鸭熟咸蛋 鸭蛋 ,Duck s egg salted
+蛋類,"鴨熟鹹蛋(薄鹽)","鴨蛋: 熟鹹蛋",蛋類 蛋类 鴨熟鹹蛋 薄鹽 鴨蛋 熟鹹蛋鸭熟咸蛋 薄盐 鸭蛋 ,Duck s egg salted
+蛋類,"鴨鹹蛋黃","鴨蛋: 鹹蛋黃",蛋類 蛋类 鴨鹹蛋黃 鴨蛋 鹹蛋黃鸭咸蛋黄 鸭蛋 ,Duck s egg yolk salted
 蛋類,"鵪鶉蛋","鳥蛋",蛋類 蛋类 鵪鶉蛋 鳥蛋鹌鹑蛋 鸟蛋 ,Quail s egg
 蛋類,"鵪鶉水煮蛋","鳥蛋",蛋類 蛋类 鵪鶉水煮蛋 鳥蛋鹌鹑水煮蛋 鸟蛋 ,Quail s egg hard boiled
 蛋類,"鵪鶉皮蛋","鳥蛋",蛋類 蛋类 鵪鶉皮蛋 鳥蛋鹌鹑皮蛋 鸟蛋 ,Quail s egg alkalized
@@ -1385,56 +1385,56 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 蛋類,"鵪鶉鐵蛋","鳥蛋",蛋類 蛋类 鵪鶉鐵蛋 鳥蛋鹌鹑铁蛋 鸟蛋 ,Quail s iron egg
 蛋類,"鴿蛋","鳥蛋",蛋類 蛋类 鴿蛋 鳥蛋鸽蛋 鸟蛋 ,Pigeon s egg
 蛋類,"鵝蛋",,蛋類 蛋类 鵝蛋 鹅蛋 ,Goose s egg
-乳品類,"高脂鮮乳","牛乳,牛奶",乳品類 乳品类 高脂鮮乳 牛乳 牛奶高脂鲜乳 ,High fat fresh milk
-乳品類,"全脂鮮乳平均值","牛乳,牛奶",乳品類 乳品类 全脂鮮乳平均值 牛乳 牛奶全脂鲜乳平均值 ,Whole fresh milk
-乳品類,"全脂鮮乳(1月取樣)","牛乳,牛奶",乳品類 乳品类 全脂鮮乳 月取樣 牛乳 牛奶全脂鲜乳 月取样 ,Whole fresh milk
-乳品類,"全脂鮮乳(4月取樣)","牛乳,牛奶",乳品類 乳品类 全脂鮮乳 月取樣 牛乳 牛奶全脂鲜乳 月取样 ,Whole fresh milk
-乳品類,"全脂鮮乳(6月取樣)","牛乳,牛奶",乳品類 乳品类 全脂鮮乳 月取樣 牛乳 牛奶全脂鲜乳 月取样 ,Whole fresh milk
-乳品類,"全脂鮮乳(9月取樣)","牛乳,牛奶",乳品類 乳品类 全脂鮮乳 月取樣 牛乳 牛奶全脂鲜乳 月取样 ,Whole fresh milk
-乳品類,"全脂鮮乳(10月取樣)","牛乳,牛奶",乳品類 乳品类 全脂鮮乳 月取樣 牛乳 牛奶全脂鲜乳 月取样 ,Whole fresh milk
-乳品類,"全脂鮮乳(11月取樣)","牛乳,牛奶",乳品類 乳品类 全脂鮮乳 月取樣 牛乳 牛奶全脂鲜乳 月取样 ,Whole fresh milk
-乳品類,"全脂鮮乳(12月取樣)","牛乳,牛奶",乳品類 乳品类 全脂鮮乳 月取樣 牛乳 牛奶全脂鲜乳 月取样 ,Whole fresh milk
-乳品類,"全脂鮮乳(7月取樣)","牛乳,牛奶",乳品類 乳品类 全脂鮮乳 月取樣 牛乳 牛奶全脂鲜乳 月取样 ,Whole fresh milk
-乳品類,"中脂鮮乳","牛乳,牛奶",乳品類 乳品类 中脂鮮乳 牛乳 牛奶中脂鲜乳 ,Medium fat fresh milk
-乳品類,"低脂鮮乳","牛乳,牛奶",乳品類 乳品类 低脂鮮乳 牛乳 牛奶低脂鲜乳 ,Low fat fresh milk
-乳品類,"高脂強化鮮乳(鈣強化)","牛乳,牛奶",乳品類 乳品类 高脂強化鮮乳 鈣強化 牛乳 牛奶高脂强化鲜乳 钙强化 ,High fat fortified fresh milk calcium enriched
-乳品類,"高脂強化鮮乳(寡醣強化)","牛乳,牛奶",乳品類 乳品类 高脂強化鮮乳 寡醣強化 牛乳 牛奶高脂强化鲜乳 寡醣强化 ,High fat fortified fresh milk oligo enriched
-乳品類,"中脂強化鮮乳(脂肪酸調整)","牛乳,牛奶",乳品類 乳品类 中脂強化鮮乳 脂肪酸調整 牛乳 牛奶中脂强化鲜乳 脂肪酸调整 ,Medium fat fortified fresh milk fatty acid modified
-乳品類,"低脂強化鮮乳(維生素E強化)","牛乳,牛奶",乳品類 乳品类 低脂強化鮮乳 維生素強化 牛乳 牛奶低脂强化鲜乳 维生素强化 ,Low fat fortified fresh milk vitamin E enriched
-乳品類,"低脂強化鮮乳(寡醣強化)","牛乳,牛奶",乳品類 乳品类 低脂強化鮮乳 寡醣強化 牛乳 牛奶低脂强化鲜乳 寡醣强化 ,Low fat fortified fresh milk oligo enriched
-乳品類,"脫脂強化鮮乳(鈣強化)","牛乳,牛奶",乳品類 乳品类 脫脂強化鮮乳 鈣強化 牛乳 牛奶脱脂强化鲜乳 钙强化 ,Skimmed fortified fresh milk calcium enriched
-乳品類,"脫脂強化鮮乳(寡醣強化)","牛乳,牛奶",乳品類 乳品类 脫脂強化鮮乳 寡醣強化 牛乳 牛奶脱脂强化鲜乳 寡醣强化 ,Skimmed fortified fresh milk oligo enriched
-乳品類,"脫脂強化鮮乳(鐵強化)","牛乳,牛奶",乳品類 乳品类 脫脂強化鮮乳 鐵強化 牛乳 牛奶脱脂强化鲜乳 铁强化 ,Skimmed fortified fresh milk iron enriched
-乳品類,"中脂調味乳(巧克力)","牛乳,牛奶",乳品類 乳品类 中脂調味乳 巧克力 牛乳 牛奶中脂调味乳 ,Reduced fat flavored composite and recombined milk chocolate flavor
-乳品類,"中脂調味乳(多穀類)","牛乳,牛奶",乳品類 乳品类 中脂調味乳 多谷類 牛乳 牛奶中脂调味乳 多谷类 ,Reduced fat flavored composite and recombined milk cereal flavor
-乳品類,"中脂調味乳(果汁)","牛乳,牛奶",乳品類 乳品类 中脂調味乳 果汁 牛乳 牛奶中脂调味乳 ,Low fat flavored composite and recombined milk low fat fruit flavor
-乳品類,"中脂調味乳(鈣強化)","牛乳,牛奶",乳品類 乳品类 中脂調味乳 鈣強化 牛乳 牛奶中脂调味乳 钙强化 ,Reduced fat flavored composite and recombined milk calcium enriched
-乳品類,"中脂調味乳(維生素強化)","牛乳,牛奶",乳品類 乳品类 中脂調味乳 維生素強化 牛乳 牛奶中脂调味乳 维生素强化 ,Reduced fat flavored composite and recombined milk multi vitamins enriched
-乳品類,"中脂調味乳(纖維&維生素E強化)","牛乳,牛奶",乳品類 乳品类 中脂調味乳 纖維&維生素強化 牛乳 牛奶中脂调味乳 纤维&维生素强化 ,Reduced fat flavored composite and recombined milk fiber vitamin E enriched
-乳品類,"低脂調味乳(木瓜)","牛乳,牛奶",乳品類 乳品类 低脂調味乳 木瓜 牛乳 牛奶低脂调味乳 ,Low fat flavored composite and recombined milk papaya flavor
-乳品類,"高脂保久乳","牛乳,牛奶",乳品類 乳品类 高脂保久乳 牛乳 牛奶高脂保久乳 ,High fat sterilized milk
-乳品類,"全脂保久乳","牛乳,牛奶",乳品類 乳品类 全脂保久乳 牛乳 牛奶全脂保久乳 ,Whole sterilized milk
-乳品類,"中脂保久乳","牛乳,牛奶",乳品類 乳品类 中脂保久乳 牛乳 牛奶中脂保久乳 ,Medium fat sterilized milk
-乳品類,"低脂強化保久乳(寡糖強化)","牛乳,牛奶",乳品類 乳品类 低脂強化保久乳 寡糖強化 牛乳 牛奶低脂强化保久乳 寡糖强化 ,Low fat fortified Sterilized milk oligo enriched
-乳品類,"中脂調味保久乳(巧克力)","牛乳,牛奶",乳品類 乳品类 中脂調味保久乳 巧克力 牛乳 牛奶中脂调味保久乳 ,Reduced fat flavored composite and recombined sterilized milk chocolate flavor
-乳品類,"中脂調味保久乳(布丁)","牛乳,牛奶",乳品類 乳品类 中脂調味保久乳 布丁 牛乳 牛奶中脂调味保久乳 ,Reduced fat flavored composite and recombined sterilized milk pudding flavor
-乳品類,"全脂奶粉","乳粉",乳品類 乳品类 全脂奶粉 乳粉全脂奶粉 ,Whole milk powder
-乳品類,"部份脫脂奶粉","乳粉",乳品類 乳品类 部份脫脂奶粉 乳粉部份脱脂奶粉 ,Partly skimmed milk powder
-乳品類,"部份脫脂奶粉(即溶)","乳粉",乳品類 乳品类 部份脫脂奶粉 即溶 乳粉部份脱脂奶粉 ,Partly skimmed milk powder instant
-乳品類,"部份脫脂低乳糖奶粉","乳粉",乳品類 乳品类 部份脫脂低乳糖奶粉 乳粉部份脱脂低乳糖奶粉 ,Partly skimmed low lactose milk powder
-乳品類,"脫脂奶粉","乳粉",乳品類 乳品类 脫脂奶粉 乳粉脱脂奶粉 ,Skimmed milk powder
-乳品類,"脫脂奶粉(即溶)","乳粉",乳品類 乳品类 脫脂奶粉 即溶 乳粉脱脂奶粉 ,Skimmed milk powder instant
-乳品類,"全脂強化奶粉(纖維強化)","乳粉",乳品類 乳品类 全脂強化奶粉 纖維強化 乳粉全脂强化奶粉 纤维强化 ,Whole fortified milk powder fiber enriched
-乳品類,"部份脫脂強化奶粉(鈣強化)","乳粉",乳品類 乳品类 部份脫脂強化奶粉 鈣強化 乳粉部份脱脂强化奶粉 钙强化 ,Partly skimmed fortified milk powder calcium enriched
-乳品類,"部份脫脂強化奶粉(纖維&DHA強化)","乳粉",乳品類 乳品类 部份脫脂強化奶粉 纖維&強化 乳粉部份脱脂强化奶粉 纤维&强化 ,Partly skimmed fortified milk powder fiber DHA enriched
-乳品類,"部份脫脂強化奶粉(纖維&鈣強化)","乳粉",乳品類 乳品类 部份脫脂強化奶粉 纖維&鈣強化 乳粉部份脱脂强化奶粉 纤维&钙强化 ,Partly skimmed fortified milk powder fiber calcium enriched
-乳品類,"部份脫脂強化奶粉(脂肪酸調整)","乳粉",乳品類 乳品类 部份脫脂強化奶粉 脂肪酸調整 乳粉部份脱脂强化奶粉 脂肪酸调整 ,Partly skimmed fortified milk powder fatty acid modified
-乳品類,"脫脂強化奶粉(抗氧化)","乳粉",乳品類 乳品类 脫脂強化奶粉 抗氧化 乳粉脱脂强化奶粉 ,Skimmed fortified milk powder antioxidant
-乳品類,"脫脂強化奶粉(鈣&維生素A強化)","乳粉",乳品類 乳品类 脫脂強化奶粉 鈣&維生素強化 乳粉脱脂强化奶粉 钙&维生素强化 ,Skimmed fortified milk powder calcium vitamin A enriched
-乳品類,"脫脂強化奶粉(鈣&維生素C,E強化)","乳粉",乳品類 乳品类 脫脂強化奶粉 鈣&維生素 強化 乳粉脱脂强化奶粉 钙&维生素 强化 ,Skimmed fortified milk powder calcium vitamin CE enriched
-乳品類,"脫脂強化奶粉(鈣&鐵強化)","乳粉",乳品類 乳品类 脫脂強化奶粉 鈣&鐵強化 乳粉脱脂强化奶粉 钙&铁强化 ,Skimmed fortified milk powder calcium iron enriched
-乳品類,"部份脫脂調味奶粉(巧克力)","乳粉",乳品類 乳品类 部份脫脂調味奶粉 巧克力 乳粉部份脱脂调味奶粉 ,Partly skimmed modified milk powder chocolate flavor
-乳品類,"部份脫脂調味奶粉(果汁)","乳粉",乳品類 乳品类 部份脫脂調味奶粉 果汁 乳粉部份脱脂调味奶粉 ,Partly skimmed modified milk powder fruit flavor
+乳品類,"高脂鮮乳","高脂牛乳,高脂牛奶",乳品類 乳品类 高脂鮮乳 高脂牛乳 高脂牛奶高脂鲜乳 ,High fat fresh milk
+乳品類,"全脂鮮乳平均值","全脂牛乳,全脂牛奶",乳品類 乳品类 全脂鮮乳平均值 全脂牛乳 全脂牛奶全脂鲜乳平均值 ,Whole fresh milk
+乳品類,"全脂鮮乳(1月取樣)","全脂牛乳,全脂牛奶",乳品類 乳品类 全脂鮮乳 月取樣 全脂牛乳 全脂牛奶全脂鲜乳 月取样 ,Whole fresh milk
+乳品類,"全脂鮮乳(4月取樣)","全脂牛乳,全脂牛奶",乳品類 乳品类 全脂鮮乳 月取樣 全脂牛乳 全脂牛奶全脂鲜乳 月取样 ,Whole fresh milk
+乳品類,"全脂鮮乳(6月取樣)","全脂牛乳,全脂牛奶",乳品類 乳品类 全脂鮮乳 月取樣 全脂牛乳 全脂牛奶全脂鲜乳 月取样 ,Whole fresh milk
+乳品類,"全脂鮮乳(9月取樣)","全脂牛乳,全脂牛奶",乳品類 乳品类 全脂鮮乳 月取樣 全脂牛乳 全脂牛奶全脂鲜乳 月取样 ,Whole fresh milk
+乳品類,"全脂鮮乳(10月取樣)","全脂牛乳,全脂牛奶",乳品類 乳品类 全脂鮮乳 月取樣 全脂牛乳 全脂牛奶全脂鲜乳 月取样 ,Whole fresh milk
+乳品類,"全脂鮮乳(11月取樣)","全脂牛乳,全脂牛奶",乳品類 乳品类 全脂鮮乳 月取樣 全脂牛乳 全脂牛奶全脂鲜乳 月取样 ,Whole fresh milk
+乳品類,"全脂鮮乳(12月取樣)","全脂牛乳,全脂牛奶",乳品類 乳品类 全脂鮮乳 月取樣 全脂牛乳 全脂牛奶全脂鲜乳 月取样 ,Whole fresh milk
+乳品類,"全脂鮮乳(7月取樣)","全脂牛乳,全脂牛奶",乳品類 乳品类 全脂鮮乳 月取樣 全脂牛乳 全脂牛奶全脂鲜乳 月取样 ,Whole fresh milk
+乳品類,"中脂鮮乳","中脂牛乳,中脂牛奶",乳品類 乳品类 中脂鮮乳 中脂牛乳 中脂牛奶中脂鲜乳 ,Medium fat fresh milk
+乳品類,"低脂鮮乳","低脂牛乳,低脂牛奶",乳品類 乳品类 低脂鮮乳 低脂牛乳 低脂牛奶低脂鲜乳 ,Low fat fresh milk
+乳品類,"高脂強化鮮乳(鈣強化)","高脂牛乳,高脂牛奶",乳品類 乳品类 高脂強化鮮乳 鈣強化 高脂牛乳 高脂牛奶高脂强化鲜乳 钙强化 ,High fat fortified fresh milk calcium enriched
+乳品類,"高脂強化鮮乳(寡醣強化)","高脂牛乳,高脂牛奶",乳品類 乳品类 高脂強化鮮乳 寡醣強化 高脂牛乳 高脂牛奶高脂强化鲜乳 寡醣强化 ,High fat fortified fresh milk oligo enriched
+乳品類,"中脂強化鮮乳(脂肪酸調整)","中脂牛乳,中脂牛奶",乳品類 乳品类 中脂強化鮮乳 脂肪酸調整 中脂牛乳 中脂牛奶中脂强化鲜乳 脂肪酸调整 ,Medium fat fortified fresh milk fatty acid modified
+乳品類,"低脂強化鮮乳(維生素E強化)","低脂牛乳,低脂牛奶",乳品類 乳品类 低脂強化鮮乳 維生素強化 低脂牛乳 低脂牛奶低脂强化鲜乳 维生素强化 ,Low fat fortified fresh milk vitamin E enriched
+乳品類,"低脂強化鮮乳(寡醣強化)","低脂牛乳,低脂牛奶",乳品類 乳品类 低脂強化鮮乳 寡醣強化 低脂牛乳 低脂牛奶低脂强化鲜乳 寡醣强化 ,Low fat fortified fresh milk oligo enriched
+乳品類,"脫脂強化鮮乳(鈣強化)","脫脂牛乳,脫脂牛奶",乳品類 乳品类 脫脂強化鮮乳 鈣強化 脫脂牛乳 脫脂牛奶脱脂强化鲜乳 钙强化 脱脂牛乳 脱脂牛奶 ,Skimmed fortified fresh milk calcium enriched
+乳品類,"脫脂強化鮮乳(寡醣強化)","脫脂牛乳,脫脂牛奶",乳品類 乳品类 脫脂強化鮮乳 寡醣強化 脫脂牛乳 脫脂牛奶脱脂强化鲜乳 寡醣强化 脱脂牛乳 脱脂牛奶 ,Skimmed fortified fresh milk oligo enriched
+乳品類,"脫脂強化鮮乳(鐵強化)","脫脂牛乳,脫脂牛奶",乳品類 乳品类 脫脂強化鮮乳 鐵強化 脫脂牛乳 脫脂牛奶脱脂强化鲜乳 铁强化 脱脂牛乳 脱脂牛奶 ,Skimmed fortified fresh milk iron enriched
+乳品類,"中脂調味乳(巧克力)","中脂牛乳,中脂牛奶",乳品類 乳品类 中脂調味乳 巧克力 中脂牛乳 中脂牛奶中脂调味乳 ,Reduced fat flavored composite and recombined milk chocolate flavor
+乳品類,"中脂調味乳(多穀類)","中脂牛乳,中脂牛奶",乳品類 乳品类 中脂調味乳 多谷類 中脂牛乳 中脂牛奶中脂调味乳 多谷类 ,Reduced fat flavored composite and recombined milk cereal flavor
+乳品類,"中脂調味乳(果汁)","中脂牛乳,中脂牛奶",乳品類 乳品类 中脂調味乳 果汁 中脂牛乳 中脂牛奶中脂调味乳 ,Low fat flavored composite and recombined milk low fat fruit flavor
+乳品類,"中脂調味乳(鈣強化)","中脂牛乳,中脂牛奶",乳品類 乳品类 中脂調味乳 鈣強化 中脂牛乳 中脂牛奶中脂调味乳 钙强化 ,Reduced fat flavored composite and recombined milk calcium enriched
+乳品類,"中脂調味乳(維生素強化)","中脂牛乳,中脂牛奶",乳品類 乳品类 中脂調味乳 維生素強化 中脂牛乳 中脂牛奶中脂调味乳 维生素强化 ,Reduced fat flavored composite and recombined milk multi vitamins enriched
+乳品類,"中脂調味乳(纖維&維生素E強化)","中脂牛乳,中脂牛奶",乳品類 乳品类 中脂調味乳 纖維&維生素強化 中脂牛乳 中脂牛奶中脂调味乳 纤维&维生素强化 ,Reduced fat flavored composite and recombined milk fiber vitamin E enriched
+乳品類,"低脂調味乳(木瓜)","低脂牛乳,低脂牛奶",乳品類 乳品类 低脂調味乳 木瓜 低脂牛乳 低脂牛奶低脂调味乳 ,Low fat flavored composite and recombined milk papaya flavor
+乳品類,"高脂保久乳","高脂牛乳,高脂牛奶",乳品類 乳品类 高脂保久乳 高脂牛乳 高脂牛奶高脂保久乳 ,High fat sterilized milk
+乳品類,"全脂保久乳","全脂牛乳,全脂牛奶",乳品類 乳品类 全脂保久乳 全脂牛乳 全脂牛奶全脂保久乳 ,Whole sterilized milk
+乳品類,"中脂保久乳","中脂牛乳,中脂牛奶",乳品類 乳品类 中脂保久乳 中脂牛乳 中脂牛奶中脂保久乳 ,Medium fat sterilized milk
+乳品類,"低脂強化保久乳(寡糖強化)","低脂牛乳,低脂牛奶",乳品類 乳品类 低脂強化保久乳 寡糖強化 低脂牛乳 低脂牛奶低脂强化保久乳 寡糖强化 ,Low fat fortified Sterilized milk oligo enriched
+乳品類,"中脂調味保久乳(巧克力)","中脂牛乳,中脂牛奶",乳品類 乳品类 中脂調味保久乳 巧克力 中脂牛乳 中脂牛奶中脂调味保久乳 ,Reduced fat flavored composite and recombined sterilized milk chocolate flavor
+乳品類,"中脂調味保久乳(布丁)","中脂牛乳,中脂牛奶",乳品類 乳品类 中脂調味保久乳 布丁 中脂牛乳 中脂牛奶中脂调味保久乳 ,Reduced fat flavored composite and recombined sterilized milk pudding flavor
+乳品類,"全脂奶粉","全脂乳粉",乳品類 乳品类 全脂奶粉 全脂乳粉全脂奶粉 ,Whole milk powder
+乳品類,"部份脫脂奶粉","脫脂乳粉",乳品類 乳品类 部份脫脂奶粉 脫脂乳粉部份脱脂奶粉 脱脂乳粉 ,Partly skimmed milk powder
+乳品類,"部份脫脂奶粉(即溶)","脫脂乳粉",乳品類 乳品类 部份脫脂奶粉 即溶 脫脂乳粉部份脱脂奶粉 脱脂乳粉 ,Partly skimmed milk powder instant
+乳品類,"部份脫脂低乳糖奶粉","脫脂乳粉",乳品類 乳品类 部份脫脂低乳糖奶粉 脫脂乳粉部份脱脂低乳糖奶粉 脱脂乳粉 ,Partly skimmed low lactose milk powder
+乳品類,"脫脂奶粉","脫脂乳粉",乳品類 乳品类 脫脂奶粉 脫脂乳粉脱脂奶粉 脱脂乳粉 ,Skimmed milk powder
+乳品類,"脫脂奶粉(即溶)","脫脂乳粉",乳品類 乳品类 脫脂奶粉 即溶 脫脂乳粉脱脂奶粉 脱脂乳粉 ,Skimmed milk powder instant
+乳品類,"全脂強化奶粉(纖維強化)","全脂乳粉",乳品類 乳品类 全脂強化奶粉 纖維強化 全脂乳粉全脂强化奶粉 纤维强化 ,Whole fortified milk powder fiber enriched
+乳品類,"部份脫脂強化奶粉(鈣強化)","脫脂乳粉",乳品類 乳品类 部份脫脂強化奶粉 鈣強化 脫脂乳粉部份脱脂强化奶粉 钙强化 脱脂乳粉 ,Partly skimmed fortified milk powder calcium enriched
+乳品類,"部份脫脂強化奶粉(纖維&DHA強化)","脫脂乳粉",乳品類 乳品类 部份脫脂強化奶粉 纖維&強化 脫脂乳粉部份脱脂强化奶粉 纤维&强化 脱脂乳粉 ,Partly skimmed fortified milk powder fiber DHA enriched
+乳品類,"部份脫脂強化奶粉(纖維&鈣強化)","脫脂乳粉",乳品類 乳品类 部份脫脂強化奶粉 纖維&鈣強化 脫脂乳粉部份脱脂强化奶粉 纤维&钙强化 脱脂乳粉 ,Partly skimmed fortified milk powder fiber calcium enriched
+乳品類,"部份脫脂強化奶粉(脂肪酸調整)","脫脂乳粉",乳品類 乳品类 部份脫脂強化奶粉 脂肪酸調整 脫脂乳粉部份脱脂强化奶粉 脂肪酸调整 脱脂乳粉 ,Partly skimmed fortified milk powder fatty acid modified
+乳品類,"脫脂強化奶粉(抗氧化)","脫脂乳粉",乳品類 乳品类 脫脂強化奶粉 抗氧化 脫脂乳粉脱脂强化奶粉 脱脂乳粉 ,Skimmed fortified milk powder antioxidant
+乳品類,"脫脂強化奶粉(鈣&維生素A強化)","脫脂乳粉",乳品類 乳品类 脫脂強化奶粉 鈣&維生素強化 脫脂乳粉脱脂强化奶粉 钙&维生素强化 脱脂乳粉 ,Skimmed fortified milk powder calcium vitamin A enriched
+乳品類,"脫脂強化奶粉(鈣&維生素C,E強化)","脫脂乳粉",乳品類 乳品类 脫脂強化奶粉 鈣&維生素 強化 脫脂乳粉脱脂强化奶粉 钙&维生素 强化 脱脂乳粉 ,Skimmed fortified milk powder calcium vitamin CE enriched
+乳品類,"脫脂強化奶粉(鈣&鐵強化)","脫脂乳粉",乳品類 乳品类 脫脂強化奶粉 鈣&鐵強化 脫脂乳粉脱脂强化奶粉 钙&铁强化 脱脂乳粉 ,Skimmed fortified milk powder calcium iron enriched
+乳品類,"部份脫脂調味奶粉(巧克力)","脫脂乳粉",乳品類 乳品类 部份脫脂調味奶粉 巧克力 脫脂乳粉部份脱脂调味奶粉 脱脂乳粉 ,Partly skimmed modified milk powder chocolate flavor
+乳品類,"部份脫脂調味奶粉(果汁)","脫脂乳粉",乳品類 乳品类 部份脫脂調味奶粉 果汁 脫脂乳粉部份脱脂调味奶粉 脱脂乳粉 ,Partly skimmed modified milk powder fruit flavor
 乳品類,"脫脂稀釋發酵乳","活菌乳酸飲料",乳品類 乳品类 脫脂稀釋發酵乳 活菌乳酸飲料脱脂稀释发酵乳 活菌乳酸饮料 ,Skimmed diluted fermented milk
 乳品類,"脫脂稀釋發酵乳(鈣強化)","活菌乳酸飲料",乳品類 乳品类 脫脂稀釋發酵乳 鈣強化 活菌乳酸飲料脱脂稀释发酵乳 钙强化 活菌乳酸饮料 ,Skimmed diluted fermented milk calcium enriched
 乳品類,"全脂濃稠發酵乳","優酪乳",乳品類 乳品类 全脂濃稠發酵乳 優酪乳全脂浓稠发酵乳 优酪乳 ,Whole concentrated fermented milk
@@ -1668,7 +1668,7 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 調味料及香辛料類,"紅辣椒油",,調味料及香辛料類 调味料及香辛料类 紅辣椒油 红辣椒油 ,Red chili oil
 調味料及香辛料類,"香油",,調味料及香辛料類 调味料及香辛料类 香油 ,Sesame oil
 調味料及香辛料類,"蝦油",,調味料及香辛料類 调味料及香辛料类 蝦油 虾油 ,Shrimp sauce
-調味料及香辛料類,"干貝醬","XO醬",調味料及香辛料類 调味料及香辛料类 干貝醬 醬干贝酱 ,Scallop sauce
+調味料及香辛料類,"干貝醬","XO醬",調味料及香辛料類 调味料及香辛料类 干貝醬 乾貝醬 醬干贝酱 醬乾贝酱 ,Scallop sauce
 調味料及香辛料類,"牛肉醬",,調味料及香辛料類 调味料及香辛料类 牛肉醬 牛肉酱 ,Beef sauce
 調味料及香辛料類,"肉燥",,調味料及香辛料類 调味料及香辛料类 肉燥 ,Braised pork
 調味料及香辛料類,"素肉燥",,調味料及香辛料類 调味料及香辛料类 素肉燥 ,Vegetarian braised pork
@@ -1857,8 +1857,8 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 糕餅點心類,"芭樂果乾",,糕餅點心類 糕饼点心类 芭樂果乾 芭乐果乾 ,Guava dried fruit
 糕餅點心類,"鳳梨果乾",,糕餅點心類 糕饼点心类 鳳梨果乾 凤梨果乾 ,Pineapple dried fruit
 糕餅點心類,"檸檬果乾",,糕餅點心類 糕饼点心类 檸檬果乾 柠檬果乾 ,Lemon dried fruit
-糕餅點心類,"豆干丁(五香)",,糕餅點心類 糕饼点心类 豆干丁 五香 ,Dried tofu five spice 
-糕餅點心類,"豆干片(沙茶)",,糕餅點心類 糕饼点心类 豆干片 沙茶 ,Dried tofu slices shacha 
+糕餅點心類,"豆干丁(五香)",,糕餅點心類 糕饼点心类 豆干丁 豆乾丁 五香 豆乾丁 ,Dried tofu five spice 
+糕餅點心類,"豆干片(沙茶)",,糕餅點心類 糕饼点心类 豆干片 豆乾片 沙茶 豆乾片 ,Dried tofu slices shacha 
 糕餅點心類,"布丁粉",,糕餅點心類 糕饼点心类 布丁粉 ,Pudding powder
 糕餅點心類,"冰淇淋粉(香草)",,糕餅點心類 糕饼点心类 冰淇淋粉 香草 ,Ice cream powder vanilla flavor
 糕餅點心類,"起酥片",,糕餅點心類 糕饼点心类 起酥片 ,Puff pastry
@@ -1995,7 +1995,7 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 加工調理食品類,"冷凍洋蔥圈",,加工調理食品類 加工调理食品类 冷凍洋蔥圈 冷冻洋葱圈 ,Onion ring
 加工調理食品類,"醃辣椒","剝皮辣椒",加工調理食品類 加工调理食品类 腌辣椒 剝皮辣椒腌辣椒 剥皮辣椒 ,Pickled peppers
 加工調理食品類,"桂竹筍片",,加工調理食品類 加工调理食品类 桂竹筍片 桂竹笋片 ,Sliced bamboo shoots
-加工調理食品類,"麻竹筍干",,加工調理食品類 加工调理食品类 麻竹筍干 麻竹笋干 ,Dried bamboo shoots
+加工調理食品類,"麻竹筍干",,加工調理食品類 加工调理食品类 麻竹筍干 麻竹筍乾 麻竹笋干麻竹笋乾 ,Dried bamboo shoots
 加工調理食品類,"薤","蕗蕎,薤頭,火蔥,蕎蔥,大韭(韮),露京,蕎頭,叫頭",加工調理食品類 加工调理食品类 薤 蕗蕎 薤頭 火蔥 蕎蔥 大韭 韮 露京 蕎頭 叫頭薤 蕗荞 薤头 火葱 荞葱 荞头 叫头 ,Allium bakeri Regel Baker s garlic
 加工調理食品類,"甘藍乾","高麗菜乾",加工調理食品類 加工调理食品类 甘藍乾 高麗菜乾甘蓝乾 高丽菜乾 ,Cabbage dried
 加工調理食品類,"酸甘藍菜","酸高麗菜",加工調理食品類 加工调理食品类 酸甘藍菜 酸高麗菜酸甘蓝菜 酸高丽菜 ,Sour cabbage
@@ -2016,10 +2016,10 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 加工調理食品類,"冬粉","粉絲",加工調理食品類 加工调理食品类 冬粉 粉絲冬粉 粉丝 ,Mung bean thread Water flour
 加工調理食品類,"寬粉","寬條冬粉",加工調理食品類 加工调理食品类 寬粉 寬條冬粉宽粉 宽条冬粉 ,Wide noodles
 加工調理食品類,"佃煮黑豆",,加工調理食品類 加工调理食品类 佃煮黑豆 ,Cooked black beans
-加工調理食品類,"豆干絲",,加工調理食品類 加工调理食品类 豆干絲 豆干丝 ,Beancurd noodles
-加工調理食品類,"五香豆干",,加工調理食品類 加工调理食品类 五香豆干 ,Soy bean curd cake spiced Spiced fried beancurd
-加工調理食品類,"小方豆干",,加工調理食品類 加工调理食品类 小方豆干 ,Hard bean curd
-加工調理食品類,"黑豆干",,加工調理食品類 加工调理食品类 黑豆干 ,Black Dried Tofu
+加工調理食品類,"豆干絲",,加工調理食品類 加工调理食品类 豆干絲 豆乾絲 豆干丝豆乾丝 ,Beancurd noodles
+加工調理食品類,"五香豆干",,加工調理食品類 加工调理食品类 五香豆干 五香豆乾 五香豆乾 ,Soy bean curd cake spiced Spiced fried beancurd
+加工調理食品類,"小方豆干",,加工調理食品類 加工调理食品类 小方豆干 小方豆乾 小方豆乾 ,Hard bean curd
+加工調理食品類,"黑豆干",,加工調理食品類 加工调理食品类 黑豆干 黑豆乾 黑豆乾 ,Black Dried Tofu
 加工調理食品類,"豆腐皮","豆皮",加工調理食品類 加工调理食品类 豆腐皮 豆皮豆腐皮 ,Dried beancurd skin Soy bean milk film
 加工調理食品類,"日式炸豆皮",,加工調理食品類 加工调理食品类 日式炸豆皮 ,Yuba fried
 加工調理食品類,"豆豉","蔭豉",加工調理食品類 加工调理食品类 豆豉 蔭豉豆豉 荫豉 ,Fermented black bean
@@ -2062,10 +2062,10 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 加工調理食品類,"滷豬腳",,加工調理食品類 加工调理食品类 鹵豬腳 卤猪脚 ,Pork hock stewed in soy sauce
 加工調理食品類,"醃燻豬肝",,加工調理食品類 加工调理食品类 腌熏豬肝 腌熏猪肝 ,Pork liver pickled and smoked
 加工調理食品類,"膽肝","鹹豬肝,粉肝,柴肝",加工調理食品類 加工调理食品类 膽肝 鹹豬肝 粉肝 柴肝胆肝 咸猪肝 ,Pork liver salted
-加工調理食品類,"片狀肉乾(牛肉)","牛肉干",加工調理食品類 加工调理食品类 片狀肉乾 牛肉 牛肉干片状肉乾 ,Beef sliced baked dried
-加工調理食品類,"片狀肉乾(牛肉,辣味)","辣味牛肉干",加工調理食品類 加工调理食品类 片狀肉乾 牛肉 辣味 辣味牛肉干片状肉乾 ,Beef baked sliced and spiced Spicy flavored beef jerky
-加工調理食品類,"片狀肉乾(豬肉)","豬肉干",加工調理食品類 加工调理食品类 片狀肉乾 豬肉 豬肉干片状肉乾 猪肉 猪肉干 ,Pork baked
-加工調理食品類,"條狀肉乾(豬肉)","豬肉乾,豬肉干",加工調理食品類 加工调理食品类 條狀肉乾 豬肉 豬肉乾 豬肉干条状肉乾 猪肉 猪肉乾 猪肉干 ,Pork striped dried
+加工調理食品類,"片狀肉乾(牛肉)","牛肉干",加工調理食品類 加工调理食品类 片狀肉乾 牛肉 牛肉干片状肉乾 牛肉乾片状肉乾 牛肉乾 ,Beef sliced baked dried
+加工調理食品類,"片狀肉乾(牛肉,辣味)","辣味牛肉干",加工調理食品類 加工调理食品类 片狀肉乾 牛肉 辣味 辣味牛肉干片状肉乾 辣味牛肉乾片状肉乾 辣味牛肉乾 ,Beef baked sliced and spiced Spicy flavored beef jerky
+加工調理食品類,"片狀肉乾(豬肉)","豬肉干",加工調理食品類 加工调理食品类 片狀肉乾 豬肉 豬肉干片状肉乾 豬肉乾片状肉乾 猪肉 猪肉干猪肉乾 ,Pork baked
+加工調理食品類,"條狀肉乾(豬肉)","豬肉乾,豬肉干",加工調理食品類 加工调理食品类 條狀肉乾 豬肉 豬肉乾 豬肉干条状肉乾 豬肉乾条状肉乾 猪肉 猪肉乾 猪肉干猪肉乾 ,Pork striped dried
 加工調理食品類,"牛肉香腸",,加工調理食品類 加工调理食品类 牛肉香腸 牛肉香肠 ,Beef sausage
 加工調理食品類,"香腸",,加工調理食品類 加工调理食品类 香腸 香肠 ,Pork sausage
 加工調理食品類,"香腸(蒜味)",,加工調理食品類 加工调理食品类 香腸 蒜味 香肠 ,Pork sausage garlic flavor
@@ -2096,7 +2096,7 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 加工調理食品類,"冷凍花枝排",,加工調理食品類 加工调理食品类 冷凍花枝排 冷冻花枝排 ,Frozen squid steak
 加工調理食品類,"冷凍鮪排",,加工調理食品類 加工调理食品类 冷凍鮪排 冷冻鲔排 ,Frozen tuna steak
 加工調理食品類,"冷凍蝦餅",,加工調理食品類 加工调理食品类 冷凍蝦餅 冷冻虾饼 ,Shrimp croquette
-加工調理食品類,"冷凍干貝酥",,加工調理食品類 加工调理食品类 冷凍干貝酥 冷冻干贝酥 ,Frozen scallop crisps
+加工調理食品類,"冷凍干貝酥",,加工調理食品類 加工调理食品类 冷凍干貝酥 冷凍乾貝酥 冷冻干贝酥冷冻乾贝酥 ,Frozen scallop crisps
 加工調理食品類,"冷凍花枝塊",,加工調理食品類 加工调理食品类 冷凍花枝塊 冷冻花枝块 ,Frozen squid cubes
 加工調理食品類,"冷凍旗魚塊",,加工調理食品類 加工调理食品类 冷凍旗魚塊 冷冻旗鱼块 ,Frozen swordfish cubes
 加工調理食品類,"冷凍蚵捲",,加工調理食品類 加工调理食品类 冷凍蚵卷 冷冻蚵卷 ,Frozen oyster rolls
@@ -2148,7 +2148,7 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 加工調理食品類,"鴨賞",,加工調理食品類 加工调理食品类 鴨賞 鸭赏 ,Duck smoked
 加工調理食品類,"茶鵝",,加工調理食品類 加工调理食品类 茶鵝 茶鹅 ,Cure Goose
 加工調理食品類,"熟鵝腿肉",,加工調理食品類 加工调理食品类 熟鵝腿肉 熟鹅腿肉 ,Goose whole legs cooked
-加工調理食品類,"鯊魚煙",,加工調理食品類 加工调理食品类 鯊魚煙 鲨鱼烟 ,Smoked Shark Belly
+加工調理食品類,"鯊魚煙",,加工調理食品類 加工调理食品类 鯊魚煙 沙魚煙 鲨鱼烟 ,Smoked Shark Belly
 加工調理食品類,"日本鰻鱺魚片(蒲燒)","白鰻,日本鰻,正鰻,白鱔,鰻鱺,土鰻(澎湖),淡水鰻(澎湖) ",加工調理食品類 加工调理食品类 日本鰻鱺魚片 蒲燒 白鰻 日本鰻 正鰻 白鱔 鰻鱺 土鰻 澎湖 淡水鰻 日本鳗鲡鱼片 蒲烧 白鳗 日本鳗 正鳗 白鳝 鳗鲡 土鳗 淡水鳗 ,Japanese eel Freshwater eel Eel
 加工調理食品類,"鹽漬小鱗脂眼鯡(鹹馧仔)","臭肉鰮,鰮仔,圓眼仔,鰮魚,鰮仔魚,圓仔魚(幼魚),脂眼鯡,臭肉,臭肉魚/肉鰮(澎湖) ",加工調理食品類 加工调理食品类 鹽漬小鱗脂眼鯡 鹹馧仔 臭肉鰮 鰮仔 圓眼仔 鰮魚 鰮仔魚 圓仔魚 幼魚 臭肉 臭肉魚/肉鰮 澎湖 盐渍小鳞脂眼鲱 咸馧仔 圆眼仔 鰮鱼 鰮仔鱼 圆仔鱼 幼鱼 臭肉鱼/肉鰮 ,Round herring
 加工調理食品類,"鯖魚(醃製)","鹹鯖魚",加工調理食品類 加工调理食品类 鯖魚 腌制 鹹鯖魚鲭鱼 咸鲭鱼 ,Mackerel pickled 
