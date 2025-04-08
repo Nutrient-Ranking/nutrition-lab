@@ -27,6 +27,18 @@
             });
         
         document.addEventListener("DOMContentLoaded", () => {
+            
+            const savedTable = sessionStorage.getItem("savedTable");
+            const savedDropdown = sessionStorage.getItem("savedDropdown");
+
+            if (savedTable) {
+                document.getElementById("result-table").innerHTML = savedTable;
+            }
+
+            if (savedDropdown) {
+                document.getElementById("nutrient-select").value = savedDropdown;
+            }
+            
             fetch("ranking/food_data_r.csv")
                 .then(response => response.text())
                 .then(csvData => {
@@ -35,6 +47,7 @@
                     populateNutrients();
                     applyURLParams();
                 });
+            
         });
 
         function processCSV(csv) {
@@ -308,6 +321,14 @@
             if (currentMessage["Link"]) {
                 window.open(currentMessage["Link"], '_blank');
             }
+        }
+
+        // Save table HTML and dropdown values before navigating
+        function saveStateBeforeNavigation() {
+            const tableHTML = document.getElementById("result-table").innerHTML;
+            const dropdownValue = document.getElementById("nutrient-select").value;
+            sessionStorage.setItem("savedTable", tableHTML);
+            sessionStorage.setItem("savedDropdown", dropdownValue);
         }
 
     </script>
