@@ -111,7 +111,7 @@
             dataLoaded = true; // Mark data as loaded
         }
 
-        function searchFood() {
+        function searchFood(retryCount = 3) {
             if (!dataLoaded || foodData.length === 0) {
                 if (retryCount > 0) {
                     setTimeout(() => searchFood(retryCount - 1), 500);  // Retry after 0.5s
