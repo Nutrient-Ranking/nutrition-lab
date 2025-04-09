@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>營養成分表</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
@@ -57,45 +57,46 @@
         tr:nth-child(2) td { color: #333333; background-color: #FFFFFF; }  /* 熱量 */
         tr:nth-child(3) td { color: #315231; background-color: #ECFFEC; }  /* 醣類 */
         tr:nth-child(4) td { color: #315231; background-color: #ECFFEC; }  /* 膳食纖維(g) */
-        tr:nth-child(5) td { color: #542222; background-color: #FFF9F8; }  /* 蛋白質 */
-        tr:nth-child(6) td { color: #574500; background-color: #FDFFD4; }  /* 脂肪 */
-        tr:nth-child(7) td { color: #264B5E; background-color: #E8FAFF; }  /* 水 */
-        tr:nth-child(8) td { color: #424242; background-color: #FAFAFA; } /* 鈉 */
-        tr:nth-child(9) td { color: #424242; background-color: #FAFAFA; } /* 鉀 */
-        tr:nth-child(10) td { color: #424242; background-color: #FAFAFA; } /* 鈣 */
-        tr:nth-child(11) td { color: #424242; background-color: #FAFAFA; } /* 鎂 */
-        tr:nth-child(12) td { color: #424242; background-color: #FAFAFA; } /* 鐵 */
-        tr:nth-child(13) td { color: #424242; background-color: #FAFAFA; } /* 鋅 */  
-        tr:nth-child(14) td { color: #424242; background-color: #FAFAFA; } /* 磷 */   
-        tr:nth-child(15) td { color: #424242; background-color: #FAFAFA; } /* 銅 */  
-        tr:nth-child(16) td { color: #3D453F; background-color: #FDFFD4; } /* 維生素A(RE) */  
-        tr:nth-child(17) td { color: #3D453F; background-color: #FDFFD4; } /* β-胡蘿蔔素 */
-        tr:nth-child(18) td { color: #3D453F; background-color: #FDFFD4; } /* 維生素E(α-TE) */
-        tr:nth-child(19) td { color: #3D453F; background-color: #E8FAFF; } /* 維生素B1 */
-        tr:nth-child(20) td { color: #3D453F; background-color: #E8FAFF; } /* 維生素B2 */
-        tr:nth-child(21) td { color: #3D453F; background-color: #E8FAFF; } /* 維生素B3(菸鹼素) */  
-        tr:nth-child(22) td { color: #3D453F; background-color: #E8FAFF; } /* 維生素B6 */   
-        tr:nth-child(23) td { color: #3D453F; background-color: #E8FAFF; } /* 葉酸(維生素B9) */ 
-        tr:nth-child(24) td { color: #3D453F; background-color: #E8FAFF; } /* 維生素B12 */ 
-        tr:nth-child(25) td { color: #3D453F; background-color: #E8FAFF; } /* 維生素C */ 
-        tr:nth-child(26) td { color: #4D543D; background-color: #F2FCC6; }  /* MUFA */
-        tr:nth-child(27) td { color: #54692A; background-color: #EBFFD4; }  /* PUFA */
-        tr:nth-child(28) td { color: #54692A; background-color: #EBFFD4; }  /* LA */
-        tr:nth-child(29) td { color: #54692A; background-color: #EBFFD4; }  /* ALA */
-        tr:nth-child(30) td { color: #542222; background-color: #FFF9F8; }  /* 酥胺酸(Thr) */
-        tr:nth-child(31) td { color: #542222; background-color: #FFF9F8; }  /* 胱胺酸(Cys) */     
-        tr:nth-child(32) td { color: #542222; background-color: #FFF9F8; }  /* 纈胺酸(Val) */
-        tr:nth-child(33) td { color: #542222; background-color: #FFF9F8; }  /* 甲硫胺酸(Met) */   
-        tr:nth-child(34) td { color: #542222; background-color: #FFF9F8; }  /* 異白胺酸(Ile) */
-        tr:nth-child(35) td { color: #542222; background-color: #FFF9F8; }  /* 白胺酸(Leu) */  
-        tr:nth-child(36) td { color: #542222; background-color: #FFF9F8; }  /* 酪胺酸(Tyr) */
-        tr:nth-child(37) td { color: #542222; background-color: #FFF9F8; }  /* 苯丙胺酸(Phe) */ 
-        tr:nth-child(38) td { color: #542222; background-color: #FFF9F8; }  /* 離胺酸(Lys) */
-        tr:nth-child(39) td { color: #542222; background-color: #FFF9F8; }  /* 組胺酸(His) */ 
-        tr:nth-child(40) td { color: #542222; background-color: #FFF9F8; }  /* 色胺酸(Trp) */       
-        tr:nth-child(41) td { color: #C00000; background-color: #FDE9D9; }  /* SFA */
-        tr:nth-child(42) td { color: #C00000; background-color: #FDE9D9; }  /* 反式脂肪 */
-        tr:nth-child(43) td { color: #C00000; background-color: #FDE9D9; }  /* 膽固醇 */
+        tr:nth-child(5) td { color: #C00000; background-color: #ECFFEC; }  /* 糖質總量(g) */
+        tr:nth-child(6) td { color: #542222; background-color: #FFF9F8; }  /* 蛋白質 */
+        tr:nth-child(7) td { color: #574500; background-color: #FDFFD4; }  /* 脂肪 */
+        tr:nth-child(8) td { color: #264B5E; background-color: #E8FAFF; }  /* 水 */
+        tr:nth-child(9) td { color: #424242; background-color: #FAFAFA; } /* 鈉 */
+        tr:nth-child(10) td { color: #424242; background-color: #FAFAFA; } /* 鉀 */
+        tr:nth-child(11) td { color: #424242; background-color: #FAFAFA; } /* 鈣 */
+        tr:nth-child(12) td { color: #424242; background-color: #FAFAFA; } /* 鎂 */
+        tr:nth-child(13) td { color: #424242; background-color: #FAFAFA; } /* 鐵 */
+        tr:nth-child(14) td { color: #424242; background-color: #FAFAFA; } /* 鋅 */  
+        tr:nth-child(15) td { color: #424242; background-color: #FAFAFA; } /* 磷 */   
+        tr:nth-child(16) td { color: #424242; background-color: #FAFAFA; } /* 銅 */  
+        tr:nth-child(17) td { color: #3D453F; background-color: #FDFFD4; } /* 維生素A(RE) */  
+        tr:nth-child(18) td { color: #3D453F; background-color: #FDFFD4; } /* β-胡蘿蔔素 */
+        tr:nth-child(19) td { color: #3D453F; background-color: #FDFFD4; } /* 維生素E(α-TE) */
+        tr:nth-child(20) td { color: #3D453F; background-color: #E8FAFF; } /* 維生素B1 */
+        tr:nth-child(21) td { color: #3D453F; background-color: #E8FAFF; } /* 維生素B2 */
+        tr:nth-child(22) td { color: #3D453F; background-color: #E8FAFF; } /* 維生素B3(菸鹼素) */  
+        tr:nth-child(23) td { color: #3D453F; background-color: #E8FAFF; } /* 維生素B6 */   
+        tr:nth-child(24) td { color: #3D453F; background-color: #E8FAFF; } /* 葉酸(維生素B9) */ 
+        tr:nth-child(25) td { color: #3D453F; background-color: #E8FAFF; } /* 維生素B12 */ 
+        tr:nth-child(26) td { color: #3D453F; background-color: #E8FAFF; } /* 維生素C */ 
+        tr:nth-child(27) td { color: #4D543D; background-color: #F2FCC6; }  /* MUFA */
+        tr:nth-child(28) td { color: #54692A; background-color: #EBFFD4; }  /* PUFA */
+        tr:nth-child(29) td { color: #54692A; background-color: #EBFFD4; }  /* LA */
+        tr:nth-child(30) td { color: #54692A; background-color: #EBFFD4; }  /* ALA */
+        tr:nth-child(31) td { color: #542222; background-color: #FFF9F8; }  /* 酥胺酸(Thr) */
+        tr:nth-child(32) td { color: #542222; background-color: #FFF9F8; }  /* 胱胺酸(Cys) */     
+        tr:nth-child(33) td { color: #542222; background-color: #FFF9F8; }  /* 纈胺酸(Val) */
+        tr:nth-child(34) td { color: #542222; background-color: #FFF9F8; }  /* 甲硫胺酸(Met) */   
+        tr:nth-child(35) td { color: #542222; background-color: #FFF9F8; }  /* 異白胺酸(Ile) */
+        tr:nth-child(36) td { color: #542222; background-color: #FFF9F8; }  /* 白胺酸(Leu) */  
+        tr:nth-child(37) td { color: #542222; background-color: #FFF9F8; }  /* 酪胺酸(Tyr) */
+        tr:nth-child(38) td { color: #542222; background-color: #FFF9F8; }  /* 苯丙胺酸(Phe) */ 
+        tr:nth-child(39) td { color: #542222; background-color: #FFF9F8; }  /* 離胺酸(Lys) */
+        tr:nth-child(40) td { color: #542222; background-color: #FFF9F8; }  /* 組胺酸(His) */ 
+        tr:nth-child(41) td { color: #542222; background-color: #FFF9F8; }  /* 色胺酸(Trp) */       
+        tr:nth-child(42) td { color: #C00000; background-color: #FDE9D9; }  /* SFA */
+        tr:nth-child(43) td { color: #C00000; background-color: #FDE9D9; }  /* 反式脂肪 */
+        tr:nth-child(44) td { color: #C00000; background-color: #FDE9D9; }  /* 膽固醇 */
 
         
         /* ✅ Ensure font size matches the chart title (20px) */
@@ -124,7 +125,7 @@
 
         /* Ensure the label and dropdown text have the same font size */
         .dropdown-container label {
-            font-size: 16px; /* Match the dropdown text size */
+            font-size: 18px; /* Match the dropdown text size */
             font-weight: normal; /* Adjust weight to match the dropdown */
             align-self: center; /* Align with the dropdown vertically */
             color: gray; /* Change text color to gray */
@@ -254,6 +255,7 @@
         <tr><td>熱量</td><td id="totalCalories"></td><td id="caloriesDV"></td></tr>
         <tr><td>醣類(碳水化合物)</td><td id="carbs"></td><td id="carbDV"></td></tr>
         <tr><td>膳食纖維</td><td id="fibre"></td><td id="fibreDV"></td></tr>        
+        <tr><td>糖質總量</td><td id="sugar"></td><td id="sugarDV"></td></tr>      
         <tr><td>蛋白質</td><td id="protein"></td><td id="proteinDV"></td></tr>
         <tr><td>脂肪</td><td id="fat"></td><td id="fatDV"></td></tr>
         <tr><td>水</td><td id="water"></td><td id="waterDV"></td></tr>
@@ -295,7 +297,7 @@
         <tr><td>膽固醇*</td><td id="cholesterol"></td><td id="cholesterolDV"></td></tr>
     </table>
 
-    <p style="font-size: 16px; color: gray !important;">*DV%=100%×成分含量/參考攝取量，飽和脂肪、反式脂肪、膽固醇為上限攝取量百分比</p>
+    <p style="font-size: 16px; color: gray !important;">*DV%=100%×成分含量/參考攝取量，糖質總量、飽和脂肪、反式脂肪、膽固醇為上限攝取量百分比</p>
     
     <br><br>
     <!-- Nutrient Breakdown Bar Chart -->
@@ -322,7 +324,8 @@
         </tr>
         <tr><td>熱量</td><td id="CaloriesDRI"></td>
         <tr><td>醣類(碳水化合物)</td><td id="carbsDRI"></td>
-        <tr><td>膳食纖維</td><td id="fibreDRI"></td>                    
+        <tr><td>膳食纖維</td><td id="fibreDRI"></td>        
+        <tr><td>糖質總量</td><td id="sugarUL"></td>     
         <tr><td>蛋白質</td><td id="proteinDRI"></td>
         <tr><td>脂肪</td><td id="fatDRI"></td>
         <tr><td>水</td><td id="waterDRI"></td>
@@ -378,7 +381,8 @@
 
         let caloriesDRI = null;
         let carbDRI = null;
-        let fibreDRI = null;        
+        let fibreDRI = null;      
+        let sugarUL = null;     
         let proteinDRI = null;
         let fatDRI = null;
         let waterDRI = null;
@@ -473,6 +477,7 @@
             caloriesDRI = driMap["熱量(kcal)"];
             carbDRI = driMap["總碳水化合物(g)"];
             fibreDRI = driMap["膳食纖維(g)"];            
+            sugarUL = driMap["糖質總量(g)"];           
             proteinDRI = driMap["粗蛋白(g)"];
             fatDRI = driMap["粗脂肪(g)"];
             waterDRI = driMap["水分(g)"];
@@ -784,6 +789,7 @@
             let totalCalories = parseFloat(food["Calorie (kcal)"]);
             let mCarbs = parseFloat(food["Carbs (g)"]) || 0 ;
             let mFibre = parseFloat(food["Fibre (g)"]);              
+            let mSugar = parseFloat(food["Sugar (g)"]);           
             let mProtein = parseFloat(food["Protein (g)"]) || 0 ;
             let mFat = parseFloat(food["Fat (g)"]) || 0 ;
             let mWater = parseFloat(food["Water (g)"]) || 0 ;
@@ -837,6 +843,7 @@
             
             document.getElementById('carbs').textContent = safeFixed(mCarbs, 1, ' g');  
             document.getElementById('fibre').textContent = safeFixed(mFibre, 1, ' g');
+            document.getElementById('sugar').textContent = safeFixed(mSugar, 1, ' g');
             document.getElementById('protein').textContent = safeFixed(mProtein, 1, ' g');           
             document.getElementById('fat').textContent = safeFixed(mFat, 1, ' g');  
             document.getElementById('water').textContent = safeFixed(mWater, 1, ' g');  
@@ -884,6 +891,7 @@
             document.getElementById('caloriesDV').textContent = safeFixed((totalCalories / caloriesDRI) * 100, 1, '%');
             document.getElementById('carbDV').textContent = safeFixed((mCarbs / carbDRI) * 100, 1, '%');
             document.getElementById('fibreDV').textContent = safeFixed((mFibre / fibreDRI) * 100, 1, '%');
+            document.getElementById('sugarDV').textContent = safeFixed((mSugar / sugarUL) * 100, 1, '%');
             document.getElementById('proteinDV').textContent = safeFixed((mProtein / proteinDRI) * 100, 1, '%');
             document.getElementById('fatDV').textContent = safeFixed((mFat / fatDRI) * 100, 1, '%');
             document.getElementById('waterDV').textContent = safeFixed((mWater / waterDRI) * 100, 1, '%');
@@ -930,7 +938,8 @@
             
             document.getElementById('CaloriesDRI').textContent = caloriesDRI.toFixed(0) + ' kcal';
             document.getElementById('carbsDRI').textContent = carbDRI.toFixed(0) + ' g';
-            document.getElementById('fibreDRI').textContent = fibreDRI.toFixed(0) + ' g';            
+            document.getElementById('fibreDRI').textContent = fibreDRI.toFixed(0) + ' g';          
+            document.getElementById('sugarUL').textContent = sugarUL.toFixed(0) + ' g';        
             document.getElementById('proteinDRI').textContent = proteinDRI.toFixed(0) + ' g';
             document.getElementById('fatDRI').textContent = fatDRI.toFixed(1) + ' g';
             document.getElementById('waterDRI').textContent = waterDRI.toFixed(0) + ' g';
