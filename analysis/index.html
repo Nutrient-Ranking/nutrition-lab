@@ -1213,7 +1213,7 @@
 
        function fetchData() {
 
-           fetch('analysis/food_data_a.csv')
+           fetch('food_data_a.csv')
                .then(response => response.text())
                .then(csvText => {
                    Papa.parse(csvText, {
@@ -1228,7 +1228,7 @@
                    });
                });
             
-            fetch('analysis/DRI.csv')
+            fetch('DRI.csv')
                 .then(response => response.text())
                 .then(csvText => {
                     Papa.parse(csvText, {
@@ -1242,7 +1242,7 @@
                     });
                 });
             
-            fetch('analysis/Message.csv')
+            fetch('Message.csv')
                 .then(response => response.text())
                 .then(csvText => {
                     Papa.parse(csvText, {
