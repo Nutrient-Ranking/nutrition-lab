@@ -113,7 +113,11 @@
 
         function searchFood() {
             if (!dataLoaded || foodData.length === 0) {
-                alert("數據尚未載入，請稍等或重新整理頁面。");
+                if (retryCount > 0) {
+                    setTimeout(() => searchFood(retryCount - 1), 500);  // Retry after 0.5s
+                } else {
+                    alert("數據尚未載入，請稍等或重新整理頁面。");
+                }
                 return;
             }
 
