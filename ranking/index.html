@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
@@ -10,7 +11,12 @@
         let categories = new Set();
         const defaultCategories = ["穀物類", "豆類"];
         const defaultNutrients = ["粗蛋白(g)", "熱量(kcal)", "水分(g)"];
-     
+
+        function getFoodFromURL() {
+            const params = new URLSearchParams(window.location.search);
+            return params.get("food");
+        }
+        
         fetch('ranking/Message.csv')
             .then(response => response.text())
             .then(csvText => {
@@ -27,30 +33,29 @@
             });
         
         document.addEventListener("DOMContentLoaded", () => {
-            
-            const savedTable = sessionStorage.getItem("savedTable");
-            const savedDropdown = sessionStorage.getItem("savedDropdown");
-
-            if (savedTable) {
-                document.getElementById("result-table").innerHTML = savedTable;
-            }
-
-            if (savedDropdown) {
-                document.getElementById("nutrient-select").value = savedDropdown;
-            }
        
-            fetch("ranking/food_data_r.csv")
+            fetch("food_data_r.csv")
                 .then(response => response.text())
                 .then(csvData => {
                     processCSV(csvData);
-                    populateCategories();
-                    populateNutrients();
-                    applyURLParams();
-                });
+                })
+                .catch(err => console.error("CSV fetch failed:", err));
 
             document.querySelectorAll("a.save-state").forEach(link => {
                    link.addEventListener("click", saveStateBeforeNavigation);
                });
+
+            const savedTable = sessionStorage.getItem("savedTable");
+            const savedDropdown = sessionStorage.getItem("savedDropdown");
+
+            const main = document.getElementById("main-nutrient");
+            if (main && savedDropdown) {
+                main.value = savedDropdown;
+            }
+
+            if (savedTable) {
+                document.getElementById("result-table").innerHTML = savedTable;
+            }
             
         });
 
@@ -63,6 +68,20 @@
                     foodData.forEach(entry => {
                         if (entry["Category"]) categories.add(entry["Category"]);
                     });
+
+                    const selectedFood = getFoodFromURL();
+                    if (selectedFood) {
+                        displayFoodData(decodeURIComponent(selectedFood));
+
+                        // Optional: hide UI if showing single food
+                        document.getElementById("categories").style.display = "none";
+                        document.querySelector(".dropdown-container").style.display = "none";
+                        document.getElementById("sort-order").style.display = "none";
+                    } else {
+                        populateCategories();
+                        populateNutrients();
+                        applyURLParams();
+                    }
                 }
             });
         }
@@ -72,7 +91,7 @@
 
             // Add a separate line for "全選"
             const selectAllContainer = document.createElement("div");
-            // selectAllContainer.style.marginBottom = "8px"; Add space before category checkboxes
+
             selectAllContainer.style.marginRight = "16px"; //Add space after category checkboxes
             
             const selectAllLabel = document.createElement("label");
@@ -271,7 +290,6 @@
 
                 foodNameCell.appendChild(link);
 
-
                 // Column 3-5: Nutrients with formatted values
                 row.insertCell().textContent = formatValue(item[main]) || "";
                 row.insertCell().textContent = formatValue(item[extra1]) || "";
@@ -294,8 +312,40 @@
             if (num < 1000) return num.toFixed(1);
             return Math.round(num);  // Round to integer if >= 1000
         }
-
         
+        function displayFoodData(foodName) {
+            const food = foodData.find(item => item["Food Name"] === foodName);
+            if (!food) {
+                document.body.innerHTML += `<p style="color: red;">找不到該食材：${foodName}</p>`;
+                return;
+            }
+
+            // Set up the detail table
+            const table = document.getElementById("result-table");
+            table.innerHTML = "";
+
+            const headerRow = table.insertRow();
+            headerRow.style.backgroundColor = "#D9D2E9";
+            headerRow.innerHTML = `<th>營養素</th><th>數值</th>`;
+
+            Object.keys(food).forEach(key => {
+                if (key !== "Food Name" && key !== "Category") {
+                    const row = table.insertRow();
+                    row.insertCell().textContent = key;
+
+                    let rawValue = food[key];
+                    let display = "";
+
+                    if (rawValue != null && rawValue !== "") {
+                        const num = parseFloat(rawValue);
+                        display = isNaN(num) ? rawValue : formatValue(num);
+                    }
+
+                    row.insertCell().textContent = display;
+                }
+            });
+        }
+
         function displayRandomMessage() {
             
             if (messageData.length === 0) return;
