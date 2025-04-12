@@ -34,7 +34,7 @@
         
         document.addEventListener("DOMContentLoaded", () => {
        
-            fetch("food_data_r.csv")
+            fetch("ranking/food_data_r.csv")
                 .then(response => response.text())
                 .then(csvData => {
                     processCSV(csvData);
