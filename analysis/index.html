@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>營養成分表</title>
@@ -368,6 +369,9 @@
     </table>
     
     <script>
+
+        let driReady = false;
+
         let foodData = [];
         let DRIData = [];
         let categorySelect = document.getElementById('categorySelect');
@@ -520,6 +524,8 @@
             sfaUL = driMap["飽和脂肪(mg)"];            
             transfatUL = driMap["反式脂肪(mg)"];              
             cholesterolUL = driMap["膽固醇(mg)"];  
+
+            driReady = true;
             
         }        
           
@@ -778,6 +784,12 @@
         }
      
         function displayFoodData(food) {
+
+            if (!driReady) {
+                setTimeout(() => displayFoodData(food), 100);
+                return;
+            }
+            
             if (!food) return;
             
             function safeFixed(value, digits = 2, unit = '') {
@@ -1213,7 +1225,7 @@
 
        function fetchData() {
 
-           fetch('analysis/food_data_a.csv')
+           fetch('food_data_a.csv')
                .then(response => response.text())
                .then(csvText => {
                    Papa.parse(csvText, {
@@ -1228,7 +1240,7 @@
                    });
                });
             
-            fetch('analysis/DRI.csv')
+            fetch('DRI.csv')
                 .then(response => response.text())
                 .then(csvText => {
                     Papa.parse(csvText, {
@@ -1242,7 +1254,7 @@
                     });
                 });
             
-            fetch('analysis/Message.csv')
+            fetch('Message.csv')
                 .then(response => response.text())
                 .then(csvText => {
                     Papa.parse(csvText, {
