@@ -65,7 +65,7 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 穀物類,"米胚芽"," Rice germ",穀物類 谷物类 米胚芽,rice germ
 穀物類,"秈米粉","在來米粉 Long-grain rice powder",穀物類 谷物类 秈米粉 在來米粉 籼米粉 在来米粉,long grain rice powder indica flour
 穀物類,"糙米粉"," Brown rice powder",穀物類 谷物类 糙米粉,brown rice powder flour
-穀物類,"白糯米粉"," White- glutinous rice powder",穀物類 谷物类 白糯米粉,white glutinous rice powder flour
+穀物類,"白糯米粉"," White-glutinous rice powder",穀物類 谷物类 白糯米粉,white glutinous rice powder flour
 穀物類,"白飯"," Cooked rice",穀物類 谷物类 白飯 白饭,cooked rice (cooked)
 穀物類,"高梁"," Sorghum; Kao-lian",穀物類 谷物类 高梁,sorghum kao lian
 穀物類,"糯高梁"," Sorghum: glutinous; Kao-lian: glutinous",穀物類 谷物类 糯高梁,sorghum glutinous kao lian
@@ -107,10 +107,10 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 澱粉類,"油炸脫水甘藷"," Sweet potato: fried, dried",澱粉類 淀粉类 油炸脫水甘薯 油炸脱水甘薯,sweet potato fried dried dehydrated potatoes
 澱粉類,"芋頭","芋頭,芋艿,芋乃,芋仔,青芋,土芝 Taro; Dasheen; Cocoyam; Eddoe",澱粉類 淀粉类 芋頭 芋艿 芋乃 芋仔 青芋 土芝 芋头,taro dasheen cocoyam eddoe
 澱粉類,"小芋頭(山芋)","芋頭,芋艿,芋乃,芋仔,青芋,土芝 Taro; Dasheen; Cocoyam; Eddoe",澱粉類 淀粉类 小芋頭 山芋 芋艿 芋乃 芋仔 青芋 土芝 小芋头,taro dasheen cocoyam eddoe small (yam)
-澱粉類,"檳榔心芋","芋頭,芋艿,芋乃,芋仔,青芋,土芝 Taro; Dasheen;Cocoyam; Eddoe",澱粉類 淀粉类 檳榔心芋 芋頭 芋艿 芋乃 芋仔 青芋 土芝 槟榔心芋 芋头,taro dasheen cocoyam eddoe areca
+澱粉類,"檳榔心芋","芋頭,芋艿,芋乃,芋仔,青芋,土芝 Taro; Dasheen; Cocoyam; Eddoe",澱粉類 淀粉类 檳榔心芋 芋頭 芋艿 芋乃 芋仔 青芋 土芝 槟榔心芋 芋头,taro dasheen cocoyam eddoe areca
 澱粉類,"檳榔心芋(2021年取樣)","芋頭,芋艿,芋乃,芋仔,青芋,土芝 Taro",澱粉類 淀粉类 檳榔心芋 年取樣 芋頭 芋艿 芋乃 芋仔 青芋 土芝 槟榔心芋 年取样 芋头,taro areca (sampled in 2021)
 澱粉類,"冷凍芋頭塊"," Taro: Frozen, chunk",澱粉類 淀粉类 冷凍芋頭塊 冷冻芋头块,taro frozen chunk cubes
-澱粉類,"芋頭粉"," Taro starch;Dasheen starch;  Cocoyam starch",澱粉類 淀粉类 芋頭粉 芋头粉,taro starch dasheen cocoyam powder
+澱粉類,"芋頭粉"," Taro starch; Dasheen starch; Cocoyam starch",澱粉類 淀粉类 芋頭粉 芋头粉,taro starch dasheen cocoyam powder
 澱粉類,"豆薯","刈薯,涼薯,葛薯,沙葛,地瓜,三角薯 Jicama; Yam bean",澱粉類 淀粉类 豆薯 刈薯 涼薯 葛薯 沙葛 地瓜 三角薯 凉薯,jicama yam bean
 澱粉類,"紅馬鈴薯(粉紅珍珠馬鈴薯)","洋芋,洋薯,洋山芋,荷蘭薯,日本番薯,塊茄,土豆,地蛋 ,洋芋薯仔,洋芋,山藥蛋 Potato; White potato; Irish potato",澱粉類 淀粉类 紅馬鈴薯 粉紅珍珠馬鈴薯 洋芋 洋薯 洋山芋 荷蘭薯 日本番薯 塊茄 红马铃薯 粉红珍珠马铃薯 荷兰薯 块茄 土豆,potato white irish red potatoes (pink pearl potatoes)
 澱粉類,"馬鈴薯","洋芋,洋薯,洋山芋,荷蘭薯,日本番薯,塊茄,土豆,地蛋 ,洋芋薯仔,洋芋,山藥蛋 Potato; White potato; Irish potato",澱粉類 淀粉类 馬鈴薯 洋芋 洋薯 洋山芋 荷蘭薯 日本番薯 塊茄 马铃薯 荷兰薯 块茄 土豆,potato white irish
@@ -120,8 +120,8 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 澱粉類,"荸薺","水栗,地栗,馬蹄,馬薯,烏芋,水燈心草,海蔥仔,水蔥仔 Chinese water chestnut; Water chestnut",澱粉類 淀粉类 荸薺 水栗 地栗 馬蹄 馬薯 烏芋 水燈心草 海蔥仔 水蔥仔 荸荠 马蹄 马薯 乌芋 水灯心草 海葱仔 水葱仔,chinese water chestnut
 澱粉類,"荸薺粉","水栗粉,地栗粉,馬蹄粉,馬薯粉,烏芋粉,水燈心草粉,海蔥仔粉,水蔥仔粉 Chinese water chestnut starch",澱粉類 淀粉类 荸薺粉 水栗粉 地栗粉 馬蹄粉 馬薯粉 烏芋粉 水燈心草粉 海蔥仔粉 水蔥仔粉 荸荠粉 马蹄粉 马薯粉 乌芋粉 水灯心草粉 海葱仔粉 水葱仔粉,chinese water chestnut starch powder
 澱粉類,"蓮藕","蓮根,藕,芙蕖,荷花藕 Lotus root; Indian lotus tuber; East Indian lotus",澱粉類 淀粉类 蓮藕 蓮根 芙蕖 荷花藕 莲藕 莲根,lotus root indian tuber east
-澱粉類,"熟蓮藕","蓮根,藕,芙蕖,荷花藕 Lotus root; Indian lotus tuber;East Indian lotus",澱粉類 淀粉类 熟蓮藕 蓮根 芙蕖 荷花藕 熟莲藕 莲根,lotus root indian tuber east cooked
-澱粉類,"熟蓮藕切片(水煮)","蓮根,藕,芙蕖,荷花藕 Lotus root; Indian lotus tuber;East Indian lotus",澱粉類 淀粉类 熟蓮藕切片 水煮 蓮根 藕 芙蕖 荷花藕 熟莲藕切片 莲根,lotus root indian tuber east cooked slices (boiled)
+澱粉類,"熟蓮藕","蓮根,藕,芙蕖,荷花藕 Lotus root; Indian lotus tuber; East Indian lotus",澱粉類 淀粉类 熟蓮藕 蓮根 芙蕖 荷花藕 熟莲藕 莲根,lotus root indian tuber east cooked
+澱粉類,"熟蓮藕切片(水煮)","蓮根,藕,芙蕖,荷花藕 Lotus root; Indian lotus tuber; East Indian lotus",澱粉類 淀粉类 熟蓮藕切片 水煮 蓮根 藕 芙蕖 荷花藕 熟莲藕切片 莲根,lotus root indian tuber east cooked slices (boiled)
 澱粉類,"蓮藕粉"," East indian lotus starch",澱粉類 淀粉类 蓮藕粉 莲藕粉,east indian lotus starch root powder
 澱粉類,"菱角(生)","菱,芰,龍角,羊家,紅菱 Water singharnut; Water caltrops; Water chestnut",澱粉類 淀粉类 菱角 生 菱 芰 龍角 羊家 紅菱 龙角 红菱,water singharnut caltrops chestnut (raw)
 澱粉類,"菱角仁(生)"," Water chestnut",澱粉類 淀粉类 菱角仁 生,water chestnut kernels (raw)
@@ -239,10 +239,10 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 水果類,"黑美人葡萄(含皮)","蒲桃,蒲萄,草龍珠,蒲陶,葡桃 Grape",水果類 水果类 黑美人葡萄 含皮 蒲桃 蒲萄 草龍珠 蒲陶 葡桃 草龙珠,grape black beauty grapes (with skin)
 水果類,"金香葡萄(含皮)","蒲桃,蒲萄,草龍珠,蒲陶,葡桃 Grape",水果類 水果类 金香葡萄 含皮 蒲桃 蒲萄 草龍珠 蒲陶 葡桃 草龙珠,grape golden fragrant grapes (including skin)
 水果類,"葡萄乾"," Raisin",水果類 水果类 葡萄乾,raisin
-水果類,"蓮霧平均值(粉紅色種)","璉霧,輦霧,洋蒲桃 Wax(Java) apple; Wax gambuor; Wax jumbo;Bell fruit",水果類 水果类 蓮霧平均值 粉紅色種 璉霧 輦霧 洋蒲桃 莲雾平均值 粉红色种 琏雾 辇雾,wax java apple gambuor jumbo bell fruit average value (pink type)
-水果類,"蓮霧(紅寶石)","璉霧,輦霧,洋蒲桃,水蓊 Wax(Java) apple; Wax gambuor; Wax jumbo;Bell fruit",水果類 水果类 蓮霧 紅寶石 璉霧 輦霧 洋蒲桃 水蓊 莲雾 红宝石 琏雾 辇雾,wax java apple gambuor jumbo bell fruit (ruby)
-水果類,"蓮霧(黑金剛)","璉霧,輦霧,洋蒲桃,水蓊 Wax(Java) apple; Wax gambuor; Wax jumbo;Bell fruit",水果類 水果类 蓮霧 黑金剛 璉霧 輦霧 洋蒲桃 水蓊 莲雾 黑金刚 琏雾 辇雾,wax java apple gambuor jumbo bell fruit (black king kong)
-水果類,"蓮霧(黑珍珠)","璉霧,輦霧,洋蒲桃,水蓊 Wax(Java) apple; Wax gambuor; Wax jumbo;Bell fruit",水果類 水果类 蓮霧 黑珍珠 璉霧 輦霧 洋蒲桃 水蓊 莲雾 琏雾 辇雾,wax java apple gambuor jumbo bell fruit (black pearl)
+水果類,"蓮霧平均值(粉紅色種)","璉霧,輦霧,洋蒲桃 Wax(Java) apple; Wax gambuor; Wax jumbo; Bell fruit",水果類 水果类 蓮霧平均值 粉紅色種 璉霧 輦霧 洋蒲桃 莲雾平均值 粉红色种 琏雾 辇雾,wax java apple gambuor jumbo bell fruit average value (pink type)
+水果類,"蓮霧(紅寶石)","璉霧,輦霧,洋蒲桃,水蓊 Wax(Java) apple; Wax gambuor; Wax jumbo; Bell fruit",水果類 水果类 蓮霧 紅寶石 璉霧 輦霧 洋蒲桃 水蓊 莲雾 红宝石 琏雾 辇雾,wax java apple gambuor jumbo bell fruit (ruby)
+水果類,"蓮霧(黑金剛)","璉霧,輦霧,洋蒲桃,水蓊 Wax(Java) apple; Wax gambuor; Wax jumbo; Bell fruit",水果類 水果类 蓮霧 黑金剛 璉霧 輦霧 洋蒲桃 水蓊 莲雾 黑金刚 琏雾 辇雾,wax java apple gambuor jumbo bell fruit (black king kong)
+水果類,"蓮霧(黑珍珠)","璉霧,輦霧,洋蒲桃,水蓊 Wax(Java) apple; Wax gambuor; Wax jumbo; Bell fruit",水果類 水果类 蓮霧 黑珍珠 璉霧 輦霧 洋蒲桃 水蓊 莲雾 琏雾 辇雾,wax java apple gambuor jumbo bell fruit (black pearl)
 水果類,"華寶大西瓜(花蓮)","水瓜,寒瓜,夏瓜 Watermelon",水果類 水果类 華寶大西瓜 花蓮 水瓜 寒瓜 夏瓜 华宝大西瓜 花莲,watermelon huabao (hualien)
 水果類,"西瓜平均值(紅肉小瓜)","水瓜,寒瓜,夏瓜 Watermelon",水果類 水果类 西瓜平均值 紅肉小瓜 水瓜 寒瓜 夏瓜 红肉小瓜,watermelon average (small red flesh melon)
 水果類,"皇宮西瓜","水瓜,寒瓜,夏瓜 Watermelon",水果類 水果类 皇宮西瓜 水瓜 寒瓜 夏瓜 皇宫西瓜,watermelon royal palace
@@ -439,7 +439,7 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 蔬菜類,"綠竹筍","甜竹,甜竹筍,綠仔筍,綠仔笋,綠竹笋 Bamboo shoot; Bamboo sprout; Green bamboo",蔬菜類 蔬菜类 綠竹筍 甜竹 甜竹筍 綠仔筍 绿竹笋 甜竹笋 绿仔笋,bamboo shoot sprout green shoots
 蔬菜類,"帶殼熟綠竹筍","甜竹,甜竹筍,綠仔筍,綠仔笋,綠竹笋 Bamboo shoot; Bamboo sprout; Green bamboo",蔬菜類 蔬菜类 帶殼熟綠竹筍 甜竹 甜竹筍 綠仔筍 带壳熟绿竹笋 甜竹笋 绿仔笋,bamboo shoot sprout green cooked shoots in shell
 蔬菜類,"沙拉筍塊","涼筍 Bamboo shoot chips",蔬菜類 蔬菜类 沙拉筍塊 涼筍 沙拉笋块 凉笋,bamboo shoot chips salad shoots
-蔬菜類,"熟箭竹筍","箭筍,台灣箭竹,矢竹仔,玉山箭竹 Kunishi cane, Usawa cane:cooked",蔬菜類 蔬菜类 熟箭竹筍 箭筍 台灣箭竹 矢竹仔 玉山箭竹 熟箭竹笋 箭笋 台湾箭竹,kunishi cane usawa cooked bamboo shoots
+蔬菜類,"熟箭竹筍","箭筍,台灣箭竹,矢竹仔,玉山箭竹 Kunishi cane, Usawa cane: cooked",蔬菜類 蔬菜类 熟箭竹筍 箭筍 台灣箭竹 矢竹仔 玉山箭竹 熟箭竹笋 箭笋 台湾箭竹,kunishi cane usawa cooked bamboo shoots
 蔬菜類,"白蘆筍","野天門冬,松葉土當歸,石刁柏,龍鬚菜 Asparagus",蔬菜類 蔬菜类 白蘆筍 野天門冬 松葉土當歸 石刁柏 龍須菜 白芦笋 野天门冬 松叶土当归 龙须菜,asparagus white
 蔬菜類,"綠蘆筍平均值","野天門冬,松葉土當歸,石刁柏,龍鬚菜 Asparagus, Spargel, Asperge, Gardon asparagus",蔬菜類 蔬菜类 綠蘆筍平均值 野天門冬 松葉土當歸 石刁柏 龍須菜 绿芦笋平均值 野天门冬 松叶土当归 龙须菜,asparagus spargel asperge gardon green average
 蔬菜類,"綠蘆筍","野天門冬,松葉土當歸,石刁柏,龍鬚菜 Asparagus",蔬菜類 蔬菜类 綠蘆筍 野天門冬 松葉土當歸 石刁柏 龍須菜 绿芦笋 野天门冬 松叶土当归 龙须菜,asparagus green
@@ -511,10 +511,10 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 蔬菜類,"青江菜(水耕)(4月取樣)","江門白菜 , 湯匙菜,青梗白菜 Pak-choi, Chinese mustard",蔬菜類 蔬菜类 青江菜 水耕 月取樣 江門白菜 湯匙菜 青梗白菜 月取样 江门白菜 汤匙菜,pak choi chinese mustard bok choy (hydroponics) (sampled in april)
 蔬菜類,"青江菜(水耕)(7月取樣)","江門白菜 ,湯匙菜,青梗白菜 Pak-choi, Chinese mustard",蔬菜類 蔬菜类 青江菜 水耕 月取樣 江門白菜 湯匙菜 青梗白菜 月取样 江门白菜 汤匙菜,pak choi chinese mustard bok choy (hydroponics) (sampled in july)
 蔬菜類,"青江菜(水耕)(10月取樣)","江門白菜 ,湯匙菜,青梗白菜 Pak-choi, Chinese mustard",蔬菜類 蔬菜类 青江菜 水耕 月取樣 江門白菜 湯匙菜 青梗白菜 月取样 江门白菜 汤匙菜,pak choi chinese mustard bok choy (hydroponics) (sampled in october)
-蔬菜類,"青江菜(有機)(1月取樣)","江門白菜,湯匙菜,青梗白菜 Pak-choi ,Chinese Mustard:organic",蔬菜類 蔬菜类 青江菜 有機 月取樣 江門白菜 湯匙菜 青梗白菜 有机 月取样 江门白菜 汤匙菜,pak choi chinese mustard organic bok choy (organic) (sampled in january)
-蔬菜類,"青江菜(有機)(4月取樣)","江門白菜 ,湯匙菜,青梗白菜 Pak-choi ,Chinese Mustard:organic",蔬菜類 蔬菜类 青江菜 有機 月取樣 江門白菜 湯匙菜 青梗白菜 有机 月取样 江门白菜 汤匙菜,pak choi chinese mustard organic bok choy (organic) (sampled in april)
-蔬菜類,"青江菜(有機)(7月取樣)","江門白菜 ,湯匙菜,青梗白菜 Pak-choi ,Chinese Mustard:organic",蔬菜類 蔬菜类 青江菜 有機 月取樣 江門白菜 湯匙菜 青梗白菜 有机 月取样 江门白菜 汤匙菜,pak choi chinese mustard organic bok choy (organic) (sampled in july)
-蔬菜類,"青江菜(有機)(10月取樣)","江門白菜 , 湯匙菜,青梗白菜 Pak-choi ,Chinese Mustard:organic",蔬菜類 蔬菜类 青江菜 有機 月取樣 江門白菜 湯匙菜 青梗白菜 有机 月取样 江门白菜 汤匙菜,pak choi chinese mustard organic bok choy (organic) (sampled in october)
+蔬菜類,"青江菜(有機)(1月取樣)","江門白菜,湯匙菜,青梗白菜 Pak-choi, Chinese Mustard: organic",蔬菜類 蔬菜类 青江菜 有機 月取樣 江門白菜 湯匙菜 青梗白菜 有机 月取样 江门白菜 汤匙菜,pak choi chinese mustard organic bok choy (organic) (sampled in january)
+蔬菜類,"青江菜(有機)(4月取樣)","江門白菜 ,湯匙菜,青梗白菜 Pak-choi, Chinese Mustard: organic",蔬菜類 蔬菜类 青江菜 有機 月取樣 江門白菜 湯匙菜 青梗白菜 有机 月取样 江门白菜 汤匙菜,pak choi chinese mustard organic bok choy (organic) (sampled in april)
+蔬菜類,"青江菜(有機)(7月取樣)","江門白菜 ,湯匙菜,青梗白菜 Pak-choi, Chinese Mustard: organic",蔬菜類 蔬菜类 青江菜 有機 月取樣 江門白菜 湯匙菜 青梗白菜 有机 月取样 江门白菜 汤匙菜,pak choi chinese mustard organic bok choy (organic) (sampled in july)
+蔬菜類,"青江菜(有機)(10月取樣)","江門白菜 , 湯匙菜,青梗白菜 Pak-choi, Chinese Mustard: organic",蔬菜類 蔬菜类 青江菜 有機 月取樣 江門白菜 湯匙菜 青梗白菜 有机 月取样 江门白菜 汤匙菜,pak choi chinese mustard organic bok choy (organic) (sampled in october)
 蔬菜類,"塔菇菜(有機)","塌棵菜；塔菜；瓢兒芥 Chinese savoy, Chinese flat cabbage; Ta Gu Choy",蔬菜類 蔬菜类 塔菇菜 有機 塌棵菜 塔菜 瓢兒芥 有机 瓢儿芥,chinese savoy flat cabbage ta gu choy mushroom vegetables (organic)
 蔬菜類,"廣島野菜","廣島菜 Hiroshimana",蔬菜類 蔬菜类 廣島野菜 廣島菜 广岛野菜 广岛菜,hiroshimana hiroshima wild vegetables
 蔬菜類,"日本油菜(有機)","鶯菜,小松菜 Komutsuna",蔬菜類 蔬菜类 日本油菜 有機 鶯菜 小松菜 有机 莺菜,komutsuna japanese rapeseed (organic)
@@ -560,8 +560,8 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 蔬菜類,"菠菜(葉)(有機)","菠菱菜,赤根菜,飛龍菜,角菜,波斯草,波斯菜,波菱菜 Spinach (organic)",蔬菜類 蔬菜类 菠菜 葉 有機 菠菱菜 赤根菜 飛龍菜 角菜 波斯草 波斯菜 波菱菜 叶 有机 飞龙菜,spinach organic (leaf) (organic)
 蔬菜類,"冷凍菠菜","菠菱菜,赤根菜,飛龍菜,角菜,波斯草,波斯菜,波菱菜 Spinach: frozen",蔬菜類 蔬菜类 冷凍菠菜 菠菱菜 赤根菜 飛龍菜 角菜 波斯草 波斯菜 波菱菜 冷冻菠菜 飞龙菜,spinach frozen
 蔬菜類,"菾菜","葉用甜菜,莙薘菜,牛皮菜,豬乸菜 Chard",蔬菜類 蔬菜类 菾菜 葉用甜菜 莙薘菜 牛皮菜 豬乸菜 叶用甜菜 猪乸菜,chard chinese cabbage
-蔬菜類,"黃金菾菜","黃金火焰菜,君達菜,甜菜 Garden Beet;Table Beet;Swiss Chard;Spinach Beet;Chard;White Beet",蔬菜類 蔬菜类 黃金菾菜 黃金火焰菜 君達菜 甜菜 黄金菾菜 黄金火焰菜 君达菜,garden beet table swiss chard spinach white golden radish
-蔬菜類,"落葵","皇宮菜,蟳菜,胭(臙)脂菜,紅落葵,潺菜,蔠菜,藤葵,藤菜,天葵,御菜,牛皮凍 Malaber spinach; Ceylon spinach;malabar nightshade",蔬菜類 蔬菜类 落葵 皇宮菜 蟳菜 胭 臙 脂菜 紅落葵 潺菜 蔠菜 藤葵 藤菜 天葵 御菜 牛皮凍 皇宫菜 红落葵 牛皮冻,malaber spinach ceylon malabar nightshade basella alba
+蔬菜類,"黃金菾菜","黃金火焰菜,君達菜,甜菜 Garden Beet; Table Beet; Swiss Chard; Spinach Beet; Chard; White Beet",蔬菜類 蔬菜类 黃金菾菜 黃金火焰菜 君達菜 甜菜 黄金菾菜 黄金火焰菜 君达菜,garden beet table swiss chard spinach white golden radish
+蔬菜類,"落葵","皇宮菜,蟳菜,胭(臙)脂菜,紅落葵,潺菜,蔠菜,藤葵,藤菜,天葵,御菜,牛皮凍 Malaber spinach; Ceylon spinach; malabar nightshade",蔬菜類 蔬菜类 落葵 皇宮菜 蟳菜 胭 臙 脂菜 紅落葵 潺菜 蔠菜 藤葵 藤菜 天葵 御菜 牛皮凍 皇宫菜 红落葵 牛皮冻,malaber spinach ceylon malabar nightshade basella alba
 蔬菜類,"藤三七","洋落葵,蔓安迪,落葵安迪,藤子三七,雲南白藥,小年藥,馬德拉藤,金錢珠,中枝蓮(習以川七誤稱) Madeira vine",蔬菜類 蔬菜类 藤三七 洋落葵 蔓安迪 落葵安迪 藤子三七 雲南白藥 小年藥 馬德拉藤 金錢珠 中枝蓮 習以川七誤稱 云南白药 小年药 马德拉藤 金钱珠 中枝莲 习以川七误称,madeira vine panax notoginseng
 蔬菜類,"不結球萵苣平均值","葉萵苣,葉萵,萵仔菜,刈葉萵苣,生菜,妹仔菜,媚仔菜,鵝仔菜,鵝仔草,春不老,印度萵苣 Lettuce; (Chinese) Leaf lettuce; Gardon lettuce",蔬菜類 蔬菜类 不結球萵苣平均值 葉萵苣 葉萵 萵仔菜 刈葉萵苣 生菜 妹 媚 鵝仔菜 草 春不老 印度萵苣 不结球莴苣平均值 叶莴苣 叶莴 莴仔菜 刈叶莴苣 鹅仔菜 印度莴苣,lettuce chinese leaf gardon average non-heading
 蔬菜類,"奶油萵苣(日本種)","葉萵苣,葉萵,萵仔菜,刈葉萵苣,生菜,妹仔菜,媚仔菜,鵝仔菜,鵝仔草,春不老,印度萵苣 Lettuce",蔬菜類 蔬菜类 奶油萵苣 日本種 葉萵苣 葉萵 萵仔菜 刈葉萵苣 生菜 妹 媚 鵝仔菜 草 春不老 印度萵苣 奶油莴苣 日本种 叶莴苣 叶莴 莴仔菜 刈叶莴苣 鹅仔菜 印度莴苣,lettuce butter (japanese variety)
@@ -593,8 +593,8 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 蔬菜類,"蕹菜(水耕)(4月取樣)","空心菜,應菜,壅菜,甕菜,草菜,無心菜,藤藤菜,竹葉菜,葛菜 Water convolvulus; Water spinach",蔬菜類 蔬菜类 蕹菜 水耕 月取樣 空心菜 應菜 壅菜 甕菜 草菜 無心菜 藤藤菜 竹葉菜 葛菜 月取样 应菜 瓮菜 无心菜 竹叶菜,water convolvulus spinach (hydroponics) (sampled in april)
 蔬菜類,"蕹菜(水耕)(7月取樣)","空心菜,應菜,壅菜,甕菜,草菜,無心菜,藤藤菜,竹葉菜,葛菜 Water convolvulus; Water spinach",蔬菜類 蔬菜类 蕹菜 水耕 月取樣 空心菜 應菜 壅菜 甕菜 草菜 無心菜 藤藤菜 竹葉菜 葛菜 月取样 应菜 瓮菜 无心菜 竹叶菜,water convolvulus spinach (hydroponics) (sampled in july)
 蔬菜類,"蕹菜(水耕)(10月取樣)","空心菜,應菜,壅菜,甕菜,草菜,無心菜,藤藤菜,竹葉菜,葛菜 Water convolvulus; Water spinach",蔬菜類 蔬菜类 蕹菜 水耕 月取樣 空心菜 應菜 壅菜 甕菜 草菜 無心菜 藤藤菜 竹葉菜 葛菜 月取样 应菜 瓮菜 无心菜 竹叶菜,water convolvulus spinach (hydroponics) (sampled in october)
-蔬菜類,"蕹菜(有機)(4月取樣)","空心菜,應菜,壅菜,甕菜,草菜,無心菜,藤藤菜,竹葉菜,葛菜 Water convolvulus; Water spinach:organic",蔬菜類 蔬菜类 蕹菜 有機 月取樣 空心菜 應菜 壅菜 甕菜 草菜 無心菜 藤藤菜 竹葉菜 葛菜 有机 月取样 应菜 瓮菜 无心菜 竹叶菜,water convolvulus spinach organic (organic) (sampled in april)
-蔬菜類,"蕹菜(有機)(10月取樣)","空心菜,應菜,壅菜,甕菜,草菜,無心菜,藤藤菜,竹葉菜,葛菜 Water convolvulus; Water spinach:organic",蔬菜類 蔬菜类 蕹菜 有機 月取樣 空心菜 應菜 壅菜 甕菜 草菜 無心菜 藤藤菜 竹葉菜 葛菜 有机 月取样 应菜 瓮菜 无心菜 竹叶菜,water convolvulus spinach organic (organic) (sampled in october)
+蔬菜類,"蕹菜(有機)(4月取樣)","空心菜,應菜,壅菜,甕菜,草菜,無心菜,藤藤菜,竹葉菜,葛菜 Water convolvulus; Water spinach: organic",蔬菜類 蔬菜类 蕹菜 有機 月取樣 空心菜 應菜 壅菜 甕菜 草菜 無心菜 藤藤菜 竹葉菜 葛菜 有机 月取样 应菜 瓮菜 无心菜 竹叶菜,water convolvulus spinach organic (organic) (sampled in april)
+蔬菜類,"蕹菜(有機)(10月取樣)","空心菜,應菜,壅菜,甕菜,草菜,無心菜,藤藤菜,竹葉菜,葛菜 Water convolvulus; Water spinach: organic",蔬菜類 蔬菜类 蕹菜 有機 月取樣 空心菜 應菜 壅菜 甕菜 草菜 無心菜 藤藤菜 竹葉菜 葛菜 有机 月取样 应菜 瓮菜 无心菜 竹叶菜,water convolvulus spinach organic (organic) (sampled in october)
 蔬菜類,"水蕹菜"," Water convolvulus; Water spinach",蔬菜類 蔬菜类 水蕹菜,water convolvulus spinach
 蔬菜類,"蘿蔔葉","葉蘿蔔 Radish leaf",蔬菜類 蔬菜类 蘿蔔葉 葉蘿蔔 萝卜叶 叶萝卜,radish leaf leaves
 蔬菜類,"花椰菜","花菜,菜花,白花菜,白菜花 Cauliflower",蔬菜類 蔬菜类 花椰菜 花菜 菜花 白花菜 白菜花,cauliflower
@@ -602,9 +602,9 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 蔬菜類,"紫色花椰菜"," Cauliflower (purple)",蔬菜類 蔬菜类 紫色花椰菜,cauliflower purple
 蔬菜類,"青花菜(1999年取樣)","(青花菜非綠色花椰菜)青(綠)花菜,美國花菜,青花苔,花(青)菜苔,菜苔,花菜苞 Broccoli",蔬菜類 蔬菜类 青花菜 年取樣 青花菜非綠色花椰菜 青 綠 美國花菜 青花苔 花 菜苔 花菜苞 年取样 青花菜非绿色花椰菜 绿 美国花菜,broccoli (sampled in 1999)
 蔬菜類,"青花菜(2021年取樣)","(青花菜非綠色花椰菜)青(綠)花菜,美國花菜,青花苔,花(青)菜苔,菜苔,花菜苞 Broccoli",蔬菜類 蔬菜类 青花菜 年取樣 青花菜非綠色花椰菜 青 綠 美國花菜 青花苔 花 菜苔 花菜苞 年取样 青花菜非绿色花椰菜 绿 美国花菜,broccoli (sampled in 2021)
-蔬菜類,"冷凍青花菜","(青花菜非綠色花椰菜)青(綠)花菜,美國花菜,青花苔,花(青)菜苔,菜苔,花菜苞 Broccoli:frozen",蔬菜類 蔬菜类 冷凍青花菜 青花菜非綠色花椰菜 青 綠 美國花菜 青花苔 花 菜苔 花菜苞 冷冻青花菜 青花菜非绿色花椰菜 绿 美国花菜,broccoli frozen
+蔬菜類,"冷凍青花菜","(青花菜非綠色花椰菜)青(綠)花菜,美國花菜,青花苔,花(青)菜苔,菜苔,花菜苞 Broccoli: frozen",蔬菜類 蔬菜类 冷凍青花菜 青花菜非綠色花椰菜 青 綠 美國花菜 青花苔 花 菜苔 花菜苞 冷冻青花菜 青花菜非绿色花椰菜 绿 美国花菜,broccoli frozen
 蔬菜類,"青花菜筍"," Broccoli sprout",蔬菜類 蔬菜类 青花菜筍 青花菜笋,broccoli sprout shoots
-蔬菜類,"花椰菜乾"," Cauliflower:dried",蔬菜類 蔬菜类 花椰菜乾,cauliflower dried
+蔬菜類,"花椰菜乾"," Cauliflower: dried",蔬菜類 蔬菜类 花椰菜乾,cauliflower dried
 蔬菜類,"金針菜","萱草,金針花,金針,黃花(菜),萱花 Day-lily; Common orange Day-lily",蔬菜類 蔬菜类 金針菜 萱草 金針花 金針 黃花 萱花 金针菜 金针花 金针 黄花,day lily common orange daylily
 蔬菜類,"金針菜乾","萱草,金針花,金針,黃花(菜),萱花 Dried day-lily; dried common orange Day-lily",蔬菜類 蔬菜类 金針菜乾 萱草 金針花 金針 黃花 菜 萱花 金针菜乾 金针花 金针 黄花,dried day lily common orange
 蔬菜類,"洛神花乾","玫瑰茄,洛神葵,洛神果,洛濟葵 Dried hibiscus flowers",蔬菜類 蔬菜类 洛神花乾 玫瑰茄 洛神葵 洛神果 洛濟葵 洛济葵,dried hibiscus flowers roselle
@@ -621,9 +621,9 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 蔬菜類,"胡瓜","大黃瓜,刺瓜,黃瓜,生瓜,王瓜,花瓜,黑瓜,大瓜 Cucumber",蔬菜類 蔬菜类 胡瓜 大黃瓜 刺瓜 生瓜 王瓜 花瓜 黑瓜 大瓜 大黄瓜,cucumber
 蔬菜類,"花胡瓜(有機)","小黃瓜,花瓜,小胡瓜,小刺瓜 Cucumber: organic",蔬菜類 蔬菜类 花胡瓜 有機 小黃瓜 花瓜 小胡瓜 小刺瓜 有机 小黄瓜,cucumber organic (organic)
 蔬菜類,"苦瓜(白皮)","錦荔枝,癩蒲萄,涼瓜,癩瓜,紅姑娘 Bitter gourd; Balsam pear; Bitter melon",蔬菜類 蔬菜类 苦瓜 白皮 錦荔枝 癩蒲萄 涼瓜 癩瓜 紅姑娘 锦荔枝 癞蒲萄 凉瓜 癞瓜 红姑娘,bitter gourd balsam pear melon (white skin)
-蔬菜類,"苦瓜(青皮)","錦荔枝,癩蒲萄,涼瓜,癩瓜,紅姑娘 Bitter gourd; Balsam pear ; Bitter melon",蔬菜類 蔬菜类 苦瓜 青皮 錦荔枝 癩蒲萄 涼瓜 癩瓜 紅姑娘 锦荔枝 癞蒲萄 凉瓜 癞瓜 红姑娘,bitter gourd balsam pear melon (green peel)
-蔬菜類,"珍珠苦瓜","錦荔枝,癩蒲萄,涼瓜,癩瓜,紅姑娘(青苦瓜) Bitter gourd; Balsam pear ; Bitter melon",蔬菜類 蔬菜类 珍珠苦瓜 錦荔枝 癩蒲萄 涼瓜 癩瓜 紅姑娘 青苦瓜 锦荔枝 癞蒲萄 凉瓜 癞瓜 红姑娘,bitter gourd balsam pear melon pearl
-蔬菜類,"野苦瓜","山苦瓜,青小苦瓜,小苦瓜,野生苦瓜,短苦瓜,野癩瓜 Bitter gourd; Balsam pear;  Bitter melon",蔬菜類 蔬菜类 野苦瓜 山苦瓜 青小苦瓜 野生苦瓜 短苦瓜 野癩瓜 野癞瓜,bitter gourd balsam pear melon wild
+蔬菜類,"苦瓜(青皮)","錦荔枝,癩蒲萄,涼瓜,癩瓜,紅姑娘 Bitter gourd; Balsam pear; Bitter melon",蔬菜類 蔬菜类 苦瓜 青皮 錦荔枝 癩蒲萄 涼瓜 癩瓜 紅姑娘 锦荔枝 癞蒲萄 凉瓜 癞瓜 红姑娘,bitter gourd balsam pear melon (green peel)
+蔬菜類,"珍珠苦瓜","錦荔枝,癩蒲萄,涼瓜,癩瓜,紅姑娘(青苦瓜) Bitter gourd; Balsam pear; Bitter melon",蔬菜類 蔬菜类 珍珠苦瓜 錦荔枝 癩蒲萄 涼瓜 癩瓜 紅姑娘 青苦瓜 锦荔枝 癞蒲萄 凉瓜 癞瓜 红姑娘,bitter gourd balsam pear melon pearl
+蔬菜類,"野苦瓜","山苦瓜,青小苦瓜,小苦瓜,野生苦瓜,短苦瓜,野癩瓜 Bitter gourd; Balsam pear; Bitter melon",蔬菜類 蔬菜类 野苦瓜 山苦瓜 青小苦瓜 野生苦瓜 短苦瓜 野癩瓜 野癞瓜,bitter gourd balsam pear melon wild
 蔬菜類,"隼人瓜","梨瓜,壽瓜,合掌瓜,安南瓜,香瓜仔,拳頭瓜,佛掌瓜、香圓瓜,香櫞瓜,佛手瓜,瓦瓜 Chayote; christophine; vegetable pear",蔬菜類 蔬菜类 隼人瓜 梨瓜 壽瓜 合掌瓜 安南瓜 香瓜仔 拳頭瓜 佛掌瓜、香圓瓜 香櫞瓜 佛手瓜 瓦瓜 寿瓜 拳头瓜 佛掌瓜丶香圆瓜 香橼瓜,chayote christophine vegetable pear hayato melon
 蔬菜類,"隼人瓜(2023年取樣)","梨瓜,壽瓜,合掌瓜,安南瓜,香瓜仔,拳頭瓜,佛掌瓜、香圓瓜,香櫞瓜,佛手瓜,瓦瓜 Chayote; christophine; vegetable pear",蔬菜類 蔬菜类 隼人瓜 年取樣 梨瓜 壽瓜 合掌瓜 安南瓜 香瓜仔 拳頭瓜 佛掌瓜、香圓瓜 香櫞瓜 佛手瓜 瓦瓜 年取样 寿瓜 拳头瓜 佛掌瓜丶香圆瓜 香橼瓜,chayote christophine vegetable pear hayato melon (sampled in 2023)
 蔬菜類,"白皮蛇瓜","蛇王瓜,毛烏瓜 Snake gourd",蔬菜類 蔬菜类 白皮蛇瓜 蛇王瓜 毛烏瓜 毛乌瓜,snake gourd white
@@ -631,11 +631,11 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 蔬菜類,"絲瓜","菜瓜,布瓜,蠻瓜,天絲瓜,水瓜,天羅,天絡,仙人拐,魚鰦 Sponge gourd; Smooth loofah; dishcloth gourd",蔬菜類 蔬菜类 絲瓜 菜瓜 布瓜 蠻瓜 天絲瓜 水瓜 天羅 天絡 仙人拐 魚鰦 丝瓜 蛮瓜 天丝瓜 天罗 天络 鱼鰦,sponge gourd smooth loofah dishcloth
 蔬菜類,"稜角絲瓜","澎湖絲瓜,十角絲瓜,十捻菜瓜,角瓜,廣東絲瓜,雨傘絲瓜,金門絲瓜,香港絲瓜 Angled luffa",蔬菜類 蔬菜类 棱角絲瓜 澎湖絲瓜 十角絲瓜 十捻菜瓜 角瓜 廣東絲瓜 雨傘絲瓜 金門絲瓜 香港絲瓜 棱角丝瓜 澎湖丝瓜 十角丝瓜 广东丝瓜 雨伞丝瓜 金门丝瓜 香港丝瓜,angled luffa angular loofah
 蔬菜類,"越瓜","醃瓜,菴瓜,梢瓜,酥瓜,甜瓜,羊角瓜,稍瓜,生瓜,白瓜,青瓜,百香胡瓜 Oriental pickling melon",蔬菜類 蔬菜类 越瓜 腌瓜 庵瓜 梢瓜 酥瓜 甜瓜 羊角瓜 稍瓜 生瓜 白瓜 青瓜 百香胡瓜,oriental pickling melon vietnamese
-蔬菜類,"蒲瓜平均值","扁蒲,蒲仔,瓠子(瓜/餔),匏仔(瓜),葫蘆瓜,瓢簞,天瓜,龍蛋瓜,蒲(葫/壺)蘆 Bottle(hairy) gourd;White flowered gourd; Calabash",蔬菜類 蔬菜类 蒲瓜平均值 扁蒲 蒲仔 瓠子 瓜/餔 匏仔 瓜 葫蘆瓜 瓢簞 天瓜 龍蛋瓜 葫/壺 蘆 葫芦瓜 瓢箪 龙蛋瓜 葫/壶,bottle hairy gourd white flowered calabash average value of pear
+蔬菜類,"蒲瓜平均值","扁蒲,蒲仔,瓠子(瓜/餔),匏仔(瓜),葫蘆瓜,瓢簞,天瓜,龍蛋瓜,蒲(葫/壺)蘆 Bottle(hairy) gourd; White flowered gourd; Calabash",蔬菜類 蔬菜类 蒲瓜平均值 扁蒲 蒲仔 瓠子 瓜/餔 匏仔 瓜 葫蘆瓜 瓢簞 天瓜 龍蛋瓜 葫/壺 蘆 葫芦瓜 瓢箪 龙蛋瓜 葫/壶,bottle hairy gourd white flowered calabash average value of pear
 蔬菜類,"蒲瓜(長形)","扁蒲,蒲仔,瓠瓜,匏瓜,葫蘆瓜,瓢簞,天瓜,龍蛋瓜,蒲(葫/壺)蘆 Calabash gourd",蔬菜類 蔬菜类 蒲瓜 長形 扁蒲 蒲仔 瓠瓜 匏瓜 葫蘆瓜 瓢簞 天瓜 龍蛋瓜 葫/壺 蘆 长形 葫芦瓜 瓢箪 龙蛋瓜 葫/壶,calabash gourd pear (long)
-蔬菜類,"蒲瓜(圓形)","扁蒲,蒲仔,瓠瓜,匏瓜,葫蘆瓜,瓢簞,天瓜,龍蛋瓜,蒲(葫/壺)蘆 Bottle(hairy) gourd;White flowered gourd; Calabash",蔬菜類 蔬菜类 蒲瓜 圓形 扁蒲 蒲仔 瓠瓜 匏瓜 葫蘆瓜 瓢簞 天瓜 龍蛋瓜 葫/壺 蘆 圆形 葫芦瓜 瓢箪 龙蛋瓜 葫/壶,bottle hairy gourd white flowered calabash pear (round)
+蔬菜類,"蒲瓜(圓形)","扁蒲,蒲仔,瓠瓜,匏瓜,葫蘆瓜,瓢簞,天瓜,龍蛋瓜,蒲(葫/壺)蘆 Bottle(hairy) gourd; White flowered gourd; Calabash",蔬菜類 蔬菜类 蒲瓜 圓形 扁蒲 蒲仔 瓠瓜 匏瓜 葫蘆瓜 瓢簞 天瓜 龍蛋瓜 葫/壺 蘆 圆形 葫芦瓜 瓢箪 龙蛋瓜 葫/壶,bottle hairy gourd white flowered calabash pear (round)
 蔬菜類,"花蒲瓜(圓形)","扁蒲,蒲仔,瓠瓜,匏瓜,葫蘆瓜,瓢簞,天瓜,龍蛋瓜,蒲(葫/壺)蘆 Calabash gourd",蔬菜類 蔬菜类 花蒲瓜 圓形 扁蒲 蒲仔 瓠瓜 匏瓜 葫蘆瓜 瓢簞 天瓜 龍蛋瓜 葫/壺 蘆 圆形 葫芦瓜 瓢箪 龙蛋瓜 葫/壶,calabash gourd flower (round)
-蔬菜類,"葫蘆瓜","扁蒲,蒲仔,瓠瓜,匏瓜,葫蘆瓜,瓢簞,天瓜,龍蛋瓜,蒲(葫/壺)蘆 white-flowered gourd.;Lagenaria vulgaris Ser.",蔬菜類 蔬菜类 葫蘆瓜 扁蒲 蒲仔 瓠瓜 匏瓜 瓢簞 天瓜 龍蛋瓜 葫/壺 蘆 葫芦瓜 瓢箪 龙蛋瓜 葫/壶,white flowered gourd lagenaria vulgaris ser
+蔬菜類,"葫蘆瓜","扁蒲,蒲仔,瓠瓜,匏瓜,葫蘆瓜,瓢簞,天瓜,龍蛋瓜,蒲(葫/壺)蘆 white-flowered gourd.; Lagenaria vulgaris Ser.",蔬菜類 蔬菜类 葫蘆瓜 扁蒲 蒲仔 瓠瓜 匏瓜 瓢簞 天瓜 龍蛋瓜 葫/壺 蘆 葫芦瓜 瓢箪 龙蛋瓜 葫/壶,white flowered gourd lagenaria vulgaris ser
 蔬菜類,"黃櫛瓜"," Zucchini",蔬菜類 蔬菜类 黃櫛瓜 黄栉瓜,zucchini yellow gourd
 蔬菜類,"綠櫛瓜"," Zucchini",蔬菜類 蔬菜类 綠櫛瓜 绿栉瓜,zucchini green
 蔬菜類,"枸杞乾","枸杞,地骨子,甘杞,杞子,枸忌,苦杞,血杞,天精子 Dried wolfberry",蔬菜類 蔬菜类 枸杞乾 枸杞 地骨子 甘杞 杞子 枸忌 苦杞 血杞 天精子,dried wolfberry
@@ -673,21 +673,21 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 蔬菜類,"糯米椒","辣椒,番椒,番仔薑,臘椒(伏見甘長辣椒) Hot pepper; Long pepper; Pepper",蔬菜類 蔬菜类 糯米椒 辣椒 番椒 番仔姜 腊椒 伏見甘長辣椒 伏见甘长辣椒,hot pepper long glutinous rice
 蔬菜類,"紅辣椒平均值","辣椒,番椒,番仔薑,牛角辣椒,羊角辣椒,長辣(番)椒,紅辣椒,臘椒 Hot pepper; Long pepper; Pepper",蔬菜類 蔬菜类 紅辣椒平均值 辣椒 番椒 番仔姜 牛角辣椒 羊角辣椒 長辣 番 紅辣椒 腊椒 红辣椒平均值 长辣 红辣椒,hot pepper long average red
 蔬菜類,"長辣椒(紅皮)","辣椒,番椒,番仔薑,臘椒 Hot pepper; Long pepper; Pepper",蔬菜類 蔬菜类 長辣椒 紅皮 番椒 番仔姜 腊椒 长辣椒 红皮,hot pepper long (red skin)
-蔬菜類,"朝天椒(長果)","辣椒,番椒,番仔薑,臘椒,指(向)天椒,赤穗生番椒,叢果番椒,海椒 Hot pepper;  Pepper; Red cluster pepper",蔬菜類 蔬菜类 朝天椒 長果 辣椒 番椒 番仔姜 腊椒 指 向 赤穗生番椒 叢果番椒 海椒 长果 丛果番椒,hot pepper red cluster chili (long fruit)
+蔬菜類,"朝天椒(長果)","辣椒,番椒,番仔薑,臘椒,指(向)天椒,赤穗生番椒,叢果番椒,海椒 Hot pepper; Pepper; Red cluster pepper",蔬菜類 蔬菜类 朝天椒 長果 辣椒 番椒 番仔姜 腊椒 指 向 赤穗生番椒 叢果番椒 海椒 长果 丛果番椒,hot pepper red cluster chili (long fruit)
 蔬菜類,"朝天椒(圓果)","辣椒,番椒,番仔薑,臘椒,指(向)天椒,赤穗生番椒,叢果番椒,海椒(雞心椒) Hot pepper; Long pepper; Pepper",蔬菜類 蔬菜类 朝天椒 圓果 辣椒 番椒 番仔姜 腊椒 指 向 赤穗生番椒 叢果番椒 海椒 雞心椒 圆果 丛果番椒 鸡心椒,hot pepper long (round fruit)
 蔬菜類,"乾長辣椒(紅皮)","辣椒,番椒,番仔薑,臘椒 Hot pepper; Long pepper; Pepper",蔬菜類 蔬菜类 乾長辣椒 紅皮 番椒 番仔姜 腊椒 乾长辣椒 红皮,hot pepper long dried (red skin)
 蔬菜類,"黃秋葵","秋葵,羊角豆,黃蜀葵,食香槿,假三念,黃葵 Okra; okro; bamia; bamies; bamya; gumbo",蔬菜類 蔬菜类 黃秋葵 羊角豆 黃蜀葵 食香槿 假三念 黃葵 黄秋葵 黄蜀葵 黄葵,okra okro bamia bamies bamya gumbo
 蔬菜類,"青花菜芽","青花椰苗,青花菜苗,花菜苔芽 Broccoli Sprouts",蔬菜類 蔬菜类 青花菜芽 青花椰苗 青花菜苗 花菜苔芽,broccoli sprouts
-蔬菜類,"苜蓿芽","苜蓿嬰 Alfalfa sprout:organic",蔬菜類 蔬菜类 苜蓿芽 苜蓿嬰 苜蓿婴,alfalfa sprout organic sprouts
+蔬菜類,"苜蓿芽","苜蓿嬰 Alfalfa sprout: organic",蔬菜類 蔬菜类 苜蓿芽 苜蓿嬰 苜蓿婴,alfalfa sprout organic sprouts
 蔬菜類,"紫甘藍芽"," Red sprouting cabbage",蔬菜類 蔬菜类 紫甘藍芽 紫甘蓝芽,red sprouting cabbage purple sprouts
 蔬菜類,"黃豆芽","大豆芽 Soybean sprout",蔬菜類 蔬菜类 黃豆芽 大豆芽 黄豆芽,soybean sprout sprouts
-蔬菜類,"黃豆芽(有機,2023年取樣)","大豆芽 Soybean sprout:organic",蔬菜類 蔬菜类 黃豆芽 有機 年取樣 大豆芽 黄豆芽 有机 年取样,soybean sprout organic sprouts (organic, sampled in 2023)
+蔬菜類,"黃豆芽(有機,2023年取樣)","大豆芽 Soybean sprout: organic",蔬菜類 蔬菜类 黃豆芽 有機 年取樣 大豆芽 黄豆芽 有机 年取样,soybean sprout organic sprouts (organic, sampled in 2023)
 蔬菜類,"黑豆芽"," Black bean sprout",蔬菜類 蔬菜类 黑豆芽,black bean sprout sprouts
 蔬菜類,"葵花芽"," Sunflower sprout",蔬菜類 蔬菜类 葵花芽,sunflower sprout sprouts
 蔬菜類,"綠豆芽","豆芽菜,豆菜,綠豆菜 Mung bean sprout; bean sprout; Green gram",蔬菜類 蔬菜类 綠豆芽 豆芽菜 豆菜 綠豆菜 绿豆芽 绿豆菜,mung bean sprout green gram sprouts
 蔬菜類,"豌豆芽","豌豆嬰,荷蘭豆芽(嬰) Pea sprout",蔬菜類 蔬菜类 豌豆芽 豌豆嬰 荷蘭豆芽 豌豆婴 荷兰豆芽,pea sprout sprouts
-蔬菜類,"蕎麥芽","烏麥芽,花蕎芽,荍麥芽 Buckwheat sprout :Organic",蔬菜類 蔬菜类 蕎麥芽 烏麥芽 花蕎芽 荍麥芽 荞麦芽 乌麦芽 花荞芽 荍麦芽,buckwheat sprout organic sprouts
-蔬菜類,"蘿蔔芽","蘿蔔嬰,菜頭嬰(苗/芽),菜頭苗,貝芽菜 Radish sprout, Chinese radish sprout:Organic",蔬菜類 蔬菜类 蘿蔔芽 蘿蔔嬰 菜頭嬰 苗/芽 菜頭苗 貝芽菜 萝卜芽 萝卜婴 菜头婴 菜头苗 贝芽菜,radish sprout chinese organic sprouts
+蔬菜類,"蕎麥芽","烏麥芽,花蕎芽,荍麥芽 Buckwheat sprout: Organic",蔬菜類 蔬菜类 蕎麥芽 烏麥芽 花蕎芽 荍麥芽 荞麦芽 乌麦芽 花荞芽 荍麦芽,buckwheat sprout organic sprouts
+蔬菜類,"蘿蔔芽","蘿蔔嬰,菜頭嬰(苗/芽),菜頭苗,貝芽菜 Radish sprout, Chinese radish sprout: Organic",蔬菜類 蔬菜类 蘿蔔芽 蘿蔔嬰 菜頭嬰 苗/芽 菜頭苗 貝芽菜 萝卜芽 萝卜婴 菜头婴 菜头苗 贝芽菜,radish sprout chinese organic sprouts
 蔬菜類,"山蘇菜","山蘇花,鳥巢蕨,山翅菜,雀(鳥)巢羊齒,歪頭 菜,巢鐵角蕨,掌草 Asplenium antiguum Mak.",蔬菜類 蔬菜类 山蘇菜 山蘇花 鳥巢蕨 山翅菜 雀 鳥 巢羊齒 歪頭 巢鐵角蕨 掌草 山苏菜 山苏花 鸟巢蕨 鸟 巢羊齿 歪头 巢铁角蕨,asplenium antiguum mak mountain sedge
 蔬菜類,"火炭母草","川七,清飯藤,冷飯藤,雞糞(屎)藤,烏炭子 Notoginseng Radix",蔬菜類 蔬菜类 火炭母草 川七 清飯藤 冷飯藤 雞糞 屎 烏炭子 清饭藤 冷饭藤 鸡粪 乌炭子,notoginseng radix fireweed
 蔬菜類,"石蓮花","蓮座草 Mother-of-pearl plant; ghost plant",蔬菜類 蔬菜类 石蓮花 蓮座草 石莲花 莲座草,mother of pearl plant ghost stone lotus
@@ -730,7 +730,7 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 藻類,"葛仙米藻","雨來菇,地木耳,地軟兒,地皮菜,草皮菇,情人的眼淚 Star jelly, Nostoc commune",藻類 藻类 葛仙米藻 雨來菇 地木耳 地軟兒 地皮菜 草皮菇 情人的眼淚 雨来菇 地软儿 情人的眼泪,star jelly nostoc commune mitragyna kudzu
 藻類,"壽司海苔片"," Sushi seaweed",藻類 藻类 壽司海苔片 寿司海苔片,sushi seaweed nori sheets
 菇類,"木耳","黑木耳,桑耳,白背毛木耳,木樟(檽/菌/茸/蛾/樅),樹雞(毛木耳) Jew's ear; Juda's ear; Agaric",菇類 菇类 木耳 黑木耳 桑耳 白背毛木耳 木樟 檽/菌/茸/蛾/樅 樹雞 檽/菌/茸/蛾/枞 树鸡,jew s ear juda agaric fungus
-菇類,"冷凍木耳","黑木耳,桑耳,白背毛木耳,木樟(檽/菌/茸/蛾/樅),樹雞(毛木耳) Juda's ear: frozen; Agaric: frozen; Jew's ear:froz",菇類 菇类 冷凍木耳 黑木耳 桑耳 白背毛木耳 木樟 檽/菌/茸/蛾/樅 樹雞 冷冻木耳 檽/菌/茸/蛾/枞 树鸡,juda s ear frozen agaric jew froz fungus
+菇類,"冷凍木耳","黑木耳,桑耳,白背毛木耳,木樟(檽/菌/茸/蛾/樅),樹雞(毛木耳) Juda's ear: frozen; Agaric: frozen; Jew's ear: froz",菇類 菇类 冷凍木耳 黑木耳 桑耳 白背毛木耳 木樟 檽/菌/茸/蛾/樅 樹雞 冷冻木耳 檽/菌/茸/蛾/枞 树鸡,juda s ear frozen agaric jew froz fungus
 菇類,"乾木耳平均值","黑木耳,桑耳,白背毛木耳,木樟(檽/菌/茸/蛾/樅),樹雞(毛木耳) Jew's ear: dry; Juda's ear: dry; Agaric: dry",菇類 菇类 乾木耳平均值 黑木耳 桑耳 白背毛木耳 木樟 檽/菌/茸/蛾/樅 樹雞 檽/菌/茸/蛾/枞 树鸡,jew s ear dry juda agaric average fungus
 菇類,"乾木耳(紅耳仔)","黑木耳,桑耳,白背毛木耳,木樟(檽/菌/茸/蛾/樅),樹雞(毛木耳) Jew's ear: dry; Juda's ear: dry; Agaric: dry",菇類 菇类 乾木耳 紅耳仔 黑木耳 桑耳 白背毛木耳 木樟 檽/菌/茸/蛾/樅 樹雞 红耳仔 檽/菌/茸/蛾/枞 树鸡,jew s ear dry juda agaric dried black fungus (red fungus)
 菇類,"乾木耳(黑耳仔)","黑木耳,桑耳,白背毛木耳,木樟(檽/菌/茸/蛾/樅),樹雞(毛木耳) Jew's ear: dry; Juda's ear: dry; Agaric: dry",菇類 菇类 乾木耳 黑耳仔 黑木耳 桑耳 白背毛木耳 木樟 檽/菌/茸/蛾/樅 樹雞 檽/菌/茸/蛾/枞 树鸡,jew s ear dry juda agaric dried black fungus (black fungus)
@@ -938,8 +938,8 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 肉類,"雞排(肉雞)(2021年取樣)","雞肉,雞排 Chicken cutlets",肉類 肉类 雞排 肉雞 年取樣 雞肉 鸡排 肉鸡 年取样 鸡肉,chicken cutlets steak (broiler) (sampled in 2021)
 肉類,"去皮去骨雞腿(肉雞)","雞肉,雞腿 Chicken thigh",肉類 肉类 去皮去骨雞腿 肉雞 雞肉 去皮去骨鸡腿 肉鸡 鸡肉,chicken thigh skinless boneless thighs (broiler)
 肉類,"二節翅平均值","雞肉,雞翅 Chicken wings",肉類 肉类 二節翅平均值 雞肉 雞翅 二节翅平均值 鸡肉 鸡翅,chicken wings average value of two-segment
-肉類,"二節翅(土雞)","雞肉,雞翅 Chicken : mid-joint and tip, wild",肉類 肉类 二節翅 土雞 雞肉 雞翅 二节翅 土鸡 鸡肉 鸡翅,chicken mid joint and tip wild two-section wings
-肉類,"二節翅(肉雞)","雞肉,雞翅 Chicken : mid-joint and tip, feed",肉類 肉类 二節翅 肉雞 雞肉 雞翅 二节翅 肉鸡 鸡肉 鸡翅,chicken mid joint and tip feed two-segment wings
+肉類,"二節翅(土雞)","雞肉,雞翅 Chicken: mid-joint and tip, wild",肉類 肉类 二節翅 土雞 雞肉 雞翅 二节翅 土鸡 鸡肉 鸡翅,chicken mid joint and tip wild two-section wings
+肉類,"二節翅(肉雞)","雞肉,雞翅 Chicken: mid-joint and tip, feed",肉類 肉类 二節翅 肉雞 雞肉 雞翅 二节翅 肉鸡 鸡肉 鸡翅,chicken mid joint and tip feed two-segment wings
 肉類,"三節翅平均值","雞肉,雞翅 Chicken wings",肉類 肉类 三節翅平均值 雞肉 雞翅 三节翅平均值 鸡肉 鸡翅,chicken wings the average value of three-segment
 肉類,"三節翅(土雞)","雞肉,雞翅 Chicken: whole wings, wild; Chicken: three joint wings, wild",肉類 肉类 三節翅 土雞 雞肉 雞翅 三节翅 土鸡 鸡肉 鸡翅,chicken whole wings wild three joint three-section
 肉類,"三節翅(肉雞)","雞肉,雞翅 Chicken: whole wings, feed; Chicken: three joint wings, feed",肉類 肉类 三節翅 肉雞 雞肉 雞翅 三节翅 肉鸡 鸡肉 鸡翅,chicken whole wings feed three joint three-section
@@ -1357,7 +1357,7 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 蛋類,"滷蛋黃平均值","雞蛋: 滷蛋 Hen's egg yolk: stewed",蛋類 蛋类 鹵蛋黃平均值 雞蛋 鹵蛋 卤蛋黄平均值 鸡蛋,hen s egg yolk stewed average value of braised
 蛋類,"雞滷蛋黃(現煮)","雞蛋: 滷蛋 Hen's egg yolk: stewed",蛋類 蛋类 雞鹵蛋黃 現煮 雞蛋 鹵蛋 鸡卤蛋黄 现煮 鸡蛋,hen s egg yolk stewed chicken (freshly cooked)
 蛋類,"雞滷蛋黃(浸泡隔夜)","雞蛋: 滷蛋 Hen's egg yolk: stewed",蛋類 蛋类 雞鹵蛋黃 浸泡隔夜 雞蛋 鹵蛋 鸡卤蛋黄 鸡蛋,hen s egg yolk stewed chicken marinated (soaked overnight)
-蛋類,"雞鐵蛋","雞蛋: 鐵蛋 hen's iron  egg",蛋類 蛋类 雞鐵蛋 雞蛋 鸡铁蛋 鸡蛋,hen s iron egg chicken
+蛋類,"雞鐵蛋","雞蛋: 鐵蛋 hen's iron egg",蛋類 蛋类 雞鐵蛋 雞蛋 鸡铁蛋 鸡蛋,hen s iron egg chicken
 蛋類,"雞水波蛋","雞蛋: 不帶殼水煮蛋 Hen's egg: poached",蛋類 蛋类 雞水波蛋 雞蛋 不帶殼水煮蛋 鸡水波蛋 鸡蛋 不带壳水煮蛋,hen s egg poached chicken
 蛋類,"荷包蛋(不加油)","雞蛋: 荷包蛋 Hen's egg: over medium without oil",蛋類 蛋类 荷包蛋 不加油 雞蛋 鸡蛋,hen s egg over medium without oil poached eggs (without oil)
 蛋類,"荷包蛋(加油1小匙)","雞蛋: 荷包蛋 Hen's egg: over medium with 1 teaspoon of oil",蛋類 蛋类 荷包蛋 加油 小匙 雞蛋 鸡蛋,hen s egg over medium with teaspoon of oil poached eggs (1 tsp oil)
@@ -1371,18 +1371,18 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 蛋類,"紅面番鴨蛋"," Duck's egg: muscovy",蛋類 蛋类 紅面番鴨蛋 红面番鸭蛋,duck s egg muscovy red-faced eggs
 蛋類,"鴨蛋白","鴨蛋: 蛋白 Duck's egg white",蛋類 蛋类 鴨蛋白 鴨蛋 鸭蛋白 鸭蛋,duck s egg white protein
 蛋類,"鴨蛋黃","鴨蛋: 蛋黃 Duck's egg yolk",蛋類 蛋类 鴨蛋黃 鴨蛋 鸭蛋黄 鸭蛋,duck s egg yolk
-蛋類,"鴨皮蛋","鴨蛋: 皮蛋 Duck's  egg: alkalized",蛋類 蛋类 鴨皮蛋 鴨蛋 鸭皮蛋 鸭蛋,duck s egg alkalized preserved eggs
-蛋類,"鴨鹹蛋平均值","鴨蛋: 鹹蛋 Duck's  egg: salted",蛋類 蛋类 鴨鹹蛋平均值 鴨蛋 鹹蛋 鸭咸蛋平均值 鸭蛋,duck s egg salted average
-蛋類,"鴨生鹹蛋","鴨蛋: 生鹹蛋 Duck's  egg: salted",蛋類 蛋类 鴨生鹹蛋 鴨蛋 鸭生咸蛋 鸭蛋,duck s egg salted
-蛋類,"鴨熟鹹蛋","鴨蛋: 熟鹹蛋 Duck's  egg: salted",蛋類 蛋类 鴨熟鹹蛋 鴨蛋 鸭熟咸蛋 鸭蛋,duck s egg salted
-蛋類,"鴨熟鹹蛋(薄鹽)","鴨蛋: 熟鹹蛋 Duck's  egg: salted",蛋類 蛋类 鴨熟鹹蛋 薄鹽 鴨蛋 鸭熟咸蛋 薄盐 鸭蛋,duck s egg salted cooked (light salt)
-蛋類,"鴨鹹蛋黃","鴨蛋: 鹹蛋黃 Duck's  egg yolk: salted",蛋類 蛋类 鴨鹹蛋黃 鴨蛋 鸭咸蛋黄 鸭蛋,duck s egg yolk salted
+蛋類,"鴨皮蛋","鴨蛋: 皮蛋 Duck's egg: alkalized",蛋類 蛋类 鴨皮蛋 鴨蛋 鸭皮蛋 鸭蛋,duck s egg alkalized preserved eggs
+蛋類,"鴨鹹蛋平均值","鴨蛋: 鹹蛋 Duck's egg: salted",蛋類 蛋类 鴨鹹蛋平均值 鴨蛋 鹹蛋 鸭咸蛋平均值 鸭蛋,duck s egg salted average
+蛋類,"鴨生鹹蛋","鴨蛋: 生鹹蛋 Duck's egg: salted",蛋類 蛋类 鴨生鹹蛋 鴨蛋 鸭生咸蛋 鸭蛋,duck s egg salted
+蛋類,"鴨熟鹹蛋","鴨蛋: 熟鹹蛋 Duck's egg: salted",蛋類 蛋类 鴨熟鹹蛋 鴨蛋 鸭熟咸蛋 鸭蛋,duck s egg salted
+蛋類,"鴨熟鹹蛋(薄鹽)","鴨蛋: 熟鹹蛋 Duck's egg: salted",蛋類 蛋类 鴨熟鹹蛋 薄鹽 鴨蛋 鸭熟咸蛋 薄盐 鸭蛋,duck s egg salted cooked (light salt)
+蛋類,"鴨鹹蛋黃","鴨蛋: 鹹蛋黃 Duck's egg yolk: salted",蛋類 蛋类 鴨鹹蛋黃 鴨蛋 鸭咸蛋黄 鸭蛋,duck s egg yolk salted
 蛋類,"鵪鶉蛋","鳥蛋 Quail's egg",蛋類 蛋类 鵪鶉蛋 鳥蛋 鹌鹑蛋 鸟蛋,quail s egg eggs
 蛋類,"鵪鶉水煮蛋","鳥蛋 Quail's egg: hard-boiled",蛋類 蛋类 鵪鶉水煮蛋 鳥蛋 鹌鹑水煮蛋 鸟蛋,quail s egg hard boiled eggs
 蛋類,"鵪鶉皮蛋","鳥蛋 Quail's egg: alkalized",蛋類 蛋类 鵪鶉皮蛋 鳥蛋 鹌鹑皮蛋 鸟蛋,quail s egg alkalized preserved eggs
 蛋類,"鵪鶉鹹蛋","鳥蛋 Quail's egg: salted",蛋類 蛋类 鵪鶉鹹蛋 鳥蛋 鹌鹑咸蛋 鸟蛋,quail s egg salted
 蛋類,"鵪鶉滷蛋","鳥蛋 Quail's egg",蛋類 蛋类 鵪鶉鹵蛋 鳥蛋 鹌鹑卤蛋 鸟蛋,quail s egg braised eggs
-蛋類,"鵪鶉鐵蛋","鳥蛋 Quail's iron  egg",蛋類 蛋类 鵪鶉鐵蛋 鳥蛋 鹌鹑铁蛋 鸟蛋,quail s iron egg eggs
+蛋類,"鵪鶉鐵蛋","鳥蛋 Quail's iron egg",蛋類 蛋类 鵪鶉鐵蛋 鳥蛋 鹌鹑铁蛋 鸟蛋,quail s iron egg eggs
 蛋類,"鴿蛋","鳥蛋 Pigeon's egg",蛋類 蛋类 鴿蛋 鳥蛋 鸽蛋 鸟蛋,pigeon s egg eggs
 蛋類,"鵝蛋"," Goose's egg",蛋類 蛋类 鵝蛋 鹅蛋,goose s egg
 乳品類,"高脂鮮乳","高脂牛乳,高脂牛奶 High fat fresh milk",乳品類 乳品类 高脂鮮乳 高脂牛乳 高脂牛奶 高脂鲜乳,high fat fresh milk
@@ -1397,14 +1397,14 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 乳品類,"全脂鮮乳(7月取樣)","全脂牛乳,全脂牛奶 Whole fresh milk",乳品類 乳品类 全脂鮮乳 月取樣 全脂牛乳 全脂牛奶 全脂鲜乳 月取样,whole fresh milk (sampled in july)
 乳品類,"中脂鮮乳","中脂牛乳,中脂牛奶 Medium fat fresh milk",乳品類 乳品类 中脂鮮乳 中脂牛乳 中脂牛奶 中脂鲜乳,medium fat fresh milk
 乳品類,"低脂鮮乳","低脂牛乳,低脂牛奶 Low-fat fresh milk",乳品類 乳品类 低脂鮮乳 低脂牛乳 低脂牛奶 低脂鲜乳,low fat fresh milk low-fat
-乳品類,"高脂強化鮮乳(鈣強化)","高脂牛乳,高脂牛奶 High fat fortified fresh milk : calcium enriched",乳品類 乳品类 高脂強化鮮乳 鈣強化 高脂牛乳 高脂牛奶 高脂强化鲜乳 钙强化,high fat fortified fresh milk calcium enriched high-fat (calcium fortified)
-乳品類,"高脂強化鮮乳(寡醣強化)","高脂牛乳,高脂牛奶 High fat fortified fresh milk : oligo enriched",乳品類 乳品类 高脂強化鮮乳 寡醣強化 高脂牛乳 高脂牛奶 高脂强化鲜乳 寡醣强化,high fat fortified fresh milk oligo enriched high-fat (oligosaccharide fortified)
-乳品類,"中脂強化鮮乳(脂肪酸調整)","中脂牛乳,中脂牛奶 Medium fat fortified fresh milk : fatty acid modified",乳品類 乳品类 中脂強化鮮乳 脂肪酸調整 中脂牛乳 中脂牛奶 中脂强化鲜乳 脂肪酸调整,medium fat fortified fresh milk fatty acid modified medium-fat (adjusted acids)
-乳品類,"低脂強化鮮乳(維生素E強化)","低脂牛乳,低脂牛奶 Low-fat fortified fresh milk : vitamin E enriched",乳品類 乳品类 低脂強化鮮乳 維生素強化 低脂牛乳 低脂牛奶 低脂强化鲜乳 维生素强化,low fat fortified fresh milk vitamin e enriched low-fat (fortified with e)
+乳品類,"高脂強化鮮乳(鈣強化)","高脂牛乳,高脂牛奶 High fat fortified fresh milk: calcium enriched",乳品類 乳品类 高脂強化鮮乳 鈣強化 高脂牛乳 高脂牛奶 高脂强化鲜乳 钙强化,high fat fortified fresh milk calcium enriched high-fat (calcium fortified)
+乳品類,"高脂強化鮮乳(寡醣強化)","高脂牛乳,高脂牛奶 High fat fortified fresh milk: oligo enriched",乳品類 乳品类 高脂強化鮮乳 寡醣強化 高脂牛乳 高脂牛奶 高脂强化鲜乳 寡醣强化,high fat fortified fresh milk oligo enriched high-fat (oligosaccharide fortified)
+乳品類,"中脂強化鮮乳(脂肪酸調整)","中脂牛乳,中脂牛奶 Medium fat fortified fresh milk: fatty acid modified",乳品類 乳品类 中脂強化鮮乳 脂肪酸調整 中脂牛乳 中脂牛奶 中脂强化鲜乳 脂肪酸调整,medium fat fortified fresh milk fatty acid modified medium-fat (adjusted acids)
+乳品類,"低脂強化鮮乳(維生素E強化)","低脂牛乳,低脂牛奶 Low-fat fortified fresh milk: vitamin E enriched",乳品類 乳品类 低脂強化鮮乳 維生素強化 低脂牛乳 低脂牛奶 低脂强化鲜乳 维生素强化,low fat fortified fresh milk vitamin e enriched low-fat (fortified with e)
 乳品類,"低脂強化鮮乳(寡醣強化)","低脂牛乳,低脂牛奶 Low-fat fortified fresh milk: oligo enriched",乳品類 乳品类 低脂強化鮮乳 寡醣強化 低脂牛乳 低脂牛奶 低脂强化鲜乳 寡醣强化,low fat fortified fresh milk oligo enriched low-fat (oligosaccharide fortified)
-乳品類,"脫脂強化鮮乳(鈣強化)","脫脂牛乳,脫脂牛奶 Skimmed fortified fresh milk : calcium enriched",乳品類 乳品类 脫脂強化鮮乳 鈣強化 脫脂牛乳 脫脂牛奶 脱脂强化鲜乳 钙强化 脱脂牛乳 脱脂牛奶,skimmed fortified fresh milk calcium enriched skim (calcium fortified)
+乳品類,"脫脂強化鮮乳(鈣強化)","脫脂牛乳,脫脂牛奶 Skimmed fortified fresh milk: calcium enriched",乳品類 乳品类 脫脂強化鮮乳 鈣強化 脫脂牛乳 脫脂牛奶 脱脂强化鲜乳 钙强化 脱脂牛乳 脱脂牛奶,skimmed fortified fresh milk calcium enriched skim (calcium fortified)
 乳品類,"脫脂強化鮮乳(寡醣強化)","脫脂牛乳,脫脂牛奶 Skimmed fortified fresh milk: oligo enriched",乳品類 乳品类 脫脂強化鮮乳 寡醣強化 脫脂牛乳 脫脂牛奶 脱脂强化鲜乳 寡醣强化 脱脂牛乳 脱脂牛奶,skimmed fortified fresh milk oligo enriched skim (oligosaccharide fortified)
-乳品類,"脫脂強化鮮乳(鐵強化)","脫脂牛乳,脫脂牛奶 Skimmed fortified fresh milk:  iron enriched",乳品類 乳品类 脫脂強化鮮乳 鐵強化 脫脂牛乳 脫脂牛奶 脱脂强化鲜乳 铁强化 脱脂牛乳 脱脂牛奶,skimmed fortified fresh milk iron enriched skim (iron fortified)
+乳品類,"脫脂強化鮮乳(鐵強化)","脫脂牛乳,脫脂牛奶 Skimmed fortified fresh milk: iron enriched",乳品類 乳品类 脫脂強化鮮乳 鐵強化 脫脂牛乳 脫脂牛奶 脱脂强化鲜乳 铁强化 脱脂牛乳 脱脂牛奶,skimmed fortified fresh milk iron enriched skim (iron fortified)
 乳品類,"中脂調味乳(巧克力)","中脂牛乳,中脂牛奶 Reduced fat flavored composite and recombined milk: chocolate flavor",乳品類 乳品类 中脂調味乳 巧克力 中脂牛乳 中脂牛奶 中脂调味乳,reduced fat flavored composite and recombined milk chocolate flavor medium (chocolate)
 乳品類,"中脂調味乳(多穀類)","中脂牛乳,中脂牛奶 Reduced fat flavored composite and recombined milk: cereal flavor",乳品類 乳品类 中脂調味乳 多谷類 中脂牛乳 中脂牛奶 中脂调味乳 多谷类,reduced fat flavored composite and recombined milk cereal flavor medium-fat (multi-grain)
 乳品類,"中脂調味乳(果汁)","中脂牛乳,中脂牛奶 Low-fat flavored composite and recombined milk: low fat, fruit flavor",乳品類 乳品类 中脂調味乳 果汁 中脂牛乳 中脂牛奶 中脂调味乳,low fat flavored composite and recombined milk fruit flavor medium (juice)
@@ -1868,7 +1868,7 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 加工調理食品類,"三角飯糰(肉鬆)"," Triangular rice balls (pork floss)",加工調理食品類 加工调理食品类 三角飯團 肉松 三角饭团,triangular rice balls pork floss ball (meat floss)
 加工調理食品類,"糯米飯糰"," Glutinous rice balls",加工調理食品類 加工调理食品类 糯米飯團 糯米饭团,glutinous rice balls
 加工調理食品類,"壽司(豆皮壽司)","稻禾壽司 Sushi (bean curd sushi)",加工調理食品類 加工调理食品类 壽司 豆皮壽司 稻禾壽司 寿司 豆皮寿司 稻禾寿司,sushi bean curd (tofu skin sushi)
-加工調理食品類,"肉粽","粽子(油飯) Rice dumplings",加工調理食品類 加工调理食品类 肉粽 粽子 油饭,rice dumplings meat
+加工調理食品類,"肉粽","粽子(油飯) rice dumplings",加工調理食品類 加工调理食品类 肉粽 粽子 油饭,rice dumplings meat
 加工調理食品類,"鹼粽","鹼水粽;粳粽 Alkaline rice dumplings",加工調理食品類 加工调理食品类 硷粽 硷水粽 粳粽,alkaline rice dumplings zongzi
 加工調理食品類,"冷凍筒仔米糕"," Frozen rice cakes",加工調理食品類 加工调理食品类 冷凍筒仔米糕 冷冻筒仔米糕,frozen rice cakes
 加工調理食品類,"筒仔米糕"," Rice cakes",加工調理食品類 加工调理食品类 筒仔米糕,rice cakes
@@ -1916,7 +1916,7 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 加工調理食品類,"雞蛋麵"," Noodle: egg flavored",加工調理食品類 加工调理食品类 雞蛋面 鸡蛋面,noodle egg flavored noodles
 加工調理食品類,"刀削麵"," Noodle: sliced",加工調理食品類 加工调理食品类 刀削面,noodle sliced ​​noodles
 加工調理食品類,"拉麵"," Noodle: Ramen",加工調理食品類 加工调理食品类 拉面,noodle ramen hand-pulled
-加工調理食品類,"意麵"," Noodle:fried",加工調理食品類 加工调理食品类 意面,noodle fried pasta
+加工調理食品類,"意麵"," Noodle: fried",加工調理食品類 加工调理食品类 意面,noodle fried pasta
 加工調理食品類,"衛生油麵"," Oil noodle",加工調理食品類 加工调理食品类 衛生油面 卫生油面,oil noodle hygienic noodles
 加工調理食品類,"金門黃麵"," Kinmen yellow noodles",加工調理食品類 加工调理食品类 金門黃面 金门黄面,kinmen yellow noodles
 加工調理食品類,"冷凍烏龍麵"," Frozen udon noodles",加工調理食品類 加工调理食品类 冷凍烏龍面 冷冻乌龙面,frozen udon noodles
@@ -1996,14 +1996,14 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 加工調理食品類,"醃辣椒","剝皮辣椒 Pickled peppers",加工調理食品類 加工调理食品类 腌辣椒 剝皮辣椒 剥皮辣椒,pickled peppers
 加工調理食品類,"桂竹筍片"," Sliced ​​bamboo shoots",加工調理食品類 加工调理食品类 桂竹筍片 桂竹笋片,sliced bamboo shoots shoot slices
 加工調理食品類,"麻竹筍干"," Dried bamboo shoots",加工調理食品類 加工调理食品类 麻竹筍干 麻竹筍乾 麻竹笋干麻竹笋乾,dried bamboo shoots
-加工調理食品類,"薤","蕗蕎,薤頭,火蔥,蕎蔥,大韭(韮),露京,蕎頭,叫頭 Allium bakeri Regel;Baker's garlic",加工調理食品類 加工调理食品类 薤 蕗蕎 薤頭 火蔥 蕎蔥 大韭 韮 露京 蕎頭 叫頭 蕗荞 薤头 火葱 荞葱 荞头 叫头,allium bakeri regel baker s garlic scallion
+加工調理食品類,"薤","蕗蕎,薤頭,火蔥,蕎蔥,大韭(韮),露京,蕎頭,叫頭 Allium bakeri Regel; Baker's garlic",加工調理食品類 加工调理食品类 薤 蕗蕎 薤頭 火蔥 蕎蔥 大韭 韮 露京 蕎頭 叫頭 蕗荞 薤头 火葱 荞葱 荞头 叫头,allium bakeri regel baker s garlic scallion
 加工調理食品類,"甘藍乾","高麗菜乾 Cabbage: dried",加工調理食品類 加工调理食品类 甘藍乾 高麗菜乾 甘蓝乾 高丽菜乾,cabbage dried kale
 加工調理食品類,"酸甘藍菜","酸高麗菜 Sour cabbage",加工調理食品類 加工调理食品类 酸甘藍菜 酸高麗菜 酸甘蓝菜 酸高丽菜,sour cabbage
 加工調理食品類,"梅乾菜"," Pickled mustard greens",加工調理食品類 加工调理食品类 梅乾菜,pickled mustard greens
-加工調理食品類,"榨菜","榨菜藺蕓苔,四川榨菜,疙瘩菜,稜角菜,筆架菜,香爐菜,瘤菜 Tsatsai,  tza-tsai",加工調理食品類 加工调理食品类 榨菜 榨菜藺蕓苔 四川榨菜 疙瘩菜 棱角菜 筆架菜 香爐菜 瘤菜 榨菜蔺蕓苔 笔架菜 香炉菜,tsatsai tza mustard tuber
-加工調理食品類,"酸菜","鹹菜,鹼菜,醃(大/鹹)酸菜,大鹹菜,鹹菜仁 Kraut,  sourkrout,  sourcrout,  sauerkraut",加工調理食品類 加工调理食品类 酸菜 鹹菜 鹼菜 腌 大/鹹 大鹹菜 鹹菜仁 咸菜 硷菜 大/咸 大咸菜 咸菜仁,kraut sourkrout sourcrout sauerkraut
+加工調理食品類,"榨菜","榨菜藺蕓苔,四川榨菜,疙瘩菜,稜角菜,筆架菜,香爐菜,瘤菜 Tsatsai, tza-tsai",加工調理食品類 加工调理食品类 榨菜 榨菜藺蕓苔 四川榨菜 疙瘩菜 棱角菜 筆架菜 香爐菜 瘤菜 榨菜蔺蕓苔 笔架菜 香炉菜,tsatsai tza mustard tuber
+加工調理食品類,"酸菜","鹹菜,鹼菜,醃(大/鹹)酸菜,大鹹菜,鹹菜仁 Kraut, sourkrout, sourcrout, sauerkraut",加工調理食品類 加工调理食品类 酸菜 鹹菜 鹼菜 腌 大/鹹 大鹹菜 鹹菜仁 咸菜 硷菜 大/咸 大咸菜 咸菜仁,kraut sourkrout sourcrout sauerkraut
 加工調理食品類,"醃漬冬瓜","白瓜,東瓜,枕瓜,水芝,地芝 Wax gourd: pickled",加工調理食品類 加工调理食品类 腌漬冬瓜 白瓜 東瓜 枕瓜 水芝 地芝 腌渍冬瓜 东瓜,wax gourd pickled winter melon
-加工調理食品類,"醃漬花胡瓜","小黃瓜,花瓜,小胡瓜,小瓜,小刺瓜,水胡瓜 Cucumber:pickeled",加工調理食品類 加工调理食品类 腌漬花胡瓜 小黃瓜 花瓜 小胡瓜 小瓜 小刺瓜 水胡瓜 腌渍花胡瓜 小黄瓜,cucumber pickeled pickled courgette
+加工調理食品類,"醃漬花胡瓜","小黃瓜,花瓜,小胡瓜,小瓜,小刺瓜,水胡瓜 Cucumber: pickeled",加工調理食品類 加工调理食品类 腌漬花胡瓜 小黃瓜 花瓜 小胡瓜 小瓜 小刺瓜 水胡瓜 腌渍花胡瓜 小黄瓜,cucumber pickeled pickled courgette
 加工調理食品類,"醃漬越瓜","醃瓜,菴瓜,梢瓜,酥瓜,甜瓜,羊角瓜,稍瓜,生瓜,白瓜,青瓜,百香胡瓜 Oriental pickling melon",加工調理食品類 加工调理食品类 腌漬越瓜 腌瓜 庵瓜 梢瓜 酥瓜 甜瓜 羊角瓜 稍瓜 生瓜 白瓜 青瓜 百香胡瓜 腌渍越瓜,oriental pickling melon pickled
 加工調理食品類,"銀耳罐頭","白木耳,雪耳 Canned Tremella",加工調理食品類 加工调理食品类 銀耳罐頭 白木耳 雪耳 银耳罐头,canned tremella
 加工調理食品類,"草菇罐頭","蘭花菇,美味草菇,包腳菇,中國蘑菇,稈(麻/貢)菇,南華菇,家生菇(小包腳菇) (Paddy) Straw mushroom: canned",加工調理食品類 加工调理食品类 草菇罐頭 蘭花菇 美味草菇 包腳菇 中國蘑菇 稈 麻/貢 南華菇 家生菇 小包腳菇 草菇罐头 兰花菇 包脚菇 中国蘑菇 秆 麻/贡 南华菇 小包脚菇,paddy straw mushroom canned mushrooms
@@ -2137,7 +2137,7 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 加工調理食品類,"糖漬花生仁","土豆,長生果,落花生 Peanut",加工調理食品類 加工调理食品类 糖漬花生仁 土豆 長生果 落花生 糖渍花生仁 长生果,peanut candied peanuts
 加工調理食品類,"油炸花生仁","土豆,長生果,落花生 Peanut: fried",加工調理食品類 加工调理食品类 油炸花生仁 土豆 長生果 落花生 长生果,peanut fried peanuts
 加工調理食品類,"蛋酥花生仁","土豆,長生果,落花生 Peanut",加工調理食品類 加工调理食品类 蛋酥花生仁 土豆 長生果 落花生 长生果,peanut crispy peanuts
-加工調理食品類,"鹽酥花生仁","土豆,長生果,落花生 Peanut:salted",加工調理食品類 加工调理食品类 鹽酥花生仁 土豆 長生果 落花生 盐酥花生仁 长生果,peanut salted crispy peanuts
+加工調理食品類,"鹽酥花生仁","土豆,長生果,落花生 Peanut: salted",加工調理食品類 加工调理食品类 鹽酥花生仁 土豆 長生果 落花生 盐酥花生仁 长生果,peanut salted crispy peanuts
 加工調理食品類,"調味南瓜子(去殼)","白瓜子 Pumpkin seeds: spiced, cooked",加工調理食品類 加工调理食品类 調味南瓜子 去殼 白瓜子 调味南瓜子 去壳,pumpkin seeds spiced cooked seasoned (shelled)
 加工調理食品類,"調味南瓜子(帶殼)","白瓜子 Pumpkin seeds: spiced, cooked",加工調理食品類 加工调理食品类 調味南瓜子 帶殼 白瓜子 调味南瓜子 带壳,pumpkin seeds spiced cooked seasoned (with shell)
 加工調理食品類,"甘草葵瓜子(帶殼)"," Sunflower seeds: spiced, cooked",加工調理食品類 加工调理食品类 甘草葵瓜子 帶殼 带壳,sunflower seeds spiced cooked licorice (with shell)
@@ -2171,7 +2171,7 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 加工調理食品類,"麵茶粉"," Seasoned millet mush",加工調理食品類 加工调理食品类 面茶粉,seasoned millet mush noodle powder
 加工調理食品類,"植物燕麥奶粉(營養強化)"," Plant oat milk powder (nutrition fortified)",加工調理食品類 加工调理食品类 植物燕麥奶粉 營養強化 植物燕麦奶粉 营养强化,plant oat milk powder nutrition fortified (nutrition fortification)
 加工調理食品類,"杏仁茶沖泡包","綜合堅果穀粉 Almond tea brewing bag",加工調理食品類 加工调理食品类 杏仁茶衝泡包 綜合堅果谷粉 杏仁茶冲泡包 综合坚果谷粉,almond tea brewing bag pack
-加工調理食品類,"芝麻糊沖泡包"," Seasame paste",加工調理食品類 加工调理食品类 芝麻糊衝泡包 芝麻糊冲泡包,seasame paste sesame pack
+加工調理食品類,"芝麻糊沖泡包"," seasame paste",加工調理食品類 加工调理食品类 芝麻糊衝泡包 芝麻糊冲泡包,seasame paste sesame pack
 加工調理食品類,"綜合堅果穀物沖泡包"," Mixed nuts and grains brewing pack",加工調理食品類 加工调理食品类 綜合堅果谷物衝泡包 综合坚果谷物冲泡包,mixed nuts and grains brewing pack cereals
 加工調理食品類,"寒天脆藻","水晶脆藻 Agar-agar crispy algae",加工調理食品類 加工调理食品类 寒天脆藻 水晶脆藻,agar crispy algae fragilis
 加工調理食品類,"生啤酒"," Draught beer; Draft beer",加工調理食品類 加工调理食品类 生啤酒,draught beer draft
