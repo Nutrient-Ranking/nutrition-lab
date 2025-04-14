@@ -189,9 +189,18 @@
                     link.style.color = '#007bff';
                     link.style.cursor = 'pointer';
                     link.style.textDecoration = 'underline';
-                    link.addEventListener('click', () => {
-                        window.location.href = `https://nutrition-lab.vercel.app/analysis?row=${item.rowNum}`;
+
+                    link.addEventListener('click', (event) => {
+                        event.preventDefault(); // Prevent default behavior
+
+                        // Scroll to top smoothly, then navigate after a short delay
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+
+                        setTimeout(() => {
+                            window.location.href = `https://nutrition-lab.vercel.app/analysis?row=${item.rowNum}`;
+                        }, 300); // Adjust delay (in ms) if needed
                     });
+
                     nameCell.appendChild(link);
                     
                     row.insertCell(2).textContent = item.alternativeName || '-';
