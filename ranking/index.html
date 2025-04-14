@@ -285,7 +285,11 @@
 
                 link.onclick = () => {
                     saveStateBeforeNavigation();
-                    window.location.href = `https://nutrition-lab.vercel.app/analysis?food=${encodeURIComponent(item["Food Name"])}`;
+                    window.scrollTo(0, 0);                // Scroll to top
+                    setTimeout(() => {
+                        window.location.href = `https://nutrition-lab.vercel.app/analysis?food=${encodeURIComponent(item["Food Name"])}`;
+                    }, 50); // Slight delay ensures the scroll takes effect
+                    // window.location.href = `https://nutrient-lab.vercel.app?food=${encodeURIComponent(item["Food Name"])}`;
                 };
 
                 foodNameCell.appendChild(link);
