@@ -93,7 +93,7 @@
         let dataLoaded = false; // Track if data is ready
 
         async function loadCSV() {
-            const response = await fetch('search/food_name_ce.csv');
+            const response = await fetch('food_name_ce.csv');
             const text = await response.text();
             const parsed = Papa.parse(text.trim(), {
                 header: false,
