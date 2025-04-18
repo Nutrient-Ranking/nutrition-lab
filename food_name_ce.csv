@@ -1677,7 +1677,7 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 調味料及香辛料類,"素食炸醬"," Vegetarian fried sauce",調味料及香辛料類 调味料及香辛料类 素食炸醬 素食炸酱,vegetarian fried sauce
 調味料及香辛料類,"海苔醬"," Nori sauce",調味料及香辛料類 调味料及香辛料类 海苔醬 海苔酱,nori sauce seaweed
 調味料及香辛料類,"麻醬","芝麻醬 Sesame sauce",調味料及香辛料類 调味料及香辛料类 麻醬 芝麻醬 麻酱 芝麻酱,sesame sauce
-調味料及香辛料類,"速食乾麵麻醬包"," Instant noodle sesame sauce pack",調味料及香辛料類 调味料及香辛料类 速食乾面麻醬包 速食乾面麻酱包,instant noodle sesame sauce pack dry paste bag
+調味料及香辛料類,"速食乾麵麻醬包"," Instant-noodle sesame sauce pack",調味料及香辛料類 调味料及香辛料类 速食乾面麻醬包 速食乾面麻酱包,instant noodle sesame sauce pack dry paste bag
 調味料及香辛料類,"白醬"," White sauce",調味料及香辛料類 调味料及香辛料类 白醬 白酱,white sauce
 調味料及香辛料類,"青醬"," Green sauce",調味料及香辛料類 调味料及香辛料类 青醬 青酱,green sauce
 調味料及香辛料類,"蕃茄義大利麵醬"," Tomato pasta sauce",調味料及香辛料類 调味料及香辛料类 蕃茄義大利面醬 蕃茄义大利面酱,tomato pasta sauce
@@ -1882,12 +1882,12 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 加工調理食品類,"冷凍花生湯圓"," Frozen peanut Tangyuan (glutinous rice balls)",加工調理食品類 加工调理食品类 冷凍花生湯圓 冷冻花生汤圆,frozen peanut tangyuan glutinous rice balls
 加工調理食品類,"冷凍豬肉湯圓"," Frozen pork Tangyuan (glutinous rice balls)",加工調理食品類 加工调理食品类 冷凍豬肉湯圓 冷冻猪肉汤圆,frozen pork tangyuan glutinous rice balls dumplings
 加工調理食品類,"免煮飯"," Instant rice",加工調理食品類 加工调理食品类 免煮飯 免煮饭,instant rice no need to cook
-加工調理食品類,"埔里米粉"," Pure rice noodle",加工調理食品類 加工调理食品类 埔裡米粉 埔里米粉,pure rice noodle puli noodles
-加工調理食品類,"細米粉"," Rice noodle",加工調理食品類 加工调理食品类 細米粉 细米粉,rice noodle fine noodles
-加工調理食品類,"濁水米粉"," Rice noodle",加工調理食品類 加工调理食品类 濁水米粉 浊水米粉,rice noodle turbid water noodles
+加工調理食品類,"埔里米粉"," Pure rice noodles",加工調理食品類 加工调理食品类 埔裡米粉 埔里米粉,pure rice noodles puli
+加工調理食品類,"細米粉"," Rice noodles",加工調理食品類 加工调理食品类 細米粉 细米粉,rice noodles fine
+加工調理食品類,"濁水米粉"," Rice noodles",加工調理食品類 加工调理食品类 濁水米粉 浊水米粉,rice noodles turbid water
 加工調理食品類,"米粄條","美濃粄條 Hakka-style flat rice noodles (Banh Pho); Taiwanese rice sheets",加工調理食品類 加工调理食品类 米粄條 美濃粄條 米粄条 美浓粄条,hakka style flat rice noodles banh pho taiwanese sheets cake
-加工調理食品類,"米苔目"," Rice noodle: thick",加工調理食品類 加工调理食品类 米苔目,rice noodle thick spermatophores
-加工調理食品類,"粿仔條"," Rice noodle",加工調理食品類 加工调理食品类 粿仔條 粿仔条,rice noodle kuey teow
+加工調理食品類,"米苔目"," Rice noodles: thick",加工調理食品類 加工调理食品类 米苔目,rice noodles thick spermatophores
+加工調理食品類,"粿仔條"," Rice noodles",加工調理食品類 加工调理食品类 粿仔條 粿仔条,rice noodles kuey teow
 加工調理食品類,"米漿(散裝)"," Sweet rice milk; Sweet rice porridge drink (bulk)",加工調理食品類 加工调理食品类 米漿 散裝 米浆 散装,sweet rice milk porridge drink bulk (bulk)
 加工調理食品類,"保久米漿"," Shelf-stable sweet rice milk (ELS)",加工調理食品類 加工调理食品类 保久米漿 保久米浆,shelf stable sweet rice milk els long-lasting
 加工調理食品類,"糙米漿"," Brown rice milk",加工調理食品類 加工调理食品类 糙米漿 糙米浆,brown rice milk
@@ -1905,27 +1905,27 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 加工調理食品類,"餛飩皮"," Wonton skin",加工調理食品類 加工调理食品类 餛飩皮 馄饨皮,wonton skin wrappers
 加工調理食品類,"長麵線","壽麵線 Noodle string; Wheat flour string",加工調理食品類 加工调理食品类 長面線 壽面線 长面线 寿面线,noodle string wheat flour long noodles
 加工調理食品類,"紅麵線"," Taiwanese red vermicelli",加工調理食品類 加工调理食品类 紅面線 红面线,taiwanese red vermicelli noodle
-加工調理食品類,"麵線"," Shou noodle/Vermicelli/-",加工調理食品類 加工调理食品类 面線 面线,shou noodlevermicelli noodles
-加工調理食品類,"雞絲麵"," Noodle: shredded chicken flavored",加工調理食品類 加工调理食品类 雞絲面 鸡丝面,noodle shredded chicken flavored noodles
-加工調理食品類,"乾麵條"," Noodle: dried",加工調理食品類 加工调理食品类 乾面條 乾面条,noodle dried noodles
-加工調理食品類,"油麵條","油麵 Oil noodle",加工調理食品類 加工调理食品类 油面條 油面 油面条,oil noodle noodles
-加工調理食品類,"紅蘿蔔麵"," Noodle: carrot flavored",加工調理食品類 加工调理食品类 紅蘿蔔面 红萝卜面,noodle carrot flavored noodles
+加工調理食品類,"麵線"," Shou noodles/Vermicelli",加工調理食品類 加工调理食品类 面線 面线,shou noodlesvermicelli
+加工調理食品類,"雞絲麵"," Noodles: shredded chicken flavored",加工調理食品類 加工调理食品类 雞絲面 鸡丝面,noodles shredded chicken flavored
+加工調理食品類,"乾麵條"," Noodles: dried",加工調理食品類 加工调理食品类 乾面條 乾面条,noodles dried
+加工調理食品類,"油麵條","油麵 Oil noodles",加工調理食品類 加工调理食品类 油面條 油面 油面条,oil noodles
+加工調理食品類,"紅蘿蔔麵"," Noodles: carrot flavored",加工調理食品類 加工调理食品类 紅蘿蔔面 红萝卜面,noodles carrot flavored
 加工調理食品類,"通心麵"," Pasta: macaroni",加工調理食品類 加工调理食品类 通心面,pasta macaroni
 加工調理食品類,"菠菜麵"," Spinach Noodles",加工調理食品類 加工调理食品类 菠菜面,spinach noodles
-加工調理食品類,"鍋燒意麵"," Noodle: pot-burn fried noodle",加工調理食品類 加工调理食品类 鍋燒意面 锅烧意面,noodle pot burn fried pot-fried pasta
-加工調理食品類,"雞蛋麵"," Noodle: egg flavored",加工調理食品類 加工调理食品类 雞蛋面 鸡蛋面,noodle egg flavored noodles
-加工調理食品類,"刀削麵"," Noodle: sliced",加工調理食品類 加工调理食品类 刀削面,noodle sliced ​​noodles
-加工調理食品類,"拉麵"," Noodle: Ramen",加工調理食品類 加工调理食品类 拉面,noodle ramen hand-pulled
-加工調理食品類,"意麵"," Noodle: fried",加工調理食品類 加工调理食品类 意面,noodle fried pasta
-加工調理食品類,"衛生油麵"," Oil noodle",加工調理食品類 加工调理食品类 衛生油面 卫生油面,oil noodle hygienic noodles
+加工調理食品類,"鍋燒意麵"," Noodles: pot-burn fried noodle",加工調理食品類 加工调理食品类 鍋燒意面 锅烧意面,noodles pot burn fried noodle pot-fried pasta
+加工調理食品類,"雞蛋麵"," Noodles: egg flavored",加工調理食品類 加工调理食品类 雞蛋面 鸡蛋面,noodles egg flavored
+加工調理食品類,"刀削麵"," Noodles: sliced",加工調理食品類 加工调理食品类 刀削面,noodles sliced ​​noodles
+加工調理食品類,"拉麵"," Noodles: Ramen",加工調理食品類 加工调理食品类 拉面,noodles ramen hand-pulled
+加工調理食品類,"意麵"," Noodles: fried",加工調理食品類 加工调理食品类 意面,noodles fried pasta
+加工調理食品類,"衛生油麵"," Oil noodles",加工調理食品類 加工调理食品类 衛生油面 卫生油面,oil noodles hygienic
 加工調理食品類,"金門黃麵"," Kinmen yellow noodles; Kinmen alkaline noodles",加工調理食品類 加工调理食品类 金門黃面 金门黄面,kinmen yellow noodles alkaline
 加工調理食品類,"冷凍烏龍麵"," Frozen udon noodles",加工調理食品類 加工调理食品类 冷凍烏龍面 冷冻乌龙面,frozen udon noodles
-加工調理食品類,"鍋燒麵"," Wu-lohg noodle",加工調理食品類 加工调理食品类 鍋燒面 锅烧面,wu lohg noodle pot-roasted noodles
+加工調理食品類,"鍋燒麵"," Wu-lohg noodles",加工調理食品類 加工调理食品类 鍋燒面 锅烧面,wu lohg noodles pot-roasted
 加工調理食品類,"蕎麥麵(乾)"," Buckwheet noodles",加工調理食品類 加工调理食品类 蕎麥面 乾 荞麦面,buckwheet noodles buckwheat (dry)
-加工調理食品類,"蕎麥麵(濕)"," Buckwheat noodle",加工調理食品類 加工调理食品类 蕎麥面 濕 荞麦面 湿,buckwheat noodle soba noodles (wet)
+加工調理食品類,"蕎麥麵(濕)"," Buckwheat noodles",加工調理食品類 加工调理食品类 蕎麥面 濕 荞麦面 湿,buckwheat noodles soba (wet)
 加工調理食品類,"炒板條"," Stir-fried flat rice noodles (Ban-tiao)",加工調理食品類 加工调理食品类 炒板條 炒板条,stir fried flat rice noodles ban tiao strips
-加工調理食品類,"泡麵(牛肉口味)","即食麵,杯麵,方便麵,速食麵,公仔麵 Instant noodle",加工調理食品類 加工调理食品类 泡面 牛肉口味 即食面 杯面 方便面 速食面 公仔面,instant noodle noodles (beef flavor)
-加工調理食品類,"泡麵(鮮蝦口味)","即食麵,杯麵,方便麵,速食麵,公仔麵 Instant noodle",加工調理食品類 加工调理食品类 泡面 鮮蝦口味 即食面 杯面 方便面 速食面 公仔面 鲜虾口味,instant noodle noodles (shrimp flavor)
+加工調理食品類,"泡麵(牛肉口味)","即食麵,杯麵,方便麵,速食麵,公仔麵 Instant noodles",加工調理食品類 加工调理食品类 泡面 牛肉口味 即食面 杯面 方便面 速食面 公仔面,instant noodles (beef flavor)
+加工調理食品類,"泡麵(鮮蝦口味)","即食麵,杯麵,方便麵,速食麵,公仔麵 Instant noodles",加工調理食品類 加工调理食品类 泡面 鮮蝦口味 即食面 杯面 方便面 速食面 公仔面 鲜虾口味,instant noodles (shrimp flavor)
 加工調理食品類,"擔仔麵","台南擔仔麵 Tainan danzai noodles (minced pork noodle soup)",加工調理食品類 加工调理食品类 擔仔面 台南擔仔面 担仔面 台南担仔面,tainan danzai noodles minced pork noodle soup
 加工調理食品類,"冷凍牛肉水餃"," Dumpling: beef",加工調理食品類 加工调理食品类 冷凍牛肉水餃 冷冻牛肉水饺,dumpling beef frozen dumplings
 加工調理食品類,"冷凍豬肉水餃"," Dumpling: pork",加工調理食品類 加工调理食品类 冷凍豬肉水餃 冷冻猪肉水饺,dumpling pork frozen dumplings
