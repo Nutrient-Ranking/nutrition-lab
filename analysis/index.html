@@ -93,10 +93,11 @@
         tr:nth-child(38) td { color: #542222; background-color: #FFF9F8; }  /* 苯丙胺酸(Phe) */ 
         tr:nth-child(39) td { color: #542222; background-color: #FFF9F8; }  /* 離胺酸(Lys) */
         tr:nth-child(40) td { color: #542222; background-color: #FFF9F8; }  /* 組胺酸(His) */ 
-        tr:nth-child(41) td { color: #542222; background-color: #FFF9F8; }  /* 色胺酸(Trp) */       
-        tr:nth-child(42) td { color: #C00000; background-color: #FDE9D9; }  /* SFA */
-        tr:nth-child(43) td { color: #C00000; background-color: #FDE9D9; }  /* 反式脂肪 */
-        tr:nth-child(44) td { color: #C00000; background-color: #FDE9D9; }  /* 膽固醇 */
+        tr:nth-child(41) td { color: #542222; background-color: #FFF9F8; }  /* 色胺酸(Trp) */
+        tr:nth-child(42) td { color: #542222; background-color: #FFF9F8; }  /* 精胺酸(Arg) */ 
+        tr:nth-child(43) td { color: #C00000; background-color: #FDE9D9; }  /* SFA */
+        tr:nth-child(44) td { color: #C00000; background-color: #FDE9D9; }  /* 反式脂肪 */
+        tr:nth-child(45) td { color: #C00000; background-color: #FDE9D9; }  /* 膽固醇 */
 
         
         /* ✅ Ensure font size matches the chart title (20px) */
@@ -291,7 +292,8 @@
         <tr><td>苯丙胺酸(Phe)</td><td id="Phe"></td><td id="PheDV"></td></tr>
         <tr><td>離胺酸(Lys)</td><td id="Lys"></td><td id="LysDV"></td></tr>
         <tr><td>組胺酸(His)</td><td id="His"></td><td id="HisDV"></td></tr>
-        <tr><td>色胺酸(Trp)</td><td id="Trp"></td><td id="TrpDV"></td></tr>        
+        <tr><td>色胺酸(Trp)</td><td id="Trp"></td><td id="TrpDV"></td></tr>     
+        <tr><td>精胺酸(Arg)</td><td id="Arg"></td><td>-</td></tr>     
         <tr><td>飽和脂肪*</td><td id="sfa"></td><td id="sfaDV"></td></tr>
         <tr><td>反式脂肪*</td><td id="transfat"></td><td id="transfatDV"></td></tr>
         <tr><td>膽固醇*</td><td id="cholesterol"></td><td id="cholesterolDV"></td></tr>
@@ -367,7 +369,8 @@
         <tr><td>苯丙胺酸(Phe)</td><td id="PheDRI"></td>
         <tr><td>離胺酸(Lys)</td><td id="LysDRI"></td>
         <tr><td>組胺酸(His)</td><td id="HisDRI"></td>
-        <tr><td>色胺酸(Trp)</td><td id="TrpDRI"></td>          
+        <tr><td>色胺酸(Trp)</td><td id="TrpDRI"></td>   
+        <tr><td>精胺酸(Trp)</td><td>-</td>          
         <tr><td>飽和脂肪</td><td id="sfaUL"></td>
         <tr><td>反式脂肪</td><td id="transfatUL"></td>
         <tr><td>膽固醇</td><td id="cholesterolUL"></td>        
@@ -848,7 +851,8 @@
             let mPhe = parseFloat(food["Phe (mg)"]);
             let mLys = parseFloat(food["Lys (mg)"]);
             let mHis = parseFloat(food["His (mg)"]);
-            let mTrp = parseFloat(food["Trp (mg)"]);            
+            let mTrp = parseFloat(food["Trp (mg)"]);      
+            let mArg = parseFloat(food["Arg (mg)"]);    
             
             document.getElementById('pageTitle').textContent = food["Alternative Name"]; 
 
@@ -900,6 +904,7 @@
             document.getElementById('Lys').textContent = safeFixed(mLys, 1, ' mg');
             document.getElementById('His').textContent = safeFixed(mHis, 1, ' mg');
             document.getElementById('Trp').textContent = safeFixed(mTrp, 1, ' mg');
+            document.getElementById('Arg').textContent = safeFixed(mArg, 1, ' mg');
                 
             document.getElementById('sfa').textContent = safeFixed(mSFA, 1, ' mg');
             document.getElementById('transfat').textContent = safeFixed(mTransFat, 1, ' mg');
