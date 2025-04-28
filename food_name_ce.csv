@@ -402,7 +402,7 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 水果類,"無花果"," Figs",水果類 水果类 無花果 无花果,figs fig
 水果類,"無花果乾","無花果 Dried figs",水果類 水果类 無花果乾 無花果 无花果乾,dried figs
 水果類,"黃金果","黃晶果 Abiu, Caimito",水果類 水果类 黃金果 黃晶果 黄金果 黄晶果,abiu caimito golden fruit
-水果類,"菠蘿蜜","天波羅,樹波羅 Jack Fruit",水果類 水果类 菠蘿蜜 天波羅 樹波羅 菠萝蜜 天波罗 树波罗,jack fruit jackfruit
+水果類,"菠蘿蜜","天波羅,樹波羅 Jack Fruit",水果類 水果类 波羅蜜 波羅密 菠羅蜜 菠羅密 菠蘿蜜 天波羅 樹波羅 菠萝蜜 天波罗 树波罗,jack fruit jackfruit
 水果類,"榴槤蜜","尖百達,尖蜜拉,小樹菠蘿,小波羅蜜 Chempedak",水果類 水果类 榴槤蜜 尖百達 尖蜜拉 小樹菠蘿 小波羅蜜 尖百达 小树菠萝 小波罗蜜,chempedak durian honey
 水果類,"牛奶果","星蘋果 Star apple",水果類 水果类 牛奶果 星蘋果 星苹果,star apple milk fruit
 水果類,"餘甘子","油柑,油甘 Yuganzi; Emblic Leafflower Fruit",水果類 水果类 餘甘子 油柑 油甘 馀甘子,yuganzi emblic leafflower fruit phyllanthus emblica
@@ -556,9 +556,9 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 蔬菜類,"紅莧菜","紅莧,虎菜,紅虎莧,赤莧,紅杏(荇)菜,赤杏菜,紫杏(莧)菜 Edible amaranth; Chinese amaranth",蔬菜類 蔬菜类 紅莧菜 紅莧 虎菜 紅虎莧 赤莧 紅杏 荇 赤杏菜 紫杏 红苋菜 红苋 红虎苋 赤苋 红杏,edible amaranth chinese red
 蔬菜類,"野莧菜","野莧(杏),綠莧,豬莧,鳥仔莧(杏),假莧(杏)菜,山荇(杏,莧)菜, Edible amaranth; Chinese amaranth",蔬菜類 蔬菜类 野莧菜 野莧 杏 綠莧 豬莧 鳥仔莧 假莧 山荇 野苋菜 野苋 绿苋 猪苋 鸟仔苋 假苋,edible amaranth chinese
 蔬菜類,"紫蘇","蘇草,紅(赤/綠/青)紫蘇,桂荏 Perilla",蔬菜類 蔬菜类 紫蘇 蘇草 紅 赤/綠/青 桂荏 紫苏 苏草 红 赤/绿/青,perilla
-蔬菜類,"菠菜","菠菱菜,赤根菜,飛龍菜,角菜,波斯草,波斯菜,波菱菜 Spinach",蔬菜類 蔬菜类 菠菜 菠菱菜 赤根菜 飛龍菜 角菜 波斯草 波斯菜 波菱菜 飞龙菜,spinach
-蔬菜類,"菠菜(葉)(有機)","菠菱菜,赤根菜,飛龍菜,角菜,波斯草,波斯菜,波菱菜 Spinach (organic)",蔬菜類 蔬菜类 菠菜 葉 有機 菠菱菜 赤根菜 飛龍菜 角菜 波斯草 波斯菜 波菱菜 叶 有机 飞龙菜,spinach organic (leaf) (organic)
-蔬菜類,"冷凍菠菜","菠菱菜,赤根菜,飛龍菜,角菜,波斯草,波斯菜,波菱菜 Spinach: frozen",蔬菜類 蔬菜类 冷凍菠菜 菠菱菜 赤根菜 飛龍菜 角菜 波斯草 波斯菜 波菱菜 冷冻菠菜 飞龙菜,spinach frozen
+蔬菜類,"菠菜","菠菱菜,赤根菜,飛龍菜,角菜,波斯草,波斯菜,波菱菜 Spinach",蔬菜類 蔬菜类 波菜 菠菜 菠菱菜 赤根菜 飛龍菜 角菜 波斯草 波斯菜 波菱菜 飞龙菜,spinach
+蔬菜類,"菠菜(葉)(有機)","菠菱菜,赤根菜,飛龍菜,角菜,波斯草,波斯菜,波菱菜 Spinach (organic)",蔬菜類 蔬菜类 波菜 菠菜 葉 有機 菠菱菜 赤根菜 飛龍菜 角菜 波斯草 波斯菜 波菱菜 叶 有机 飞龙菜,spinach organic (leaf) (organic)
+蔬菜類,"冷凍菠菜","菠菱菜,赤根菜,飛龍菜,角菜,波斯草,波斯菜,波菱菜 Spinach: frozen",蔬菜類 蔬菜类 波菜 冷凍菠菜 菠菱菜 赤根菜 飛龍菜 角菜 波斯草 波斯菜 波菱菜 冷冻菠菜 飞龙菜,spinach frozen
 蔬菜類,"菾菜","葉用甜菜,莙薘菜,牛皮菜,豬乸菜 Chard",蔬菜類 蔬菜类 菾菜 葉用甜菜 莙薘菜 牛皮菜 豬乸菜 叶用甜菜 猪乸菜,chard chinese cabbage
 蔬菜類,"黃金菾菜","黃金火焰菜,君達菜,甜菜 Garden Beet; Table Beet; Swiss Chard; Spinach Beet; Chard; White Beet",蔬菜類 蔬菜类 黃金菾菜 黃金火焰菜 君達菜 甜菜 黄金菾菜 黄金火焰菜 君达菜,garden beet table swiss chard spinach white golden radish
 蔬菜類,"落葵","皇宮菜,蟳菜,胭(臙)脂菜,紅落葵,潺菜,蔠菜,藤葵,藤菜,天葵,御菜,牛皮凍 Malaber spinach; Ceylon spinach; malabar nightshade",蔬菜類 蔬菜类 落葵 皇宮菜 蟳菜 胭 臙 脂菜 紅落葵 潺菜 蔠菜 藤葵 藤菜 天葵 御菜 牛皮凍 皇宫菜 红落葵 牛皮冻,malaber spinach ceylon malabar nightshade basella alba
@@ -707,7 +707,7 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 蔬菜類,"義大利茼蒿"," ",蔬菜類 蔬菜类 義大利茼蒿 义大利茼蒿,italian chrysanthemum
 蔬菜類,"龍延草"," ",蔬菜類 蔬菜类 龍延草 龙延草,longyancao
 蔬菜類,"麵包果","釋迦果,馬檳榔 Breadfruit",蔬菜類 蔬菜类 面包果 釋迦果 馬檳榔 释迦果 马槟榔,breadfruit
-蔬菜類,"冰花","冰菜,水晶冰花,冰葉日中花 Ice plant",蔬菜類 蔬菜类 冰花 冰菜 水晶冰花 冰葉日中花 冰叶日中花,ice plant flower
+蔬菜類,"冰花","冰菜,水晶冰花,冰葉日中花 Ice plant",蔬菜類 蔬菜类 甜菠菜 甜波菜 冰花 冰菜 水晶冰花 冰葉日中花 冰叶日中花,ice plant flower
 藻類,"紅毛苔","海發菜,海髮菜,頭髮菜,紅毛菜 Bangia fusco-purpurea",藻類 藻类 紅毛苔 海發菜 頭發菜 紅毛菜 红毛苔 海发菜 头发菜 红毛菜,bangia fusco purpurea red moss
 藻類,"紫菜","海苔 Laver, nori",藻類 藻类 紫菜 海苔,laver nori
 藻類,"熟紫菜","海苔 Laver, nori",藻類 藻类 熟紫菜 海苔,laver nori cooked seaweed
@@ -826,66 +826,66 @@ Category,Food Name,Alternative Name,Chinese Terms,English Terms
 豆類,"樹豆(白)","木豆,白樹豆,柳豆,米豆,放屁豆,番仔豆,蒲姜豆 Pigeon pea",豆類 豆类 樹豆 白 木豆 白樹豆 柳豆 米豆 放屁豆 番仔豆 蒲姜豆 树豆 白树豆,pigeon pea tree bean (white)
 豆類,"翼豆","四角豆、翅豆、羊角豆、 楊桃豆、四稜豆 Four-angled bean; Winged bean; Goa bean",豆類 豆类 翼豆 四角豆、翅豆、羊角豆、 楊桃豆、四棱豆 四角豆丶翅豆丶羊角豆丶 杨桃豆丶四棱豆,four angled bean winged goa wing
 豆類,"天貝(黃豆)"," Soybean Fresh Tempeh",豆類 豆类 天貝 黃豆 天贝 黄豆,soybean fresh tempeh (soybean)
-肉類,"牛小排平均值","肥牛肉,小肋排,牛仔骨,牛排,牛肉 (牛肋脊) Short rib",肉類 肉类 牛小排平均值 肥牛肉 小肋排 牛仔骨 牛排 牛肋脊,short rib beef ribs average
-肉類,"去骨牛小排","肥牛肉,小肋排,牛排,牛肉 (牛肋脊) Boneless short rib",肉類 肉类 去骨牛小排 肥牛肉 小肋排 牛排 牛肋脊,boneless short rib beef ribs
-肉類,"帶骨牛小排","牛仔骨,牛排,牛肉 (牛肋脊) Bone-in short rib",肉類 肉类 帶骨牛小排 牛仔骨 牛排 牛肉 牛肋脊 带骨牛小排,bone in short rib bone-in beef ribs
-肉類,"無骨牛小排(美牛)","牛排,牛肉 (牛肋脊) Boneless short rib",肉類 肉类 無骨牛小排 美牛 牛排 牛肉 牛肋脊 无骨牛小排,boneless short rib beef ribs (american beef)
-肉類,"牛肋條","腩條,條肉,牛排,牛肉 (牛肋脊) Rib fingers; Intercostal meat",肉類 肉类 牛肋條 腩條 條肉 牛排 牛肉 牛肋脊 牛肋条 腩条 条肉,rib fingers intercostal meat beef ribs
-肉類,"牛肋條(2021年取樣)","牛排,牛肉 (牛肋脊) Beef Ribs",肉類 肉类 牛肋條 年取樣 牛排 牛肉 牛肋脊 牛肋条 年取样,beef ribs (sampled in 2021)
-肉類,"沙朗牛排","里肌,大里肌,肋眼,修清肋眼肉;修清肉眼,牛排,牛肉 (牛肋脊) Ribeye roll, lip-on; Cube roll",肉類 肉类 沙朗牛排 裡肌 大裡肌 肋眼 修清肋眼肉 修清肉眼 牛肉 牛肋脊 里肌 大里肌,ribeye roll lip on cube sirloin steak
-肉類,"板腱 ","板腱牛排;白蘭地牛排;上肩胛脊底肌,牛排,牛肉 (牛肩胛) Top blade muscle",肉類 肉类 板腱 板腱牛排 白蘭地牛排 上肩胛脊底肌 牛肉 牛肩胛 白兰地牛排,top blade muscle plate tendon
-肉類,"牛去骨肩胛小排","肥牛肉,牛排,牛肉 (牛肩胛) Boneless chuck (short) rib",肉類 肉类 牛去骨肩胛小排 肥牛肉 牛排 牛肩胛,boneless chuck short rib beef shoulder ribs
-肉類,"牛前胸肉","去骨前胸肉,牛腩,牛排,牛肉 (牛前胸) Brisket; Brisket, boneless, deckle-off",肉類 肉类 牛前胸肉 去骨前胸肉 牛腩 牛排 牛肉 牛前胸,brisket boneless deckle off beef
-肉類,"牛修清前胸肉","修清牛腩,修清前胸腋肌,牛排,牛排,牛肉 (牛前胸) Pectoral meat; Brisket, nose-off",肉類 肉类 牛修清前胸肉 修清牛腩 修清前胸腋肌 牛排 牛肉 牛前胸,pectoral meat brisket nose off beef
-肉類,"去骨紐約克牛排","外條,西冷,去骨前腰脊肉,牛肉 (牛前腰脊) New York steak(cut); Steak ready strip loin; Boneless strip loin",肉類 肉类 去骨紐約克牛排 外條 西冷 去骨前腰脊肉 牛肉 牛前腰脊 去骨纽约克牛排 外条,new york steak cut ready strip loin boneless
-肉類,"腓力牛排","菲力牛排,牛柳,小里肌,腰內肉,去脂腰里肌肉,全修清去膜腰裡脊肉,牛排,牛肉 (牛前腰脊) Filet mignon; Tenderloin; Tenderloin, side muscle off, skinned",肉類 肉类 腓力牛排 菲力牛排 牛柳 小裡肌 腰內肉 去脂腰裡肌肉 全修清去膜腰裡脊肉 牛肉 牛前腰脊 小里肌 腰内肉 去脂腰里肌肉 全修清去膜腰里脊肉,filet mignon tenderloin side muscle off skinned fillet steak
-肉類,"牛後腿肉","牛排,牛肉 (牛後腿) Beef round; Beef ham",肉類 肉类 牛後腿肉 牛排 牛肉 牛後腿,beef round ham shank
-肉類,"牛後腿股肉","和尚頭,牛霖,牛排,牛肉,牛排,牛肉 (牛後腿) Knuckle",肉類 肉类 牛後腿股肉 和尚頭 牛霖 牛排 牛肉 牛後腿 和尚头,knuckle beef hind leg
-肉類,"牛後腿腱子心","牛腱,腱子,牛排,牛肉,牛排,牛肉 (牛後腿) Hind shank; Heel muscle; Beef shank",肉類 肉类 牛後腿腱子心 牛腱 腱子 牛排 牛肉 牛後腿,hind shank heel muscle beef heart
-肉類,"牛後腿腱子心(2022年取樣)","牛腱,腱子,牛排,牛肉 (牛後腿) Hind shank; Heel muscle; Beef shank",肉類 肉类 牛後腿腱子心 年取樣 牛腱 腱子 牛排 牛肉 牛後腿 年取样,hind shank heel muscle beef leg tendon heart (sampled in 2022)
-肉類,"牛肉火鍋片平均值","牛排,牛肉 Beef slices",肉類 肉类 牛肉火鍋片平均值 牛排 牛肉 牛肉火锅片平均值,beef slices hot pot average
-肉類,"牛五花肉火鍋片","牛排,牛肉 Beef slices",肉類 肉类 牛五花肉火鍋片 牛排 牛肉 牛五花肉火锅片,beef slices belly hotpot
-肉類,"牛紐約客火鍋片","牛排,牛肉 Beef slices",肉類 肉类 牛紐約客火鍋片 牛排 牛肉 牛纽约客火锅片,beef slices new york hot pot
-肉類,"牛梅花肉火鍋片","牛排,牛肉 Beef slices",肉類 肉类 牛梅花肉火鍋片 牛排 牛肉 牛梅花肉火锅片,beef slices plum meat hot pot
-肉類,"牛嫩肩里肌火鍋片","牛排,牛肉 Beef slices",肉類 肉类 牛嫩肩裡肌火鍋片 牛排 牛肉 牛嫩肩里肌火锅片,beef slices shoulder tenderloin hotpot
-肉類,"牛肚平均值","百葉胃,毛肚,牛百葉,牛百頁,牛草肚(牛之第一胃);蜂巢肚,金錢肚(牛之第二胃),牛肉 Beef paunch",肉類 肉类 牛肚平均值 百葉胃 毛肚 牛百葉 牛百頁 牛草肚 牛之第一胃 蜂巢肚 金錢肚 牛之第二胃 牛肉 百叶胃 牛百叶 牛百页 金钱肚,beef paunch tripe average
-肉類,"牛肚(瘤胃)","百葉胃,毛肚,牛百葉,牛百頁,牛草肚(牛之第一胃,山鏈狀),牛肉 Beef paunch; Rumen; Mountain chain tripe",肉類 肉类 牛肚 瘤胃 百葉胃 毛肚 牛百葉 牛百頁 牛草肚 牛之第一胃 山鏈狀 牛肉 百叶胃 牛百叶 牛百页 山链状,beef paunch rumen mountain chain tripe (rumen)
-肉類,"牛肚切片(瘤胃)","百葉胃,毛肚,牛百葉,牛百頁,牛草肚(牛之第一胃),牛肉 Beef paunch: sliced; Rumen: sliced; Mountain chain tripe: sliced",肉類 肉类 牛肚切片 瘤胃 百葉胃 毛肚 牛百葉 牛百頁 牛草肚 牛之第一胃 牛肉 百叶胃 牛百叶 牛百页,beef paunch sliced rumen mountain chain tripe slices (rumen)
-肉類,"牛肚(蜂巢胃)","蜂巢肚,金錢肚(牛之第二胃),牛肉 Honeycomb tripe; Reticulum tripe",肉類 肉类 牛肚 蜂巢胃 蜂巢肚 金錢肚 牛之第二胃 牛肉 金钱肚,honeycomb tripe reticulum beef (honeycomb stomach)
-肉類,"牛筋","蹄筋,牛肉 Beef Tendons",肉類 肉类 牛筋 蹄筋 牛肉,beef tendons
-肉類,"山羊帶皮羊肉塊","羊肉,羊排 Goat meat",肉類 肉类 山羊帶皮羊肉塊 羊肉 羊排 山羊带皮羊肉块,goat meat skin lamb chunks
-肉類,"山羊前腿肉片","羊肉,羊排 Goat: foreleg",肉類 肉类 山羊前腿肉片 羊肉 羊排,goat foreleg front fillet
-肉類,"山羊後腿肉火鍋片","羊肉,羊排 Goat: shore leg",肉類 肉类 山羊後腿肉火鍋片 羊肉 羊排 山羊後腿肉火锅片,goat shore leg hind hot pot slices
-肉類,"綿羊肉切片","羊肉,羊排 Mutton",肉類 肉类 綿羊肉切片 羊肉 羊排 绵羊肉切片,mutton lamb slices
-肉類,"法式羊排","羊肋排,羊小排 Shoulder Frenched Rack of lamb",肉類 肉类 法式羊排 羊肋排 羊小排,shoulder frenched rack of lamb french chops
-肉類,"去骨肩頸眼羊肉","羊肉,羊排 Boneless Lamb Shoulder",肉類 肉类 去骨肩頸眼羊肉 羊排 去骨肩颈眼羊肉,boneless lamb shoulder
-肉類,"小羊腰脊肉","去骨腰脊肉,羊肉,羊排 Boneless loin",肉類 肉类 小羊腰脊肉 去骨腰脊肉 羊肉 羊排,boneless loin lamb sirloin
-肉類,"綿羊腹脅肉火鍋片","五花肉火鍋片,羊肉,羊排 Boneless flap: sliced",肉類 肉类 綿羊腹脅肉火鍋片 五花肉火鍋片 羊肉 羊排 绵羊腹胁肉火锅片 五花肉火锅片,boneless flap sliced lamb belly hotpot slices
-肉類,"豬下肩肉","前腿肉,豬肉,豬排 Pork: forefeet",肉類 肉类 豬下肩肉 前腿肉 豬肉 豬排 猪下肩肉 猪肉 猪排,pork forefeet shoulder
-肉類,"豬下肩瘦肉","前腿瘦肉,豬肉,豬排 Pork: forefeet, lean meat; Picnic shoulder",肉類 肉类 豬下肩瘦肉 前腿瘦肉 豬肉 豬排 猪下肩瘦肉 猪肉 猪排,pork forefeet lean meat picnic shoulder
-肉類,"豬上肩肉","梅花肉,豬肉,豬排 Pork: part fat",肉類 肉类 豬上肩肉 梅花肉 豬肉 豬排 猪上肩肉 猪肉 猪排,pork part fat shoulder
-肉類,"豬肩胛肉","胛心肉,豬肉,豬排 Pork shoulder; Pork: forefeet; Boston butt; Boston butt and picnic shoulder",肉類 肉类 豬肩胛肉 胛心肉 豬肉 豬排 猪肩胛肉 猪肉 猪排,pork shoulder forefeet boston butt and picnic
-肉類,"豬肩胛排","中排,豬肉,豬排 Pork shoulder ribs",肉類 肉类 豬肩胛排 中排 豬肉 豬排 猪肩胛排 猪肉 猪排,pork shoulder ribs steak
-肉類,"豬肩胛排(2021年取樣)","豬肉,豬排 Pork shoulder ribs",肉類 肉类 豬肩胛排 年取樣 豬肉 豬排 猪肩胛排 年取样 猪肉 猪排,pork shoulder ribs steak (sampled in 2021)
-肉類,"豬前腿外腱肉","豬腱,腱子肉,豬肉,豬排 Foreshank",肉類 肉类 豬前腿外腱肉 豬腱 腱子肉 豬肉 豬排 猪前腿外腱肉 猪腱 猪肉 猪排,foreshank pork front leg tendon
-肉類,"豬後腿外腱肉","豬腱,外腱,豬肉,豬排 Shank: hind",肉類 肉类 豬後腿外腱肉 豬腱 外腱 豬肉 豬排 猪後腿外腱肉 猪腱 猪肉 猪排,shank hind pork leg tendon
-肉類,"豬後腿肉","豬肉,豬排 Pork: hind leg; ham; Fresh ham",肉類 肉类 豬後腿肉 豬肉 豬排 猪後腿肉 猪肉 猪排,pork hind leg ham fresh
-肉類,"豬後腿瘦肉","豬肉,豬排 Pork: hind leg, lean meat",肉類 肉类 豬後腿瘦肉 豬肉 豬排 猪後腿瘦肉 猪肉 猪排,pork hind leg lean meat
-肉類,"豬大里肌","背脊肉,里肌肉,豬肉,豬排 Lean pork: fillet; Boneless loin; loin",肉類 肉类 豬大裡肌 背脊肉 裡肌肉 豬肉 豬排 猪大里肌 里肌肉 猪肉 猪排,lean pork fillet boneless loin
-肉類,"豬大排","背脊,帶骨里肌,豬肉,豬排 Center cut loin; Large sparerib; Loin: bone-in",肉類 肉类 豬大排 背脊 帶骨裡肌 豬肉 豬排 猪大排 带骨里肌 猪肉 猪排,center cut loin large sparerib bone pork chop
-肉類,"豬小排","里肌小排,肋小排,肋骨排,豬肉,豬排 Back ribs; Small sparerib",肉類 肉类 豬小排 裡肌小排 肋小排 肋骨排 豬肉 豬排 猪小排 里肌小排 猪肉 猪排,back ribs small sparerib pork spare
-肉類,"僧帽肌","離緣肉,豬肉,豬排 Trapicius muscle",肉類 肉类 僧帽肌 離緣肉 豬肉 豬排 离缘肉 猪肉 猪排,trapicius muscle mitral
-肉類,"豬小里肌","腰內肉,豬肉,豬排 Tenderloin",肉類 肉类 豬小裡肌 腰內肉 豬肉 豬排 猪小里肌 腰内肉 猪肉 猪排,tenderloin pork
-肉類,"豬去皮腹脇肉","去皮五花肉,去皮三層肉,豬肉,豬排 Pork belly meat: lean and fat; Shoulder (boston): skin-off",肉類 肉类 豬去皮腹脇肉 去皮五花肉 去皮三層肉 豬肉 豬排 猪去皮腹脇肉 去皮三层肉 猪肉 猪排,pork belly meat lean and fat shoulder boston skin off skinless flank
-肉類,"豬帶皮腹脇肉","帶皮五花肉,帶皮三層肉,豬肉,豬排 Pork belly meat: lean and fat; Shoulder (boston)",肉類 肉类 豬帶皮腹脇肉 帶皮五花肉 帶皮三層肉 豬肉 豬排 猪带皮腹脇肉 带皮五花肉 带皮三层肉 猪肉 猪排,pork belly meat lean and fat shoulder boston with skin
-肉類,"豬腹脇排","腩排,肉排,小排,豬肉,豬排 Spareribs",肉類 肉类 豬腹脇排 腩排 肉排 小排 豬肉 豬排 猪腹脇排 猪肉 猪排,spareribs pork flank steak
-肉類,"豬肝連","肝連,隔胸肉,條仔肉(橫隔肌),豬肉 Pork diaphragm",肉類 肉类 豬肝連 隔胸肉 條仔肉 橫隔肌 豬肉 猪肝连 条仔肉 横隔肌 猪肉,pork diaphragm liver
-肉類,"豬頰肉","豬舌肉,菊花肉,豬肉 Pork: cheek meat",肉類 肉类 豬頰肉 豬舌肉 菊花肉 豬肉 猪颊肉 猪舌肉 猪肉,pork cheek meat
-肉類,"豬頰肉(2022年取樣)","豬舌肉,菊花肉,豬肉 Pork: cheek meat",肉類 肉类 豬頰肉 年取樣 豬舌肉 菊花肉 豬肉 猪颊肉 年取样 猪舌肉 猪肉,pork cheek meat (sampled in 2022)
-肉類,"豬頸肉","松阪豬肉 Pork jowl meat",肉類 肉类 豬頸肉 松阪豬肉 猪颈肉 松阪猪肉,pork jowl meat neck
-肉類,"豬絞肉平均值","豬肉 Ground pork",肉類 肉类 豬絞肉平均值 豬肉 猪绞肉平均值 猪肉,ground pork average mince
-肉類,"豬絞肉(70％瘦肉率)","豬肉 Ground pork (70% lean)",肉類 肉类 豬絞肉 瘦肉率 豬肉 猪绞肉 猪肉,ground pork lean mince (70% meat)
-肉類,"豬絞肉(90％瘦肉率)","豬肉 Ground pork (90% lean)",肉類 肉类 豬絞肉 瘦肉率 豬肉 猪绞肉 猪肉,ground pork lean mince (90% meat)
+肉類,"牛小排平均值","肥牛肉,小肋排,牛仔骨,牛排,牛肉 (牛肋脊) Short rib",肉類 肉类 紅肉 红肉 red meat 牛小排平均值 肥牛肉 小肋排 牛仔骨 牛排 牛肋脊,short rib beef ribs average
+肉類,"去骨牛小排","肥牛肉,小肋排,牛排,牛肉 (牛肋脊) Boneless short rib",肉類 肉类 紅肉 红肉 red meat 去骨牛小排 肥牛肉 小肋排 牛排 牛肋脊,boneless short rib beef ribs
+肉類,"帶骨牛小排","牛仔骨,牛排,牛肉 (牛肋脊) Bone-in short rib",肉類 肉类 紅肉 红肉 red meat 帶骨牛小排 牛仔骨 牛排 牛肉 牛肋脊 带骨牛小排,bone in short rib bone-in beef ribs
+肉類,"無骨牛小排(美牛)","牛排,牛肉 (牛肋脊) Boneless short rib",肉類 肉类 紅肉 红肉 red meat 無骨牛小排 美牛 牛排 牛肉 牛肋脊 无骨牛小排,boneless short rib beef ribs (american beef)
+肉類,"牛肋條","腩條,條肉,牛排,牛肉 (牛肋脊) Rib fingers; Intercostal meat",肉類 肉类 紅肉 红肉 red meat 牛肋條 腩條 條肉 牛排 牛肉 牛肋脊 牛肋条 腩条 条肉,rib fingers intercostal meat beef ribs
+肉類,"牛肋條(2021年取樣)","牛排,牛肉 (牛肋脊) Beef Ribs",肉類 肉类 紅肉 红肉 red meat 牛肋條 年取樣 牛排 牛肉 牛肋脊 牛肋条 年取样,beef ribs (sampled in 2021)
+肉類,"沙朗牛排","里肌,大里肌,肋眼,修清肋眼肉;修清肉眼,牛排,牛肉 (牛肋脊) Ribeye roll, lip-on; Cube roll",肉類 肉类 紅肉 红肉 red meat 沙朗牛排 裡肌 大裡肌 肋眼 修清肋眼肉 修清肉眼 牛肉 牛肋脊 里肌 大里肌,ribeye roll lip on cube sirloin steak
+肉類,"板腱 ","板腱牛排;白蘭地牛排;上肩胛脊底肌,牛排,牛肉 (牛肩胛) Top blade muscle",肉類 肉类 紅肉 红肉 red meat 板腱 板腱牛排 白蘭地牛排 上肩胛脊底肌 牛肉 牛肩胛 白兰地牛排,top blade muscle plate tendon
+肉類,"牛去骨肩胛小排","肥牛肉,牛排,牛肉 (牛肩胛) Boneless chuck (short) rib",肉類 肉类 紅肉 红肉 red meat 牛去骨肩胛小排 肥牛肉 牛排 牛肩胛,boneless chuck short rib beef shoulder ribs
+肉類,"牛前胸肉","去骨前胸肉,牛腩,牛排,牛肉 (牛前胸) Brisket; Brisket, boneless, deckle-off",肉類 肉类 紅肉 红肉 red meat 牛前胸肉 去骨前胸肉 牛腩 牛排 牛肉 牛前胸,brisket boneless deckle off beef
+肉類,"牛修清前胸肉","修清牛腩,修清前胸腋肌,牛排,牛排,牛肉 (牛前胸) Pectoral meat; Brisket, nose-off",肉類 肉类 紅肉 红肉 red meat 牛修清前胸肉 修清牛腩 修清前胸腋肌 牛排 牛肉 牛前胸,pectoral meat brisket nose off beef
+肉類,"去骨紐約克牛排","外條,西冷,去骨前腰脊肉,牛肉 (牛前腰脊) New York steak(cut); Steak ready strip loin; Boneless strip loin",肉類 肉类 紅肉 红肉 red meat 去骨紐約克牛排 外條 西冷 去骨前腰脊肉 牛肉 牛前腰脊 去骨纽约克牛排 外条,new york steak cut ready strip loin boneless
+肉類,"腓力牛排","菲力牛排,牛柳,小里肌,腰內肉,去脂腰里肌肉,全修清去膜腰裡脊肉,牛排,牛肉 (牛前腰脊) Filet mignon; Tenderloin; Tenderloin, side muscle off, skinned",肉類 肉类 紅肉 红肉 red meat 腓力牛排 菲力牛排 牛柳 小裡肌 腰內肉 去脂腰裡肌肉 全修清去膜腰裡脊肉 牛肉 牛前腰脊 小里肌 腰内肉 去脂腰里肌肉 全修清去膜腰里脊肉,filet mignon tenderloin side muscle off skinned fillet steak
+肉類,"牛後腿肉","牛排,牛肉 (牛後腿) Beef round; Beef ham",肉類 肉类 紅肉 红肉 red meat 牛後腿肉 牛排 牛肉 牛後腿,beef round ham shank
+肉類,"牛後腿股肉","和尚頭,牛霖,牛排,牛肉,牛排,牛肉 (牛後腿) Knuckle",肉類 肉类 紅肉 红肉 red meat 牛後腿股肉 和尚頭 牛霖 牛排 牛肉 牛後腿 和尚头,knuckle beef hind leg
+肉類,"牛後腿腱子心","牛腱,腱子,牛排,牛肉,牛排,牛肉 (牛後腿) Hind shank; Heel muscle; Beef shank",肉類 肉类 紅肉 红肉 red meat 牛後腿腱子心 牛腱 腱子 牛排 牛肉 牛後腿,hind shank heel muscle beef heart
+肉類,"牛後腿腱子心(2022年取樣)","牛腱,腱子,牛排,牛肉 (牛後腿) Hind shank; Heel muscle; Beef shank",肉類 肉类 紅肉 红肉 red meat 牛後腿腱子心 年取樣 牛腱 腱子 牛排 牛肉 牛後腿 年取样,hind shank heel muscle beef leg tendon heart (sampled in 2022)
+肉類,"牛肉火鍋片平均值","牛排,牛肉 Beef slices",肉類 肉类 紅肉 红肉 red meat 牛肉火鍋片平均值 牛排 牛肉 牛肉火锅片平均值,beef slices hot pot average
+肉類,"牛五花肉火鍋片","牛排,牛肉 Beef slices",肉類 肉类 紅肉 红肉 red meat 牛五花肉火鍋片 牛排 牛肉 牛五花肉火锅片,beef slices belly hotpot
+肉類,"牛紐約客火鍋片","牛排,牛肉 Beef slices",肉類 肉类 紅肉 红肉 red meat 牛紐約客火鍋片 牛排 牛肉 牛纽约客火锅片,beef slices new york hot pot
+肉類,"牛梅花肉火鍋片","牛排,牛肉 Beef slices",肉類 肉类 紅肉 红肉 red meat 牛梅花肉火鍋片 牛排 牛肉 牛梅花肉火锅片,beef slices plum meat hot pot
+肉類,"牛嫩肩里肌火鍋片","牛排,牛肉 Beef slices",肉類 肉类 紅肉 红肉 red meat 牛嫩肩裡肌火鍋片 牛排 牛肉 牛嫩肩里肌火锅片,beef slices shoulder tenderloin hotpot
+肉類,"牛肚平均值","百葉胃,毛肚,牛百葉,牛百頁,牛草肚(牛之第一胃);蜂巢肚,金錢肚(牛之第二胃),牛肉 Beef paunch",肉類 肉类 紅肉 红肉 red meat 牛肚平均值 百葉胃 毛肚 牛百葉 牛百頁 牛草肚 牛之第一胃 蜂巢肚 金錢肚 牛之第二胃 牛肉 百叶胃 牛百叶 牛百页 金钱肚,beef paunch tripe average
+肉類,"牛肚(瘤胃)","百葉胃,毛肚,牛百葉,牛百頁,牛草肚(牛之第一胃,山鏈狀),牛肉 Beef paunch; Rumen; Mountain chain tripe",肉類 肉类 紅肉 红肉 red meat 牛肚 瘤胃 百葉胃 毛肚 牛百葉 牛百頁 牛草肚 牛之第一胃 山鏈狀 牛肉 百叶胃 牛百叶 牛百页 山链状,beef paunch rumen mountain chain tripe (rumen)
+肉類,"牛肚切片(瘤胃)","百葉胃,毛肚,牛百葉,牛百頁,牛草肚(牛之第一胃),牛肉 Beef paunch: sliced; Rumen: sliced; Mountain chain tripe: sliced",肉類 肉类 紅肉 红肉 red meat 牛肚切片 瘤胃 百葉胃 毛肚 牛百葉 牛百頁 牛草肚 牛之第一胃 牛肉 百叶胃 牛百叶 牛百页,beef paunch sliced rumen mountain chain tripe slices (rumen)
+肉類,"牛肚(蜂巢胃)","蜂巢肚,金錢肚(牛之第二胃),牛肉 Honeycomb tripe; Reticulum tripe",肉類 肉类 紅肉 红肉 red meat 牛肚 蜂巢胃 蜂巢肚 金錢肚 牛之第二胃 牛肉 金钱肚,honeycomb tripe reticulum beef (honeycomb stomach)
+肉類,"牛筋","蹄筋,牛肉 Beef Tendons",肉類 肉类 紅肉 红肉 red meat 牛筋 蹄筋 牛肉,beef tendons
+肉類,"山羊帶皮羊肉塊","羊肉,羊排 Goat meat",肉類 肉类 紅肉 红肉 red meat 山羊帶皮羊肉塊 羊肉 羊排 山羊带皮羊肉块,goat meat skin lamb chunks
+肉類,"山羊前腿肉片","羊肉,羊排 Goat: foreleg",肉類 肉类 紅肉 红肉 red meat 山羊前腿肉片 羊肉 羊排,goat foreleg front fillet
+肉類,"山羊後腿肉火鍋片","羊肉,羊排 Goat: shore leg",肉類 肉类 紅肉 红肉 red meat 山羊後腿肉火鍋片 羊肉 羊排 山羊後腿肉火锅片,goat shore leg hind hot pot slices
+肉類,"綿羊肉切片","羊肉,羊排 Mutton",肉類 肉类 紅肉 红肉 red meat 綿羊肉切片 羊肉 羊排 绵羊肉切片,mutton lamb slices
+肉類,"法式羊排","羊肋排,羊小排 Shoulder Frenched Rack of lamb",肉類 肉类 紅肉 红肉 red meat 法式羊排 羊肋排 羊小排,shoulder frenched rack of lamb french chops
+肉類,"去骨肩頸眼羊肉","羊肉,羊排 Boneless Lamb Shoulder",肉類 肉类 紅肉 红肉 red meat 去骨肩頸眼羊肉 羊排 去骨肩颈眼羊肉,boneless lamb shoulder
+肉類,"小羊腰脊肉","去骨腰脊肉,羊肉,羊排 Boneless loin",肉類 肉类 紅肉 红肉 red meat 小羊腰脊肉 去骨腰脊肉 羊肉 羊排,boneless loin lamb sirloin
+肉類,"綿羊腹脅肉火鍋片","五花肉火鍋片,羊肉,羊排 Boneless flap: sliced",肉類 肉类 紅肉 红肉 red meat 綿羊腹脅肉火鍋片 五花肉火鍋片 羊肉 羊排 绵羊腹胁肉火锅片 五花肉火锅片,boneless flap sliced lamb belly hotpot slices
+肉類,"豬下肩肉","前腿肉,豬肉,豬排 Pork: forefeet",肉類 肉类 紅肉 红肉 red meat 豬下肩肉 前腿肉 豬肉 豬排 猪下肩肉 猪肉 猪排,pork forefeet shoulder
+肉類,"豬下肩瘦肉","前腿瘦肉,豬肉,豬排 Pork: forefeet, lean meat; Picnic shoulder",肉類 肉类 紅肉 红肉 red meat 豬下肩瘦肉 前腿瘦肉 豬肉 豬排 猪下肩瘦肉 猪肉 猪排,pork forefeet lean meat picnic shoulder
+肉類,"豬上肩肉","梅花肉,豬肉,豬排 Pork: part fat",肉類 肉类 紅肉 红肉 red meat 豬上肩肉 梅花肉 豬肉 豬排 猪上肩肉 猪肉 猪排,pork part fat shoulder
+肉類,"豬肩胛肉","胛心肉,豬肉,豬排 Pork shoulder; Pork: forefeet; Boston butt; Boston butt and picnic shoulder",肉類 肉类 紅肉 红肉 red meat 豬肩胛肉 胛心肉 豬肉 豬排 猪肩胛肉 猪肉 猪排,pork shoulder forefeet boston butt and picnic
+肉類,"豬肩胛排","中排,豬肉,豬排 Pork shoulder ribs",肉類 肉类 紅肉 红肉 red meat 豬肩胛排 中排 豬肉 豬排 猪肩胛排 猪肉 猪排,pork shoulder ribs steak
+肉類,"豬肩胛排(2021年取樣)","豬肉,豬排 Pork shoulder ribs",肉類 肉类 紅肉 红肉 red meat 豬肩胛排 年取樣 豬肉 豬排 猪肩胛排 年取样 猪肉 猪排,pork shoulder ribs steak (sampled in 2021)
+肉類,"豬前腿外腱肉","豬腱,腱子肉,豬肉,豬排 Foreshank",肉類 肉类 紅肉 红肉 red meat 豬前腿外腱肉 豬腱 腱子肉 豬肉 豬排 猪前腿外腱肉 猪腱 猪肉 猪排,foreshank pork front leg tendon
+肉類,"豬後腿外腱肉","豬腱,外腱,豬肉,豬排 Shank: hind",肉類 肉类 紅肉 红肉 red meat 豬後腿外腱肉 豬腱 外腱 豬肉 豬排 猪後腿外腱肉 猪腱 猪肉 猪排,shank hind pork leg tendon
+肉類,"豬後腿肉","豬肉,豬排 Pork: hind leg; ham; Fresh ham",肉類 肉类 紅肉 红肉 red meat 豬後腿肉 豬肉 豬排 猪後腿肉 猪肉 猪排,pork hind leg ham fresh
+肉類,"豬後腿瘦肉","豬肉,豬排 Pork: hind leg, lean meat",肉類 肉类 紅肉 红肉 red meat 豬後腿瘦肉 豬肉 豬排 猪後腿瘦肉 猪肉 猪排,pork hind leg lean meat
+肉類,"豬大里肌","背脊肉,里肌肉,豬肉,豬排 Lean pork: fillet; Boneless loin; loin",肉類 肉类 紅肉 红肉 red meat 豬大裡肌 背脊肉 裡肌肉 豬肉 豬排 猪大里肌 里肌肉 猪肉 猪排,lean pork fillet boneless loin
+肉類,"豬大排","背脊,帶骨里肌,豬肉,豬排 Center cut loin; Large sparerib; Loin: bone-in",肉類 肉类 紅肉 红肉 red meat 豬大排 背脊 帶骨裡肌 豬肉 豬排 猪大排 带骨里肌 猪肉 猪排,center cut loin large sparerib bone pork chop
+肉類,"豬小排","里肌小排,肋小排,肋骨排,豬肉,豬排 Back ribs; Small sparerib",肉類 肉类 紅肉 红肉 red meat 豬小排 裡肌小排 肋小排 肋骨排 豬肉 豬排 猪小排 里肌小排 猪肉 猪排,back ribs small sparerib pork spare
+肉類,"僧帽肌","離緣肉,豬肉,豬排 Trapicius muscle",肉類 肉类 紅肉 红肉 red meat 僧帽肌 離緣肉 豬肉 豬排 离缘肉 猪肉 猪排,trapicius muscle mitral
+肉類,"豬小里肌","腰內肉,豬肉,豬排 Tenderloin",肉類 肉类 紅肉 红肉 red meat 豬小裡肌 腰內肉 豬肉 豬排 猪小里肌 腰内肉 猪肉 猪排,tenderloin pork
+肉類,"豬去皮腹脇肉","去皮五花肉,去皮三層肉,豬肉,豬排 Pork belly meat: lean and fat; Shoulder (boston): skin-off",肉類 肉类 紅肉 红肉 red meat 豬去皮腹脇肉 去皮五花肉 去皮三層肉 豬肉 豬排 猪去皮腹脇肉 去皮三层肉 猪肉 猪排,pork belly meat lean and fat shoulder boston skin off skinless flank
+肉類,"豬帶皮腹脇肉","帶皮五花肉,帶皮三層肉,豬肉,豬排 Pork belly meat: lean and fat; Shoulder (boston)",肉類 肉类 紅肉 红肉 red meat 豬帶皮腹脇肉 帶皮五花肉 帶皮三層肉 豬肉 豬排 猪带皮腹脇肉 带皮五花肉 带皮三层肉 猪肉 猪排,pork belly meat lean and fat shoulder boston with skin
+肉類,"豬腹脇排","腩排,肉排,小排,豬肉,豬排 Spareribs",肉類 肉类 紅肉 红肉 red meat 豬腹脇排 腩排 肉排 小排 豬肉 豬排 猪腹脇排 猪肉 猪排,spareribs pork flank steak
+肉類,"豬肝連","肝連,隔胸肉,條仔肉(橫隔肌),豬肉 Pork diaphragm",肉類 肉类 紅肉 红肉 red meat 豬肝連 隔胸肉 條仔肉 橫隔肌 豬肉 猪肝连 条仔肉 横隔肌 猪肉,pork diaphragm liver
+肉類,"豬頰肉","豬舌肉,菊花肉,豬肉 Pork: cheek meat",肉類 肉类 紅肉 红肉 red meat 豬頰肉 豬舌肉 菊花肉 豬肉 猪颊肉 猪舌肉 猪肉,pork cheek meat
+肉類,"豬頰肉(2022年取樣)","豬舌肉,菊花肉,豬肉 Pork: cheek meat",肉類 肉类 紅肉 红肉 red meat 豬頰肉 年取樣 豬舌肉 菊花肉 豬肉 猪颊肉 年取样 猪舌肉 猪肉,pork cheek meat (sampled in 2022)
+肉類,"豬頸肉","松阪豬肉 Pork jowl meat",肉類 肉类 紅肉 红肉 red meat 豬頸肉 松阪豬肉 猪颈肉 松阪猪肉,pork jowl meat neck
+肉類,"豬絞肉平均值","豬肉 Ground pork",肉類 肉类 紅肉 红肉 red meat 豬絞肉平均值 豬肉 猪绞肉平均值 猪肉,ground pork average mince
+肉類,"豬絞肉(70％瘦肉率)","豬肉 Ground pork (70% lean)",肉類 肉类 紅肉 红肉 red meat 豬絞肉 瘦肉率 豬肉 猪绞肉 猪肉,ground pork lean mince (70% meat)
+肉類,"豬絞肉(90％瘦肉率)","豬肉 Ground pork (90% lean)",肉類 肉类 紅肉 红肉 red meat 豬絞肉 瘦肉率 豬肉 猪绞肉 猪肉,ground pork lean mince (90% meat)
 肉類,"豬心","豬肉 Pork: heart",肉類 肉类 豬心 豬肉 猪心 猪肉,pork heart pig
 肉類,"豬白管","豬肉: 豬管庭(廷),皇管(豬之胸大動脈) Pork: aorta",肉類 肉类 豬白管 豬肉 豬管庭 廷 皇管 豬之胸大動脈 猪白管 猪肉 猪管庭 猪之胸大动脉,pork aorta pig white tube
 肉類,"豬皮","豬肉: 皮 Pork: skin",肉類 肉类 豬皮 豬肉 猪皮 猪肉,pork skin pigskin
