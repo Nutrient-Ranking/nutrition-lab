@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-        
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7H5S7HHM2Z"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-7H5S7HHM2Z');
+    </script>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
@@ -190,17 +200,17 @@
                     link.style.cursor = 'pointer';
                     link.style.textDecoration = 'underline';
 
-
                     link.addEventListener('click', (event) => {
-                        event.preventDefault();
-                        document.documentElement.scrollTop = 0;  // For most browsers
-                        document.body.scrollTop = 0;             // For Safari
+                        event.preventDefault(); // Prevent default behavior
+
+                        // Scroll to top smoothly, then navigate after a short delay
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
 
                         setTimeout(() => {
-                            window.location.href = `https://nutrition-lab.vercel.app/analysis?row=${item.rowNum}`;
-                        }, 200); // Shorter delay, since no animation
+                            window.location.href = `https://nutrient-lab.vercel.app?row=${item.rowNum}`;
+                        }, 300); // Adjust delay (in ms) if needed
                     });
-
+                                       
                     nameCell.appendChild(link);
                     
                     row.insertCell(2).textContent = item.alternativeName || '-';
